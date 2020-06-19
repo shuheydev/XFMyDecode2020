@@ -8,10 +8,26 @@
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
     mc:Ignorable="d">
     <Grid>
-        <CollectionView ItemsSource="{Binding Sessions}">
+        <CollectionView IsGrouped="True" ItemsSource="{Binding GroupedSessions}">
             <CollectionView.ItemsLayout>
                 <LinearItemsLayout Orientation="Vertical" />
             </CollectionView.ItemsLayout>
+            <CollectionView.GroupHeaderTemplate>
+                <DataTemplate>
+                    <Label
+                        BackgroundColor="LightBlue"
+                        FontAttributes="Bold"
+                        FontSize="Large"
+                        LineBreakMode="TailTruncation">
+                        <Label.Text>
+                            <MultiBinding StringFormat="{}{0} : {1}">
+                                <Binding Path="TrackID" />
+                                <Binding Path="TrackName" />
+                            </MultiBinding>
+                        </Label.Text>
+                    </Label>
+                </DataTemplate>
+            </CollectionView.GroupHeaderTemplate>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
