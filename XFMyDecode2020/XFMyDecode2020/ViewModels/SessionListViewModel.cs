@@ -36,11 +36,14 @@ namespace XFMyDecode2020.ViewModels
 
         private async Task ShowSessionDetails(string sessionId)
         {
-            //await Shell.Current.GoToAsync($"SessionDetails?id={sessionId}");
+            await Shell.Current.GoToAsync($"sessionDetails?sessionId={sessionId}");
         }
 
         public async Task LoadSessions()
         {
+            if (this.Sessions != null)
+                return;
+
             try
             {
                 var sessions = await _dataService.GetSessionDataAsync();

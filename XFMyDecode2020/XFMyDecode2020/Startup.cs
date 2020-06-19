@@ -55,6 +55,7 @@ namespace XFMyDecode2020
             //services.AddTransient<MainPage>();
             services.AddSingleton<IDataService, DataService>();
             services.AddTransient<SessionListViewModel>();
+            services.AddTransient<SessionDetailsViewModel>();
             services.AddTransient<Page, AppShell>();
             services.AddSingleton<App>();
         }

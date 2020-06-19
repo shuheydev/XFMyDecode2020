@@ -21,7 +21,14 @@
                             </Frame.GestureRecognizers>
                             <StackLayout>
                                 <Label FontSize="Medium" Text="{Binding SessionTitle}" />
-                                <Label Text="{Binding MainSpeaker.Name}" />
+                                <Label LineBreakMode="TailTruncation">
+                                    <Label.Text>
+                                        <MultiBinding StringFormat="{}{0} {1}">
+                                            <Binding Path="MainSpeaker.Name" />
+                                            <Binding Path="MainSpeaker.Company" />
+                                        </MultiBinding>
+                                    </Label.Text>
+                                </Label>
                                 <Label Text="{Binding SessionID, StringFormat='# {0}'}" />
                             </StackLayout>
                         </Frame>

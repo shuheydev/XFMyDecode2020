@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XFMyDecode2020.Views.SessionDetailsPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converters="clr-namespace:XFMyDecode2020.Converters"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
+    mc:Ignorable="d">
+    <ContentPage.BindingContext>
+        <viewmodels:SessionDetailsViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout BindingContext="{Binding SessionInfo}">
+            <Label FontSize="Medium" Text="{Binding SessionTitle}" />
+            <Label Text="{Binding MainSpeaker}" />
+            <Label Text="{Binding SessionId}" />
+            <Label Text="{Binding SessionDetails, Converter={converters:HtmlToTextConverter}}" />
+            <Label Text="{Binding SessionURL}" />
+            <Label Text="{Binding TrackID}" />
+            <Label Text="{Binding TrackName}" />
+            <Button
+                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=OpenBrowserCommand}"
+                CommandParameter="{Binding SessionVideoURL}"
+                Text="ブラウザで観る" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

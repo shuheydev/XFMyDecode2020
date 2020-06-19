@@ -18,6 +18,7 @@ namespace XFMyDecode2020
             InitializeComponent();
 
             Routing.RegisterRoute("sessions", typeof(SessionListPage));
+            Routing.RegisterRoute("sessionDetails", typeof(SessionDetailsPage));
         }
     }
 }

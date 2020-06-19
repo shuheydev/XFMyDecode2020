@@ -35,7 +35,7 @@ namespace XFMyDecode2020.Services
         {
             var assembly = Assembly.GetExecutingAssembly();
             var stream = assembly.GetManifestResourceStream("XFMyDecode2020.Data.SessionData.json");
-            _sessions = JsonSerializer.DeserializeAsync<SessionData>(stream).Result.SessionList.Select(sl => sl.Session);
+            _sessions = JsonSerializer.DeserializeAsync<Session[]>(stream).Result;
 
             Save();
         }
