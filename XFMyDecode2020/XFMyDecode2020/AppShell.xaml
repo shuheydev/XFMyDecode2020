@@ -7,5 +7,5 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:views="clr-namespace:XFMyDecode2020.Views"
     mc:Ignorable="d">
-    <ShellContent ContentTemplate="{DataTemplate views:MainPage}" />
+    <ShellContent ContentTemplate="{DataTemplate views:SessionListPage}" Route="sessions" />
 </Shell>

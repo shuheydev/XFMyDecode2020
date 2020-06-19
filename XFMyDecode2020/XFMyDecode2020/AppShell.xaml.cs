@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XFMyDecode2020.Views;
 
 namespace XFMyDecode2020
 {
@@ -15,6 +16,8 @@ namespace XFMyDecode2020
         public AppShell()
         {
             InitializeComponent();
+
+            Routing.RegisterRoute("sessions", typeof(SessionListPage));
         }
     }
 }

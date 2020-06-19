@@ -9,6 +9,9 @@ using System.Reflection;
 using System.Text;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+using XFMyDecode2020.Models;
+using XFMyDecode2020.Services;
+using XFMyDecode2020.ViewModels;
 using XFMyDecode2020.Views;
 
 namespace XFMyDecode2020
@@ -50,6 +53,8 @@ namespace XFMyDecode2020
             //Add Services here
             //ex:View, ViewModel, DataService, Notification Service etc.
             //services.AddTransient<MainPage>();
+            services.AddSingleton<IDataService, DataService>();
+            services.AddTransient<SessionListViewModel>();
             services.AddTransient<Page, AppShell>();
             services.AddSingleton<App>();
         }
