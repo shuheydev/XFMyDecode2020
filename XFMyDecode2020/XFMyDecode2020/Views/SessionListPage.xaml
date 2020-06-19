@@ -95,7 +95,11 @@
             BackgroundColor="LightGray"
             HeightRequest="50"
             VerticalOptions="Start">
-            <Entry Placeholder="Enter search term" />
+            <Entry
+                ClearButtonVisibility="WhileEditing"
+                Placeholder="Enter search term"
+                Text="{Binding SearchString}" />
+
         </Frame>
     </Grid>
 </ContentPage>
