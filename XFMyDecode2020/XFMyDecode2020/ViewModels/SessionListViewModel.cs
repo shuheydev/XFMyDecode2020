@@ -12,6 +12,8 @@ using System.Windows.Input;
 using Xamarin.Forms;
 using XFMyDecode2020.Models;
 using XFMyDecode2020.Services;
+using Xamarin.Forms.Xaml;
+
 
 namespace XFMyDecode2020.ViewModels
 {

@@ -3,10 +3,37 @@
     x:Class="XFMyDecode2020.Views.SessionListPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:XFMyDecode2020.Controls"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
     mc:Ignorable="d">
+    <Shell.SearchHandler>
+        <controls:SessionSearchHandler Placeholder="Enter search term" ShowsResults="True">
+            <controls:SessionSearchHandler.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Frame BorderColor="Black">
+                            <StackLayout>
+                                <Label FontSize="Medium" Text="{Binding SessionTitle}" />
+                                <Label LineBreakMode="TailTruncation">
+                                    <Label.Text>
+                                        <MultiBinding StringFormat="{}{0} {1}">
+                                            <Binding Path="MainSpeaker.Name" />
+                                            <Binding Path="MainSpeaker.Company" />
+                                        </MultiBinding>
+                                    </Label.Text>
+                                </Label>
+                                <Label Text="{Binding SessionID, StringFormat='# {0}'}" />
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </controls:SessionSearchHandler.ItemTemplate>
+        </controls:SessionSearchHandler>
+
+
+    </Shell.SearchHandler>
     <Grid>
         <CollectionView IsGrouped="True" ItemsSource="{Binding GroupedSessions}">
             <CollectionView.ItemsLayout>
