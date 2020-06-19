@@ -4,6 +4,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:icons="clr-namespace:XFMyDecode2020.Resources.Icons"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:views="clr-namespace:XFMyDecode2020.Views"
     mc:Ignorable="d">
@@ -28,9 +29,15 @@
     </Shell.Resources>
     <TabBar>
         <Tab Title="Home">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FA-S" Glyph="{x:Static icons:IconFont_FA_S.Home}" />
+            </Tab.Icon>
             <ShellContent ContentTemplate="{DataTemplate views:SessionListPage}" Route="sessions" />
         </Tab>
         <Tab Title="Favorit">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FA-R" Glyph="{x:Static icons:IconFont_FA_R.Star}" />
+            </Tab.Icon>
             <ShellContent ContentTemplate="{DataTemplate views:SessionListPage}" Route="sessions" />
         </Tab>
     </TabBar>
