@@ -40,6 +40,12 @@
             </Tab.Icon>
             <ShellContent ContentTemplate="{DataTemplate views:SessionListPage}" Route="sessions" />
         </Tab>
+        <Tab Title="Watch Later">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FA-S" Glyph="{x:Static icons:IconFont_FA_S.Paperclip}" />
+            </Tab.Icon>
+            <ShellContent ContentTemplate="{DataTemplate views:SessionListPage}" Route="sessions" />
+        </Tab>
     </TabBar>
     <!--<ShellContent
         Title="Hello"

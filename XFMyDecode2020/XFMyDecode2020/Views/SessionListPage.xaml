@@ -8,7 +8,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
     Shell.NavBarIsVisible="False"
-    Visual="Material"
+    Visual="Default"
     mc:Ignorable="d">
     <!--<Shell.SearchHandler>
         <controls:SessionSearchHandler Placeholder="Enter search term" ShowsResults="True">
@@ -35,10 +35,17 @@
         </controls:SessionSearchHandler>
     </Shell.SearchHandler>-->
     <Grid>
-        <CollectionView IsGrouped="True" ItemsSource="{Binding GroupedSessions}">
+        <CollectionView
+            x:Name="CollectionsView_Sessions"
+            Margin="12,0,12,0"
+            IsGrouped="True"
+            ItemsSource="{Binding GroupedSessions}">
             <CollectionView.ItemsLayout>
-                <LinearItemsLayout Orientation="Vertical" />
+                <LinearItemsLayout ItemSpacing="10" Orientation="Vertical" />
             </CollectionView.ItemsLayout>
+            <CollectionView.Header>
+                <Grid HeightRequest="65" />
+            </CollectionView.Header>
             <CollectionView.GroupHeaderTemplate>
                 <DataTemplate>
                     <Label
@@ -58,7 +65,7 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
-                        <Frame BorderColor="Black">
+                        <Frame BorderColor="LightGray" HasShadow="True">
                             <Frame.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ShowSessionDetailsCommand}" CommandParameter="{Binding SessionID}" />
                             </Frame.GestureRecognizers>
@@ -79,5 +86,16 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+
+        <!--  ナビゲーションバー.StackLayoutと重なる  -->
+        <Frame
+            x:Name="frame_Header"
+            Margin="15,8,15,0"
+            Padding="0"
+            BackgroundColor="LightGray"
+            HeightRequest="50"
+            VerticalOptions="Start">
+            <Entry Placeholder="Enter search term" />
+        </Frame>
     </Grid>
 </ContentPage>
