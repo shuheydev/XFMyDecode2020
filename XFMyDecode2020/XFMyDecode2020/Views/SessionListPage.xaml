@@ -7,8 +7,10 @@
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
+    Shell.NavBarIsVisible="False"
+    Visual="Material"
     mc:Ignorable="d">
-    <Shell.SearchHandler>
+    <!--<Shell.SearchHandler>
         <controls:SessionSearchHandler Placeholder="Enter search term" ShowsResults="True">
             <controls:SessionSearchHandler.ItemTemplate>
                 <DataTemplate>
@@ -31,9 +33,7 @@
                 </DataTemplate>
             </controls:SessionSearchHandler.ItemTemplate>
         </controls:SessionSearchHandler>
-
-
-    </Shell.SearchHandler>
+    </Shell.SearchHandler>-->
     <Grid>
         <CollectionView IsGrouped="True" ItemsSource="{Binding GroupedSessions}">
             <CollectionView.ItemsLayout>

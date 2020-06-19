@@ -7,5 +7,35 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:views="clr-namespace:XFMyDecode2020.Views"
     mc:Ignorable="d">
-    <ShellContent ContentTemplate="{DataTemplate views:SessionListPage}" Route="sessions" />
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <!--  Shell  -->
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="RoyalBlue" />
+                <Setter Property="Shell.ForegroundColor" Value="White" />
+                <Setter Property="Shell.TitleColor" Value="White" />
+                <Setter Property="Shell.DisabledColor" Value="#B4000000" />
+                <Setter Property="Shell.UnselectedColor" Value="#CC0000" />
+                <Setter Property="Shell.NavBarHasShadow" Value="False" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="HotPink" />
+            </Style>
+            <Style
+                ApplyToDerivedTypes="True"
+                BasedOn="{StaticResource BaseStyle}"
+                TargetType="TabBar" />
+        </ResourceDictionary>
+    </Shell.Resources>
+    <TabBar>
+        <Tab Title="Home">
+            <ShellContent ContentTemplate="{DataTemplate views:SessionListPage}" Route="sessions" />
+        </Tab>
+        <Tab Title="Favorit">
+            <ShellContent ContentTemplate="{DataTemplate views:SessionListPage}" Route="sessions" />
+        </Tab>
+    </TabBar>
+    <!--<ShellContent
+        Title="Hello"
+        ContentTemplate="{DataTemplate views:SessionListPage}"
+        Route="sessions" />-->
 </Shell>

@@ -7,6 +7,7 @@
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
+    Visual="Material"
     mc:Ignorable="d">
     <ContentPage.BindingContext>
         <viewmodels:SessionDetailsViewModel />
@@ -14,12 +15,18 @@
     <ContentPage.Content>
         <StackLayout BindingContext="{Binding SessionInfo}">
             <Label FontSize="Medium" Text="{Binding SessionTitle}" />
-            <Label Text="{Binding MainSpeaker}" />
+            <Label Text="{Binding MainSpeaker.Name}" />
+            <Label Text="{Binding MainSpeaker.Company}" />
             <Label Text="{Binding SessionId}" />
             <Label Text="{Binding SessionDetails, Converter={converters:HtmlToTextConverter}}" />
-            <Label Text="{Binding SessionURL}" />
-            <Label Text="{Binding TrackID}" />
-            <Label Text="{Binding TrackName}" />
+            <Label>
+                <Label.Text>
+                    <MultiBinding StringFormat="{}{0} : {1}">
+                        <Binding Path="TrackID" />
+                        <Binding Path="TrackName" />
+                    </MultiBinding>
+                </Label.Text>
+            </Label>
             <Button
                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=OpenBrowserCommand}"
                 CommandParameter="{Binding SessionVideoURL}"
