@@ -61,7 +61,7 @@ namespace XFMyDecode2020.Utilities
 
        private static bool CheckFav(string w)
         {
-            return (w.Equals("★") || w.Equals("☆") || w.Equals("fav:") || w.Equals("like:"));
+            return (w.Equals("★") || w.Equals("☆") || w.Equals("fav:") || w.Equals("like:")||w.Equals("star:"));
         }
     }
 }

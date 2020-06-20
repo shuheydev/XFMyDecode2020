@@ -9,6 +9,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
     xmlns:sharpnado="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
+    xmlns:touch="clr-namespace:TouchEffect;assembly=TouchEffect"
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
     Shell.NavBarIsVisible="False"
     Visual="Default"
@@ -80,59 +81,64 @@
                     <Grid>
                         <pancake:PancakeView
                             Margin="2,5,2,5"
-                            Padding="10,5"
+                            touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ShowSessionDetailsCommand}"
+                            touch:TouchEff.CommandParameter="{Binding SessionID}"
+                            touch:TouchEff.PressedOpacity="0.6"
+                            touch:TouchEff.PressedScale="0.99"
+                            touch:TouchEff.RegularAnimationDuration="100"
                             BackgroundColor="White"
-                            CornerRadius="2,2,2,10"
-                            Elevation="3"
+                            CornerRadius="2,2,2,20"
+                            Elevation="2"
                             HasShadow="True">
-                            <pancake:PancakeView.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ShowSessionDetailsCommand}" CommandParameter="{Binding SessionID}" />
-                            </pancake:PancakeView.GestureRecognizers>
-                            <Grid RowDefinitions="*,auto,*,*">
-                                <Label
-                                    Grid.Row="0"
-                                    Grid.Column="0"
-                                    Padding="5,0"
-                                    HorizontalOptions="Start"
-                                    Text="{Binding SessionID, StringFormat='#{0}'}"
-                                    TextColor="#00A4EF" />
-                                <Label
-                                    Grid.Row="1"
-                                    Grid.Column="0"
-                                    FontSize="Medium"
-                                    Text="{Binding SessionTitle}" />
-                                <Label Grid.Row="2" Text="{Binding MainSpeaker.Name}" />
-                                <Label Grid.Row="3" Text="{Binding MainSpeaker.Company}" />
+                            <Grid Margin="10">
+                                <Grid RowDefinitions="*,auto,*,*">
+                                    <Label
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        Padding="5,0"
+                                        HorizontalOptions="Start"
+                                        Text="{Binding SessionID, StringFormat='#{0}'}"
+                                        TextColor="#00A4EF" />
+                                    <Label
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        FontSize="Medium"
+                                        Text="{Binding SessionTitle}" />
+                                    <Label Grid.Row="2" Text="{Binding MainSpeaker.Name}" />
+                                    <Label Grid.Row="3" Text="{Binding MainSpeaker.Company}" />
+
+                                </Grid>
+                                <Button
+                                    x:Name="Button_Fav"
+                                    Margin="0"
+                                    Padding="0"
+                                    BackgroundColor="Transparent"
+                                    Clicked="Button_Fav_Clicked"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ChangeFavoritStateCommand}"
+                                    CommandParameter="{Binding SessionID}"
+                                    CornerRadius="30"
+                                    FontFamily="FA-R"
+                                    FontSize="Large"
+                                    HeightRequest="40"
+                                    HorizontalOptions="End"
+                                    Text="{x:Static icons:IconFont_FA_R.Star}"
+                                    TextColor="LightGray"
+                                    VerticalOptions="End"
+                                    WidthRequest="40">
+                                    <Button.Triggers>
+                                        <DataTrigger
+                                            Binding="{Binding IsFavorit}"
+                                            TargetType="Button"
+                                            Value="True">
+                                            <Setter Property="FontFamily" Value="FA-S" />
+                                            <Setter Property="TextColor" Value="#FFB900" />
+                                            <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
+                                        </DataTrigger>
+                                    </Button.Triggers>
+                                </Button>
                             </Grid>
                         </pancake:PancakeView>
-                        <Button
-                            x:Name="Button_Fav"
-                            Margin="0,0,5,5"
-                            Padding="0"
-                            BackgroundColor="Transparent"
-                            Clicked="Button_Fav_Clicked"
-                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ChangeFavoritStateCommand}"
-                            CommandParameter="{Binding SessionID}"
-                            CornerRadius="30"
-                            FontFamily="FA-R"
-                            FontSize="Large"
-                            HeightRequest="40"
-                            HorizontalOptions="End"
-                            Text="{x:Static icons:IconFont_FA_R.Star}"
-                            TextColor="LightGray"
-                            VerticalOptions="End"
-                            WidthRequest="40">
-                            <Button.Triggers>
-                                <DataTrigger
-                                    Binding="{Binding IsFavorit}"
-                                    TargetType="Button"
-                                    Value="True">
-                                    <Setter Property="FontFamily" Value="FA-S" />
-                                    <Setter Property="TextColor" Value="Gold" />
-                                    <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
-                                </DataTrigger>
-                            </Button.Triggers>
-                        </Button>
+
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
@@ -160,14 +166,8 @@
                 <Entry
                     ClearButtonVisibility="WhileEditing"
                     FontSize="Small"
-                    Text="{Binding SearchString}"
-                    Visual="Material" />
+                    Text="{Binding SearchString}" />
             </inputLayout:SfTextInputLayout>
-
-            <!--<Entry
-                ClearButtonVisibility="WhileEditing"
-                Placeholder="Enter search term"
-                Text="{Binding SearchString}" />-->
         </sharpnado:MaterialFrame>
     </Grid>
 </ContentPage>
