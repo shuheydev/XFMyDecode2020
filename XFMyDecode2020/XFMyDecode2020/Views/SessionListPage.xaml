@@ -81,17 +81,18 @@
                     <Grid>
                         <pancake:PancakeView
                             Margin="2,5,2,5"
-                            touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ShowSessionDetailsCommand}"
-                            touch:TouchEff.CommandParameter="{Binding SessionID}"
-                            touch:TouchEff.PressedOpacity="0.6"
-                            touch:TouchEff.PressedScale="0.99"
-                            touch:TouchEff.RegularAnimationDuration="100"
                             BackgroundColor="White"
                             CornerRadius="2,2,2,20"
                             Elevation="2"
                             HasShadow="True">
                             <Grid Margin="10">
-                                <Grid RowDefinitions="*,auto,*,*">
+                                <Grid
+                                    touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ShowSessionDetailsCommand}"
+                                    touch:TouchEff.CommandParameter="{Binding SessionID}"
+                                    touch:TouchEff.PressedOpacity="0.6"
+                                    touch:TouchEff.PressedScale="0.95"
+                                    touch:TouchEff.RegularAnimationDuration="100"
+                                    RowDefinitions="*,auto,*,*">
                                     <Label
                                         Grid.Row="0"
                                         Grid.Column="0"
@@ -106,7 +107,6 @@
                                         Text="{Binding SessionTitle}" />
                                     <Label Grid.Row="2" Text="{Binding MainSpeaker.Name}" />
                                     <Label Grid.Row="3" Text="{Binding MainSpeaker.Company}" />
-
                                 </Grid>
                                 <Button
                                     x:Name="Button_Fav"
