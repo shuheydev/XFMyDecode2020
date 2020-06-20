@@ -16,10 +16,10 @@
                 <Setter Property="Shell.BackgroundColor" Value="RoyalBlue" />
                 <Setter Property="Shell.ForegroundColor" Value="White" />
                 <Setter Property="Shell.TitleColor" Value="White" />
-                <Setter Property="Shell.DisabledColor" Value="#B4000000" />
-                <Setter Property="Shell.UnselectedColor" Value="#CC0000" />
+                <Setter Property="Shell.DisabledColor" Value="LightGray" />
+                <Setter Property="Shell.UnselectedColor" Value="LightGray" />
                 <Setter Property="Shell.NavBarHasShadow" Value="False" />
-                <Setter Property="Shell.TabBarBackgroundColor" Value="HotPink" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="RoyalBlue" />
             </Style>
             <Style
                 ApplyToDerivedTypes="True"
