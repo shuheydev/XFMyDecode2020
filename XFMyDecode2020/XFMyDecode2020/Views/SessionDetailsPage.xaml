@@ -25,14 +25,14 @@
                         HasShadow="True">
                         <Grid Margin="10">
                             <StackLayout>
-                                <Label>
+                                <!--<Label>
                                     <Label.Text>
                                         <MultiBinding StringFormat="{}{0} : {1}">
                                             <Binding Path="SessionID" />
                                             <Binding Path="TrackName" />
                                         </MultiBinding>
                                     </Label.Text>
-                                </Label>
+                                </Label>-->
                                 <Label FontSize="Medium" Text="{Binding SessionTitle}" />
                                 <Label HorizontalOptions="End" Text="{Binding MainSpeaker.Name}" />
                                 <Label HorizontalOptions="End" Text="{Binding MainSpeaker.Company}" />
@@ -62,7 +62,7 @@
                                         TargetType="Button"
                                         Value="True">
                                         <Setter Property="FontFamily" Value="FA-S" />
-                                        <Setter Property="TextColor" Value="#FFB900" />
+                                        <Setter Property="TextColor" Value="{StaticResource StarColor}" />
                                         <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
                                     </DataTrigger>
                                 </Button.Triggers>

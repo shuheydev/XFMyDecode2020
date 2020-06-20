@@ -7,6 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <Color x:Key="StarColor">#FFB900</Color>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
