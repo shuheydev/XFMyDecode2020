@@ -49,18 +49,21 @@
             </CollectionView.Header>
             <CollectionView.GroupHeaderTemplate>
                 <DataTemplate>
-                    <Label
-                        BackgroundColor="LightBlue"
-                        FontAttributes="Bold"
-                        FontSize="Large"
-                        LineBreakMode="TailTruncation">
-                        <Label.Text>
-                            <MultiBinding StringFormat="{}{0} : {1}">
-                                <Binding Path="TrackID" />
-                                <Binding Path="TrackName" />
-                            </MultiBinding>
-                        </Label.Text>
-                    </Label>
+                    <Grid BackgroundColor="RoyalBlue">
+                        <Label
+                            Margin="5"
+                            FontAttributes="Bold"
+                            FontSize="Large"
+                            LineBreakMode="TailTruncation"
+                            TextColor="White">
+                            <Label.Text>
+                                <MultiBinding StringFormat="{}{0} : {1}">
+                                    <Binding Path="TrackID" />
+                                    <Binding Path="TrackName" />
+                                </MultiBinding>
+                            </Label.Text>
+                        </Label>
+                    </Grid>
                 </DataTemplate>
             </CollectionView.GroupHeaderTemplate>
             <CollectionView.ItemTemplate>
@@ -85,6 +88,7 @@
                         </Frame>
                         <Button
                             x:Name="Button_Fav"
+                            Margin="3"
                             Padding="0"
                             BackgroundColor="Transparent"
                             Clicked="Button_Fav_Clicked"

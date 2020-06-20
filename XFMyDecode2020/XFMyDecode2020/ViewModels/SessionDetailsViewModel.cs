@@ -23,6 +23,7 @@ namespace XFMyDecode2020.ViewModels
             set => SetProperty(ref _sessionInfo, value);
         }
 
+        #region Commands
         public MvvmHelpers.Commands.Command<string> ChangeFavoritStateCommand { get; }
         private void ChangeFavoritState(string sessionId)
         {
@@ -30,21 +31,37 @@ namespace XFMyDecode2020.ViewModels
             _dataService.Save();
         }
 
-        private readonly IDataService _dataService;
+        public AsyncCommand<string> TweetSessionCommand { get; }
+        private async Task TweetSession(string sessionId)
+        {
+            string text =System.Web.HttpUtility.UrlEncode( $"\n#decode20 #{sessionId}");
+
+            var canOpen = await Xamarin.Essentials.Launcher.CanOpenAsync("twitter://post");
+            if (canOpen)
+            {
+                await Xamarin.Essentials.Launcher.OpenAsync($"twitter://post?message={text}");
+            }
+        }
 
         public AsyncCommand<string> OpenBrowserCommand { get; }
+        private async Task OpenBrowser(string uri)
+        {
+            await Xamarin.Essentials.Browser.OpenAsync(uri);
+        }
+        #endregion
+
+        private readonly IDataService _dataService;
+
         public SessionDetailsViewModel(IDataService dataService)
         {
             this._dataService = dataService;
 
             OpenBrowserCommand = new AsyncCommand<string>(OpenBrowser);
             ChangeFavoritStateCommand = new MvvmHelpers.Commands.Command<string>(ChangeFavoritState);
+            TweetSessionCommand = new AsyncCommand<string>(TweetSession);
         }
 
-        private async Task OpenBrowser(string uri)
-        {
-            await Xamarin.Essentials.Browser.OpenAsync(uri);
-        }
+
 
         internal void LoadSessionDetails()
         {

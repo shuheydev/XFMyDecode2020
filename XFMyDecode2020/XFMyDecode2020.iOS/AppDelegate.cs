@@ -27,8 +27,6 @@ namespace XFMyDecode2020.iOS
             global::Xamarin.Forms.Forms.Init();
             global::Xamarin.Forms.FormsMaterial.Init();
 
-            Startup.Init(ConfigureServices);
-
             LoadApplication(Startup.Init(ConfigureServices));
 
             return base.FinishedLaunching(app, options);

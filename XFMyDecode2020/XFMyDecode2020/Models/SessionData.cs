@@ -11,7 +11,7 @@ namespace XFMyDecode2020.Models
         public Session[] Property1 { get; set; }
     }
 
-    public class Session: ObservableObject
+    public class Session : ObservableObject
     {
         public Language Language { get; set; }
         public Mainspeaker MainSpeaker { get; set; }
@@ -33,6 +33,12 @@ namespace XFMyDecode2020.Models
         {
             get => _isFavorit;
             set => SetProperty(ref _isFavorit, value);
+        }
+        private bool _isWatched;
+        public bool IsWatched
+        {
+            get => _isWatched;
+            set => SetProperty(ref _isWatched, value);
         }
     }
 

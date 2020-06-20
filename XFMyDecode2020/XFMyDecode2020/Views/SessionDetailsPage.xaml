@@ -8,6 +8,7 @@
     xmlns:icons="clr-namespace:XFMyDecode2020.Resources.Icons"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
+    Title="Details"
     Visual="Default"
     mc:Ignorable="d">
     <ContentPage.Content>
@@ -26,7 +27,7 @@
                 </Label.Text>
             </Label>
 
-            
+
             <Button
                 x:Name="Button_Fav"
                 Padding="0"
@@ -53,7 +54,25 @@
                     </DataTrigger>
                 </Button.Triggers>
             </Button>
-            
+
+            <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                <Button
+                    x:Name="Button_Twitter"
+                    Padding="0"
+                    BackgroundColor="#1da1f2"
+                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=TweetSessionCommand}"
+                    CommandParameter="{Binding SessionID}"
+                    CornerRadius="50"
+                    FontFamily="FA-B"
+                    FontSize="Large"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Text="{x:Static icons:IconFont_FA_B.Twitter}"
+                    VerticalOptions="Center"
+                    Visual="Material"
+                    WidthRequest="50">
+                </Button>
+            </StackLayout>
 
             <Button
                 Margin="0,0,0,50"

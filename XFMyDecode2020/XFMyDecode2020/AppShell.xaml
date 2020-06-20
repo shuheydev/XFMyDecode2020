@@ -25,6 +25,7 @@
                 ApplyToDerivedTypes="True"
                 BasedOn="{StaticResource BaseStyle}"
                 TargetType="TabBar" />
+            <Color x:Key="TwitterColor">#1da1f2</Color>
         </ResourceDictionary>
     </Shell.Resources>
     <TabBar>
