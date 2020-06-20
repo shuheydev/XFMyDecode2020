@@ -25,7 +25,11 @@
             </CollectionView.Header>
             <CollectionView.GroupHeaderTemplate>
                 <DataTemplate>
-                    <Label
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding TrackID}" />
+                        <Label Text="{Binding TrackName, StringFormat=' {0}'}" />
+                    </StackLayout>
+                    <!--<Label
                         BackgroundColor="LightBlue"
                         FontAttributes="Bold"
                         FontSize="Large"
@@ -36,7 +40,7 @@
                                 <Binding Path="TrackName" />
                             </MultiBinding>
                         </Label.Text>
-                    </Label>
+                    </Label>-->
                 </DataTemplate>
             </CollectionView.GroupHeaderTemplate>
             <CollectionView.ItemTemplate>
@@ -48,14 +52,14 @@
                             </Frame.GestureRecognizers>
                             <StackLayout>
                                 <Label FontSize="Medium" Text="{Binding SessionTitle}" />
-                                <Label LineBreakMode="TailTruncation">
+                                <!--<Label LineBreakMode="TailTruncation">
                                     <Label.Text>
                                         <MultiBinding StringFormat="{}{0} {1}">
                                             <Binding Path="MainSpeaker.Name" />
                                             <Binding Path="MainSpeaker.Company" />
                                         </MultiBinding>
                                     </Label.Text>
-                                </Label>
+                                </Label>-->
                                 <Label Text="{Binding SessionID, StringFormat='# {0}'}" />
                             </StackLayout>
                         </Frame>

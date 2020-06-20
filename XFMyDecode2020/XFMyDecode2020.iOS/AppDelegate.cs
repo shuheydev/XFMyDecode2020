@@ -27,11 +27,10 @@ namespace XFMyDecode2020.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-global::Xamarin.Forms.Forms.Init();
-SfButtonRenderer.Init();
-SfLinearProgressBarRenderer.Init();
-SfTextInputLayoutRenderer.Init();
-            global::Xamarin.Forms.FormsMaterial.Init();
+            global::Xamarin.Forms.Forms.Init();
+            SfButtonRenderer.Init();
+            SfLinearProgressBarRenderer.Init();
+            SfTextInputLayoutRenderer.Init();
 
             LoadApplication(Startup.Init(ConfigureServices));
 

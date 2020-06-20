@@ -65,12 +65,12 @@
                                 FontSize="Large"
                                 LineBreakMode="TailTruncation"
                                 TextColor="White">
-                                <Label.Text>
+                                <!--<Label.Text>
                                     <MultiBinding StringFormat="{}{0} : {1}">
                                         <Binding Path="TrackID" />
                                         <Binding Path="TrackName" />
                                     </MultiBinding>
-                                </Label.Text>
+                                </Label.Text>-->
                             </Label>
                         </pancake:PancakeView>
                     </Grid>
@@ -91,8 +91,13 @@
                                     touch:TouchEff.CommandParameter="{Binding SessionID}"
                                     touch:TouchEff.PressedOpacity="0.6"
                                     touch:TouchEff.PressedScale="0.95"
-                                    touch:TouchEff.RegularAnimationDuration="100"
-                                    RowDefinitions="*,auto,*,*">
+                                    touch:TouchEff.RegularAnimationDuration="100">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="auto" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
                                     <Label
                                         Grid.Row="0"
                                         Grid.Column="0"

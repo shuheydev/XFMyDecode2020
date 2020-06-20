@@ -23,6 +23,7 @@
     <PackageReference Include="System.Reactive.Linq" Version="4.4.1" />
     <PackageReference Include="System.Text.Json" Version="4.7.2" />
     <PackageReference Include="TouchView" Version="4.1.53" />
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.967" />
     <PackageReference Include="Xamarin.Forms.PancakeView" Version="1.4.2" />
   </ItemGroup>
 </Project>
