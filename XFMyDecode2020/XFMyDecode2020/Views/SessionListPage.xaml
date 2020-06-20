@@ -69,22 +69,27 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
-                        <Frame BorderColor="LightGray" HasShadow="True">
+                        <Frame
+                            Padding="5"
+                            BorderColor="LightGray"
+                            HasShadow="True">
                             <Frame.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ShowSessionDetailsCommand}" CommandParameter="{Binding SessionID}" />
                             </Frame.GestureRecognizers>
-                            <StackLayout>
-                                <Label FontSize="Medium" Text="{Binding SessionTitle}" />
-                                <Label LineBreakMode="TailTruncation">
-                                    <Label.Text>
-                                        <MultiBinding StringFormat="{}{0} {1}">
-                                            <Binding Path="MainSpeaker.Name" />
-                                            <Binding Path="MainSpeaker.Company" />
-                                        </MultiBinding>
-                                    </Label.Text>
-                                </Label>
-                                <Label Text="{Binding SessionID, StringFormat='# {0}'}" />
-                            </StackLayout>
+                            <Grid RowDefinitions="*,auto,*,*">
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    Text="{Binding SessionID, StringFormat='# {0}'}" />
+                                <Label
+                                    Grid.Row="1"
+                                    Grid.Column="0"
+                                    FontSize="Medium"
+                                    LineBreakMode="WordWrap"
+                                    Text="{Binding SessionTitle}" />
+                                <Label Grid.Row="2" Text="{Binding MainSpeaker.Name}" />
+                                <Label Grid.Row="3" Text="{Binding MainSpeaker.Company}" />
+                            </Grid>
                         </Frame>
                         <Button
                             x:Name="Button_Fav"
@@ -126,9 +131,10 @@
             x:Name="frame_Header"
             Margin="15,8,15,0"
             Padding="0"
-            BackgroundColor="LightGray"
-            HeightRequest="50"
-            VerticalOptions="Start">
+            BackgroundColor="AliceBlue"
+            HeightRequest="60"
+            VerticalOptions="Start"
+            Visual="Material">
             <Entry
                 ClearButtonVisibility="WhileEditing"
                 Placeholder="Enter search term"
