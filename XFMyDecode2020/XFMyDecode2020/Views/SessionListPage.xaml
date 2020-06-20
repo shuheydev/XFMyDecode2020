@@ -55,7 +55,7 @@
                     <Grid>
                         <pancake:PancakeView
                             Margin="2,15,2,5"
-                            BackgroundColor="RoyalBlue"
+                            BackgroundColor="{StaticResource AppPrimaryColor}"
                             CornerRadius="2,2,2,24"
                             Elevation="4"
                             HasShadow="True">
@@ -118,7 +118,7 @@
                                     <Label Grid.Row="2" Text="{Binding MainSpeaker.Name}" />
                                     <Label Grid.Row="3" Text="{Binding MainSpeaker.Company}" />
                                 </Grid>
-                                <Button
+                                <!--<Button
                                     x:Name="Button_Fav"
                                     Margin="0"
                                     Padding="0"
@@ -141,7 +141,30 @@
                                             TargetType="Button"
                                             Value="True">
                                             <Setter Property="FontFamily" Value="FA-S" />
-                                            <Setter Property="TextColor" Value="#FFB900" />
+                                            <Setter Property="TextColor" Value="{StaticResource StarColor}" />
+                                            <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
+                                        </DataTrigger>
+                                    </Button.Triggers>
+                                </Button>-->
+                                <Button
+                                    x:Name="Button_Fav"
+                                    Margin="0"
+                                    Padding="0"
+                                    Clicked="Button_Fav_Clicked"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ChangeFavoritStateCommand}"
+                                    CommandParameter="{Binding SessionID}"
+                                    HeightRequest="40"
+                                    HorizontalOptions="End"
+                                    Style="{StaticResource FavButtonStyle}"
+                                    VerticalOptions="End"
+                                    WidthRequest="40">
+                                    <Button.Triggers>
+                                        <DataTrigger
+                                            Binding="{Binding IsFavorit}"
+                                            TargetType="Button"
+                                            Value="True">
+                                            <Setter Property="FontFamily" Value="FA-S" />
+                                            <Setter Property="TextColor" Value="{StaticResource StarColor}" />
                                             <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
                                         </DataTrigger>
                                     </Button.Triggers>
@@ -170,7 +193,7 @@
                 Margin="3,0,3,0"
                 BackgroundColor="Transparent"
                 ContainerType="Outlined"
-                FocusedColor="RoyalBlue"
+                FocusedColor="{StaticResource AppPrimaryColor}"
                 Hint="Search Term"
                 VerticalOptions="Center">
                 <Entry

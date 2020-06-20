@@ -90,7 +90,7 @@
                         touch:TouchEff.PressedOpacity="0.6"
                         touch:TouchEff.PressedScale="0.9"
                         touch:TouchEff.RegularAnimationDuration="100"
-                        BackgroundColor="RoyalBlue"
+                        BackgroundColor="{StaticResource AppPrimaryColor}"
                         CornerRadius="50,50,50,10"
                         Elevation="5"
                         HasShadow="True"
@@ -123,7 +123,7 @@
                     HeightRequest="70"
                     HorizontalOptions="End"
                     Text="{x:Static icons:IconFont_FA_B.Twitter}"
-                    TextColor="#1da1f2"
+                    TextColor="{StaticResource TwitterColor}"
                     VerticalOptions="End"
                     WidthRequest="70">
                 </Button>

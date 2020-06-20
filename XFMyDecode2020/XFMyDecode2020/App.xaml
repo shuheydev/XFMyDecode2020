@@ -4,10 +4,13 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:icons="clr-namespace:XFMyDecode2020.Resources.Icons"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Application.Resources>
         <ResourceDictionary>
+            <Color x:Key="TwitterColor">#1da1f2</Color>
+            <Color x:Key="AppPrimaryColor">RoyalBlue</Color>
             <Color x:Key="StarColor">#FFB900</Color>
             <Style x:Key="ListHeaderLabelStyle" TargetType="Label">
                 <Setter Property="Margin" Value="5" />
@@ -15,6 +18,19 @@
                 <Setter Property="LineBreakMode" Value="TailTruncation" />
                 <Setter Property="TextColor" Value="White" />
                 <Setter Property="FontSize" Value="Large" />
+            </Style>
+            <Style x:Key="FavButtonStyle" TargetType="Button">
+                <Setter Property="CornerRadius" Value="30" />
+                <Setter Property="FontFamily" Value="FA-R" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="Text" Value="{x:Static icons:IconFont_FA_R.Star}" />
+                <Setter Property="TextColor" Value="LightGray" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+            </Style>
+            <Style x:Key="FavButtonOnStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="LightGray" />
+                <Setter Property="FontFamily" Value="FA-S" />
+                <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>

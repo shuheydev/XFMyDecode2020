@@ -13,19 +13,18 @@
         <ResourceDictionary>
             <!--  Shell  -->
             <Style x:Key="BaseStyle" TargetType="Element">
-                <Setter Property="Shell.BackgroundColor" Value="RoyalBlue" />
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource AppPrimaryColor}" />
                 <Setter Property="Shell.ForegroundColor" Value="White" />
                 <Setter Property="Shell.TitleColor" Value="White" />
                 <Setter Property="Shell.DisabledColor" Value="LightGray" />
                 <Setter Property="Shell.UnselectedColor" Value="LightGray" />
                 <Setter Property="Shell.NavBarHasShadow" Value="False" />
-                <Setter Property="Shell.TabBarBackgroundColor" Value="RoyalBlue" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource AppPrimaryColor}" />
             </Style>
             <Style
                 ApplyToDerivedTypes="True"
                 BasedOn="{StaticResource BaseStyle}"
                 TargetType="TabBar" />
-            <Color x:Key="TwitterColor">#1da1f2</Color>
         </ResourceDictionary>
     </Shell.Resources>
     <TabBar>
