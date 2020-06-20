@@ -9,6 +9,13 @@
     <Application.Resources>
         <ResourceDictionary>
             <Color x:Key="StarColor">#FFB900</Color>
+            <Style x:Key="ListHeaderLabelStyle" TargetType="Label">
+                <Setter Property="Margin" Value="5" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="LineBreakMode" Value="TailTruncation" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="Large" />
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

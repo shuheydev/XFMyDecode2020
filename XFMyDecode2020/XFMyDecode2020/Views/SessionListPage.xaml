@@ -59,19 +59,24 @@
                             CornerRadius="2,2,2,24"
                             Elevation="4"
                             HasShadow="True">
-                            <Label
+                            <StackLayout Orientation="Horizontal">
+                                <Label Style="{StaticResource ListHeaderLabelStyle}" Text="{Binding TrackID}" />
+                                <Label Style="{StaticResource ListHeaderLabelStyle}" Text=" : " />
+                                <Label Style="{StaticResource ListHeaderLabelStyle}" Text="{Binding TrackName}" />
+                            </StackLayout>
+                            <!--<Label
                                 Margin="5"
                                 FontAttributes="Bold"
                                 FontSize="Large"
                                 LineBreakMode="TailTruncation"
                                 TextColor="White">
-                                <!--<Label.Text>
+                                <Label.Text>
                                     <MultiBinding StringFormat="{}{0} : {1}">
                                         <Binding Path="TrackID" />
                                         <Binding Path="TrackName" />
                                     </MultiBinding>
-                                </Label.Text>-->
-                            </Label>
+                                </Label.Text>
+                            </Label>-->
                         </pancake:PancakeView>
                     </Grid>
                 </DataTemplate>

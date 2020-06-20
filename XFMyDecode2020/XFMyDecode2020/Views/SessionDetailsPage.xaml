@@ -25,6 +25,11 @@
                         HasShadow="True">
                         <Grid Margin="10">
                             <StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding SessionID}" />
+                                    <Label Text=" : " />
+                                    <Label Text="{Binding TrackName}" />
+                                </StackLayout>
                                 <!--<Label>
                                     <Label.Text>
                                         <MultiBinding StringFormat="{}{0} : {1}">
