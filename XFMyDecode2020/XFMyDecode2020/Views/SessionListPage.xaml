@@ -3,10 +3,12 @@
     x:Class="XFMyDecode2020.Views.SessionListPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:controls="clr-namespace:XFMyDecode2020.Controls"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:icons="clr-namespace:XFMyDecode2020.Resources.Icons"
+    xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    xmlns:sharpnado="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
     Shell.NavBarIsVisible="False"
     Visual="Default"
@@ -35,65 +37,77 @@
             </controls:SessionSearchHandler.ItemTemplate>
         </controls:SessionSearchHandler>
     </Shell.SearchHandler>-->
-    <Grid>
+    <Grid BackgroundColor="#eeeeee">
         <CollectionView
             x:Name="CollectionsView_Sessions"
-            Margin="12,0,12,0"
+            Margin="5,0,5,0"
             IsGrouped="True"
             ItemsSource="{Binding GroupedSessions}">
             <CollectionView.ItemsLayout>
-                <LinearItemsLayout ItemSpacing="10" Orientation="Vertical" />
+                <LinearItemsLayout ItemSpacing="0" Orientation="Vertical" />
             </CollectionView.ItemsLayout>
             <CollectionView.Header>
-                <Grid HeightRequest="65" />
+                <Grid HeightRequest="70" />
             </CollectionView.Header>
             <CollectionView.GroupHeaderTemplate>
                 <DataTemplate>
-                    <Grid BackgroundColor="RoyalBlue">
-                        <Label
-                            Margin="5"
-                            FontAttributes="Bold"
-                            FontSize="Large"
-                            LineBreakMode="TailTruncation"
-                            TextColor="White">
-                            <Label.Text>
-                                <MultiBinding StringFormat="{}{0} : {1}">
-                                    <Binding Path="TrackID" />
-                                    <Binding Path="TrackName" />
-                                </MultiBinding>
-                            </Label.Text>
-                        </Label>
+                    <Grid>
+                        <pancake:PancakeView
+                            Margin="2,15,2,5"
+                            BackgroundColor="RoyalBlue"
+                            CornerRadius="2,2,2,24"
+                            Elevation="4"
+                            HasShadow="True">
+                            <Label
+                                Margin="5"
+                                FontAttributes="Bold"
+                                FontSize="Large"
+                                LineBreakMode="TailTruncation"
+                                TextColor="White">
+                                <Label.Text>
+                                    <MultiBinding StringFormat="{}{0} : {1}">
+                                        <Binding Path="TrackID" />
+                                        <Binding Path="TrackName" />
+                                    </MultiBinding>
+                                </Label.Text>
+                            </Label>
+                        </pancake:PancakeView>
                     </Grid>
                 </DataTemplate>
             </CollectionView.GroupHeaderTemplate>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
-                        <Frame
-                            Padding="5"
-                            BorderColor="LightGray"
+                        <pancake:PancakeView
+                            Margin="2,5,2,5"
+                            Padding="10,5"
+                            BackgroundColor="White"
+                            CornerRadius="2,2,2,10"
+                            Elevation="3"
                             HasShadow="True">
-                            <Frame.GestureRecognizers>
+                            <pancake:PancakeView.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ShowSessionDetailsCommand}" CommandParameter="{Binding SessionID}" />
-                            </Frame.GestureRecognizers>
+                            </pancake:PancakeView.GestureRecognizers>
                             <Grid RowDefinitions="*,auto,*,*">
                                 <Label
                                     Grid.Row="0"
                                     Grid.Column="0"
-                                    Text="{Binding SessionID, StringFormat='# {0}'}" />
+                                    Padding="5,0"
+                                    HorizontalOptions="Start"
+                                    Text="{Binding SessionID, StringFormat='#{0}'}"
+                                    TextColor="#00A4EF" />
                                 <Label
                                     Grid.Row="1"
                                     Grid.Column="0"
                                     FontSize="Medium"
-                                    LineBreakMode="WordWrap"
                                     Text="{Binding SessionTitle}" />
                                 <Label Grid.Row="2" Text="{Binding MainSpeaker.Name}" />
                                 <Label Grid.Row="3" Text="{Binding MainSpeaker.Company}" />
                             </Grid>
-                        </Frame>
+                        </pancake:PancakeView>
                         <Button
                             x:Name="Button_Fav"
-                            Margin="3"
+                            Margin="0,0,5,5"
                             Padding="0"
                             BackgroundColor="Transparent"
                             Clicked="Button_Fav_Clicked"
@@ -105,6 +119,7 @@
                             HeightRequest="40"
                             HorizontalOptions="End"
                             Text="{x:Static icons:IconFont_FA_R.Star}"
+                            TextColor="LightGray"
                             VerticalOptions="End"
                             WidthRequest="40">
                             <Button.Triggers>
@@ -127,18 +142,32 @@
         </CollectionView>
 
         <!--  ナビゲーションバー.StackLayoutと重なる  -->
-        <Frame
+        <sharpnado:MaterialFrame
             x:Name="frame_Header"
-            Margin="15,8,15,0"
+            Margin="3,8,3,0"
             Padding="0"
-            BackgroundColor="AliceBlue"
-            HeightRequest="60"
-            VerticalOptions="Start"
-            Visual="Material">
-            <Entry
+            CornerRadius="5"
+            MaterialTheme="Acrylic"
+            VerticalOptions="Start">
+
+            <inputLayout:SfTextInputLayout
+                Margin="3,0,3,0"
+                BackgroundColor="Transparent"
+                ContainerType="Outlined"
+                FocusedColor="RoyalBlue"
+                Hint="Search Term"
+                VerticalOptions="Center">
+                <Entry
+                    ClearButtonVisibility="WhileEditing"
+                    FontSize="Small"
+                    Text="{Binding SearchString}"
+                    Visual="Material" />
+            </inputLayout:SfTextInputLayout>
+
+            <!--<Entry
                 ClearButtonVisibility="WhileEditing"
                 Placeholder="Enter search term"
-                Text="{Binding SearchString}" />
-        </Frame>
+                Text="{Binding SearchString}" />-->
+        </sharpnado:MaterialFrame>
     </Grid>
 </ContentPage>

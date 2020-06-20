@@ -14,7 +14,7 @@ namespace XFMyDecode2020.Utilities
             string target = string.Join(" ", new[] {
                         s.SessionTitle,
                         s.SessionDetails,
-                        s.SessionID,
+                        $"#{s.SessionID}",
                         s.MainSpeaker.Company,
                         s.MainSpeaker.Name,
                         string.Join(" ", s.SubSpeakerList.Select(sub => $"{sub.Speaker.Company} {sub.Speaker.Name}")) }
