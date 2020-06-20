@@ -13,7 +13,7 @@ using Xamarin.Forms;
 using XFMyDecode2020.Models;
 using XFMyDecode2020.Services;
 using Xamarin.Forms.Xaml;
-
+using XFMyDecode2020.Utilities;
 
 namespace XFMyDecode2020.ViewModels
 {
@@ -55,7 +55,7 @@ namespace XFMyDecode2020.ViewModels
                         string.Join(" ", s.SubSpeakerList.Select(sub => $"{sub.Speaker.Company} {sub.Speaker.Name}")) }
                     );
 
-                    return Utility.Check(target, searchWords);
+                    return Utility.CheckIfContainSearchWord(s, searchWords);
                 }).ToList();
 
                 this.GroupedSessions.Clear();
@@ -117,32 +117,4 @@ namespace XFMyDecode2020.ViewModels
 
     }
 
-    public static class Utility
-    {
-        private static readonly string excludePrefix = "-";
-        public static bool Check(string target, IEnumerable<string> searchWords)
-        {
-            foreach (var word in searchWords)
-            {
-                //-がついていた場合
-                if (word.StartsWith(excludePrefix))
-                {
-                    string w = word.Substring(excludePrefix.Length);
-                    if (target.Contains(w, StringComparison.OrdinalIgnoreCase))
-                    {
-                        return false;
-                    }
-
-                    continue;
-                }
-
-                if (!target.Contains(word, StringComparison.OrdinalIgnoreCase))
-                {
-                    return false;
-                }
-            }
-
-            return true;
-        }
-    }
 }

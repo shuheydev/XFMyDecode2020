@@ -13,7 +13,7 @@ using Xamarin.Forms;
 using XFMyDecode2020.Models;
 using XFMyDecode2020.Services;
 using Xamarin.Forms.Xaml;
-
+using XFMyDecode2020.Utilities;
 
 namespace XFMyDecode2020.ViewModels
 {
@@ -46,16 +46,9 @@ namespace XFMyDecode2020.ViewModels
                 //Let's filtering
                 var filteredSessions = Sessions.Where(s =>
                 {
-                    string target = string.Join(" ", new[] {
-                        s.SessionTitle,
-                        s.SessionDetails,
-                        s.SessionID,
-                        s.MainSpeaker.Company,
-                        s.MainSpeaker.Name,
-                        string.Join(" ", s.SubSpeakerList.Select(sub => $"{sub.Speaker.Company} {sub.Speaker.Name}")) }
-                    );
+                    bool result = Utility.CheckIfContainSearchWord(s, searchWords);
 
-                    return Check(target, searchWords);
+                    return result;
                 }).ToList();
 
                 this.GroupedSessions.Clear();
@@ -114,30 +107,30 @@ namespace XFMyDecode2020.ViewModels
 
 
 
-        private readonly string excludePrefix = "-";
-        private bool Check(string target, IEnumerable<string> searchWords)
-        {
-            foreach (var word in searchWords)
-            {
-                //-がついていた場合
-                if (word.StartsWith(excludePrefix))
-                {
-                    string w = word.Substring(excludePrefix.Length);
-                    if (target.Contains(w, StringComparison.OrdinalIgnoreCase))
-                    {
-                        return false;
-                    }
+        //private readonly string excludePrefix = "-";
+        //private bool Check(string target, IEnumerable<string> searchWords)
+        //{
+        //    foreach (var word in searchWords)
+        //    {
+        //        //-がついていた場合
+        //        if (word.StartsWith(excludePrefix))
+        //        {
+        //            string w = word.Substring(excludePrefix.Length);
+        //            if (target.Contains(w, StringComparison.OrdinalIgnoreCase))
+        //            {
+        //                return false;
+        //            }
 
-                    continue;
-                }
+        //            continue;
+        //        }
 
-                if (!target.Contains(word, StringComparison.OrdinalIgnoreCase))
-                {
-                    return false;
-                }
-            }
+        //        if (!target.Contains(word, StringComparison.OrdinalIgnoreCase))
+        //        {
+        //            return false;
+        //        }
+        //    }
 
-            return true;
-        }
+        //    return true;
+        //}
     }
 }
