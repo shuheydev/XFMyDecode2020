@@ -5,13 +5,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:converters="clr-namespace:XFMyDecode2020.Converters"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:icons="clr-namespace:XFMyDecode2020.Resources.Icons"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
-    Visual="Material"
+    Visual="Default"
     mc:Ignorable="d">
-    <ContentPage.BindingContext>
-        <viewmodels:SessionDetailsViewModel />
-    </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout BindingContext="{Binding SessionInfo}">
             <Label FontSize="Medium" Text="{Binding SessionTitle}" />
@@ -27,10 +25,51 @@
                     </MultiBinding>
                 </Label.Text>
             </Label>
+
+            
             <Button
+                x:Name="Button_Fav"
+                Padding="0"
+                BackgroundColor="Transparent"
+                Clicked="Button_Fav_Clicked"
+                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=ChangeFavoritStateCommand}"
+                CommandParameter="{Binding SessionID}"
+                CornerRadius="30"
+                FontFamily="FA-R"
+                FontSize="Large"
+                HeightRequest="40"
+                HorizontalOptions="End"
+                Text="{x:Static icons:IconFont_FA_R.Star}"
+                VerticalOptions="End"
+                WidthRequest="40">
+                <Button.Triggers>
+                    <DataTrigger
+                        Binding="{Binding IsFavorit}"
+                        TargetType="Button"
+                        Value="True">
+                        <Setter Property="FontFamily" Value="FA-S" />
+                        <Setter Property="TextColor" Value="Gold" />
+                        <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
+                    </DataTrigger>
+                </Button.Triggers>
+            </Button>
+            
+
+            <Button
+                Margin="0,0,0,50"
+                Padding="0"
+                BackgroundColor="RoyalBlue"
                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=OpenBrowserCommand}"
                 CommandParameter="{Binding SessionVideoURL}"
-                Text="ブラウザで観る" />
+                CornerRadius="50"
+                FontFamily="FA-S"
+                FontSize="Large"
+                HeightRequest="70"
+                HorizontalOptions="Center"
+                Text="{x:Static icons:IconFont_FA_S.Tv}"
+                VerticalOptions="EndAndExpand"
+                Visual="Material"
+                WidthRequest="70" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XFMyDecode2020.Utilities;
 using XFMyDecode2020.ViewModels;
 
 namespace XFMyDecode2020.Views
@@ -25,6 +26,13 @@ namespace XFMyDecode2020.Views
         {
             base.OnAppearing();
             _viewModel.LoadSessionDetails();
+        }
+
+        private async void Button_Fav_Clicked(object sender, EventArgs e)
+        {
+            var button = sender as Button;
+
+            await MyAnimation.Animation1(button);
         }
     }
 }

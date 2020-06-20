@@ -104,33 +104,5 @@ namespace XFMyDecode2020.ViewModels
                 throw;
             }
         }
-
-
-
-        //private readonly string excludePrefix = "-";
-        //private bool Check(string target, IEnumerable<string> searchWords)
-        //{
-        //    foreach (var word in searchWords)
-        //    {
-        //        //-がついていた場合
-        //        if (word.StartsWith(excludePrefix))
-        //        {
-        //            string w = word.Substring(excludePrefix.Length);
-        //            if (target.Contains(w, StringComparison.OrdinalIgnoreCase))
-        //            {
-        //                return false;
-        //            }
-
-        //            continue;
-        //        }
-
-        //        if (!target.Contains(word, StringComparison.OrdinalIgnoreCase))
-        //        {
-        //            return false;
-        //        }
-        //    }
-
-        //    return true;
-        //}
     }
 }

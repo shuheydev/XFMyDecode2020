@@ -112,6 +112,9 @@
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
+            <CollectionView.Footer>
+                <Grid HeightRequest="80" />
+            </CollectionView.Footer>
         </CollectionView>
 
         <!--  ナビゲーションバー.StackLayoutと重なる  -->

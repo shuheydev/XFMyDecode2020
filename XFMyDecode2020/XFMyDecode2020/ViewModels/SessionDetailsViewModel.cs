@@ -1,4 +1,5 @@
-﻿using MvvmHelpers.Commands;
+﻿using Microsoft.Extensions.Primitives;
+using MvvmHelpers.Commands;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -22,12 +23,14 @@ namespace XFMyDecode2020.ViewModels
             set => SetProperty(ref _sessionInfo, value);
         }
 
-        private readonly IDataService _dataService;
-
-        public SessionDetailsViewModel()
+        public MvvmHelpers.Commands.Command<string> ChangeFavoritStateCommand { get; }
+        private void ChangeFavoritState(string sessionId)
         {
-
+            this.SessionInfo.IsFavorit = !this.SessionInfo.IsFavorit;
+            _dataService.Save();
         }
+
+        private readonly IDataService _dataService;
 
         public AsyncCommand<string> OpenBrowserCommand { get; }
         public SessionDetailsViewModel(IDataService dataService)
@@ -35,6 +38,7 @@ namespace XFMyDecode2020.ViewModels
             this._dataService = dataService;
 
             OpenBrowserCommand = new AsyncCommand<string>(OpenBrowser);
+            ChangeFavoritStateCommand = new MvvmHelpers.Commands.Command<string>(ChangeFavoritState);
         }
 
         private async Task OpenBrowser(string uri)
