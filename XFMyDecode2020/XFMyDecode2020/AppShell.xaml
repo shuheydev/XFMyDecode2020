@@ -34,21 +34,17 @@
             </Tab.Icon>
             <ShellContent ContentTemplate="{DataTemplate views:SessionListPage}" Route="sessions" />
         </Tab>
-        <Tab Title="Favorit">
+        <!--<Tab Title="Favorit">
             <Tab.Icon>
                 <FontImageSource FontFamily="FA-R" Glyph="{x:Static icons:IconFont_FA_R.Star}" />
             </Tab.Icon>
-            <ShellContent ContentTemplate="{DataTemplate views:SessionListPage}" Route="sessions" />
+            <ShellContent ContentTemplate="{DataTemplate views:FavoritListPage}" Route="favorits" />
         </Tab>
         <Tab Title="Watch Later">
             <Tab.Icon>
-                <FontImageSource FontFamily="FA-S" Glyph="{x:Static icons:IconFont_FA_S.Paperclip}" />
+                <FontImageSource FontFamily="FA-R" Glyph="{x:Static icons:IconFont_FA_R.Bookmark}" />
             </Tab.Icon>
             <ShellContent ContentTemplate="{DataTemplate views:SessionListPage}" Route="sessions" />
-        </Tab>
+        </Tab>-->
     </TabBar>
-    <!--<ShellContent
-        Title="Hello"
-        ContentTemplate="{DataTemplate views:SessionListPage}"
-        Route="sessions" />-->
 </Shell>

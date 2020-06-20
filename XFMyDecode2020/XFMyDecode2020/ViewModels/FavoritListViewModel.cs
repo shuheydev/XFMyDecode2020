@@ -17,7 +17,7 @@ using Xamarin.Forms.Xaml;
 
 namespace XFMyDecode2020.ViewModels
 {
-    public class SessionListViewModel : BaseViewModel
+    public class FavoritListViewModel : BaseViewModel
     {
         private ObservableRangeCollection<Session> _sessions;
         public ObservableRangeCollection<Session> Sessions
@@ -55,7 +55,7 @@ namespace XFMyDecode2020.ViewModels
                         string.Join(" ", s.SubSpeakerList.Select(sub => $"{sub.Speaker.Company} {sub.Speaker.Name}")) }
                     );
 
-                    return Check(target, searchWords);
+                    return Utility.Check(target, searchWords);
                 }).ToList();
 
                 this.GroupedSessions.Clear();
@@ -83,7 +83,7 @@ namespace XFMyDecode2020.ViewModels
 
         private readonly IDataService _dataService;
 
-        public SessionListViewModel(IDataService dataService)
+        public FavoritListViewModel(IDataService dataService)
         {
             this._dataService = dataService;
 
@@ -98,7 +98,7 @@ namespace XFMyDecode2020.ViewModels
 
             try
             {
-                var sessions = await _dataService.GetSessionDataAsync();
+                var sessions = (await _dataService.GetSessionDataAsync());
                 this.Sessions = new ObservableRangeCollection<Session>(sessions);
 
                 //Let's grouping
@@ -114,8 +114,13 @@ namespace XFMyDecode2020.ViewModels
 
 
 
-        private readonly string excludePrefix = "-";
-        private bool Check(string target, IEnumerable<string> searchWords)
+
+    }
+
+    public static class Utility
+    {
+        private static readonly string excludePrefix = "-";
+        public static bool Check(string target, IEnumerable<string> searchWords)
         {
             foreach (var word in searchWords)
             {

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-    x:Class="XFMyDecode2020.Views.SessionListPage"
+    x:Class="XFMyDecode2020.Views.FavoritListPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:controls="clr-namespace:XFMyDecode2020.Controls"
@@ -11,30 +11,6 @@
     Shell.NavBarIsVisible="False"
     Visual="Default"
     mc:Ignorable="d">
-    <!--<Shell.SearchHandler>
-        <controls:SessionSearchHandler Placeholder="Enter search term" ShowsResults="True">
-            <controls:SessionSearchHandler.ItemTemplate>
-                <DataTemplate>
-                    <Grid>
-                        <Frame BorderColor="Black">
-                            <StackLayout>
-                                <Label FontSize="Medium" Text="{Binding SessionTitle}" />
-                                <Label LineBreakMode="TailTruncation">
-                                    <Label.Text>
-                                        <MultiBinding StringFormat="{}{0} {1}">
-                                            <Binding Path="MainSpeaker.Name" />
-                                            <Binding Path="MainSpeaker.Company" />
-                                        </MultiBinding>
-                                    </Label.Text>
-                                </Label>
-                                <Label Text="{Binding SessionID, StringFormat='# {0}'}" />
-                            </StackLayout>
-                        </Frame>
-                    </Grid>
-                </DataTemplate>
-            </controls:SessionSearchHandler.ItemTemplate>
-        </controls:SessionSearchHandler>
-    </Shell.SearchHandler>-->
     <Grid>
         <CollectionView
             x:Name="CollectionsView_Sessions"
@@ -68,7 +44,7 @@
                     <Grid>
                         <Frame BorderColor="LightGray" HasShadow="True">
                             <Frame.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ShowSessionDetailsCommand}" CommandParameter="{Binding SessionID}" />
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:FavoritListViewModel}}, Path=ShowSessionDetailsCommand}" CommandParameter="{Binding SessionID}" />
                             </Frame.GestureRecognizers>
                             <StackLayout>
                                 <Label FontSize="Medium" Text="{Binding SessionTitle}" />
@@ -88,13 +64,14 @@
                             Padding="0"
                             BackgroundColor="Transparent"
                             Clicked="Button_Fav_Clicked"
-                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ChangeFavoritStateCommand}"
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:FavoritListViewModel}}, Path=ChangeFavoritStateCommand}"
                             CommandParameter="{Binding SessionID}"
                             CornerRadius="30"
                             FontFamily="FA-R"
                             FontSize="Large"
                             HeightRequest="40"
                             HorizontalOptions="End"
+                            IsVisible="False"
                             Text="{x:Static icons:IconFont_FA_R.Star}"
                             VerticalOptions="End"
                             WidthRequest="40">
