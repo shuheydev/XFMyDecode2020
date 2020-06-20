@@ -14,7 +14,12 @@ namespace XFMyDecode2020.ViewModels
     [QueryProperty("SessionId", "sessionId")]
     public class SessionDetailsViewModel : BaseViewModel
     {
-        public string SessionId { get; set; }
+        private string _sessionId;
+        public string SessionId
+        {
+            get => _sessionId;
+            set => SetProperty(ref _sessionId, value);
+        }
 
         private Session _sessionInfo;
         public Session SessionInfo
