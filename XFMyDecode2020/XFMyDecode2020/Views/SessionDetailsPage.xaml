@@ -107,7 +107,7 @@
                     Margin="0,0,30,30"
                     Padding="0"
                     touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=TweetSessionCommand}"
-                    touch:TouchEff.CommandParameter="{Binding SessionID}"
+                    touch:TouchEff.CommandParameter="{Binding SessionId}"
                     touch:TouchEff.PressedOpacity="0.6"
                     touch:TouchEff.PressedScale="0.9"
                     touch:TouchEff.RegularAnimationDuration="100"
