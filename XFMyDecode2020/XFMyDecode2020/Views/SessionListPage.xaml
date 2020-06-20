@@ -166,6 +166,7 @@
                 <Entry
                     ClearButtonVisibility="WhileEditing"
                     FontSize="Small"
+                    ReturnCommand="{Binding SearchSessionCommand}"
                     Text="{Binding SearchString}" />
             </inputLayout:SfTextInputLayout>
         </sharpnado:MaterialFrame>

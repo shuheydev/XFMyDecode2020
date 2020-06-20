@@ -33,20 +33,26 @@ namespace XFMyDecode2020.ViewModels
             {
                 SetProperty(ref _searchString, value);
 
-                var searchWords = Regex.Split(this.SearchString, @"\s+?").Where(w => !string.IsNullOrEmpty(w)).ToList();
-
-                //Let's filtering
-                var filteredSessions = Sessions.Where(s =>
-                {
-                    bool result = Utility.CheckIfContainSearchWord(s, searchWords);
-
-                    return result;
-                }).ToList();
-
-                this.GroupedSessions.Clear();
-                this.GroupedSessions.AddRange(filteredSessions.GroupBy(s => s.TrackID)
-                                      .Select(g => new SessionGroup(g.Key, g.FirstOrDefault()?.TrackName, g.ToList())));
+                SearchSession();
             }
+        }
+
+        public MvvmHelpers.Commands.Command SearchSessionCommand { get; }
+        private void SearchSession()
+        {
+            var searchWords = Regex.Split(this.SearchString, @"\s+?").Where(w => !string.IsNullOrEmpty(w)).ToList();
+
+            //Let's filtering
+            var filteredSessions = Sessions.Where(s =>
+            {
+                bool result = Utility.CheckIfContainSearchWord(s, searchWords);
+
+                return result;
+            }).ToList();
+
+            this.GroupedSessions.Clear();
+            this.GroupedSessions.AddRange(filteredSessions.GroupBy(s => s.TrackID)
+                                  .Select(g => new SessionGroup(g.Key, g.FirstOrDefault()?.TrackName, g.ToList())));
         }
 
         public AsyncCommand<string> ShowSessionDetailsCommand { get; }
@@ -66,6 +72,7 @@ namespace XFMyDecode2020.ViewModels
             }
         }
 
+
         private readonly IDataService _dataService;
 
         public SessionListViewModel(IDataService dataService)
@@ -74,6 +81,7 @@ namespace XFMyDecode2020.ViewModels
 
             ShowSessionDetailsCommand = new AsyncCommand<string>(ShowSessionDetails);
             ChangeFavoritStateCommand = new MvvmHelpers.Commands.Command<string>(ChangeFavoritState);
+            SearchSessionCommand = new MvvmHelpers.Commands.Command(SearchSession);
         }
 
         internal async Task LoadSessions()
