@@ -75,7 +75,7 @@ namespace XFMyDecode2020.ViewModels
 
             this.GroupedSessions.Clear();
             this.GroupedSessions.AddRange(filteredSessions.GroupBy(s => s.TrackID)
-                                  .Select(g => new SessionGroup(g.Key, g.FirstOrDefault()?.TrackName, g.ToList())));
+                                  .Select(g => new SessionGroup(g.Key, g.FirstOrDefault()?.TrackName, new MvvmHelpers.ObservableRangeCollection<Session>(g.ToList()))));
         }
 
         public AsyncCommand<string> ShowSessionDetailsCommand { get; }
@@ -84,8 +84,8 @@ namespace XFMyDecode2020.ViewModels
             await Shell.Current.GoToAsync($"sessionDetails?sessionId={sessionId}");
         }
 
-        public AsyncCommand<string> ChangeFavoritStateCommand { get; }
-        private async Task ChangeFavoritState(string sessionId)
+        public MvvmHelpers.Commands.Command<string> ChangeFavoritStateCommand { get; }
+        private void ChangeFavoritState(string sessionId)
         {
             var session = this.Sessions.FirstOrDefault(s => s.SessionID == sessionId);
             if (session != null)
@@ -102,34 +102,66 @@ namespace XFMyDecode2020.ViewModels
         {
             this._dataService = dataService;
 
+            this.Sessions = new MvvmHelpers.ObservableRangeCollection<Session>();
+            this.GroupedSessions = new MvvmHelpers.ObservableRangeCollection<SessionGroup>();
+
             ShowSessionDetailsCommand = new AsyncCommand<string>(ShowSessionDetails);
-            ChangeFavoritStateCommand = new AsyncCommand<string>(ChangeFavoritState);
+            ChangeFavoritStateCommand = new MvvmHelpers.Commands.Command<string>(ChangeFavoritState);
             SearchSessionCommand = new MvvmHelpers.Commands.Command(SearchSession);
         }
 
         internal async Task LoadSessions()
         {
-            //if (this.Sessions != null)
-            //    return;
-
+            //FavoritListと同様.
             try
             {
-                var allSessions = await _dataService.GetSessionDataAsync();
-                var sessions = allSessions.Where(s => s.IsWatched);
-                this.Sessions = new MvvmHelpers.ObservableRangeCollection<Session>(sessions);
+                var sessions = (await _dataService.GetSessionDataAsync());
+                var removeTargets = sessions.Where(s => this.Sessions.Contains(s) && !s.IsWatched).ToList();
+                var addTargets = sessions.Where(s => !this.Sessions.Contains(s) && s.IsWatched).ToList();
+
+                this.Sessions.RemoveRange(removeTargets);
+                this.Sessions.AddRange(addTargets);
+                this.Sessions.OrderBy(s => s.TrackID);
 
                 this.WatchedSessionsCount = this.Sessions.Count;
-                this.TotalSessionsCount = allSessions.Count();
+                this.TotalSessionsCount = sessions.Count();
 
-                //Let's grouping
-                this.GroupedSessions = new MvvmHelpers.ObservableRangeCollection<SessionGroup>();
-                this.GroupedSessions.AddRange(this.Sessions.GroupBy(s => s.TrackID)
-                                                      .Select(g => new SessionGroup(g.Key, g.FirstOrDefault()?.TrackName, g.ToList())));
+                foreach (var session in removeTargets)
+                {
+                    var group = this.GroupedSessions.FirstOrDefault(g => g.TrackID == session.TrackID);
+
+                    if (group is null)
+                    {
+                        continue;
+                    }
+
+                    group.Remove(session);
+
+                    //remove empty group
+                    if (!group.Any())
+                    {
+                        this.GroupedSessions.Remove(group);
+                    }
+                }
+
+                foreach (var session in addTargets)
+                {
+                    var group = this.GroupedSessions.FirstOrDefault(g => g.TrackID == session.TrackID);
+
+                    if (group is null)
+                    {
+                        this.GroupedSessions.Add(new SessionGroup(session.TrackID, session.TrackName, new MvvmHelpers.ObservableRangeCollection<Session>()));
+                    }
+
+                    this.GroupedSessions.FirstOrDefault(g => g.TrackID == session.TrackID)?.Add(session);
+                }
             }
             catch
             {
                 throw;
             }
+
+            this.GroupedSessions.OrderBy(g => g.TrackID);
         }
     }
 

@@ -81,6 +81,8 @@
                     <checkbox:SfCheckBox
                         x:Name="checkBox"
                         Margin="15,10"
+                        touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=ChangeWatchStateCommand}"
+                        touch:TouchEff.CommandParameter="{Binding SessionID}"
                         CheckedColor="{StaticResource AppPrimaryColor}"
                         IsChecked="{Binding IsWatched}"
                         Text="Watched" />

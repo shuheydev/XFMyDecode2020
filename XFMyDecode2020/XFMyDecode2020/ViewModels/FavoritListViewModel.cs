@@ -61,7 +61,7 @@ namespace XFMyDecode2020.ViewModels
 
             this.GroupedSessions.Clear();
             this.GroupedSessions.AddRange(filteredSessions.GroupBy(s => s.TrackID)
-                                  .Select(g => new SessionGroup(g.Key, g.FirstOrDefault()?.TrackName, g.ToList())));
+                                  .Select(g => new SessionGroup(g.Key, g.FirstOrDefault()?.TrackName, new MvvmHelpers.ObservableRangeCollection<Session>(g))));
         }
 
         public AsyncCommand<string> ShowSessionDetailsCommand { get; }
@@ -70,8 +70,14 @@ namespace XFMyDecode2020.ViewModels
             await Shell.Current.GoToAsync($"sessionDetails?sessionId={sessionId}");
         }
 
-        public AsyncCommand<string> ChangeFavoritStateCommand { get; }
-        private async Task ChangeFavoritState(string sessionId)
+        public AsyncCommand<string> ChangeSelectedItemCommand { get; }
+        private async Task ChangeSelectedItem(string sessionId)
+        {
+            await Shell.Current.GoToAsync($"sessionDetails?sessionId={sessionId}");
+        }
+
+        public MvvmHelpers.Commands.Command<string> ChangeFavoritStateCommand { get; }
+        private void ChangeFavoritState(string sessionId)
         {
             var session = this.Sessions.FirstOrDefault(s => s.SessionID == sessionId);
             if (session != null)
@@ -83,7 +89,7 @@ namespace XFMyDecode2020.ViewModels
                 group.Remove(session);
 
                 //remove empty group
-                if(!group.Any())
+                if (!group.Any())
                 {
                     this.GroupedSessions.Remove(group);
                 }
@@ -97,31 +103,69 @@ namespace XFMyDecode2020.ViewModels
         {
             this._dataService = dataService;
 
+            this.Sessions = new MvvmHelpers.ObservableRangeCollection<Session>();
+            this.GroupedSessions = new MvvmHelpers.ObservableRangeCollection<SessionGroup>();
+
             ShowSessionDetailsCommand = new AsyncCommand<string>(ShowSessionDetails);
-            ChangeFavoritStateCommand = new AsyncCommand<string>(ChangeFavoritState);
+            ChangeFavoritStateCommand = new MvvmHelpers.Commands.Command<string>(ChangeFavoritState);
             SearchSessionCommand = new MvvmHelpers.Commands.Command(SearchSession);
+            ChangeSelectedItemCommand = new AsyncCommand<string>(ChangeSelectedItem);
         }
 
         internal async Task LoadSessions()
         {
-            //if (this.Sessions != null)
-            //    return;
-
+            //詳細ページからの遷移時にリストがリセットされてスクロール位置が先頭に
+            //戻ることを防ぐため
             try
             {
-                var sessions = (await _dataService.GetSessionDataAsync()).Where(s => s.IsFavorit);
-                this.Sessions = new MvvmHelpers.ObservableRangeCollection<Session>(sessions);
+                var sessions = (await _dataService.GetSessionDataAsync());
+                var removeTargets = sessions.Where(s => this.Sessions.Contains(s) && !s.IsFavorit).ToList();
+                var addTargets = sessions.Where(s => !this.Sessions.Contains(s) && s.IsFavorit).ToList();
 
-                //Let's grouping
-                this.GroupedSessions = new MvvmHelpers.ObservableRangeCollection<SessionGroup>();
-                this.GroupedSessions.AddRange(this.Sessions.GroupBy(s => s.TrackID)
-                                                      .Select(g => new SessionGroup(g.Key, g.FirstOrDefault()?.TrackName, g.ToList())));
+                this.Sessions.RemoveRange(removeTargets);
+                this.Sessions.AddRange(addTargets);
+                this.Sessions.OrderBy(s => s.TrackID);
+
+                foreach (var session in removeTargets)
+                {
+                    var group = this.GroupedSessions.FirstOrDefault(g => g.TrackID == session.TrackID);
+
+                    if (group is null)
+                    {
+                        continue;
+                    }
+
+                    group.Remove(session);
+
+                    //remove empty group
+                    if (!group.Any())
+                    {
+                        this.GroupedSessions.Remove(group);
+                    }
+                }
+
+                foreach (var session in addTargets)
+                {
+                    var group = this.GroupedSessions.FirstOrDefault(g => g.TrackID == session.TrackID);
+
+                    if (group is null)
+                    {
+                        var trackIds = this.GroupedSessions.Select(g => g.TrackID).ToList();
+                        trackIds.Add(session.TrackID);
+                        var orderedTrackIDs = trackIds.OrderBy(t=>t);
+                        int index = orderedTrackIDs.IndexOf(t => t == session.TrackID);
+                        this.GroupedSessions.Insert(index,new SessionGroup(session.TrackID, session.TrackName, new MvvmHelpers.ObservableRangeCollection<Session>()));
+                    }
+
+                    this.GroupedSessions.FirstOrDefault(g => g.TrackID == session.TrackID)?.Add(session);
+                }
             }
             catch
             {
                 throw;
             }
+
+
         }
     }
-
 }
