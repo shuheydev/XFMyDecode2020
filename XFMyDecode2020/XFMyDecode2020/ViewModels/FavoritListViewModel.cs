@@ -14,6 +14,7 @@ using XFMyDecode2020.Models;
 using XFMyDecode2020.Services;
 using Xamarin.Forms.Xaml;
 using XFMyDecode2020.Utilities;
+using Xamarin.Forms.Internals;
 
 namespace XFMyDecode2020.ViewModels
 {
@@ -69,14 +70,23 @@ namespace XFMyDecode2020.ViewModels
             await Shell.Current.GoToAsync($"sessionDetails?sessionId={sessionId}");
         }
 
-        public MvvmHelpers.Commands.Command<string> ChangeFavoritStateCommand { get; }
-        private void ChangeFavoritState(string sessionId)
+        public AsyncCommand<string> ChangeFavoritStateCommand { get; }
+        private async Task ChangeFavoritState(string sessionId)
         {
             var session = this.Sessions.FirstOrDefault(s => s.SessionID == sessionId);
             if (session != null)
             {
                 session.IsFavorit = !session.IsFavorit;
                 _dataService.Save();
+
+                var group = this.GroupedSessions.FirstOrDefault(g => g.Any(s => s == session));
+                group.Remove(session);
+
+                //remove empty group
+                if(!group.Any())
+                {
+                    this.GroupedSessions.Remove(group);
+                }
             }
         }
 
@@ -88,18 +98,18 @@ namespace XFMyDecode2020.ViewModels
             this._dataService = dataService;
 
             ShowSessionDetailsCommand = new AsyncCommand<string>(ShowSessionDetails);
-            ChangeFavoritStateCommand = new MvvmHelpers.Commands.Command<string>(ChangeFavoritState);
+            ChangeFavoritStateCommand = new AsyncCommand<string>(ChangeFavoritState);
             SearchSessionCommand = new MvvmHelpers.Commands.Command(SearchSession);
         }
 
         internal async Task LoadSessions()
         {
-            if (this.Sessions != null)
-                return;
+            //if (this.Sessions != null)
+            //    return;
 
             try
             {
-                var sessions = await _dataService.GetSessionDataAsync();
+                var sessions = (await _dataService.GetSessionDataAsync()).Where(s => s.IsFavorit);
                 this.Sessions = new MvvmHelpers.ObservableRangeCollection<Session>(sessions);
 
                 //Let's grouping
