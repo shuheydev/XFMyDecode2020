@@ -44,23 +44,15 @@
                             </StackLayout>
                             <Button
                                 x:Name="Button_Fav"
-                                Margin="0"
-                                Padding="0"
-                                BackgroundColor="Transparent"
                                 Clicked="Button_Fav_Clicked"
                                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=ChangeFavoritStateCommand}"
                                 CommandParameter="{Binding SessionID}"
-                                CornerRadius="30"
-                                FontFamily="FA-R"
-                                FontSize="Large"
-                                HeightRequest="40"
                                 HorizontalOptions="Start"
+                                Style="{StaticResource FavButtonStyle}"
                                 Text="{x:Static icons:IconFont_FA_R.Star}"
-                                TextColor="LightGray"
                                 TranslationX="-8"
                                 TranslationY="8"
-                                VerticalOptions="End"
-                                WidthRequest="40">
+                                VerticalOptions="End">
                                 <Button.Triggers>
                                     <DataTrigger
                                         Binding="{Binding IsFavorit}"

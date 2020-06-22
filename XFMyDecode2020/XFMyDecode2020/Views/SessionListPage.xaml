@@ -53,12 +53,7 @@
             <CollectionView.GroupHeaderTemplate>
                 <DataTemplate>
                     <Grid>
-                        <pancake:PancakeView
-                            Margin="2,15,2,5"
-                            BackgroundColor="{StaticResource AppPrimaryColor}"
-                            CornerRadius="2,2,2,24"
-                            Elevation="4"
-                            HasShadow="True">
+                        <pancake:PancakeView Style="{StaticResource ListHeaderCardStyle}">
                             <StackLayout Orientation="Horizontal">
                                 <Label Style="{StaticResource ListHeaderLabelStyle}" Text="{Binding TrackID}" />
                                 <Label Style="{StaticResource ListHeaderLabelStyle}" Text=" : " />
@@ -84,12 +79,7 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
-                        <pancake:PancakeView
-                            Margin="2,5,2,5"
-                            BackgroundColor="White"
-                            CornerRadius="2,2,2,20"
-                            Elevation="2"
-                            HasShadow="True">
+                        <pancake:PancakeView Style="{StaticResource ListItemCardStyle}">
                             <Grid Margin="10">
                                 <Grid
                                     touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ShowSessionDetailsCommand}"
@@ -120,17 +110,13 @@
                                 </Grid>
                                 <Button
                                     x:Name="Button_Fav"
-                                    Margin="0"
-                                    Padding="0"
                                     Clicked="Button_Fav_Clicked"
                                     Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ChangeFavoritStateCommand}"
                                     CommandParameter="{Binding SessionID}"
-                                    HeightRequest="40"
                                     HorizontalOptions="End"
                                     Style="{StaticResource FavButtonStyle}"
                                     Text="{x:Static icons:IconFont_FA_R.Star}"
-                                    VerticalOptions="End"
-                                    WidthRequest="40">
+                                    VerticalOptions="End">
                                     <Button.Triggers>
                                         <DataTrigger
                                             Binding="{Binding IsFavorit}"
