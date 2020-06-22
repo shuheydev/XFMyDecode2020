@@ -19,7 +19,7 @@ namespace XFMyDecode2020.ViewModels
 {
     public class FavoritListViewModel : BaseViewModel
     {
-        private MvvmHelpers. ObservableRangeCollection<Session> _sessions;
+        private MvvmHelpers.ObservableRangeCollection<Session> _sessions;
         public MvvmHelpers.ObservableRangeCollection<Session> Sessions
         {
             get => _sessions;
@@ -41,27 +41,26 @@ namespace XFMyDecode2020.ViewModels
             {
                 SetProperty(ref _searchString, value);
 
-                var searchWords = Regex.Split(this.SearchString, @"\s+?").Where(w => !string.IsNullOrEmpty(w)).ToList();
-
-                //Let's filtering
-                var filteredSessions = Sessions.Where(s =>
-                {
-                    string target = string.Join(" ", new[] {
-                        s.SessionTitle,
-                        s.SessionDetails,
-                        s.SessionID,
-                        s.MainSpeaker.Company,
-                        s.MainSpeaker.Name,
-                        string.Join(" ", s.SubSpeakerList.Select(sub => $"{sub.Speaker.Company} {sub.Speaker.Name}")) }
-                    );
-
-                    return Utility.CheckIfContainSearchWord(s, searchWords);
-                }).ToList();
-
-                this.GroupedSessions.Clear();
-                this.GroupedSessions.AddRange(filteredSessions.GroupBy(s => s.TrackID)
-                                      .Select(g => new SessionGroup(g.Key, g.FirstOrDefault()?.TrackName, g.ToList())));
+                SearchSession();
             }
+        }
+
+        public MvvmHelpers.Commands.Command SearchSessionCommand { get; }
+        private void SearchSession()
+        {
+            var searchWords = Regex.Split(this.SearchString, @"\s+?").Where(w => !string.IsNullOrEmpty(w)).ToList();
+
+            //Let's filtering
+            var filteredSessions = Sessions.Where(s =>
+            {
+                bool result = Utility.CheckIfContainSearchWord(s, searchWords);
+
+                return result;
+            }).ToList();
+
+            this.GroupedSessions.Clear();
+            this.GroupedSessions.AddRange(filteredSessions.GroupBy(s => s.TrackID)
+                                  .Select(g => new SessionGroup(g.Key, g.FirstOrDefault()?.TrackName, g.ToList())));
         }
 
         public AsyncCommand<string> ShowSessionDetailsCommand { get; }
@@ -81,6 +80,7 @@ namespace XFMyDecode2020.ViewModels
             }
         }
 
+
         private readonly IDataService _dataService;
 
         public FavoritListViewModel(IDataService dataService)
@@ -89,6 +89,7 @@ namespace XFMyDecode2020.ViewModels
 
             ShowSessionDetailsCommand = new AsyncCommand<string>(ShowSessionDetails);
             ChangeFavoritStateCommand = new MvvmHelpers.Commands.Command<string>(ChangeFavoritState);
+            SearchSessionCommand = new MvvmHelpers.Commands.Command(SearchSession);
         }
 
         internal async Task LoadSessions()
@@ -98,7 +99,7 @@ namespace XFMyDecode2020.ViewModels
 
             try
             {
-                var sessions = (await _dataService.GetSessionDataAsync());
+                var sessions = await _dataService.GetSessionDataAsync();
                 this.Sessions = new MvvmHelpers.ObservableRangeCollection<Session>(sessions);
 
                 //Let's grouping
@@ -111,10 +112,6 @@ namespace XFMyDecode2020.ViewModels
                 throw;
             }
         }
-
-
-
-
     }
 
 }

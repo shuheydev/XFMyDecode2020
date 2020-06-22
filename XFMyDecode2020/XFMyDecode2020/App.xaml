@@ -31,7 +31,6 @@
             <Style x:Key="FavButtonOnStyle" TargetType="Button">
                 <Setter Property="TextColor" Value="LightGray" />
                 <Setter Property="FontFamily" Value="FA-S" />
-                <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>
