@@ -36,10 +36,18 @@ namespace XFMyDecode2020.ViewModels
             _dataService.Save();
         }
 
+        public MvvmHelpers.Commands.Command<string> ChangeWatchStateCommand { get; }
+        private void ChangeWatchState(string sessionId)
+        {
+            //bindingで変更されている
+            this.SessionInfo.IsWatched = !this.SessionInfo.IsWatched;
+            _dataService.Save();
+        }
+
         public AsyncCommand<string> TweetSessionCommand { get; }
         private async Task TweetSession(string sessionId)
         {
-            string text =System.Web.HttpUtility.UrlEncode( $"\n#decode20 #{sessionId}");
+            string text = System.Web.HttpUtility.UrlEncode($"\n#decode20 #{sessionId}");
 
             var canOpen = await Xamarin.Essentials.Launcher.CanOpenAsync("twitter://post");
             if (canOpen)
@@ -63,7 +71,9 @@ namespace XFMyDecode2020.ViewModels
 
             OpenBrowserCommand = new AsyncCommand<string>(OpenBrowser);
             ChangeFavoritStateCommand = new MvvmHelpers.Commands.Command<string>(ChangeFavoritState);
+            ChangeWatchStateCommand = new MvvmHelpers.Commands.Command<string>(ChangeWatchState);
             TweetSessionCommand = new AsyncCommand<string>(TweetSession);
+
         }
 
 

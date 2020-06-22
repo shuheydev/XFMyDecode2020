@@ -114,19 +114,17 @@ namespace XFMyDecode2020.ViewModels
 
         internal async Task LoadSessions()
         {
+            //詳細ページからの遷移時にリストがリセットされてスクロール位置が先頭に
+            //戻ることを防ぐため
             try
             {
-                if (this.Sessions is null)
-                {
-                }
-
                 var sessions = (await _dataService.GetSessionDataAsync());
                 var removeTargets = sessions.Where(s => this.Sessions.Contains(s) && !s.IsFavorit).ToList();
                 var addTargets = sessions.Where(s => !this.Sessions.Contains(s) && s.IsFavorit).ToList();
 
                 this.Sessions.RemoveRange(removeTargets);
                 this.Sessions.AddRange(addTargets);
-
+                this.Sessions.OrderBy(s => s.TrackID);
 
                 foreach (var session in removeTargets)
                 {
@@ -152,7 +150,11 @@ namespace XFMyDecode2020.ViewModels
 
                     if (group is null)
                     {
-                        this.GroupedSessions.Add(new SessionGroup(session.TrackID, session.TrackName, new MvvmHelpers.ObservableRangeCollection<Session>()));
+                        var trackIds = this.GroupedSessions.Select(g => g.TrackID).ToList();
+                        trackIds.Add(session.TrackID);
+                        var orderedTrackIDs = trackIds.OrderBy(t=>t);
+                        int index = orderedTrackIDs.IndexOf(t => t == session.TrackID);
+                        this.GroupedSessions.Insert(index,new SessionGroup(session.TrackID, session.TrackName, new MvvmHelpers.ObservableRangeCollection<Session>()));
                     }
 
                     this.GroupedSessions.FirstOrDefault(g => g.TrackID == session.TrackID)?.Add(session);
@@ -162,6 +164,8 @@ namespace XFMyDecode2020.ViewModels
             {
                 throw;
             }
+
+
         }
     }
 }
