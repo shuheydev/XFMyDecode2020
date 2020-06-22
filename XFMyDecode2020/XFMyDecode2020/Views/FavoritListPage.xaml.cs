@@ -33,20 +33,17 @@ namespace XFMyDecode2020.Views
             SetHeaderBehaviorByScroll();
         }
 
-
-        //private SessionListViewModel _viewModel;
-        //public SessionListPage()
-        //{
-        //    InitializeComponent();
-        //    this.BindingContext = _viewModel = Startup.ServiceProvider.GetService<SessionListViewModel>();
-
-        //    SetHeaderBehaviorByScroll();
-        //}
-
         protected override async void OnAppearing()
         {
             base.OnAppearing();
             await _viewModel.LoadSessions();
+
+            ResetFrameHeaderPosition();
+        }
+
+        private void ResetFrameHeaderPosition()
+        {
+            frame_Header.TranslationY = 0;
         }
 
         private readonly double _slideToggleYPosition = 110;

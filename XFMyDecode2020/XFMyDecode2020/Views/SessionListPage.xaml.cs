@@ -39,6 +39,11 @@ namespace XFMyDecode2020.Views
             await _viewModel.LoadSessions();
         }
 
+        private void ResetFrameHeaderPosition()
+        {
+            frame_Header.TranslationY = 0;
+        }
+
         private readonly double _slideToggleYPosition = 110;
         private void SetHeaderBehaviorByScroll()
         {
