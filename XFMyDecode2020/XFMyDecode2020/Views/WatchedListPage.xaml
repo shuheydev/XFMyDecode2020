@@ -59,12 +59,10 @@
                         <pancake:PancakeView Style="{StaticResource ListItemCardStyle}">
                             <Grid>
                                 <Grid Margin="10">
-                                    <Grid
-                                        touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:WatchedListViewModel}}, Path=ShowSessionDetailsCommand}"
-                                        touch:TouchEff.CommandParameter="{Binding SessionID}"
-                                        touch:TouchEff.PressedOpacity="0.6"
-                                        touch:TouchEff.PressedScale="0.95"
-                                        touch:TouchEff.RegularAnimationDuration="100">
+                                    <Grid>
+                                        <Grid.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:FavoritListViewModel}}, Path=ShowSessionDetailsCommand}" CommandParameter="{Binding SessionID}" />
+                                        </Grid.GestureRecognizers>
                                         <Grid.RowDefinitions>
                                             <RowDefinition Height="*" />
                                             <RowDefinition Height="auto" />
