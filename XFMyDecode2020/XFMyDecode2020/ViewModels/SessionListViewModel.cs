@@ -52,7 +52,7 @@ namespace XFMyDecode2020.ViewModels
 
             this.GroupedSessions.Clear();
             this.GroupedSessions.AddRange(filteredSessions.GroupBy(s => s.TrackID)
-                                  .Select(g => new SessionGroup(g.Key, g.FirstOrDefault()?.TrackName, g.ToList())));
+                                  .Select(g => new SessionGroup(g.Key, g.FirstOrDefault()?.TrackName, new MvvmHelpers.ObservableRangeCollection<Session>(g.ToList()))));
         }
 
         public AsyncCommand<string> ShowSessionDetailsCommand { get; }
@@ -97,7 +97,7 @@ namespace XFMyDecode2020.ViewModels
                 //Let's grouping
                 this.GroupedSessions = new MvvmHelpers.ObservableRangeCollection<SessionGroup>();
                 this.GroupedSessions.AddRange(this.Sessions.GroupBy(s => s.TrackID)
-                                                      .Select(g => new SessionGroup(g.Key, g.FirstOrDefault()?.TrackName, g.ToList())));
+                                                      .Select(g => new SessionGroup(g.Key, g.FirstOrDefault()?.TrackName, new MvvmHelpers.ObservableRangeCollection<Session>(g.ToList()))));
             }
             catch
             {

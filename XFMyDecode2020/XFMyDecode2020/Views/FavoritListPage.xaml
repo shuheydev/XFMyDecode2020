@@ -15,6 +15,24 @@
     Shell.NavBarIsVisible="False"
     Visual="Default"
     mc:Ignorable="d">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Grid">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal" />
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{StaticResource ListBackgroundColor}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <Grid BackgroundColor="{StaticResource ListBackgroundColor}">
         <CollectionView
             x:Name="CollectionsView_Sessions"
@@ -59,12 +77,6 @@
                         <pancake:PancakeView Style="{StaticResource ListItemCardStyle}">
                             <Grid>
                                 <Grid Margin="10">
-                                    <!--<Grid
-                                        touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:FavoritListViewModel}}, Path=ShowSessionDetailsCommand}"
-                                        touch:TouchEff.CommandParameter="{Binding SessionID}"
-                                        touch:TouchEff.PressedOpacity="0.6"
-                                        touch:TouchEff.PressedScale="0.95"
-                                        touch:TouchEff.RegularAnimationDuration="100">-->
                                     <Grid>
                                         <Grid.GestureRecognizers>
                                             <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:FavoritListViewModel}}, Path=ShowSessionDetailsCommand}" CommandParameter="{Binding SessionID}" />
