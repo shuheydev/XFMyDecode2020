@@ -12,6 +12,8 @@
             <Color x:Key="TwitterColor">#1da1f2</Color>
             <Color x:Key="AppPrimaryColor">RoyalBlue</Color>
             <Color x:Key="StarColor">#FFB900</Color>
+            <Color x:Key="ListBackgroundColor">#eeeeee</Color>
+
             <Style x:Key="ListHeaderLabelStyle" TargetType="Label">
                 <Setter Property="Margin" Value="5" />
                 <Setter Property="FontAttributes" Value="Bold" />
@@ -23,7 +25,6 @@
                 <Setter Property="CornerRadius" Value="30" />
                 <Setter Property="FontFamily" Value="FA-R" />
                 <Setter Property="FontSize" Value="Large" />
-                <Setter Property="Text" Value="{x:Static icons:IconFont_FA_R.Star}" />
                 <Setter Property="TextColor" Value="LightGray" />
                 <Setter Property="BackgroundColor" Value="Transparent" />
             </Style>
