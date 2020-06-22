@@ -46,6 +46,20 @@ namespace XFMyDecode2020.ViewModels
             }
         }
 
+        private int _watchedSessionsCount;
+        public int WatchedSessionsCount
+        {
+            get => _watchedSessionsCount;
+            set => SetProperty(ref _watchedSessionsCount, value);
+        }
+
+        private int _totalSessionsCount;
+        public int TotalSessionsCount
+        {
+            get => _totalSessionsCount;
+            set => SetProperty(ref _totalSessionsCount, value);
+        }
+
         public MvvmHelpers.Commands.Command SearchSessionCommand { get; }
         private void SearchSession()
         {
@@ -78,15 +92,6 @@ namespace XFMyDecode2020.ViewModels
             {
                 session.IsFavorit = !session.IsFavorit;
                 _dataService.Save();
-
-                var group = this.GroupedSessions.FirstOrDefault(g => g.Any(s => s == session));
-                group.Remove(session);
-
-                //remove empty group
-                if(!group.Any())
-                {
-                    this.GroupedSessions.Remove(group);
-                }
             }
         }
 
@@ -109,8 +114,12 @@ namespace XFMyDecode2020.ViewModels
 
             try
             {
-                var sessions = (await _dataService.GetSessionDataAsync()).Where(s => s.IsWatched);
+                var allSessions = await _dataService.GetSessionDataAsync();
+                var sessions = allSessions.Where(s => s.IsWatched);
                 this.Sessions = new MvvmHelpers.ObservableRangeCollection<Session>(sessions);
+
+                this.WatchedSessionsCount = this.Sessions.Count;
+                this.TotalSessionsCount = allSessions.Count();
 
                 //Let's grouping
                 this.GroupedSessions = new MvvmHelpers.ObservableRangeCollection<SessionGroup>();

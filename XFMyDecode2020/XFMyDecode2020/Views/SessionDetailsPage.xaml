@@ -3,6 +3,7 @@
     x:Class="XFMyDecode2020.Views.SessionDetailsPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:checkbox="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     xmlns:converters="clr-namespace:XFMyDecode2020.Converters"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:icons="clr-namespace:XFMyDecode2020.Resources.Icons"
@@ -23,14 +24,15 @@
                         CornerRadius="2,2,2,20"
                         Elevation="4"
                         HasShadow="True">
-                        <Grid Margin="10">
-                            <StackLayout>
-                                <StackLayout Orientation="Horizontal">
-                                    <Label Text="{Binding SessionID}" />
-                                    <Label Text=" : " />
-                                    <Label Text="{Binding TrackName}" />
-                                </StackLayout>
-                                <!--<Label>
+                        <Grid>
+                            <Grid Margin="10">
+                                <StackLayout>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="{Binding SessionID}" />
+                                        <Label Text=" : " />
+                                        <Label Text="{Binding TrackName}" />
+                                    </StackLayout>
+                                    <!--<Label>
                                     <Label.Text>
                                         <MultiBinding StringFormat="{}{0} : {1}">
                                             <Binding Path="SessionID" />
@@ -38,32 +40,34 @@
                                         </MultiBinding>
                                     </Label.Text>
                                 </Label>-->
-                                <Label FontSize="Medium" Text="{Binding SessionTitle}" />
-                                <Label HorizontalOptions="End" Text="{Binding MainSpeaker.Name}" />
-                                <Label HorizontalOptions="End" Text="{Binding MainSpeaker.Company}" />
-                            </StackLayout>
-                            <Button
-                                x:Name="Button_Fav"
-                                Clicked="Button_Fav_Clicked"
-                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=ChangeFavoritStateCommand}"
-                                CommandParameter="{Binding SessionID}"
-                                HorizontalOptions="Start"
-                                Style="{StaticResource FavButtonStyle}"
-                                Text="{x:Static icons:IconFont_FA_R.Star}"
-                                TranslationX="-8"
-                                TranslationY="8"
-                                VerticalOptions="End">
-                                <Button.Triggers>
-                                    <DataTrigger
-                                        Binding="{Binding IsFavorit}"
-                                        TargetType="Button"
-                                        Value="True">
-                                        <Setter Property="FontFamily" Value="FA-S" />
-                                        <Setter Property="TextColor" Value="{StaticResource StarColor}" />
-                                        <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
-                                    </DataTrigger>
-                                </Button.Triggers>
-                            </Button>
+                                    <Label FontSize="Medium" Text="{Binding SessionTitle}" />
+                                    <Label HorizontalOptions="End" Text="{Binding MainSpeaker.Name}" />
+                                    <Label HorizontalOptions="End" Text="{Binding MainSpeaker.Company}" />
+                                </StackLayout>
+                                <Button
+                                    x:Name="Button_Fav"
+                                    Clicked="Button_Fav_Clicked"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=ChangeFavoritStateCommand}"
+                                    CommandParameter="{Binding SessionID}"
+                                    HorizontalOptions="Start"
+                                    Style="{StaticResource FavButtonStyle}"
+                                    Text="{x:Static icons:IconFont_FA_R.Star}"
+                                    TranslationX="-8"
+                                    TranslationY="8"
+                                    VerticalOptions="End">
+                                    <Button.Triggers>
+                                        <DataTrigger
+                                            Binding="{Binding IsFavorit}"
+                                            TargetType="Button"
+                                            Value="True">
+                                            <Setter Property="FontFamily" Value="FA-S" />
+                                            <Setter Property="TextColor" Value="{StaticResource StarColor}" />
+                                            <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
+                                        </DataTrigger>
+                                    </Button.Triggers>
+                                </Button>
+                            </Grid>
+                            <Label IsVisible="{Binding IsWatched}" Style="{StaticResource WatchedLabelStyle}" />
                         </Grid>
                     </pancake:PancakeView>
                     <pancake:PancakeView
@@ -74,7 +78,12 @@
                         HasShadow="True">
                         <Label Margin="10" Text="{Binding SessionDetails, Converter={converters:HtmlToTextConverter}}" />
                     </pancake:PancakeView>
-
+                    <checkbox:SfCheckBox
+                        x:Name="checkBox"
+                        Margin="15,10"
+                        CheckedColor="{StaticResource AppPrimaryColor}"
+                        IsChecked="{Binding IsWatched}"
+                        Text="Watched" />
                     <pancake:PancakeView
                         Margin="10"
                         touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=OpenBrowserCommand}"

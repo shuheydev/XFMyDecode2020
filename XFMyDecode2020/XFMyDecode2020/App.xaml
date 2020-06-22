@@ -50,6 +50,19 @@
                 <Setter Property="Elevation" Value="4" />
                 <Setter Property="HasShadow" Value="True" />
             </Style>
+
+            <Style x:Key="WatchedLabelStyle" TargetType="Label">
+                <Setter Property="Padding" Value="30,3,30,3" />
+                <Setter Property="BackgroundColor" Value="{StaticResource AppPrimaryColor}" />
+                <Setter Property="FontSize" Value="Micro" />
+                <Setter Property="Rotation" Value="45" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="Text" Value="Watched" />
+                <Setter Property="TranslationX" Value="32" />
+                <Setter Property="TranslationY" Value="10" />
+                <Setter Property="VerticalOptions" Value="Start" />
+                <Setter Property="HorizontalOptions" Value="End" />
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

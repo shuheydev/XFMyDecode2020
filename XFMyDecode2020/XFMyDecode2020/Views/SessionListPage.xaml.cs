@@ -37,6 +37,8 @@ namespace XFMyDecode2020.Views
         {
             base.OnAppearing();
             await _viewModel.LoadSessions();
+
+            ResetFrameHeaderPosition();
         }
 
         private void ResetFrameHeaderPosition()
