@@ -3,8 +3,8 @@
 
 セッションを検索して,お気に入りに追加して,公式サイトをブラウザで開いて視聴する,という単純なものです.
 
-<img src='https://user-images.githubusercontent.com/43431002/85207312-e3e7af00-b362-11ea-989d-ae4e5404d9f2.png' width='200'/>
-<img src='https://user-images.githubusercontent.com/43431002/85207441-a9cadd00-b363-11ea-9ec5-c683bf8ec5f6.png' width='200'/>
+<img src='https://user-images.githubusercontent.com/43431002/85307821-57b4c380-b4eb-11ea-8f1b-19199f0f48e3.png' width='200'/>
+<img src='https://user-images.githubusercontent.com/43431002/85307927-83d04480-b4eb-11ea-948f-e85a069c8c86.png' width='200'/>
 
 検索方式は単純な文字列検索です.
 
@@ -51,3 +51,8 @@ Xamarin.Formsで作成したのでiOSでも動くと思いますが開発環境�
 - 公式サイト提供のJSONデータ
 - Taiki Yoshidaさんが作成されたJSONデータ(https://github.com/taiki-yoshida/decode2020-powerapps)
 
+
+# アップデート
+## 20200623
+- 視聴済みフラグを導入した
+- ホーム,お気に入り,視聴済みをタブで切り替えできるようにした.
