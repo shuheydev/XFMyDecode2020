@@ -38,7 +38,7 @@
             </controls:SessionSearchHandler.ItemTemplate>
         </controls:SessionSearchHandler>
     </Shell.SearchHandler>-->
-    <Grid BackgroundColor="#eeeeee">
+    <Grid BackgroundColor="{StaticResource ListBackgroundColor}">
         <CollectionView
             x:Name="CollectionsView_Sessions"
             Margin="5,0,5,0"
@@ -118,34 +118,6 @@
                                     <Label Grid.Row="2" Text="{Binding MainSpeaker.Name}" />
                                     <Label Grid.Row="3" Text="{Binding MainSpeaker.Company}" />
                                 </Grid>
-                                <!--<Button
-                                    x:Name="Button_Fav"
-                                    Margin="0"
-                                    Padding="0"
-                                    BackgroundColor="Transparent"
-                                    Clicked="Button_Fav_Clicked"
-                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ChangeFavoritStateCommand}"
-                                    CommandParameter="{Binding SessionID}"
-                                    CornerRadius="30"
-                                    FontFamily="FA-R"
-                                    FontSize="Large"
-                                    HeightRequest="40"
-                                    HorizontalOptions="End"
-                                    Text="{x:Static icons:IconFont_FA_R.Star}"
-                                    TextColor="LightGray"
-                                    VerticalOptions="End"
-                                    WidthRequest="40">
-                                    <Button.Triggers>
-                                        <DataTrigger
-                                            Binding="{Binding IsFavorit}"
-                                            TargetType="Button"
-                                            Value="True">
-                                            <Setter Property="FontFamily" Value="FA-S" />
-                                            <Setter Property="TextColor" Value="{StaticResource StarColor}" />
-                                            <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
-                                        </DataTrigger>
-                                    </Button.Triggers>
-                                </Button>-->
                                 <Button
                                     x:Name="Button_Fav"
                                     Margin="0"
@@ -156,6 +128,7 @@
                                     HeightRequest="40"
                                     HorizontalOptions="End"
                                     Style="{StaticResource FavButtonStyle}"
+                                    Text="{x:Static icons:IconFont_FA_R.Star}"
                                     VerticalOptions="End"
                                     WidthRequest="40">
                                     <Button.Triggers>
@@ -171,7 +144,6 @@
                                 </Button>
                             </Grid>
                         </pancake:PancakeView>
-
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

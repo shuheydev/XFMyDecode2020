@@ -1,10 +1,11 @@
-﻿using System;
+﻿using MvvmHelpers;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace XFMyDecode2020.Models
 {
-    public class SessionGroup : List<Session>
+    public class SessionGroup : ObservableRangeCollection<Session>
     {
         public string TrackID { get; private set; }
         public string TrackName { get; private set; }

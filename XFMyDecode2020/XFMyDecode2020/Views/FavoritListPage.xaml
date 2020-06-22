@@ -6,107 +6,151 @@
     xmlns:controls="clr-namespace:XFMyDecode2020.Controls"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:icons="clr-namespace:XFMyDecode2020.Resources.Icons"
+    xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    xmlns:sharpnado="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
+    xmlns:touch="clr-namespace:TouchEffect;assembly=TouchEffect"
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
     Shell.NavBarIsVisible="False"
     Visual="Default"
     mc:Ignorable="d">
-    <Grid>
+    <Grid BackgroundColor="{StaticResource ListBackgroundColor}">
         <CollectionView
             x:Name="CollectionsView_Sessions"
-            Margin="12,0,12,0"
+            Margin="5,0,5,0"
             IsGrouped="True"
             ItemsSource="{Binding GroupedSessions}">
             <CollectionView.ItemsLayout>
-                <LinearItemsLayout ItemSpacing="10" Orientation="Vertical" />
+                <LinearItemsLayout ItemSpacing="0" Orientation="Vertical" />
             </CollectionView.ItemsLayout>
             <CollectionView.Header>
-                <Grid HeightRequest="65" />
+                <Grid HeightRequest="70" />
             </CollectionView.Header>
             <CollectionView.GroupHeaderTemplate>
                 <DataTemplate>
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="{Binding TrackID}" />
-                        <Label Text="{Binding TrackName, StringFormat=' {0}'}" />
-                    </StackLayout>
-                    <!--<Label
-                        BackgroundColor="LightBlue"
-                        FontAttributes="Bold"
-                        FontSize="Large"
-                        LineBreakMode="TailTruncation">
-                        <Label.Text>
-                            <MultiBinding StringFormat="{}{0} : {1}">
-                                <Binding Path="TrackID" />
-                                <Binding Path="TrackName" />
-                            </MultiBinding>
-                        </Label.Text>
-                    </Label>-->
+                    <Grid>
+                        <pancake:PancakeView
+                            Margin="2,15,2,5"
+                            BackgroundColor="{StaticResource AppPrimaryColor}"
+                            CornerRadius="2,2,2,24"
+                            Elevation="4"
+                            HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Style="{StaticResource ListHeaderLabelStyle}" Text="{Binding TrackID}" />
+                                <Label Style="{StaticResource ListHeaderLabelStyle}" Text=" : " />
+                                <Label Style="{StaticResource ListHeaderLabelStyle}" Text="{Binding TrackName}" />
+                            </StackLayout>
+                            <!--<Label
+                                Margin="5"
+                                FontAttributes="Bold"
+                                FontSize="Large"
+                                LineBreakMode="TailTruncation"
+                                TextColor="White">
+                                <Label.Text>
+                                    <MultiBinding StringFormat="{}{0} : {1}">
+                                        <Binding Path="TrackID" />
+                                        <Binding Path="TrackName" />
+                                    </MultiBinding>
+                                </Label.Text>
+                            </Label>-->
+                        </pancake:PancakeView>
+                    </Grid>
                 </DataTemplate>
             </CollectionView.GroupHeaderTemplate>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
-                        <Frame BorderColor="LightGray" HasShadow="True">
-                            <Frame.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:FavoritListViewModel}}, Path=ShowSessionDetailsCommand}" CommandParameter="{Binding SessionID}" />
-                            </Frame.GestureRecognizers>
-                            <StackLayout>
-                                <Label FontSize="Medium" Text="{Binding SessionTitle}" />
-                                <!--<Label LineBreakMode="TailTruncation">
-                                    <Label.Text>
-                                        <MultiBinding StringFormat="{}{0} {1}">
-                                            <Binding Path="MainSpeaker.Name" />
-                                            <Binding Path="MainSpeaker.Company" />
-                                        </MultiBinding>
-                                    </Label.Text>
-                                </Label>-->
-                                <Label Text="{Binding SessionID, StringFormat='# {0}'}" />
-                            </StackLayout>
-                        </Frame>
-                        <Button
-                            x:Name="Button_Fav"
-                            Padding="0"
-                            BackgroundColor="Transparent"
-                            Clicked="Button_Fav_Clicked"
-                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:FavoritListViewModel}}, Path=ChangeFavoritStateCommand}"
-                            CommandParameter="{Binding SessionID}"
-                            CornerRadius="30"
-                            FontFamily="FA-R"
-                            FontSize="Large"
-                            HeightRequest="40"
-                            HorizontalOptions="End"
-                            IsVisible="False"
-                            Text="{x:Static icons:IconFont_FA_R.Star}"
-                            VerticalOptions="End"
-                            WidthRequest="40">
-                            <Button.Triggers>
-                                <DataTrigger
-                                    Binding="{Binding IsFavorit}"
-                                    TargetType="Button"
-                                    Value="True">
-                                    <Setter Property="FontFamily" Value="FA-S" />
-                                    <Setter Property="TextColor" Value="Gold" />
-                                    <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
-                                </DataTrigger>
-                            </Button.Triggers>
-                        </Button>
+                        <pancake:PancakeView
+                            Margin="2,5,2,5"
+                            BackgroundColor="White"
+                            CornerRadius="2,2,2,20"
+                            Elevation="2"
+                            HasShadow="True">
+                            <Grid Margin="10">
+                                <Grid
+                                    touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:FavoritListViewModel}}, Path=ShowSessionDetailsCommand}"
+                                    touch:TouchEff.CommandParameter="{Binding SessionID}"
+                                    touch:TouchEff.PressedOpacity="0.6"
+                                    touch:TouchEff.PressedScale="0.95"
+                                    touch:TouchEff.RegularAnimationDuration="100">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="auto" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Label
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        Padding="5,0"
+                                        HorizontalOptions="Start"
+                                        Text="{Binding SessionID, StringFormat='#{0}'}"
+                                        TextColor="#00A4EF" />
+                                    <Label
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        FontSize="Medium"
+                                        Text="{Binding SessionTitle}" />
+                                    <Label Grid.Row="2" Text="{Binding MainSpeaker.Name}" />
+                                    <Label Grid.Row="3" Text="{Binding MainSpeaker.Company}" />
+                                </Grid>
+                                <Button
+                                    x:Name="Button_Fav"
+                                    Margin="0"
+                                    Padding="0"
+                                    Clicked="Button_Fav_Clicked"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:FavoritListViewModel}}, Path=ChangeFavoritStateCommand}"
+                                    CommandParameter="{Binding SessionID}"
+                                    HeightRequest="40"
+                                    HorizontalOptions="End"
+                                    Style="{StaticResource FavButtonStyle}"
+                                    Text="{x:Static icons:IconFont_FA_R.Star}"
+                                    VerticalOptions="End"
+                                    WidthRequest="40">
+                                    <Button.Triggers>
+                                        <DataTrigger
+                                            Binding="{Binding IsFavorit}"
+                                            TargetType="Button"
+                                            Value="True">
+                                            <Setter Property="FontFamily" Value="FA-S" />
+                                            <Setter Property="TextColor" Value="{StaticResource StarColor}" />
+                                            <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
+                                        </DataTrigger>
+                                    </Button.Triggers>
+                                </Button>
+                            </Grid>
+                        </pancake:PancakeView>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
+            <CollectionView.Footer>
+                <Grid HeightRequest="80" />
+            </CollectionView.Footer>
         </CollectionView>
 
         <!--  ナビゲーションバー.StackLayoutと重なる  -->
-        <Frame
+        <sharpnado:MaterialFrame
             x:Name="frame_Header"
-            Margin="15,8,15,0"
+            Margin="3,8,3,0"
             Padding="0"
-            BackgroundColor="LightGray"
-            HeightRequest="50"
+            CornerRadius="5"
+            MaterialTheme="Acrylic"
             VerticalOptions="Start">
-            <Entry
-                ClearButtonVisibility="WhileEditing"
-                Placeholder="Enter search term"
-                Text="{Binding SearchString}" />
-        </Frame>
+
+            <inputLayout:SfTextInputLayout
+                Margin="3,0,3,0"
+                BackgroundColor="Transparent"
+                ContainerType="Outlined"
+                FocusedColor="{StaticResource AppPrimaryColor}"
+                Hint="Search Term"
+                VerticalOptions="Center">
+                <Entry
+                    ClearButtonVisibility="WhileEditing"
+                    FontSize="Small"
+                    ReturnCommand="{Binding SearchSessionCommand}"
+                    Text="{Binding SearchString}" />
+            </inputLayout:SfTextInputLayout>
+        </sharpnado:MaterialFrame>
     </Grid>
 </ContentPage>
