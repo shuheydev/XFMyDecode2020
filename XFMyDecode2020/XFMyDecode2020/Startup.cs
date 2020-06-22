@@ -54,6 +54,8 @@ namespace XFMyDecode2020
             //ex:View, ViewModel, DataService, Notification Service etc.
             //services.AddTransient<MainPage>();
             services.AddSingleton<IDataService, DataService>();
+            services.AddTransient<WatchedListViewModel>();
+            services.AddTransient<WatchedListPage>();
             services.AddTransient<FavoritListViewModel>();
             services.AddTransient<FavoritListPage>();
             services.AddTransient<SessionListViewModel>();

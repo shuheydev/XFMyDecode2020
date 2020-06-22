@@ -41,6 +41,12 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
     <PackageReference Include="Xamarin.Forms.PancakeView" Version="1.4.2" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Update="Views\WatchedListPage.xaml.cs">
+      <DependentUpon>WatchedListPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="AppShell.xaml">

@@ -30,12 +30,7 @@
             <CollectionView.GroupHeaderTemplate>
                 <DataTemplate>
                     <Grid>
-                        <pancake:PancakeView
-                            Margin="2,15,2,5"
-                            BackgroundColor="{StaticResource AppPrimaryColor}"
-                            CornerRadius="2,2,2,24"
-                            Elevation="4"
-                            HasShadow="True">
+                        <pancake:PancakeView Style="{StaticResource ListHeaderCardStyle}">
                             <StackLayout Orientation="Horizontal">
                                 <Label Style="{StaticResource ListHeaderLabelStyle}" Text="{Binding TrackID}" />
                                 <Label Style="{StaticResource ListHeaderLabelStyle}" Text=" : " />
@@ -61,64 +56,62 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
-                        <pancake:PancakeView
-                            Margin="2,5,2,5"
-                            BackgroundColor="White"
-                            CornerRadius="2,2,2,20"
-                            Elevation="2"
-                            HasShadow="True">
-                            <Grid Margin="10">
-                                <Grid
-                                    touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:FavoritListViewModel}}, Path=ShowSessionDetailsCommand}"
-                                    touch:TouchEff.CommandParameter="{Binding SessionID}"
-                                    touch:TouchEff.PressedOpacity="0.6"
-                                    touch:TouchEff.PressedScale="0.95"
-                                    touch:TouchEff.RegularAnimationDuration="100">
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="*" />
-                                        <RowDefinition Height="auto" />
-                                        <RowDefinition Height="*" />
-                                        <RowDefinition Height="*" />
-                                    </Grid.RowDefinitions>
-                                    <Label
-                                        Grid.Row="0"
-                                        Grid.Column="0"
-                                        Padding="5,0"
-                                        HorizontalOptions="Start"
-                                        Text="{Binding SessionID, StringFormat='#{0}'}"
-                                        TextColor="#00A4EF" />
-                                    <Label
-                                        Grid.Row="1"
-                                        Grid.Column="0"
-                                        FontSize="Medium"
-                                        Text="{Binding SessionTitle}" />
-                                    <Label Grid.Row="2" Text="{Binding MainSpeaker.Name}" />
-                                    <Label Grid.Row="3" Text="{Binding MainSpeaker.Company}" />
+                        <pancake:PancakeView Style="{StaticResource ListItemCardStyle}">
+                            <Grid>
+                                <Grid Margin="10">
+                                    <!--<Grid
+                                        touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:FavoritListViewModel}}, Path=ShowSessionDetailsCommand}"
+                                        touch:TouchEff.CommandParameter="{Binding SessionID}"
+                                        touch:TouchEff.PressedOpacity="0.6"
+                                        touch:TouchEff.PressedScale="0.95"
+                                        touch:TouchEff.RegularAnimationDuration="100">-->
+                                    <Grid>
+                                        <Grid.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:FavoritListViewModel}}, Path=ShowSessionDetailsCommand}" CommandParameter="{Binding SessionID}" />
+                                        </Grid.GestureRecognizers>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*" />
+                                            <RowDefinition Height="auto" />
+                                            <RowDefinition Height="*" />
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
+                                        <Label
+                                            Grid.Row="0"
+                                            Grid.Column="0"
+                                            Padding="5,0"
+                                            HorizontalOptions="Start"
+                                            Text="{Binding SessionID, StringFormat='#{0}'}"
+                                            TextColor="#00A4EF" />
+                                        <Label
+                                            Grid.Row="1"
+                                            Grid.Column="0"
+                                            FontSize="Medium"
+                                            Text="{Binding SessionTitle}" />
+                                        <Label Grid.Row="2" Text="{Binding MainSpeaker.Name}" />
+                                        <Label Grid.Row="3" Text="{Binding MainSpeaker.Company}" />
+                                    </Grid>
+                                    <Button
+                                        x:Name="Button_Fav"
+                                        Clicked="Button_Fav_Clicked"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:FavoritListViewModel}}, Path=ChangeFavoritStateCommand}"
+                                        CommandParameter="{Binding SessionID}"
+                                        HorizontalOptions="End"
+                                        Style="{StaticResource FavButtonStyle}"
+                                        Text="{x:Static icons:IconFont_FA_R.Star}"
+                                        VerticalOptions="End">
+                                        <Button.Triggers>
+                                            <DataTrigger
+                                                Binding="{Binding IsFavorit}"
+                                                TargetType="Button"
+                                                Value="True">
+                                                <Setter Property="FontFamily" Value="FA-S" />
+                                                <Setter Property="TextColor" Value="{StaticResource StarColor}" />
+                                                <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
+                                            </DataTrigger>
+                                        </Button.Triggers>
+                                    </Button>
                                 </Grid>
-                                <Button
-                                    x:Name="Button_Fav"
-                                    Margin="0"
-                                    Padding="0"
-                                    Clicked="Button_Fav_Clicked"
-                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:FavoritListViewModel}}, Path=ChangeFavoritStateCommand}"
-                                    CommandParameter="{Binding SessionID}"
-                                    HeightRequest="40"
-                                    HorizontalOptions="End"
-                                    Style="{StaticResource FavButtonStyle}"
-                                    Text="{x:Static icons:IconFont_FA_R.Star}"
-                                    VerticalOptions="End"
-                                    WidthRequest="40">
-                                    <Button.Triggers>
-                                        <DataTrigger
-                                            Binding="{Binding IsFavorit}"
-                                            TargetType="Button"
-                                            Value="True">
-                                            <Setter Property="FontFamily" Value="FA-S" />
-                                            <Setter Property="TextColor" Value="{StaticResource StarColor}" />
-                                            <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
-                                        </DataTrigger>
-                                    </Button.Triggers>
-                                </Button>
+                                <Label IsVisible="{Binding IsWatched}" Style="{StaticResource WatchedLabelStyle}" />
                             </Grid>
                         </pancake:PancakeView>
                     </Grid>

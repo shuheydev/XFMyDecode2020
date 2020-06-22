@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-    x:Class="XFMyDecode2020.Views.SessionListPage"
+    x:Class="XFMyDecode2020.Views.WatchedListPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:XFMyDecode2020.Controls"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:icons="clr-namespace:XFMyDecode2020.Resources.Icons"
     xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
@@ -14,30 +15,6 @@
     Shell.NavBarIsVisible="False"
     Visual="Default"
     mc:Ignorable="d">
-    <!--<Shell.SearchHandler>
-        <controls:SessionSearchHandler Placeholder="Enter search term" ShowsResults="True">
-            <controls:SessionSearchHandler.ItemTemplate>
-                <DataTemplate>
-                    <Grid>
-                        <Frame BorderColor="Black">
-                            <StackLayout>
-                                <Label FontSize="Medium" Text="{Binding SessionTitle}" />
-                                <Label LineBreakMode="TailTruncation">
-                                    <Label.Text>
-                                        <MultiBinding StringFormat="{}{0} {1}">
-                                            <Binding Path="MainSpeaker.Name" />
-                                            <Binding Path="MainSpeaker.Company" />
-                                        </MultiBinding>
-                                    </Label.Text>
-                                </Label>
-                                <Label Text="{Binding SessionID, StringFormat='# {0}'}" />
-                            </StackLayout>
-                        </Frame>
-                    </Grid>
-                </DataTemplate>
-            </controls:SessionSearchHandler.ItemTemplate>
-        </controls:SessionSearchHandler>
-    </Shell.SearchHandler>-->
     <Grid BackgroundColor="{StaticResource ListBackgroundColor}">
         <CollectionView
             x:Name="CollectionsView_Sessions"
@@ -84,7 +61,7 @@
                                 <Grid Margin="10">
                                     <Grid>
                                         <Grid.GestureRecognizers>
-                                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ShowSessionDetailsCommand}" CommandParameter="{Binding SessionID}" />
+                                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:FavoritListViewModel}}, Path=ShowSessionDetailsCommand}" CommandParameter="{Binding SessionID}" />
                                         </Grid.GestureRecognizers>
                                         <Grid.RowDefinitions>
                                             <RowDefinition Height="*" />
@@ -110,7 +87,7 @@
                                     <Button
                                         x:Name="Button_Fav"
                                         Clicked="Button_Fav_Clicked"
-                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ChangeFavoritStateCommand}"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:WatchedListViewModel}}, Path=ChangeFavoritStateCommand}"
                                         CommandParameter="{Binding SessionID}"
                                         HorizontalOptions="End"
                                         Style="{StaticResource FavButtonStyle}"
@@ -135,7 +112,7 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
             <CollectionView.Footer>
-                <Grid HeightRequest="80" />
+                <Grid HeightRequest="100" />
             </CollectionView.Footer>
         </CollectionView>
 
@@ -162,5 +139,40 @@
                     Text="{Binding SearchString}" />
             </inputLayout:SfTextInputLayout>
         </sharpnado:MaterialFrame>
+
+        <pancake:PancakeView
+            Margin="10"
+            Padding="0"
+            BackgroundColor="White"
+            CornerRadius="40"
+            HasShadow="True"
+            HeightRequest="80"
+            HorizontalOptions="End"
+            Opacity="0.7"
+            VerticalOptions="End"
+            WidthRequest="80">
+            <StackLayout
+                HorizontalOptions="Center"
+                Orientation="Vertical"
+                VerticalOptions="Center">
+                <Label
+                    FontSize="Large"
+                    HorizontalOptions="Center"
+                    Text="{Binding WatchedSessionsCount}"
+                    TranslationY="5"
+                    VerticalOptions="Center" />
+                <BoxView
+                    BackgroundColor="LightGray"
+                    HeightRequest="3"
+                    HorizontalOptions="Center"
+                    WidthRequest="50" />
+                <Label
+                    FontSize="Large"
+                    HorizontalOptions="Center"
+                    Text="{Binding TotalSessionsCount}"
+                    TranslationY="-5"
+                    VerticalOptions="Center" />
+            </StackLayout>
+        </pancake:PancakeView>
     </Grid>
 </ContentPage>

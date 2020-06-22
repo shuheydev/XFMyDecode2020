@@ -11,7 +11,7 @@ using XFMyDecode2020.ViewModels;
 namespace XFMyDecode2020.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class SessionListPage : ContentPage
+    public partial class WatchedListPage : ContentPage
     {
         private string _message;
         public string Message
@@ -24,11 +24,11 @@ namespace XFMyDecode2020.Views
             }
         }
 
-        private SessionListViewModel _viewModel;
-        public SessionListPage()
+        private WatchedListViewModel _viewModel;
+        public WatchedListPage()
         {
             InitializeComponent();
-            this.BindingContext = _viewModel = Startup.ServiceProvider.GetService<SessionListViewModel>();
+            this.BindingContext = _viewModel = Startup.ServiceProvider.GetService<WatchedListViewModel>();
 
             SetHeaderBehaviorByScroll();
         }

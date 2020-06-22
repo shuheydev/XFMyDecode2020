@@ -40,11 +40,11 @@
             </Tab.Icon>
             <ShellContent ContentTemplate="{DataTemplate views:FavoritListPage}" Route="favorits" />
         </Tab>
-        <!--<Tab Title="Watch Later">
+        <Tab Title="Watched">
             <Tab.Icon>
-                <FontImageSource FontFamily="FA-R" Glyph="{x:Static icons:IconFont_FA_R.Bookmark}" />
+                <FontImageSource FontFamily="FA-S" Glyph="{x:Static icons:IconFont_FA_S.Check}" />
             </Tab.Icon>
-            <ShellContent ContentTemplate="{DataTemplate views:SessionListPage}" Route="sessions" />
-        </Tab>-->
+            <ShellContent ContentTemplate="{DataTemplate views:WatchedListPage}" Route="watched" />
+        </Tab>
     </TabBar>
 </Shell>

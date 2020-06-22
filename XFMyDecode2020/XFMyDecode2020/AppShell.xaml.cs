@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XFMyDecode2020.ViewModels;
 using XFMyDecode2020.Views;
 
 namespace XFMyDecode2020
@@ -19,6 +20,7 @@ namespace XFMyDecode2020
 
             Routing.RegisterRoute("favorits", typeof(FavoritListPage));
             Routing.RegisterRoute("sessions", typeof(SessionListPage));
+            Routing.RegisterRoute("watched", typeof(WatchedListPage));
             Routing.RegisterRoute("sessionDetails", typeof(SessionDetailsPage));
         }
     }
