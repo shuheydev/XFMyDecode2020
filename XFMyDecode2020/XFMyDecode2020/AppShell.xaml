@@ -19,15 +19,17 @@
                 <Setter Property="Shell.DisabledColor" Value="LightGray" />
                 <Setter Property="Shell.UnselectedColor" Value="LightGray" />
                 <Setter Property="Shell.NavBarHasShadow" Value="False" />
+                <Setter Property="Shell.NavBarIsVisible" Value="True" />
                 <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource AppPrimaryColor}" />
             </Style>
             <Style
                 ApplyToDerivedTypes="True"
                 BasedOn="{StaticResource BaseStyle}"
-                TargetType="TabBar" />
+                TargetType="FlyoutItem" />
         </ResourceDictionary>
     </Shell.Resources>
-    <TabBar>
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <Tab Title="Home">
             <Tab.Icon>
                 <FontImageSource FontFamily="FA-S" Glyph="{x:Static icons:IconFont_FA_S.Home}" />
@@ -46,5 +48,25 @@
             </Tab.Icon>
             <ShellContent ContentTemplate="{DataTemplate views:WatchedListPage}" Route="watched" />
         </Tab>
-    </TabBar>
+    </FlyoutItem>
+    <!--<TabBar>
+        <Tab Title="Home">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FA-S" Glyph="{x:Static icons:IconFont_FA_S.Home}" />
+            </Tab.Icon>
+            <ShellContent ContentTemplate="{DataTemplate views:SessionListPage}" Route="sessions" />
+        </Tab>
+        <Tab Title="Favorit">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FA-R" Glyph="{x:Static icons:IconFont_FA_R.Star}" />
+            </Tab.Icon>
+            <ShellContent ContentTemplate="{DataTemplate views:FavoritListPage}" Route="favorits" />
+        </Tab>
+        <Tab Title="Watched">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FA-S" Glyph="{x:Static icons:IconFont_FA_S.Check}" />
+            </Tab.Icon>
+            <ShellContent ContentTemplate="{DataTemplate views:WatchedListPage}" Route="watched" />
+        </Tab>
+    </TabBar>-->
 </Shell>
