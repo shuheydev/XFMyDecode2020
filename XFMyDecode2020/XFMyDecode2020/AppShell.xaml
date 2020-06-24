@@ -43,7 +43,6 @@
                     </VisualStateGroupList>
                 </Setter>
             </Style>
-
             <Style
                 x:Key="FavoritListShellStyle"
                 BasedOn="{StaticResource BaseStyle}"
@@ -64,7 +63,7 @@
     <!--  Flyoutの項目のテンプレート  -->
     <Shell.ItemTemplate>
         <DataTemplate>
-            <Grid Style="{StaticResource FlyoutItemStyle}">
+            <Grid x:Name="FlyoutItemGrid" Style="{StaticResource FlyoutItemStyle}">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="0.2*" />
                     <ColumnDefinition Width="0.8*" />
@@ -76,9 +75,19 @@
                     Source="{Binding FlyoutIcon}" />
                 <Label
                     Grid.Column="1"
-                    FontAttributes="Italic"
                     Text="{Binding Title}"
-                    VerticalTextAlignment="Center" />
+                    VerticalTextAlignment="Center">
+                    <Label.Triggers>
+                        <DataTrigger
+                            Binding="{Binding Source={Reference FlyoutItemGrid}, Path=BackgroundColor}"
+                            TargetType="Label"
+                            Value="{StaticResource AppPrimaryColor}">
+                            <Setter Property="TextColor" Value="White" />
+                            <Setter Property="FontAttributes" Value="Italic" />
+                            <Setter Property="Scale" Value="1.1" />
+                        </DataTrigger>
+                    </Label.Triggers>
+                </Label>
             </Grid>
         </DataTemplate>
     </Shell.ItemTemplate>
@@ -92,13 +101,19 @@
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <Tab Title="Home">
             <Tab.Icon>
-                <FontImageSource FontFamily="FA-S" Glyph="{x:Static icons:IconFont_FA_S.Home}" />
+                <FontImageSource
+                    FontFamily="FA-S"
+                    Glyph="{x:Static icons:IconFont_FA_S.Home}"
+                    Color="LightGray" />
             </Tab.Icon>
             <ShellContent ContentTemplate="{DataTemplate views:SessionListPage}" Route="sessions" />
         </Tab>
         <Tab Title="Favorit">
             <Tab.Icon>
-                <FontImageSource FontFamily="FA-R" Glyph="{x:Static icons:IconFont_FA_R.Star}" />
+                <FontImageSource
+                    FontFamily="FA-R"
+                    Glyph="{x:Static icons:IconFont_FA_R.Star}"
+                    Color="LightGray" />
             </Tab.Icon>
             <ShellContent
                 ContentTemplate="{DataTemplate views:FavoritListPage}"
@@ -107,7 +122,10 @@
         </Tab>
         <Tab Title="Watched">
             <Tab.Icon>
-                <FontImageSource FontFamily="FA-S" Glyph="{x:Static icons:IconFont_FA_S.Check}" />
+                <FontImageSource
+                    FontFamily="FA-S"
+                    Glyph="{x:Static icons:IconFont_FA_S.Check}"
+                    Color="LightGray" />
             </Tab.Icon>
             <ShellContent
                 ContentTemplate="{DataTemplate views:WatchedListPage}"
