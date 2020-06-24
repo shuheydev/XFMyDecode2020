@@ -15,6 +15,8 @@
     <None Remove="Resources\Icons\fa-brands-400.ttf" />
     <None Remove="Resources\Icons\fa-regular-400.ttf" />
     <None Remove="Resources\Icons\fa-solid-900.ttf" />
+    <None Remove="Resources\Images\FlyoutHeaderImage.png" />
+    <None Remove="Resources\Images\FlyoutHeaderImage2.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +26,8 @@
     <EmbeddedResource Include="Resources\Icons\fa-brands-400.ttf" />
     <EmbeddedResource Include="Resources\Icons\fa-regular-400.ttf" />
     <EmbeddedResource Include="Resources\Icons\fa-solid-900.ttf" />
+    <EmbeddedResource Include="Resources\Images\FlyoutHeaderImage.png" />
+    <EmbeddedResource Include="Resources\Images\FlyoutHeaderImage2.png" />
   </ItemGroup>
   
   <ItemGroup>
