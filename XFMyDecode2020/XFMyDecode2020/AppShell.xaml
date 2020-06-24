@@ -48,20 +48,6 @@
                     </VisualStateGroupList>
                 </Setter>
             </Style>
-            <!--<Style
-                x:Key="FavoritListShellStyle"
-                BasedOn="{StaticResource BaseStyle}"
-                TargetType="Element">
-                <Setter Property="Shell.BackgroundColor" Value="{DynamicResource CurrentAccentColor}" />
-                <Setter Property="Shell.TabBarBackgroundColor" Value="{DynamicResource CurrentAccentColor}" />
-            </Style>
-            <Style
-                x:Key="WatchedListShellStyle"
-                BasedOn="{StaticResource BaseStyle}"
-                TargetType="Element">
-                <Setter Property="Shell.BackgroundColor" Value="{StaticResource WatchedListShellColor}" />
-                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource WatchedListShellColor}" />
-            </Style>-->
         </ResourceDictionary>
     </Shell.Resources>
 
@@ -82,7 +68,7 @@
                     Grid.Column="1"
                     Text="{Binding Title}"
                     VerticalTextAlignment="Center">
-                    <Label.Triggers>
+                    <!--<Label.Triggers>
                         <DataTrigger
                             Binding="{Binding Source={Reference FlyoutItemGrid}, Path=BackgroundColor}"
                             TargetType="Label"
@@ -91,7 +77,7 @@
                             <Setter Property="FontAttributes" Value="Italic" />
                             <Setter Property="Scale" Value="1.1" />
                         </DataTrigger>
-                    </Label.Triggers>
+                    </Label.Triggers>-->
                 </Label>
             </Grid>
         </DataTemplate>
