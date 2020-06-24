@@ -7,6 +7,7 @@
     xmlns:icons="clr-namespace:XFMyDecode2020.Resources.Icons"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    xmlns:touch="clr-namespace:TouchEffect;assembly=TouchEffect"
     mc:Ignorable="d">
     <Application.Resources>
         <ResourceDictionary>
@@ -64,6 +65,27 @@
                 <Setter Property="TranslationY" Value="10" />
                 <Setter Property="VerticalOptions" Value="Start" />
                 <Setter Property="HorizontalOptions" Value="End" />
+            </Style>
+
+            <Style x:Key="TwitterButtonStyle" TargetType="Button">
+                <Setter Property="touch:TouchEff.PressedOpacity" Value="0.6" />
+                <Setter Property="touch:TouchEff.PressedScale" Value="0.9" />
+                <Setter Property="touch:TouchEff.RegularAnimationDuration" Value="100" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="CornerRadius" Value="50" />
+                <Setter Property="FontSize" Value="32" />
+                <Setter Property="HeightRequest" Value="70" />
+                <Setter Property="WidthRequest" Value="70" />
+                <Setter Property="Padding" Value="0" />
+            </Style>
+
+            <Style x:Key="AppButtonStyle" TargetType="pancake:PancakeView">
+                <Setter Property="CornerRadius" Value="50,50,50,10" />
+                <Setter Property="Elevation" Value="5" />
+                <Setter Property="HasShadow" Value="True" />
+                <Setter Property="HeightRequest" Value="60" />
+                <Setter Property="WidthRequest" Value="60" />
+                <Setter Property="BackgroundColor" Value="{DynamicResource CurrentAccentColor}" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>

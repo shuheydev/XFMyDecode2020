@@ -38,6 +38,18 @@
             </controls:SessionSearchHandler.ItemTemplate>
         </controls:SessionSearchHandler>
     </Shell.SearchHandler>-->
+
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="ToolbarItem_Filter_Clicked">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource
+                    FontFamily="FA-S"
+                    Glyph="{Static icons:IconFont_FA_S.Filter}"
+                    Size="Medium" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>-->
+
     <Grid BackgroundColor="{StaticResource ListBackgroundColor}">
         <CollectionView
             x:Name="CollectionsView_Sessions"
@@ -141,7 +153,7 @@
 
         <!--  ナビゲーションバー.StackLayoutと重なる  -->
         <sharpnado:MaterialFrame
-            x:Name="frame_Header"
+            x:Name="Frame_SearchBox"
             Margin="3,8,3,0"
             Padding="0"
             CornerRadius="5"
@@ -162,5 +174,25 @@
                     Text="{Binding SearchString}" />
             </inputLayout:SfTextInputLayout>
         </sharpnado:MaterialFrame>
+
+        <!--  フィルタリングボタン  -->
+        <pancake:PancakeView
+            Margin="0,0,30,10"
+            HorizontalOptions="End"
+            Style="{StaticResource AppButtonStyle}"
+            VerticalOptions="End">
+            <pancake:PancakeView.GestureRecognizers>
+                <TapGestureRecognizer Tapped="FilterButton_Tapped" />
+            </pancake:PancakeView.GestureRecognizers>
+            <Label
+                FontFamily="FA-S"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                Text="{x:Static icons:IconFont_FA_S.Filter}"
+                TextColor="White"
+                TranslationX="1"
+                TranslationY="3"
+                VerticalOptions="Center" />
+        </pancake:PancakeView>
     </Grid>
 </ContentPage>

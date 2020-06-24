@@ -1,8 +1,8 @@
-﻿using System;
+﻿using Acr.UserDialogs;
+using System;
 using System.Linq;
 using System.Reactive.Linq;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+using System.Threading;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XFMyDecode2020.Utilities;
@@ -27,8 +27,6 @@ namespace XFMyDecode2020.Views
         private SessionListViewModel _viewModel;
         public SessionListPage()
         {
-            App.Current.Resources["CurrentAccentColor"] = App.Current.Resources["AppPrimaryColor"];
-
             InitializeComponent();
             this.BindingContext = _viewModel = Startup.ServiceProvider.GetService<SessionListViewModel>();
 
@@ -47,22 +45,33 @@ namespace XFMyDecode2020.Views
 
         private void ResetFrameHeaderPosition()
         {
-            frame_Header.TranslationY = 0;
+            ShowSearchBox();
         }
 
-        private readonly double _slideToggleYPosition = 110;
+        private double _slideMargin;
+        protected override void OnSizeAllocated(double width, double height)
+        {
+            base.OnSizeAllocated(width, height);
+
+            _slideMargin = (Frame_SearchBox.Height + Frame_SearchBox.Margin.Top);
+        }
+
         private void SetHeaderBehaviorByScroll()
         {
             //ヘッダーを隠す側の動作
             var hide = Observable.FromEventPattern<ItemsViewScrolledEventArgs>(CollectionsView_Sessions, nameof(CollectionsView_Sessions.Scrolled));
-            hide.Where(x => x.EventArgs.VerticalDelta >= 0 && x.EventArgs.VerticalOffset >= _slideToggleYPosition)
+            hide.Where(x => x.EventArgs.VerticalDelta >= 0)
                 .Repeat()
                 .Subscribe(x =>
                 {
-                    double nextTransY = frame_Header.TranslationY - x.EventArgs.VerticalDelta;
+                    double nextTransY = Frame_SearchBox.TranslationY - x.EventArgs.VerticalDelta;
 
-                    nextTransY = Math.Max(-(frame_Header.Height + frame_Header.Y), nextTransY);
-                    frame_Header.TranslationY = nextTransY;
+                    if (nextTransY < -_slideMargin)
+                    {
+                        nextTransY = -_slideMargin;
+                    }
+                    nextTransY = Math.Max(-(Frame_SearchBox.Height + Frame_SearchBox.Y), nextTransY);
+                    Frame_SearchBox.TranslationY = nextTransY;
                 });
 
             //ヘッダーを表示する側の動作
@@ -71,14 +80,43 @@ namespace XFMyDecode2020.Views
                 .Repeat()
                 .Subscribe(x =>
                 {
-                    double nextTransY = frame_Header.TranslationY - x.EventArgs.VerticalDelta;
+                    double nextTransY = Frame_SearchBox.TranslationY - x.EventArgs.VerticalDelta;
                     if (nextTransY > 0)
                     {
                         nextTransY = 0;
                     }
 
-                    frame_Header.TranslationY = nextTransY;
+                    Frame_SearchBox.TranslationY = nextTransY;
                 });
+        }
+
+        private void HideSearchBox()
+        {
+            Frame_SearchBox.TranslationY = -_slideMargin;
+        }
+
+        private void ShowSearchBox()
+        {
+            Frame_SearchBox.TranslationY = 0;
+        }
+
+        private async void FilterButton_Tapped(object sender, EventArgs e)
+        {
+            var choices = _viewModel.GroupedSessions.Select(g => $"{g.TrackID} : {g.TrackName}");
+
+            string choice = await UserDialogs.Instance.ActionSheetAsync("Choose a track", "Cancel", null, CancellationToken.None, choices.ToArray());
+
+            if (choice.Equals("Cancel"))
+            {
+                return;
+            }
+
+            var trackId = choice.Substring(0, 1);
+
+            var group = _viewModel.GroupedSessions.FirstOrDefault(g => g.TrackID == trackId);
+            var item = group.FirstOrDefault();
+
+            CollectionsView_Sessions.ScrollTo(item, group, ScrollToPosition.Center, animate: false);
         }
 
         private async void Button_Fav_Clicked(object sender, EventArgs e)
