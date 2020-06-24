@@ -11,6 +11,7 @@
     xmlns:sharpnado="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
     xmlns:touch="clr-namespace:TouchEffect;assembly=TouchEffect"
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
+    Title="Home"
     Visual="Default"
     mc:Ignorable="d">
     <!--<Shell.SearchHandler>
