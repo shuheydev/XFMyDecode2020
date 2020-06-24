@@ -8,6 +8,7 @@ using Android.Widget;
 using Android.OS;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using Acr.UserDialogs;
 
 namespace XFMyDecode2020.Droid
 {
@@ -23,6 +24,7 @@ namespace XFMyDecode2020.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            UserDialogs.Init(this);
 
             LoadApplication(Startup.Init(ConfigureServices));
         }
