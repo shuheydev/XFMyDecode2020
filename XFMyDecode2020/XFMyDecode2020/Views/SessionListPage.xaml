@@ -38,6 +38,18 @@
             </controls:SessionSearchHandler.ItemTemplate>
         </controls:SessionSearchHandler>
     </Shell.SearchHandler>-->
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="ToolbarItem_Filter_Clicked">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource
+                    FontFamily="FA-S"
+                    Glyph="{Static icons:IconFont_FA_S.Filter}"
+                    Size="Medium" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
     <Grid BackgroundColor="{StaticResource ListBackgroundColor}">
         <CollectionView
             x:Name="CollectionsView_Sessions"

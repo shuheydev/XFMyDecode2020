@@ -87,5 +87,10 @@ namespace XFMyDecode2020.Views
 
             await MyAnimation.Animation1(button);
         }
+
+        private void ToolbarItem_Filter_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
