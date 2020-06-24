@@ -90,17 +90,10 @@
                         Margin="10"
                         touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=OpenBrowserCommand}"
                         touch:TouchEff.CommandParameter="{Binding SessionVideoURL}"
-                        touch:TouchEff.PressedOpacity="0.6"
-                        touch:TouchEff.PressedScale="0.9"
-                        touch:TouchEff.RegularAnimationDuration="100"
                         BackgroundColor="{DynamicResource CurrentAccentColor}"
-                        CornerRadius="50,50,50,10"
-                        Elevation="5"
-                        HasShadow="True"
-                        HeightRequest="60"
                         HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        WidthRequest="60">
+                        Style="{StaticResource AppButtonStyle}"
+                        VerticalOptions="Center">
                         <Label
                             FontFamily="FA-S"
                             FontSize="Large"
@@ -113,22 +106,14 @@
                 <Button
                     x:Name="Button_Twitter"
                     Margin="0,0,30,30"
-                    Padding="0"
                     touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=TweetSessionCommand}"
                     touch:TouchEff.CommandParameter="{Binding SessionId}"
-                    touch:TouchEff.PressedOpacity="0.6"
-                    touch:TouchEff.PressedScale="0.9"
-                    touch:TouchEff.RegularAnimationDuration="100"
-                    BackgroundColor="Transparent"
-                    CornerRadius="50"
                     FontFamily="FA-B"
-                    FontSize="32"
-                    HeightRequest="70"
                     HorizontalOptions="End"
+                    Style="{StaticResource TwitterButtonStyle}"
                     Text="{x:Static icons:IconFont_FA_B.Twitter}"
                     TextColor="{StaticResource TwitterColor}"
-                    VerticalOptions="End"
-                    WidthRequest="70">
+                    VerticalOptions="End">
                 </Button>
             </Grid>
         </ScrollView>
