@@ -129,7 +129,7 @@
                 Margin="3,0,3,0"
                 BackgroundColor="Transparent"
                 ContainerType="Outlined"
-                FocusedColor="{StaticResource AppPrimaryColor}"
+                FocusedColor="{DynamicResource CurrentAccentColor}"
                 Hint="Search Term"
                 VerticalOptions="Center">
                 <Entry

@@ -15,14 +15,14 @@
         <ResourceDictionary>
             <!--  Shellのベーススタイル  -->
             <Style x:Key="BaseStyle" TargetType="Element">
-                <Setter Property="Shell.BackgroundColor" Value="{StaticResource AppPrimaryColor}" />
+                <Setter Property="Shell.BackgroundColor" Value="{DynamicResource CurrentAccentColor}" />
                 <Setter Property="Shell.ForegroundColor" Value="White" />
                 <Setter Property="Shell.TitleColor" Value="White" />
                 <Setter Property="Shell.DisabledColor" Value="LightGray" />
                 <Setter Property="Shell.UnselectedColor" Value="LightGray" />
                 <Setter Property="Shell.NavBarHasShadow" Value="False" />
                 <Setter Property="Shell.NavBarIsVisible" Value="True" />
-                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource AppPrimaryColor}" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{DynamicResource CurrentAccentColor}" />
             </Style>
             <Style
                 ApplyToDerivedTypes="True"
@@ -34,22 +34,26 @@
                 <Setter Property="VisualStateManager.VisualStateGroups">
                     <VisualStateGroupList>
                         <VisualStateGroup x:Name="CommonStates">
-                            <VisualState x:Name="Normal" />
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="Transparent" />
+                                </VisualState.Setters>
+                            </VisualState>
                             <VisualState x:Name="Selected">
                                 <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="{StaticResource AppPrimaryColor}" />
+                                    <Setter Property="BackgroundColor" Value="{DynamicResource CurrentAccentColor}" />
                                 </VisualState.Setters>
                             </VisualState>
                         </VisualStateGroup>
                     </VisualStateGroupList>
                 </Setter>
             </Style>
-            <Style
+            <!--<Style
                 x:Key="FavoritListShellStyle"
                 BasedOn="{StaticResource BaseStyle}"
                 TargetType="Element">
-                <Setter Property="Shell.BackgroundColor" Value="{StaticResource FavoritListShellColor}" />
-                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource FavoritListShellColor}" />
+                <Setter Property="Shell.BackgroundColor" Value="{DynamicResource CurrentAccentColor}" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{DynamicResource CurrentAccentColor}" />
             </Style>
             <Style
                 x:Key="WatchedListShellStyle"
@@ -57,7 +61,7 @@
                 TargetType="Element">
                 <Setter Property="Shell.BackgroundColor" Value="{StaticResource WatchedListShellColor}" />
                 <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource WatchedListShellColor}" />
-            </Style>
+            </Style>-->
         </ResourceDictionary>
     </Shell.Resources>
 
@@ -82,7 +86,7 @@
                         <DataTrigger
                             Binding="{Binding Source={Reference FlyoutItemGrid}, Path=BackgroundColor}"
                             TargetType="Label"
-                            Value="{StaticResource AppPrimaryColor}">
+                            Value="{DynamicResource CurrentAccentColor}">
                             <Setter Property="TextColor" Value="White" />
                             <Setter Property="FontAttributes" Value="Italic" />
                             <Setter Property="Scale" Value="1.1" />
@@ -121,10 +125,7 @@
                     Glyph="{x:Static icons:IconFont_FA_R.Star}"
                     Color="LightGray" />
             </Tab.Icon>
-            <ShellContent
-                ContentTemplate="{DataTemplate views:FavoritListPage}"
-                Route="favorits"
-                Style="{StaticResource FavoritListShellStyle}" />
+            <ShellContent ContentTemplate="{DataTemplate views:FavoritListPage}" Route="favorits" />
         </Tab>
         <Tab Title="Watched">
             <Tab.Icon>
@@ -133,10 +134,7 @@
                     Glyph="{x:Static icons:IconFont_FA_S.Check}"
                     Color="LightGray" />
             </Tab.Icon>
-            <ShellContent
-                ContentTemplate="{DataTemplate views:WatchedListPage}"
-                Route="watched"
-                Style="{StaticResource WatchedListShellStyle}" />
+            <ShellContent ContentTemplate="{DataTemplate views:WatchedListPage}" Route="watched" />
         </Tab>
     </FlyoutItem>
 </Shell>
