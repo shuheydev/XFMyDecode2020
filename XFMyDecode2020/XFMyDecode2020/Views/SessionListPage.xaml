@@ -39,7 +39,7 @@
         </controls:SessionSearchHandler>
     </Shell.SearchHandler>-->
 
-    <ContentPage.ToolbarItems>
+    <!--<ContentPage.ToolbarItems>
         <ToolbarItem Clicked="ToolbarItem_Filter_Clicked">
             <ToolbarItem.IconImageSource>
                 <FontImageSource
@@ -48,7 +48,7 @@
                     Size="Medium" />
             </ToolbarItem.IconImageSource>
         </ToolbarItem>
-    </ContentPage.ToolbarItems>
+    </ContentPage.ToolbarItems>-->
 
     <Grid BackgroundColor="{StaticResource ListBackgroundColor}">
         <CollectionView
@@ -174,5 +174,25 @@
                     Text="{Binding SearchString}" />
             </inputLayout:SfTextInputLayout>
         </sharpnado:MaterialFrame>
+
+        <!--  フィルタリングボタン  -->
+        <pancake:PancakeView
+            Margin="0,0,30,10"
+            HorizontalOptions="End"
+            Style="{StaticResource AppButtonStyle}"
+            VerticalOptions="End">
+            <pancake:PancakeView.GestureRecognizers>
+                <TapGestureRecognizer Tapped="FilterButton_Tapped" />
+            </pancake:PancakeView.GestureRecognizers>
+            <Label
+                FontFamily="FA-S"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                Text="{x:Static icons:IconFont_FA_S.Filter}"
+                TextColor="White"
+                TranslationX="1"
+                TranslationY="3"
+                VerticalOptions="Center" />
+        </pancake:PancakeView>
     </Grid>
 </ContentPage>

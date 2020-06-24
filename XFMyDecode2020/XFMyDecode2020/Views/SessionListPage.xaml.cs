@@ -27,8 +27,6 @@ namespace XFMyDecode2020.Views
         private SessionListViewModel _viewModel;
         public SessionListPage()
         {
-            App.Current.Resources["CurrentAccentColor"] = App.Current.Resources["AppPrimaryColor"];
-
             InitializeComponent();
             this.BindingContext = _viewModel = Startup.ServiceProvider.GetService<SessionListViewModel>();
 
@@ -88,13 +86,23 @@ namespace XFMyDecode2020.Views
             await MyAnimation.Animation1(button);
         }
 
-        private async void ToolbarItem_Filter_Clicked(object sender, EventArgs e)
+        private void HideSearchBox()
+        {
+            Frame_SearchBox.TranslationY = -_slideToggleYPosition;
+        }
+
+        private void ShowSearchBox()
+        {
+            Frame_SearchBox.TranslationY = 0;
+        }
+
+        private async void FilterButton_Tapped(object sender, EventArgs e)
         {
             var choices = _viewModel.GroupedSessions.Select(g => $"{g.TrackID} : {g.TrackName}");
 
             string choice = await UserDialogs.Instance.ActionSheetAsync("Choose a track", "Cancel", null, CancellationToken.None, choices.ToArray());
 
-            if(choice.Equals("Cancel"))
+            if (choice.Equals("Cancel"))
             {
                 return;
             }
@@ -106,16 +114,6 @@ namespace XFMyDecode2020.Views
 
             HideSearchBox();
             CollectionsView_Sessions.ScrollTo(item, group, ScrollToPosition.Center, animate: false);
-        }
-
-        private void HideSearchBox()
-        {
-            Frame_SearchBox.TranslationY = -_slideToggleYPosition;
-        }
-
-        private void ShowSearchBox()
-        {
-            Frame_SearchBox.TranslationY = 0;
         }
     }
 }
