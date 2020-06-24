@@ -34,8 +34,9 @@ namespace XFMyDecode2020.Services
         private void Initialize()
         {
             var assembly = Assembly.GetExecutingAssembly();
-            var stream = assembly.GetManifestResourceStream("XFMyDecode2020.Data.SessionData.json");
-            _sessions = JsonSerializer.DeserializeAsync<Session[]>(stream).Result;
+            using var stream = assembly.GetManifestResourceStream("XFMyDecode2020.Data.SessionData.json");
+            
+            _sessions = JsonSerializer.DeserializeAsync<IEnumerable<Session>>(stream).Result;
 
             Save();
         }
@@ -48,10 +49,17 @@ namespace XFMyDecode2020.Services
         /// <returns></returns>
         public async Task<IEnumerable<Session>> GetSessionDataAsync()
         {
-            if (_sessions == null)
+            try
             {
-                var stream = File.OpenRead(_filePath);
-                _sessions = await JsonSerializer.DeserializeAsync<IEnumerable<Session>>(stream);
+                if (_sessions == null)
+                {
+                    using var stream = File.OpenRead(_filePath);
+                    _sessions = await JsonSerializer.DeserializeAsync<IEnumerable<Session>>(stream);
+                }
+            }
+            catch
+            {
+                Initialize();
             }
 
             return _sessions;
