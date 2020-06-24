@@ -27,6 +27,8 @@ namespace XFMyDecode2020.Views
         private SessionListViewModel _viewModel;
         public SessionListPage()
         {
+            App.Current.Resources["CurrentAccentColor"] = App.Current.Resources["AppPrimaryColor"];
+
             InitializeComponent();
             this.BindingContext = _viewModel = Startup.ServiceProvider.GetService<SessionListViewModel>();
 
@@ -39,6 +41,8 @@ namespace XFMyDecode2020.Views
             await _viewModel.LoadSessions();
 
             ResetFrameHeaderPosition();
+
+            App.Current.Resources["CurrentAccentColor"] = App.Current.Resources["AppPrimaryColor"];
         }
 
         private void ResetFrameHeaderPosition()

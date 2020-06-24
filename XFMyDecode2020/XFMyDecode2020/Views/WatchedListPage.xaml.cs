@@ -39,6 +39,8 @@ namespace XFMyDecode2020.Views
             await _viewModel.LoadSessions();
 
             ResetFrameHeaderPosition();
+
+            App.Current.Resources["CurrentAccentColor"] = App.Current.Resources["WatchedListShellColor"];
         }
 
         private void ResetFrameHeaderPosition()

@@ -83,7 +83,7 @@
                         Margin="15,10"
                         touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=ChangeWatchStateCommand}"
                         touch:TouchEff.CommandParameter="{Binding SessionID}"
-                        CheckedColor="{StaticResource AppPrimaryColor}"
+                        CheckedColor="{DynamicResource CurrentAccentColor}"
                         IsChecked="{Binding IsWatched}"
                         Text="Watched" />
                     <pancake:PancakeView
@@ -93,7 +93,7 @@
                         touch:TouchEff.PressedOpacity="0.6"
                         touch:TouchEff.PressedScale="0.9"
                         touch:TouchEff.RegularAnimationDuration="100"
-                        BackgroundColor="{StaticResource AppPrimaryColor}"
+                        BackgroundColor="{DynamicResource CurrentAccentColor}"
                         CornerRadius="50,50,50,10"
                         Elevation="5"
                         HasShadow="True"
