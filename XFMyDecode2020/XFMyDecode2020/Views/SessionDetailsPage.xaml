@@ -12,27 +12,29 @@
     xmlns:sharpnado="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
     xmlns:touch="clr-namespace:TouchEffect;assembly=TouchEffect"
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
+    Title="Details"
     Visual="Default"
     mc:Ignorable="d">
     <ContentPage.Content>
-        <ScrollView>
-            <Grid>
-                <StackLayout BindingContext="{Binding SessionInfo}">
-                    <pancake:PancakeView
-                        Margin="10"
-                        BackgroundColor="White"
-                        CornerRadius="2,2,2,20"
-                        Elevation="4"
-                        HasShadow="True">
-                        <Grid>
-                            <Grid Margin="10">
-                                <StackLayout>
-                                    <StackLayout Orientation="Horizontal">
-                                        <Label Text="{Binding SessionID}" />
-                                        <Label Text=" : " />
-                                        <Label Text="{Binding TrackName}" />
-                                    </StackLayout>
-                                    <!--<Label>
+        <Grid>
+            <ScrollView>
+                <Grid>
+                    <StackLayout BindingContext="{Binding SessionInfo}">
+                        <pancake:PancakeView
+                            Margin="10"
+                            BackgroundColor="White"
+                            CornerRadius="2,2,2,20"
+                            Elevation="4"
+                            HasShadow="True">
+                            <Grid>
+                                <Grid Margin="10">
+                                    <StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="{Binding SessionID}" />
+                                            <Label Text=" : " />
+                                            <Label Text="{Binding TrackName}" />
+                                        </StackLayout>
+                                        <!--<Label>
                                     <Label.Text>
                                         <MultiBinding StringFormat="{}{0} : {1}">
                                             <Binding Path="SessionID" />
@@ -40,82 +42,83 @@
                                         </MultiBinding>
                                     </Label.Text>
                                 </Label>-->
-                                    <Label FontSize="Medium" Text="{Binding SessionTitle}" />
-                                    <Label HorizontalOptions="End" Text="{Binding MainSpeaker.Name}" />
-                                    <Label HorizontalOptions="End" Text="{Binding MainSpeaker.Company}" />
-                                </StackLayout>
-                                <Button
-                                    x:Name="Button_Fav"
-                                    Clicked="Button_Fav_Clicked"
-                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=ChangeFavoritStateCommand}"
-                                    CommandParameter="{Binding SessionID}"
-                                    HorizontalOptions="Start"
-                                    Style="{StaticResource FavButtonStyle}"
-                                    Text="{x:Static icons:IconFont_FA_R.Star}"
-                                    TranslationX="-8"
-                                    TranslationY="8"
-                                    VerticalOptions="End">
-                                    <Button.Triggers>
-                                        <DataTrigger
-                                            Binding="{Binding IsFavorit}"
-                                            TargetType="Button"
-                                            Value="True">
-                                            <Setter Property="FontFamily" Value="FA-S" />
-                                            <Setter Property="TextColor" Value="{StaticResource StarColor}" />
-                                            <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
-                                        </DataTrigger>
-                                    </Button.Triggers>
-                                </Button>
+                                        <Label FontSize="Medium" Text="{Binding SessionTitle}" />
+                                        <Label HorizontalOptions="End" Text="{Binding MainSpeaker.Name}" />
+                                        <Label HorizontalOptions="End" Text="{Binding MainSpeaker.Company}" />
+                                    </StackLayout>
+                                    <Button
+                                        x:Name="Button_Fav"
+                                        Clicked="Button_Fav_Clicked"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=ChangeFavoritStateCommand}"
+                                        CommandParameter="{Binding SessionID}"
+                                        HorizontalOptions="Start"
+                                        Style="{StaticResource FavButtonStyle}"
+                                        Text="{x:Static icons:IconFont_FA_R.Star}"
+                                        TranslationX="-8"
+                                        TranslationY="8"
+                                        VerticalOptions="End">
+                                        <Button.Triggers>
+                                            <DataTrigger
+                                                Binding="{Binding IsFavorit}"
+                                                TargetType="Button"
+                                                Value="True">
+                                                <Setter Property="FontFamily" Value="FA-S" />
+                                                <Setter Property="TextColor" Value="{StaticResource StarColor}" />
+                                                <Setter Property="Text" Value="{x:Static icons:IconFont_FA_S.Star}" />
+                                            </DataTrigger>
+                                        </Button.Triggers>
+                                    </Button>
+                                </Grid>
+                                <Label IsVisible="{Binding IsWatched}" Style="{StaticResource WatchedLabelStyle}" />
                             </Grid>
-                            <Label IsVisible="{Binding IsWatched}" Style="{StaticResource WatchedLabelStyle}" />
-                        </Grid>
-                    </pancake:PancakeView>
-                    <pancake:PancakeView
-                        Margin="10,0,10,0"
-                        BackgroundColor="White"
-                        CornerRadius="2,2,2,20"
-                        Elevation="4"
-                        HasShadow="True">
-                        <Label Margin="10" Text="{Binding SessionDetails, Converter={converters:HtmlToTextConverter}}" />
-                    </pancake:PancakeView>
-                    <checkbox:SfCheckBox
-                        x:Name="checkBox"
-                        Margin="15,10"
-                        touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=ChangeWatchStateCommand}"
-                        touch:TouchEff.CommandParameter="{Binding SessionID}"
-                        CheckedColor="{DynamicResource CurrentAccentColor}"
-                        IsChecked="{Binding IsWatched}"
-                        Text="Watched" />
-                    <pancake:PancakeView
-                        Margin="10"
-                        touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=OpenBrowserCommand}"
-                        touch:TouchEff.CommandParameter="{Binding SessionVideoURL}"
-                        BackgroundColor="{DynamicResource CurrentAccentColor}"
-                        HorizontalOptions="Center"
-                        Style="{StaticResource AppButtonStyle}"
-                        VerticalOptions="Center">
-                        <Label
-                            FontFamily="FA-S"
-                            FontSize="Large"
+                        </pancake:PancakeView>
+                        <pancake:PancakeView
+                            Margin="10,0,10,0"
+                            BackgroundColor="White"
+                            CornerRadius="2,2,2,20"
+                            Elevation="4"
+                            HasShadow="True">
+                            <Label Margin="10" Text="{Binding SessionDetails, Converter={converters:HtmlToTextConverter}}" />
+                        </pancake:PancakeView>
+                        <checkbox:SfCheckBox
+                            x:Name="checkBox"
+                            Margin="15,10"
+                            touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=ChangeWatchStateCommand}"
+                            touch:TouchEff.CommandParameter="{Binding SessionID}"
+                            CheckedColor="{DynamicResource CurrentAccentColor}"
+                            IsChecked="{Binding IsWatched}"
+                            Text="Watched" />
+                        <pancake:PancakeView
+                            Margin="10"
+                            touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=OpenBrowserCommand}"
+                            touch:TouchEff.CommandParameter="{Binding SessionVideoURL}"
+                            BackgroundColor="{DynamicResource CurrentAccentColor}"
                             HorizontalOptions="Center"
-                            Text="{x:Static icons:IconFont_FA_S.Tv}"
-                            TextColor="White"
-                            VerticalOptions="Center" />
-                    </pancake:PancakeView>
-                </StackLayout>
-                <Button
-                    x:Name="Button_Twitter"
-                    Margin="0,0,30,30"
-                    touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=TweetSessionCommand}"
-                    touch:TouchEff.CommandParameter="{Binding SessionId}"
-                    FontFamily="FA-B"
-                    HorizontalOptions="End"
-                    Style="{StaticResource TwitterButtonStyle}"
-                    Text="{x:Static icons:IconFont_FA_B.Twitter}"
-                    TextColor="{StaticResource TwitterColor}"
-                    VerticalOptions="End">
-                </Button>
-            </Grid>
-        </ScrollView>
+                            Style="{StaticResource AppButtonStyle}"
+                            VerticalOptions="Center">
+                            <Label
+                                FontFamily="FA-S"
+                                FontSize="Large"
+                                HorizontalOptions="Center"
+                                Text="{x:Static icons:IconFont_FA_S.Tv}"
+                                TextColor="White"
+                                VerticalOptions="Center" />
+                        </pancake:PancakeView>
+                    </StackLayout>
+                </Grid>
+            </ScrollView>
+            <Button
+                x:Name="Button_Twitter"
+                Margin="0,0,30,30"
+                touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=TweetSessionCommand}"
+                touch:TouchEff.CommandParameter="{Binding SessionId}"
+                FontFamily="FA-B"
+                HorizontalOptions="End"
+                Style="{StaticResource TwitterButtonStyle}"
+                Text="{x:Static icons:IconFont_FA_B.Twitter}"
+                TextColor="{StaticResource TwitterColor}"
+                VerticalOptions="End">
+            </Button>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
