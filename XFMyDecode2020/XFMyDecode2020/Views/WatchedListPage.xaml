@@ -118,7 +118,7 @@
 
         <!--  ナビゲーションバー.StackLayoutと重なる  -->
         <sharpnado:MaterialFrame
-            x:Name="frame_Header"
+            x:Name="Frame_SearchBox"
             Margin="3,8,3,0"
             Padding="0"
             CornerRadius="5"
@@ -140,6 +140,26 @@
             </inputLayout:SfTextInputLayout>
         </sharpnado:MaterialFrame>
 
+        <!--  フィルタリングボタン  -->
+        <pancake:PancakeView
+            Margin="0,0,30,10"
+            HorizontalOptions="End"
+            Style="{StaticResource AppButtonStyle}"
+            VerticalOptions="End">
+            <pancake:PancakeView.GestureRecognizers>
+                <TapGestureRecognizer Tapped="FilterButton_Tapped" />
+            </pancake:PancakeView.GestureRecognizers>
+            <Label
+                FontFamily="FA-S"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                Text="{x:Static icons:IconFont_FA_S.Filter}"
+                TextColor="White"
+                TranslationX="1"
+                TranslationY="3"
+                VerticalOptions="Center" />
+        </pancake:PancakeView>
+
         <pancake:PancakeView
             Margin="10"
             Padding="0"
@@ -147,7 +167,7 @@
             CornerRadius="40"
             HasShadow="True"
             HeightRequest="80"
-            HorizontalOptions="End"
+            HorizontalOptions="Start"
             Opacity="0.7"
             VerticalOptions="End"
             WidthRequest="80">
