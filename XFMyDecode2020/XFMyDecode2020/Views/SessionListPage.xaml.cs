@@ -5,6 +5,7 @@ using System.Reactive.Linq;
 using System.Threading;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XFMyDecode2020.Services;
 using XFMyDecode2020.Utilities;
 using XFMyDecode2020.ViewModels;
 
@@ -24,11 +25,13 @@ namespace XFMyDecode2020.Views
             }
         }
 
-        private SessionListViewModel _viewModel;
+        private readonly IStatusBarColorManager _statusBarColorManager;
+        private readonly SessionListViewModel _viewModel;
         public SessionListPage()
         {
             InitializeComponent();
             this.BindingContext = _viewModel = Startup.ServiceProvider.GetService<SessionListViewModel>();
+            this._statusBarColorManager = Startup.ServiceProvider.GetService<IStatusBarColorManager>();
 
             SetHeaderBehaviorByScroll();
         }
@@ -37,10 +40,13 @@ namespace XFMyDecode2020.Views
         {
             base.OnAppearing();
             await _viewModel.LoadSessions();
-
+            
             ResetFrameHeaderPosition();
 
             App.Current.Resources["CurrentAccentColor"] = App.Current.Resources["AppPrimaryColor"];
+
+            var color = (Xamarin.Forms.Color)App.Current.Resources["AppPrimaryColor"];
+            this._statusBarColorManager.SetColor(color, false);
         }
 
         private void ResetFrameHeaderPosition()
@@ -49,6 +55,7 @@ namespace XFMyDecode2020.Views
         }
 
         private double _slideMargin;
+
         protected override void OnSizeAllocated(double width, double height)
         {
             base.OnSizeAllocated(width, height);

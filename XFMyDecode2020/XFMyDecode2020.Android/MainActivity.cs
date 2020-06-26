@@ -9,6 +9,8 @@ using Android.OS;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Acr.UserDialogs;
+using XFMyDecode2020.Services;
+using XFMyDecode2020.Droid.Services;
 
 namespace XFMyDecode2020.Droid
 {
@@ -40,6 +42,7 @@ namespace XFMyDecode2020.Droid
             //Add services here(platform specific services)
             //ex:
             //services.AddSingleton<INotificationService, AndroidNotificationService>();
+            services.AddSingleton<IStatusBarColorManager, StatusBarColorManager>();
         }
     }
 }

@@ -7,6 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XFMyDecode2020.Services;
 using XFMyDecode2020.Utilities;
 using XFMyDecode2020.ViewModels;
 
@@ -26,11 +27,13 @@ namespace XFMyDecode2020.Views
             }
         }
 
-        private WatchedListViewModel _viewModel;
+        private readonly IStatusBarColorManager _statusBarColorManager;
+        private readonly WatchedListViewModel _viewModel;
         public WatchedListPage()
         {
             InitializeComponent();
             this.BindingContext = _viewModel = Startup.ServiceProvider.GetService<WatchedListViewModel>();
+            this._statusBarColorManager = Startup.ServiceProvider.GetService<IStatusBarColorManager>();
 
             SetHeaderBehaviorByScroll();
         }
@@ -43,6 +46,9 @@ namespace XFMyDecode2020.Views
             ResetFrameHeaderPosition();
 
             App.Current.Resources["CurrentAccentColor"] = App.Current.Resources["WatchedListShellColor"];
+
+            var color = (Xamarin.Forms.Color)App.Current.Resources["WatchedListShellColor"];
+            this._statusBarColorManager.SetColor(color, false);
         }
 
         private void ResetFrameHeaderPosition()
@@ -51,6 +57,7 @@ namespace XFMyDecode2020.Views
         }
 
         private double _slideMargin;
+
         protected override void OnSizeAllocated(double width, double height)
         {
             base.OnSizeAllocated(width, height);
