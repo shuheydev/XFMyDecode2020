@@ -19,26 +19,23 @@ namespace XFMyDecode2020.Services
 {
     public class DataService : IDataService
     {
+        private readonly string _fileName = "Sessions.json";
+
         private IEnumerable<Session> _sessions;
-        private string _filePath;
+        private readonly string _filePath;
 
         public DataService()
         {
             _sessions = new Collection<Session>();
-            _filePath = Path.Combine(FileSystem.AppDataDirectory, "Sessions.json");
-
-            if (!File.Exists(_filePath))
-            {
-                Initialize();
-            }
+            _filePath = Path.Combine(FileSystem.AppDataDirectory, _fileName);
         }
 
-        private void Initialize()
+        private async Task Initialize()
         {
             var assembly = Assembly.GetExecutingAssembly();
             using var stream = assembly.GetManifestResourceStream("XFMyDecode2020.Data.SessionData.json");
 
-            _sessions = JsonSerializer.DeserializeAsync<IEnumerable<Session>>(stream).Result;
+            _sessions = await JsonSerializer.DeserializeAsync<IEnumerable<Session>>(stream);
 
             Save();
         }
@@ -58,15 +55,15 @@ namespace XFMyDecode2020.Services
             }
             catch
             {
-                Initialize();
+                await Initialize();
             }
 
             return _sessions;
         }
 
-        public void Reset()
+        public async Task Reset()
         {
-            Initialize();
+            await Initialize();
         }
 
         public void Save()
@@ -80,6 +77,7 @@ namespace XFMyDecode2020.Services
             var json = JsonSerializer.Serialize(_sessions, options);
 
             File.WriteAllText(_filePath, json);
+
         }
 
         public Session FindSessionById(string sessionId)

@@ -10,9 +10,10 @@ namespace XFMyDecode2020.Services
     {
         Task<IEnumerable<Session>> GetSessionDataAsync();
 
-        void Reset();
+        Task Reset();
 
         void Save();
+
         Session FindSessionById(string sessionId);
     }
 }

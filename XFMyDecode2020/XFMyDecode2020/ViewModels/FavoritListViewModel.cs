@@ -15,6 +15,7 @@ using XFMyDecode2020.Services;
 using Xamarin.Forms.Xaml;
 using XFMyDecode2020.Utilities;
 using Xamarin.Forms.Internals;
+using System.Runtime.CompilerServices;
 
 namespace XFMyDecode2020.ViewModels
 {
@@ -50,7 +51,7 @@ namespace XFMyDecode2020.ViewModels
         private void SearchSession()
         {
             var searchWords = Regex.Split(this.SearchString, @"\s+?").Where(w => !string.IsNullOrEmpty(w)).ToList();
-
+            
             //Let's filtering
             var filteredSessions = Sessions.Where(s =>
             {
@@ -80,19 +81,19 @@ namespace XFMyDecode2020.ViewModels
         private void ChangeFavoritState(string sessionId)
         {
             var session = this.Sessions.FirstOrDefault(s => s.SessionID == sessionId);
-            if (session != null)
+            session.IsFavorit = !session.IsFavorit;
+            _dataService.Save();
+
+            SessionGroup group = this.GroupedSessions.FirstOrDefault(g => g.Any(s => s == session));
+            if (group == null)
+                return;
+
+            group.Remove(session);
+
+            //remove empty group
+            if (!group.Any())
             {
-                session.IsFavorit = !session.IsFavorit;
-                _dataService.Save();
-
-                var group = this.GroupedSessions.FirstOrDefault(g => g.Any(s => s == session));
-                group.Remove(session);
-
-                //remove empty group
-                if (!group.Any())
-                {
-                    this.GroupedSessions.Remove(group);
-                }
+                this.GroupedSessions.Remove(group);
             }
         }
 
