@@ -3,11 +3,20 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <Nullable>enable</Nullable>
+    <Configurations>Debug;Release;Debug_NullableOn</Configurations>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>portable</DebugType>
     <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NullableOn|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE;Nullable_On</DefineConstants>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
 
   <ItemGroup>
