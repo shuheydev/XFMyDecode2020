@@ -20,21 +20,21 @@ namespace XFMyDecode2020.ViewModels
 {
     public class FavoritListViewModel : BaseViewModel
     {
-        private MvvmHelpers.ObservableRangeCollection<Session> _sessions;
+        private MvvmHelpers.ObservableRangeCollection<Session> _sessions = new MvvmHelpers.ObservableRangeCollection<Session>();
         public MvvmHelpers.ObservableRangeCollection<Session> Sessions
         {
             get => _sessions;
             set => SetProperty(ref _sessions, value);
         }
 
-        private MvvmHelpers.ObservableRangeCollection<SessionGroup> _groupedSessions;
+        private MvvmHelpers.ObservableRangeCollection<SessionGroup> _groupedSessions = new MvvmHelpers.ObservableRangeCollection<SessionGroup>();
         public MvvmHelpers.ObservableRangeCollection<SessionGroup> GroupedSessions
         {
             get => _groupedSessions;
             set => SetProperty(ref _groupedSessions, value);
         }
 
-        private string _searchString;
+        private string _searchString = string.Empty;
         public string SearchString
         {
             get => _searchString;
@@ -61,7 +61,7 @@ namespace XFMyDecode2020.ViewModels
 
             this.GroupedSessions.Clear();
             this.GroupedSessions.AddRange(filteredSessions.GroupBy(s => s.TrackID)
-                                  .Select(g => new SessionGroup(g.Key, g.FirstOrDefault()?.TrackName, new MvvmHelpers.ObservableRangeCollection<Session>(g))));
+                                  .Select(g => new SessionGroup(g.Key, g.FirstOrDefault().TrackName, new MvvmHelpers.ObservableRangeCollection<Session>(g))));
         }
 
         public AsyncCommand<string> ShowSessionDetailsCommand { get; }
@@ -152,9 +152,9 @@ namespace XFMyDecode2020.ViewModels
                     {
                         var trackIds = this.GroupedSessions.Select(g => g.TrackID).ToList();
                         trackIds.Add(session.TrackID);
-                        var orderedTrackIDs = trackIds.OrderBy(t=>t);
+                        var orderedTrackIDs = trackIds.OrderBy(t => t);
                         int index = orderedTrackIDs.IndexOf(t => t == session.TrackID);
-                        this.GroupedSessions.Insert(index,new SessionGroup(session.TrackID, session.TrackName, new MvvmHelpers.ObservableRangeCollection<Session>()));
+                        this.GroupedSessions.Insert(index, new SessionGroup(session.TrackID, session.TrackName, new MvvmHelpers.ObservableRangeCollection<Session>()));
                     }
 
                     this.GroupedSessions.FirstOrDefault(g => g.TrackID == session.TrackID)?.Add(session);

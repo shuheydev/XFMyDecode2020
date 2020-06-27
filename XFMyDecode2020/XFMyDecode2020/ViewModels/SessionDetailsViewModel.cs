@@ -14,14 +14,14 @@ namespace XFMyDecode2020.ViewModels
     [QueryProperty("SessionId", "sessionId")]
     public class SessionDetailsViewModel : BaseViewModel
     {
-        private string _sessionId;
+        private string _sessionId = string.Empty;
         public string SessionId
         {
             get => _sessionId;
             set => SetProperty(ref _sessionId, value);
         }
 
-        private Session _sessionInfo;
+        private Session _sessionInfo = new Session();
         public Session SessionInfo
         {
             get => _sessionInfo;

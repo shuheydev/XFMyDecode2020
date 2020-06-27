@@ -8,8 +8,11 @@ namespace XFMyDecode2020.Utilities
 {
     public static class MyAnimation
     {
-        public static async Task Animation1<T>(T control) where T : View
+        public static async Task Animation1<T>(T? control) where T : View
         {
+            if (control == null)
+                return;
+
             //一旦縮みつつフェードアウトさせる.
             //若干速く
             uint duration = 50;

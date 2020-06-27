@@ -13,6 +13,7 @@ using System.IO;
 using Microsoft.Extensions.Primitives;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
+using System.Collections.ObjectModel;
 
 namespace XFMyDecode2020.Services
 {
@@ -23,6 +24,7 @@ namespace XFMyDecode2020.Services
 
         public DataService()
         {
+            _sessions = new Collection<Session>();
             _filePath = Path.Combine(FileSystem.AppDataDirectory, "Sessions.json");
 
             if (!File.Exists(_filePath))
@@ -35,7 +37,7 @@ namespace XFMyDecode2020.Services
         {
             var assembly = Assembly.GetExecutingAssembly();
             using var stream = assembly.GetManifestResourceStream("XFMyDecode2020.Data.SessionData.json");
-            
+
             _sessions = JsonSerializer.DeserializeAsync<IEnumerable<Session>>(stream).Result;
 
             Save();
@@ -51,11 +53,8 @@ namespace XFMyDecode2020.Services
         {
             try
             {
-                if (_sessions == null)
-                {
-                    using var stream = File.OpenRead(_filePath);
-                    _sessions = await JsonSerializer.DeserializeAsync<IEnumerable<Session>>(stream);
-                }
+                using var stream = File.OpenRead(_filePath);
+                _sessions = await JsonSerializer.DeserializeAsync<IEnumerable<Session>>(stream);
             }
             catch
             {

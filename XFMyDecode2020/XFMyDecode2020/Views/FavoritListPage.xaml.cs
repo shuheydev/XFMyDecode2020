@@ -16,7 +16,7 @@ namespace XFMyDecode2020.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class FavoritListPage : ContentPage
     {
-        private string _message;
+        private string _message = string.Empty;
         public string Message
         {
             get => _message;

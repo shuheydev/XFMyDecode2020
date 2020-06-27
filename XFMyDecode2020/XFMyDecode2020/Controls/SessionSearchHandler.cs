@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
+using System.Collections.ObjectModel;
 
 namespace XFMyDecode2020.Controls
 {
@@ -18,17 +19,14 @@ namespace XFMyDecode2020.Controls
 
         public SessionSearchHandler()
         {
-
+            _sessions = new Collection<Session>();
         }
 
         protected override async void OnQueryChanged(string oldValue, string newValue)
         {
             base.OnQueryChanged(oldValue, newValue);
 
-            if (_sessions == null)
-            {
-                _sessions = await Startup.ServiceProvider.GetService<IDataService>().GetSessionDataAsync();
-            }
+            _sessions = await Startup.ServiceProvider.GetService<IDataService>().GetSessionDataAsync();
 
             if (string.IsNullOrWhiteSpace(newValue))
             {
@@ -86,7 +84,7 @@ namespace XFMyDecode2020.Controls
         {
             base.OnItemSelected(item);
 
-            await (App.Current.MainPage as Xamarin.Forms.Shell).GoToAsync($"sessionDetails?sessionId={((Session)item).SessionID}");
+            await Shell.Current.GoToAsync($"sessionDetails?sessionId={((Session)item).SessionID}");
         }
     }
 }

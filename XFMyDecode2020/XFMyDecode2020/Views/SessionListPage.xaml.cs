@@ -14,7 +14,7 @@ namespace XFMyDecode2020.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SessionListPage : ContentPage
     {
-        private string _message;
+        private string _message = string.Empty;
         public string Message
         {
             get => _message;
@@ -40,7 +40,7 @@ namespace XFMyDecode2020.Views
         {
             base.OnAppearing();
             await _viewModel.LoadSessions();
-            
+
             ResetFrameHeaderPosition();
 
             App.Current.Resources["CurrentAccentColor"] = App.Current.Resources["AppPrimaryColor"];

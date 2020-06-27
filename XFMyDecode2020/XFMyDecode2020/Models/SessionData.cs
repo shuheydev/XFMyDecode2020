@@ -1,33 +1,33 @@
 ﻿using MvvmHelpers;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 
 namespace XFMyDecode2020.Models
 {
-
     public class Rootobject
     {
-        public Session[] Property1 { get; set; }
+        public Collection<Session> Sessions { get; set; } = new Collection<Session>();
     }
 
     public class Session : ObservableObject
     {
-        public Language Language { get; set; }
-        public Mainspeaker MainSpeaker { get; set; }
-        public Reflink[] RefLinks { get; set; }
-        public string SessionDetails { get; set; }
-        public string SessionID { get; set; }
-        public string SessionLevel { get; set; }
-        public string SessionLevelTitle { get; set; }
-        public string SessionTitle { get; set; }
-        public string SessionURL { get; set; }
-        public Subspeakerlist[] SubSpeakerList { get; set; }
-        public Targetlist[] TargetList { get; set; }
-        public Topiclist[] TopicList { get; set; }
-        public string TrackID { get; set; }
-        public string TrackName { get; set; }
-        public string SessionVideoURL { get; set; }
+        public Language Language { get; set; } = new Language();
+        public Mainspeaker MainSpeaker { get; set; } = new Mainspeaker();
+        public Collection<Reflink> RefLinks { get; set; } = new Collection<Reflink>();
+        public string SessionDetails { get; set; } = string.Empty;
+        public string SessionID { get; set; } = string.Empty;
+        public string SessionLevel { get; set; } = string.Empty;
+        public string SessionLevelTitle { get; set; } = string.Empty;
+        public string SessionTitle { get; set; } = string.Empty;
+        public string SessionURL { get; set; } = string.Empty;
+        public Collection<Subspeakerlist> SubSpeakerList { get; set; } = new Collection<Subspeakerlist>();
+        public Collection<Targetlist> TargetList { get; set; } = new Collection<Targetlist>();
+        public Collection<Topiclist> TopicList { get; set; } = new Collection<Topiclist>();
+        public string TrackID { get; set; } = string.Empty;
+        public string TrackName { get; set; } = string.Empty;
+        public string SessionVideoURL { get; set; } = string.Empty;
         private bool _isFavorit;
         public bool IsFavorit
         {
@@ -44,57 +44,57 @@ namespace XFMyDecode2020.Models
 
     public class Language
     {
-        public string Title { get; set; }
-        public string id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string id { get; set; } = string.Empty;
     }
 
     public class Mainspeaker
     {
-        public string Company { get; set; }
-        public string Name { get; set; }
+        public string Company { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
     }
 
     public class Reflink
     {
-        public Link Link { get; set; }
+        public Link Link { get; set; } = new Link();
     }
 
     public class Link
     {
-        public string Description { get; set; }
-        public string URL { get; set; }
+        public string Description { get; set; } = string.Empty;
+        public string URL { get; set; } = string.Empty;
     }
 
     public class Subspeakerlist
     {
-        public Speaker Speaker { get; set; }
+        public Speaker Speaker { get; set; } = new Speaker();
     }
 
     public class Speaker
     {
-        public string Company { get; set; }
-        public string Name { get; set; }
+        public string Company { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
     }
 
     public class Targetlist
     {
-        public Target Target { get; set; }
+        public Target Target { get; set; } = new Target();
     }
 
     public class Target
     {
-        public string Title { get; set; }
-        public string id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string id { get; set; } = string.Empty;
     }
 
     public class Topiclist
     {
-        public Topic Topic { get; set; }
+        public Topic Topic { get; set; } = new Topic();
     }
 
     public class Topic
     {
-        public string Title { get; set; }
-        public string id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string id { get; set; } = string.Empty;
     }
 }

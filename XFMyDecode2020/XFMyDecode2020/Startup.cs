@@ -18,7 +18,7 @@ namespace XFMyDecode2020
 {
     public class Startup
     {
-        public static IServiceProvider ServiceProvider { get; set; }
+        public static IServiceProvider? ServiceProvider { get; set; }
 
         public static App Init(Action<HostBuilderContext, IServiceCollection> nativeConfigureServices)
         {
