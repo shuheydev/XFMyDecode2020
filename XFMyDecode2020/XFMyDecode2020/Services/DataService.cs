@@ -48,6 +48,11 @@ namespace XFMyDecode2020.Services
         /// <returns></returns>
         public async Task<IEnumerable<Session>> GetSessionDataAsync()
         {
+            if (this._sessions.Any())
+            {
+                return this._sessions;
+            }
+
             try
             {
                 using var stream = File.OpenRead(_filePath);
