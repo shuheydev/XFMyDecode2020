@@ -29,8 +29,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="appsettings.json" Condition="'$(Configuration)' != 'Debug' or !Exists('appsettings.Development.json')" />
-    <EmbeddedResource Include="appsettings.Development.json" Link="appsettings.json" Condition="'$(Configuration)' == 'Debug' and Exists('appsettings.Development.json')" />
+    <EmbeddedResource Include="appsettings.json" Condition="'$(Configuration)' == 'Release' or !Exists('appsettings.Development.json')" />
+    <EmbeddedResource Include="appsettings.Development.json" Link="appsettings.json" Condition="'$(Configuration)' != 'Release' and Exists('appsettings.Development.json')" />
     <EmbeddedResource Include="Data\SessionData.json" />
     <EmbeddedResource Include="Resources\Icons\fa-brands-400.ttf" />
     <EmbeddedResource Include="Resources\Icons\fa-regular-400.ttf" />
