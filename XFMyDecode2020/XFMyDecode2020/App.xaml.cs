@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -6,11 +8,13 @@ namespace XFMyDecode2020
 {
     public partial class App : Application
     {
-        public App()
+        public App(ILogger<App> logger,
+                   Page appShell,
+                   IConfiguration config)
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = appShell;
         }
 
         protected override void OnStart()
