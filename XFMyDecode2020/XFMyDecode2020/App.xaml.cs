@@ -12,6 +12,9 @@ namespace XFMyDecode2020
                    Page appShell,
                    IConfiguration config)
         {
+            var licenceKey = config["SyncfusionLicenceKey"];
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(licenceKey);
+            
             InitializeComponent();
 
             MainPage = appShell;
