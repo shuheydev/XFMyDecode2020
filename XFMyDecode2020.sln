@@ -13,11 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{27044B5C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerateSessionData", "GenerateSessionData\GenerateSessionData.csproj", "{7E600CBF-724A-41D6-9428-ADFD15F99268}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5C6116CF-C0FB-4600-807E-022E776D8CA9}"
-	ProjectSection(SolutionItems) = preProject
-		appcenter-post-clone.sh = appcenter-post-clone.sh
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug_NullableOn|Any CPU = Debug_NullableOn|Any CPU

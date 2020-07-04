@@ -125,6 +125,7 @@
     <Compile Include="Services\StatusBarColorManager.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="appcenter-post-clone.sh" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
