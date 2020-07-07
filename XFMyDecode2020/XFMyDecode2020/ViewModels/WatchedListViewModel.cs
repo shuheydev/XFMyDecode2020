@@ -1,20 +1,11 @@
-﻿using MvvmHelpers;
-using MvvmHelpers.Commands;
-using MvvmHelpers.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using MvvmHelpers.Commands;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using System.Windows.Input;
 using Xamarin.Forms;
 using XFMyDecode2020.Models;
 using XFMyDecode2020.Services;
-using Xamarin.Forms.Xaml;
 using XFMyDecode2020.Utilities;
-using Xamarin.Forms.Internals;
 
 namespace XFMyDecode2020.ViewModels
 {
@@ -75,7 +66,9 @@ namespace XFMyDecode2020.ViewModels
 
             this.GroupedSessions.Clear();
             this.GroupedSessions.AddRange(filteredSessions.GroupBy(s => s.TrackID)
-                                  .Select(g => new SessionGroup(g.Key, g.FirstOrDefault().TrackName, new MvvmHelpers.ObservableRangeCollection<Session>(g.ToList()))));
+                                  .Select(g => new SessionGroup(g.Key,
+                                                                g.FirstOrDefault().TrackName,
+                                                                new MvvmHelpers.ObservableRangeCollection<Session>(g.ToList()))));
         }
 
         public AsyncCommand<string> ShowSessionDetailsCommand { get; }
@@ -150,7 +143,9 @@ namespace XFMyDecode2020.ViewModels
 
                     if (group is null)
                     {
-                        this.GroupedSessions.Add(new SessionGroup(session.TrackID, session.TrackName, new MvvmHelpers.ObservableRangeCollection<Session>()));
+                        this.GroupedSessions.Add(new SessionGroup(session.TrackID,
+                                                                  session.TrackName,
+                                                                  new MvvmHelpers.ObservableRangeCollection<Session>()));
                     }
 
                     this.GroupedSessions.FirstOrDefault(g => g.TrackID == session.TrackID)?.Add(session);
@@ -164,5 +159,4 @@ namespace XFMyDecode2020.ViewModels
             this.GroupedSessions.OrderBy(g => g.TrackID);
         }
     }
-
 }

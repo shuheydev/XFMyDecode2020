@@ -1,21 +1,13 @@
-﻿using MvvmHelpers;
-using MvvmHelpers.Commands;
-using MvvmHelpers.Interfaces;
+﻿using MvvmHelpers.Commands;
 using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using System.Windows.Input;
 using Xamarin.Forms;
+using Xamarin.Forms.Internals;
 using XFMyDecode2020.Models;
 using XFMyDecode2020.Services;
-using Xamarin.Forms.Xaml;
 using XFMyDecode2020.Utilities;
-using Xamarin.Forms.Internals;
-using System.Runtime.CompilerServices;
 
 namespace XFMyDecode2020.ViewModels
 {
@@ -155,7 +147,9 @@ namespace XFMyDecode2020.ViewModels
                         trackIds.Add(session.TrackID);
                         var orderedTrackIDs = trackIds.OrderBy(t => t);
                         int index = orderedTrackIDs.IndexOf(t => t == session.TrackID);
-                        this.GroupedSessions.Insert(index, new SessionGroup(session.TrackID, session.TrackName, new MvvmHelpers.ObservableRangeCollection<Session>()));
+                        this.GroupedSessions.Insert(index, new SessionGroup(session.TrackID,
+                                                                            session.TrackName,
+                                                                            new MvvmHelpers.ObservableRangeCollection<Session>()));
                     }
 
                     this.GroupedSessions.FirstOrDefault(g => g.TrackID == session.TrackID)?.Add(session);
@@ -165,8 +159,6 @@ namespace XFMyDecode2020.ViewModels
             {
                 throw;
             }
-
-
         }
     }
 }

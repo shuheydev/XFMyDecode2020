@@ -1,8 +1,4 @@
-﻿using Microsoft.Extensions.Primitives;
-using MvvmHelpers.Commands;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MvvmHelpers.Commands;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using XFMyDecode2020.Models;

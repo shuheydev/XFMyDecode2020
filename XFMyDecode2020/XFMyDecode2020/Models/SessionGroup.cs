@@ -1,10 +1,4 @@
-﻿using MvvmHelpers;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Text;
-
-namespace XFMyDecode2020.Models
+﻿namespace XFMyDecode2020.Models
 {
     public class SessionGroup : MvvmHelpers.ObservableRangeCollection<Session>
     {
