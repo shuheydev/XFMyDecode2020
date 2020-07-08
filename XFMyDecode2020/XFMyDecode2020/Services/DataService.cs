@@ -1,19 +1,14 @@
-﻿using MonkeyCache;
-using MonkeyCache.FileStore;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.IO;
+using System.Linq;
 using System.Reflection;
-using System.Text;
+using System.Text.Encodings.Web;
+using System.Text.Json;
+using System.Text.Unicode;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
 using XFMyDecode2020.Models;
-using System.Text.Json;
-using System.Linq;
-using System.IO;
-using Microsoft.Extensions.Primitives;
-using System.Text.Encodings.Web;
-using System.Text.Unicode;
-using System.Collections.ObjectModel;
 
 namespace XFMyDecode2020.Services
 {

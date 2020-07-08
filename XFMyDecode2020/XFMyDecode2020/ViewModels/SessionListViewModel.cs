@@ -25,7 +25,7 @@ namespace XFMyDecode2020.ViewModels
             set => SetProperty(ref _groupedSessions, value);
         }
 
-        private string _searchString=string.Empty;
+        private string _searchString = string.Empty;
         public string SearchString
         {
             get => _searchString;
@@ -52,7 +52,9 @@ namespace XFMyDecode2020.ViewModels
 
             this.GroupedSessions.Clear();
             this.GroupedSessions.AddRange(filteredSessions.GroupBy(s => s.TrackID)
-                                  .Select(g => new SessionGroup(g.Key, g.FirstOrDefault().TrackName, new MvvmHelpers.ObservableRangeCollection<Session>(g.ToList()))));
+                                  .Select(g => new SessionGroup(g.Key,
+                                                                g.FirstOrDefault().TrackName,
+                                                                new MvvmHelpers.ObservableRangeCollection<Session>(g.ToList()))));
         }
 
         public AsyncCommand<string> ShowSessionDetailsCommand { get; }
@@ -88,13 +90,17 @@ namespace XFMyDecode2020.ViewModels
         {
             try
             {
-                var sessions = await _dataService.GetSessionDataAsync();
-                this.Sessions = new MvvmHelpers.ObservableRangeCollection<Session>(sessions);
+                if (!this.Sessions.Any())
+                {
+                    var sessions = await _dataService.GetSessionDataAsync();
+                    this.Sessions.AddRange(sessions);
 
-                //Let's grouping
-                this.GroupedSessions = new MvvmHelpers.ObservableRangeCollection<SessionGroup>();
-                this.GroupedSessions.AddRange(this.Sessions.GroupBy(s => s.TrackID)
-                                                      .Select(g => new SessionGroup(g.Key, g.FirstOrDefault().TrackName, new MvvmHelpers.ObservableRangeCollection<Session>(g.ToList()))));
+                    //Let's grouping
+                    this.GroupedSessions.AddRange(this.Sessions.GroupBy(s => s.TrackID)
+                                                               .Select(g => new SessionGroup(g.Key,
+                                                                                             g.FirstOrDefault().TrackName,
+                                                                                             new MvvmHelpers.ObservableRangeCollection<Session>(g.ToList()))));
+                }
             }
             catch
             {
