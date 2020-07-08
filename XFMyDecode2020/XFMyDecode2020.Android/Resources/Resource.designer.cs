@@ -2721,2231 +2721,27 @@ namespace XFMyDecode2020.Droid
 			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::XFMyDecode2020.Droid.Resource.Styleable.ProgressWheel_ahText;
 			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::XFMyDecode2020.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
 			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::XFMyDecode2020.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_fade_in = global::XFMyDecode2020.Droid.Resource.Animation.abc_fade_in;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_fade_out = global::XFMyDecode2020.Droid.Resource.Animation.abc_fade_out;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::XFMyDecode2020.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_popup_enter = global::XFMyDecode2020.Droid.Resource.Animation.abc_popup_enter;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_popup_exit = global::XFMyDecode2020.Droid.Resource.Animation.abc_popup_exit;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::XFMyDecode2020.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_in_bottom = global::XFMyDecode2020.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_in_top = global::XFMyDecode2020.Droid.Resource.Animation.abc_slide_in_top;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_out_bottom = global::XFMyDecode2020.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_out_top = global::XFMyDecode2020.Droid.Resource.Animation.abc_slide_out_top;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::XFMyDecode2020.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::XFMyDecode2020.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_snackbar_in = global::XFMyDecode2020.Droid.Resource.Animation.design_snackbar_in;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_snackbar_out = global::XFMyDecode2020.Droid.Resource.Animation.design_snackbar_out;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Animator.design_appbar_state_list_animator = global::XFMyDecode2020.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarDivider = global::XFMyDecode2020.Droid.Resource.Attribute.actionBarDivider;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarItemBackground = global::XFMyDecode2020.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarPopupTheme = global::XFMyDecode2020.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarSize = global::XFMyDecode2020.Droid.Resource.Attribute.actionBarSize;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarSplitStyle = global::XFMyDecode2020.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarStyle = global::XFMyDecode2020.Droid.Resource.Attribute.actionBarStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTabBarStyle = global::XFMyDecode2020.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTabStyle = global::XFMyDecode2020.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTabTextStyle = global::XFMyDecode2020.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTheme = global::XFMyDecode2020.Droid.Resource.Attribute.actionBarTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarWidgetTheme = global::XFMyDecode2020.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionButtonStyle = global::XFMyDecode2020.Droid.Resource.Attribute.actionButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionDropDownStyle = global::XFMyDecode2020.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionLayout = global::XFMyDecode2020.Droid.Resource.Attribute.actionLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionMenuTextAppearance = global::XFMyDecode2020.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionMenuTextColor = global::XFMyDecode2020.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeBackground = global::XFMyDecode2020.Droid.Resource.Attribute.actionModeBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::XFMyDecode2020.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCloseDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCopyDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCutDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeFindDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModePasteDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModePopupWindowStyle = global::XFMyDecode2020.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeShareDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeSplitBackground = global::XFMyDecode2020.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeStyle = global::XFMyDecode2020.Droid.Resource.Attribute.actionModeStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionOverflowButtonStyle = global::XFMyDecode2020.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionOverflowMenuStyle = global::XFMyDecode2020.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionProviderClass = global::XFMyDecode2020.Droid.Resource.Attribute.actionProviderClass;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionViewClass = global::XFMyDecode2020.Droid.Resource.Attribute.actionViewClass;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.activityChooserViewStyle = global::XFMyDecode2020.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::XFMyDecode2020.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogCenterButtons = global::XFMyDecode2020.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogStyle = global::XFMyDecode2020.Droid.Resource.Attribute.alertDialogStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogTheme = global::XFMyDecode2020.Droid.Resource.Attribute.alertDialogTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.allowStacking = global::XFMyDecode2020.Droid.Resource.Attribute.allowStacking;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alpha = global::XFMyDecode2020.Droid.Resource.Attribute.alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alphabeticModifiers = global::XFMyDecode2020.Droid.Resource.Attribute.alphabeticModifiers;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.arrowHeadLength = global::XFMyDecode2020.Droid.Resource.Attribute.arrowHeadLength;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.arrowShaftLength = global::XFMyDecode2020.Droid.Resource.Attribute.arrowShaftLength;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::XFMyDecode2020.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeMaxTextSize = global::XFMyDecode2020.Droid.Resource.Attribute.autoSizeMaxTextSize;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeMinTextSize = global::XFMyDecode2020.Droid.Resource.Attribute.autoSizeMinTextSize;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizePresetSizes = global::XFMyDecode2020.Droid.Resource.Attribute.autoSizePresetSizes;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeStepGranularity = global::XFMyDecode2020.Droid.Resource.Attribute.autoSizeStepGranularity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeTextType = global::XFMyDecode2020.Droid.Resource.Attribute.autoSizeTextType;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.background = global::XFMyDecode2020.Droid.Resource.Attribute.background;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundSplit = global::XFMyDecode2020.Droid.Resource.Attribute.backgroundSplit;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundStacked = global::XFMyDecode2020.Droid.Resource.Attribute.backgroundStacked;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundTint = global::XFMyDecode2020.Droid.Resource.Attribute.backgroundTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundTintMode = global::XFMyDecode2020.Droid.Resource.Attribute.backgroundTintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.barLength = global::XFMyDecode2020.Droid.Resource.Attribute.barLength;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_autoHide = global::XFMyDecode2020.Droid.Resource.Attribute.behavior_autoHide;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_hideable = global::XFMyDecode2020.Droid.Resource.Attribute.behavior_hideable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_overlapTop = global::XFMyDecode2020.Droid.Resource.Attribute.behavior_overlapTop;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_peekHeight = global::XFMyDecode2020.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_skipCollapsed = global::XFMyDecode2020.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.borderlessButtonStyle = global::XFMyDecode2020.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.borderWidth = global::XFMyDecode2020.Droid.Resource.Attribute.borderWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.bottomSheetDialogTheme = global::XFMyDecode2020.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.bottomSheetStyle = global::XFMyDecode2020.Droid.Resource.Attribute.bottomSheetStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarButtonStyle = global::XFMyDecode2020.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::XFMyDecode2020.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::XFMyDecode2020.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::XFMyDecode2020.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarStyle = global::XFMyDecode2020.Droid.Resource.Attribute.buttonBarStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonGravity = global::XFMyDecode2020.Droid.Resource.Attribute.buttonGravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonPanelSideLayout = global::XFMyDecode2020.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonStyle = global::XFMyDecode2020.Droid.Resource.Attribute.buttonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonStyleSmall = global::XFMyDecode2020.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonTint = global::XFMyDecode2020.Droid.Resource.Attribute.buttonTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonTintMode = global::XFMyDecode2020.Droid.Resource.Attribute.buttonTintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardBackgroundColor = global::XFMyDecode2020.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardCornerRadius = global::XFMyDecode2020.Droid.Resource.Attribute.cardCornerRadius;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardElevation = global::XFMyDecode2020.Droid.Resource.Attribute.cardElevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardMaxElevation = global::XFMyDecode2020.Droid.Resource.Attribute.cardMaxElevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardPreventCornerOverlap = global::XFMyDecode2020.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardUseCompatPadding = global::XFMyDecode2020.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.checkboxStyle = global::XFMyDecode2020.Droid.Resource.Attribute.checkboxStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.checkedTextViewStyle = global::XFMyDecode2020.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.closeIcon = global::XFMyDecode2020.Droid.Resource.Attribute.closeIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.closeItemLayout = global::XFMyDecode2020.Droid.Resource.Attribute.closeItemLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapseContentDescription = global::XFMyDecode2020.Droid.Resource.Attribute.collapseContentDescription;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapsedTitleGravity = global::XFMyDecode2020.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::XFMyDecode2020.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapseIcon = global::XFMyDecode2020.Droid.Resource.Attribute.collapseIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.color = global::XFMyDecode2020.Droid.Resource.Attribute.color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorAccent = global::XFMyDecode2020.Droid.Resource.Attribute.colorAccent;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorBackgroundFloating = global::XFMyDecode2020.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorButtonNormal = global::XFMyDecode2020.Droid.Resource.Attribute.colorButtonNormal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorControlActivated = global::XFMyDecode2020.Droid.Resource.Attribute.colorControlActivated;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorControlHighlight = global::XFMyDecode2020.Droid.Resource.Attribute.colorControlHighlight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorControlNormal = global::XFMyDecode2020.Droid.Resource.Attribute.colorControlNormal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorError = global::XFMyDecode2020.Droid.Resource.Attribute.colorError;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorPrimary = global::XFMyDecode2020.Droid.Resource.Attribute.colorPrimary;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorPrimaryDark = global::XFMyDecode2020.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorSwitchThumbNormal = global::XFMyDecode2020.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.commitIcon = global::XFMyDecode2020.Droid.Resource.Attribute.commitIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentDescription = global::XFMyDecode2020.Droid.Resource.Attribute.contentDescription;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetEnd = global::XFMyDecode2020.Droid.Resource.Attribute.contentInsetEnd;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetEndWithActions = global::XFMyDecode2020.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetLeft = global::XFMyDecode2020.Droid.Resource.Attribute.contentInsetLeft;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetRight = global::XFMyDecode2020.Droid.Resource.Attribute.contentInsetRight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetStart = global::XFMyDecode2020.Droid.Resource.Attribute.contentInsetStart;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::XFMyDecode2020.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPadding = global::XFMyDecode2020.Droid.Resource.Attribute.contentPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingBottom = global::XFMyDecode2020.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingLeft = global::XFMyDecode2020.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingRight = global::XFMyDecode2020.Droid.Resource.Attribute.contentPaddingRight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingTop = global::XFMyDecode2020.Droid.Resource.Attribute.contentPaddingTop;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentScrim = global::XFMyDecode2020.Droid.Resource.Attribute.contentScrim;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.controlBackground = global::XFMyDecode2020.Droid.Resource.Attribute.controlBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterEnabled = global::XFMyDecode2020.Droid.Resource.Attribute.counterEnabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterMaxLength = global::XFMyDecode2020.Droid.Resource.Attribute.counterMaxLength;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterOverflowTextAppearance = global::XFMyDecode2020.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterTextAppearance = global::XFMyDecode2020.Droid.Resource.Attribute.counterTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.customNavigationLayout = global::XFMyDecode2020.Droid.Resource.Attribute.customNavigationLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.defaultQueryHint = global::XFMyDecode2020.Droid.Resource.Attribute.defaultQueryHint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dialogPreferredPadding = global::XFMyDecode2020.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dialogTheme = global::XFMyDecode2020.Droid.Resource.Attribute.dialogTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.displayOptions = global::XFMyDecode2020.Droid.Resource.Attribute.displayOptions;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.divider = global::XFMyDecode2020.Droid.Resource.Attribute.divider;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dividerHorizontal = global::XFMyDecode2020.Droid.Resource.Attribute.dividerHorizontal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dividerPadding = global::XFMyDecode2020.Droid.Resource.Attribute.dividerPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dividerVertical = global::XFMyDecode2020.Droid.Resource.Attribute.dividerVertical;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.drawableSize = global::XFMyDecode2020.Droid.Resource.Attribute.drawableSize;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.drawerArrowStyle = global::XFMyDecode2020.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::XFMyDecode2020.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dropDownListViewStyle = global::XFMyDecode2020.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.editTextBackground = global::XFMyDecode2020.Droid.Resource.Attribute.editTextBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.editTextColor = global::XFMyDecode2020.Droid.Resource.Attribute.editTextColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.editTextStyle = global::XFMyDecode2020.Droid.Resource.Attribute.editTextStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.elevation = global::XFMyDecode2020.Droid.Resource.Attribute.elevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.errorEnabled = global::XFMyDecode2020.Droid.Resource.Attribute.errorEnabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.errorTextAppearance = global::XFMyDecode2020.Droid.Resource.Attribute.errorTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expanded = global::XFMyDecode2020.Droid.Resource.Attribute.expanded;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleGravity = global::XFMyDecode2020.Droid.Resource.Attribute.expandedTitleGravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMargin = global::XFMyDecode2020.Droid.Resource.Attribute.expandedTitleMargin;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginBottom = global::XFMyDecode2020.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginEnd = global::XFMyDecode2020.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginStart = global::XFMyDecode2020.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginTop = global::XFMyDecode2020.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleTextAppearance = global::XFMyDecode2020.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.externalRouteEnabledDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fabSize = global::XFMyDecode2020.Droid.Resource.Attribute.fabSize;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollEnabled = global::XFMyDecode2020.Droid.Resource.Attribute.fastScrollEnabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.font = global::XFMyDecode2020.Droid.Resource.Attribute.font;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontFamily = global::XFMyDecode2020.Droid.Resource.Attribute.fontFamily;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderAuthority = global::XFMyDecode2020.Droid.Resource.Attribute.fontProviderAuthority;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderCerts = global::XFMyDecode2020.Droid.Resource.Attribute.fontProviderCerts;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderFetchStrategy = global::XFMyDecode2020.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderFetchTimeout = global::XFMyDecode2020.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderPackage = global::XFMyDecode2020.Droid.Resource.Attribute.fontProviderPackage;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderQuery = global::XFMyDecode2020.Droid.Resource.Attribute.fontProviderQuery;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontStyle = global::XFMyDecode2020.Droid.Resource.Attribute.fontStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontWeight = global::XFMyDecode2020.Droid.Resource.Attribute.fontWeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.foregroundInsidePadding = global::XFMyDecode2020.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.gapBetweenBars = global::XFMyDecode2020.Droid.Resource.Attribute.gapBetweenBars;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.goIcon = global::XFMyDecode2020.Droid.Resource.Attribute.goIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.headerLayout = global::XFMyDecode2020.Droid.Resource.Attribute.headerLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.height = global::XFMyDecode2020.Droid.Resource.Attribute.height;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hideOnContentScroll = global::XFMyDecode2020.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hintAnimationEnabled = global::XFMyDecode2020.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hintEnabled = global::XFMyDecode2020.Droid.Resource.Attribute.hintEnabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hintTextAppearance = global::XFMyDecode2020.Droid.Resource.Attribute.hintTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.homeAsUpIndicator = global::XFMyDecode2020.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.homeLayout = global::XFMyDecode2020.Droid.Resource.Attribute.homeLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.icon = global::XFMyDecode2020.Droid.Resource.Attribute.icon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.iconifiedByDefault = global::XFMyDecode2020.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.iconTint = global::XFMyDecode2020.Droid.Resource.Attribute.iconTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.iconTintMode = global::XFMyDecode2020.Droid.Resource.Attribute.iconTintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.imageButtonStyle = global::XFMyDecode2020.Droid.Resource.Attribute.imageButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.indeterminateProgressStyle = global::XFMyDecode2020.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.initialActivityCount = global::XFMyDecode2020.Droid.Resource.Attribute.initialActivityCount;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.insetForeground = global::XFMyDecode2020.Droid.Resource.Attribute.insetForeground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.isLightTheme = global::XFMyDecode2020.Droid.Resource.Attribute.isLightTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemBackground = global::XFMyDecode2020.Droid.Resource.Attribute.itemBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemIconTint = global::XFMyDecode2020.Droid.Resource.Attribute.itemIconTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemPadding = global::XFMyDecode2020.Droid.Resource.Attribute.itemPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemTextAppearance = global::XFMyDecode2020.Droid.Resource.Attribute.itemTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemTextColor = global::XFMyDecode2020.Droid.Resource.Attribute.itemTextColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.keylines = global::XFMyDecode2020.Droid.Resource.Attribute.keylines;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout = global::XFMyDecode2020.Droid.Resource.Attribute.layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layoutManager = global::XFMyDecode2020.Droid.Resource.Attribute.layoutManager;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_anchor = global::XFMyDecode2020.Droid.Resource.Attribute.layout_anchor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_anchorGravity = global::XFMyDecode2020.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_behavior = global::XFMyDecode2020.Droid.Resource.Attribute.layout_behavior;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_collapseMode = global::XFMyDecode2020.Droid.Resource.Attribute.layout_collapseMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::XFMyDecode2020.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::XFMyDecode2020.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_insetEdge = global::XFMyDecode2020.Droid.Resource.Attribute.layout_insetEdge;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_keyline = global::XFMyDecode2020.Droid.Resource.Attribute.layout_keyline;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_scrollFlags = global::XFMyDecode2020.Droid.Resource.Attribute.layout_scrollFlags;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_scrollInterpolator = global::XFMyDecode2020.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::XFMyDecode2020.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listDividerAlertDialog = global::XFMyDecode2020.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listItemLayout = global::XFMyDecode2020.Droid.Resource.Attribute.listItemLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listLayout = global::XFMyDecode2020.Droid.Resource.Attribute.listLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listMenuViewStyle = global::XFMyDecode2020.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPopupWindowStyle = global::XFMyDecode2020.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemHeight = global::XFMyDecode2020.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::XFMyDecode2020.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::XFMyDecode2020.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::XFMyDecode2020.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::XFMyDecode2020.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.logo = global::XFMyDecode2020.Droid.Resource.Attribute.logo;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.logoDescription = global::XFMyDecode2020.Droid.Resource.Attribute.logoDescription;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.maxActionInlineWidth = global::XFMyDecode2020.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.maxButtonHeight = global::XFMyDecode2020.Droid.Resource.Attribute.maxButtonHeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.measureWithLargestChild = global::XFMyDecode2020.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteButtonStyle = global::XFMyDecode2020.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteButtonTint = global::XFMyDecode2020.Droid.Resource.Attribute.mediaRouteButtonTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.mediaRouteCloseDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::XFMyDecode2020.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteStopDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.mediaRouteStopDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteTheme = global::XFMyDecode2020.Droid.Resource.Attribute.mediaRouteTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.menu = global::XFMyDecode2020.Droid.Resource.Attribute.menu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.multiChoiceItemLayout = global::XFMyDecode2020.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.navigationContentDescription = global::XFMyDecode2020.Droid.Resource.Attribute.navigationContentDescription;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.navigationIcon = global::XFMyDecode2020.Droid.Resource.Attribute.navigationIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.navigationMode = global::XFMyDecode2020.Droid.Resource.Attribute.navigationMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.numericModifiers = global::XFMyDecode2020.Droid.Resource.Attribute.numericModifiers;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.overlapAnchor = global::XFMyDecode2020.Droid.Resource.Attribute.overlapAnchor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingBottomNoButtons = global::XFMyDecode2020.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingEnd = global::XFMyDecode2020.Droid.Resource.Attribute.paddingEnd;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingStart = global::XFMyDecode2020.Droid.Resource.Attribute.paddingStart;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingTopNoTitle = global::XFMyDecode2020.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.panelBackground = global::XFMyDecode2020.Droid.Resource.Attribute.panelBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.panelMenuListTheme = global::XFMyDecode2020.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.panelMenuListWidth = global::XFMyDecode2020.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleContentDescription = global::XFMyDecode2020.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleDrawable = global::XFMyDecode2020.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleEnabled = global::XFMyDecode2020.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleTint = global::XFMyDecode2020.Droid.Resource.Attribute.passwordToggleTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleTintMode = global::XFMyDecode2020.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.popupMenuStyle = global::XFMyDecode2020.Droid.Resource.Attribute.popupMenuStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.popupTheme = global::XFMyDecode2020.Droid.Resource.Attribute.popupTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.popupWindowStyle = global::XFMyDecode2020.Droid.Resource.Attribute.popupWindowStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.preserveIconSpacing = global::XFMyDecode2020.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.pressedTranslationZ = global::XFMyDecode2020.Droid.Resource.Attribute.pressedTranslationZ;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.progressBarPadding = global::XFMyDecode2020.Droid.Resource.Attribute.progressBarPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.progressBarStyle = global::XFMyDecode2020.Droid.Resource.Attribute.progressBarStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.queryBackground = global::XFMyDecode2020.Droid.Resource.Attribute.queryBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.queryHint = global::XFMyDecode2020.Droid.Resource.Attribute.queryHint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.radioButtonStyle = global::XFMyDecode2020.Droid.Resource.Attribute.radioButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.ratingBarStyle = global::XFMyDecode2020.Droid.Resource.Attribute.ratingBarStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.ratingBarStyleIndicator = global::XFMyDecode2020.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.ratingBarStyleSmall = global::XFMyDecode2020.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.reverseLayout = global::XFMyDecode2020.Droid.Resource.Attribute.reverseLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.rippleColor = global::XFMyDecode2020.Droid.Resource.Attribute.rippleColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.scrimAnimationDuration = global::XFMyDecode2020.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::XFMyDecode2020.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.searchHintIcon = global::XFMyDecode2020.Droid.Resource.Attribute.searchHintIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.searchIcon = global::XFMyDecode2020.Droid.Resource.Attribute.searchIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.searchViewStyle = global::XFMyDecode2020.Droid.Resource.Attribute.searchViewStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.seekBarStyle = global::XFMyDecode2020.Droid.Resource.Attribute.seekBarStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.selectableItemBackground = global::XFMyDecode2020.Droid.Resource.Attribute.selectableItemBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::XFMyDecode2020.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showAsAction = global::XFMyDecode2020.Droid.Resource.Attribute.showAsAction;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showDividers = global::XFMyDecode2020.Droid.Resource.Attribute.showDividers;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showText = global::XFMyDecode2020.Droid.Resource.Attribute.showText;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showTitle = global::XFMyDecode2020.Droid.Resource.Attribute.showTitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.singleChoiceItemLayout = global::XFMyDecode2020.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spanCount = global::XFMyDecode2020.Droid.Resource.Attribute.spanCount;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spinBars = global::XFMyDecode2020.Droid.Resource.Attribute.spinBars;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::XFMyDecode2020.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spinnerStyle = global::XFMyDecode2020.Droid.Resource.Attribute.spinnerStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.splitTrack = global::XFMyDecode2020.Droid.Resource.Attribute.splitTrack;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.srcCompat = global::XFMyDecode2020.Droid.Resource.Attribute.srcCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.stackFromEnd = global::XFMyDecode2020.Droid.Resource.Attribute.stackFromEnd;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.state_above_anchor = global::XFMyDecode2020.Droid.Resource.Attribute.state_above_anchor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.state_collapsed = global::XFMyDecode2020.Droid.Resource.Attribute.state_collapsed;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.state_collapsible = global::XFMyDecode2020.Droid.Resource.Attribute.state_collapsible;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.statusBarBackground = global::XFMyDecode2020.Droid.Resource.Attribute.statusBarBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.statusBarScrim = global::XFMyDecode2020.Droid.Resource.Attribute.statusBarScrim;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subMenuArrow = global::XFMyDecode2020.Droid.Resource.Attribute.subMenuArrow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.submitBackground = global::XFMyDecode2020.Droid.Resource.Attribute.submitBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitle = global::XFMyDecode2020.Droid.Resource.Attribute.subtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitleTextAppearance = global::XFMyDecode2020.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitleTextColor = global::XFMyDecode2020.Droid.Resource.Attribute.subtitleTextColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitleTextStyle = global::XFMyDecode2020.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.suggestionRowLayout = global::XFMyDecode2020.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchMinWidth = global::XFMyDecode2020.Droid.Resource.Attribute.switchMinWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchPadding = global::XFMyDecode2020.Droid.Resource.Attribute.switchPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchStyle = global::XFMyDecode2020.Droid.Resource.Attribute.switchStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchTextAppearance = global::XFMyDecode2020.Droid.Resource.Attribute.switchTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabBackground = global::XFMyDecode2020.Droid.Resource.Attribute.tabBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabContentStart = global::XFMyDecode2020.Droid.Resource.Attribute.tabContentStart;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabGravity = global::XFMyDecode2020.Droid.Resource.Attribute.tabGravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabIndicatorColor = global::XFMyDecode2020.Droid.Resource.Attribute.tabIndicatorColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabIndicatorHeight = global::XFMyDecode2020.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabMaxWidth = global::XFMyDecode2020.Droid.Resource.Attribute.tabMaxWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabMinWidth = global::XFMyDecode2020.Droid.Resource.Attribute.tabMinWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabMode = global::XFMyDecode2020.Droid.Resource.Attribute.tabMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPadding = global::XFMyDecode2020.Droid.Resource.Attribute.tabPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingBottom = global::XFMyDecode2020.Droid.Resource.Attribute.tabPaddingBottom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingEnd = global::XFMyDecode2020.Droid.Resource.Attribute.tabPaddingEnd;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingStart = global::XFMyDecode2020.Droid.Resource.Attribute.tabPaddingStart;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingTop = global::XFMyDecode2020.Droid.Resource.Attribute.tabPaddingTop;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabSelectedTextColor = global::XFMyDecode2020.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabTextAppearance = global::XFMyDecode2020.Droid.Resource.Attribute.tabTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabTextColor = global::XFMyDecode2020.Droid.Resource.Attribute.tabTextColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAllCaps = global::XFMyDecode2020.Droid.Resource.Attribute.textAllCaps;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::XFMyDecode2020.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceListItem = global::XFMyDecode2020.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::XFMyDecode2020.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceListItemSmall = global::XFMyDecode2020.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::XFMyDecode2020.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::XFMyDecode2020.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::XFMyDecode2020.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::XFMyDecode2020.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textColorAlertDialogListItem = global::XFMyDecode2020.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textColorSearchUrl = global::XFMyDecode2020.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.theme = global::XFMyDecode2020.Droid.Resource.Attribute.theme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thickness = global::XFMyDecode2020.Droid.Resource.Attribute.thickness;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thumbTextPadding = global::XFMyDecode2020.Droid.Resource.Attribute.thumbTextPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thumbTint = global::XFMyDecode2020.Droid.Resource.Attribute.thumbTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thumbTintMode = global::XFMyDecode2020.Droid.Resource.Attribute.thumbTintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tickMark = global::XFMyDecode2020.Droid.Resource.Attribute.tickMark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tickMarkTint = global::XFMyDecode2020.Droid.Resource.Attribute.tickMarkTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tickMarkTintMode = global::XFMyDecode2020.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tint = global::XFMyDecode2020.Droid.Resource.Attribute.tint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tintMode = global::XFMyDecode2020.Droid.Resource.Attribute.tintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.title = global::XFMyDecode2020.Droid.Resource.Attribute.title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleEnabled = global::XFMyDecode2020.Droid.Resource.Attribute.titleEnabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMargin = global::XFMyDecode2020.Droid.Resource.Attribute.titleMargin;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginBottom = global::XFMyDecode2020.Droid.Resource.Attribute.titleMarginBottom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginEnd = global::XFMyDecode2020.Droid.Resource.Attribute.titleMarginEnd;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMargins = global::XFMyDecode2020.Droid.Resource.Attribute.titleMargins;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginStart = global::XFMyDecode2020.Droid.Resource.Attribute.titleMarginStart;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginTop = global::XFMyDecode2020.Droid.Resource.Attribute.titleMarginTop;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleTextAppearance = global::XFMyDecode2020.Droid.Resource.Attribute.titleTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleTextColor = global::XFMyDecode2020.Droid.Resource.Attribute.titleTextColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleTextStyle = global::XFMyDecode2020.Droid.Resource.Attribute.titleTextStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.toolbarId = global::XFMyDecode2020.Droid.Resource.Attribute.toolbarId;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::XFMyDecode2020.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.toolbarStyle = global::XFMyDecode2020.Droid.Resource.Attribute.toolbarStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tooltipForegroundColor = global::XFMyDecode2020.Droid.Resource.Attribute.tooltipForegroundColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tooltipFrameBackground = global::XFMyDecode2020.Droid.Resource.Attribute.tooltipFrameBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tooltipText = global::XFMyDecode2020.Droid.Resource.Attribute.tooltipText;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.track = global::XFMyDecode2020.Droid.Resource.Attribute.track;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.trackTint = global::XFMyDecode2020.Droid.Resource.Attribute.trackTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.trackTintMode = global::XFMyDecode2020.Droid.Resource.Attribute.trackTintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.useCompatPadding = global::XFMyDecode2020.Droid.Resource.Attribute.useCompatPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.voiceIcon = global::XFMyDecode2020.Droid.Resource.Attribute.voiceIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowActionBar = global::XFMyDecode2020.Droid.Resource.Attribute.windowActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowActionBarOverlay = global::XFMyDecode2020.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowActionModeOverlay = global::XFMyDecode2020.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedHeightMajor = global::XFMyDecode2020.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedHeightMinor = global::XFMyDecode2020.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedWidthMajor = global::XFMyDecode2020.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedWidthMinor = global::XFMyDecode2020.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowMinWidthMajor = global::XFMyDecode2020.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowMinWidthMinor = global::XFMyDecode2020.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowNoTitle = global::XFMyDecode2020.Droid.Resource.Attribute.windowNoTitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::XFMyDecode2020.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::XFMyDecode2020.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::XFMyDecode2020.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::XFMyDecode2020.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::XFMyDecode2020.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::XFMyDecode2020.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_btn_colored_text_material = global::XFMyDecode2020.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_color_highlight_material = global::XFMyDecode2020.Droid.Resource.Color.abc_color_highlight_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_hint_foreground_material_dark = global::XFMyDecode2020.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_hint_foreground_material_light = global::XFMyDecode2020.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_input_method_navigation_guard = global::XFMyDecode2020.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::XFMyDecode2020.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::XFMyDecode2020.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_material_dark = global::XFMyDecode2020.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_material_light = global::XFMyDecode2020.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text = global::XFMyDecode2020.Droid.Resource.Color.abc_search_url_text;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text_normal = global::XFMyDecode2020.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text_pressed = global::XFMyDecode2020.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text_selected = global::XFMyDecode2020.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_secondary_text_material_dark = global::XFMyDecode2020.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_secondary_text_material_light = global::XFMyDecode2020.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_btn_checkable = global::XFMyDecode2020.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_default = global::XFMyDecode2020.Droid.Resource.Color.abc_tint_default;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_edittext = global::XFMyDecode2020.Droid.Resource.Color.abc_tint_edittext;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_seek_thumb = global::XFMyDecode2020.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_spinner = global::XFMyDecode2020.Droid.Resource.Color.abc_tint_spinner;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_switch_track = global::XFMyDecode2020.Droid.Resource.Color.abc_tint_switch_track;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.accent_material_dark = global::XFMyDecode2020.Droid.Resource.Color.accent_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.accent_material_light = global::XFMyDecode2020.Droid.Resource.Color.accent_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_floating_material_dark = global::XFMyDecode2020.Droid.Resource.Color.background_floating_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_floating_material_light = global::XFMyDecode2020.Droid.Resource.Color.background_floating_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_material_dark = global::XFMyDecode2020.Droid.Resource.Color.background_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_material_light = global::XFMyDecode2020.Droid.Resource.Color.background_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::XFMyDecode2020.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_disabled_material_light = global::XFMyDecode2020.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::XFMyDecode2020.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_inverse_material_light = global::XFMyDecode2020.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_material_dark = global::XFMyDecode2020.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_material_light = global::XFMyDecode2020.Droid.Resource.Color.bright_foreground_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.button_material_dark = global::XFMyDecode2020.Droid.Resource.Color.button_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.button_material_light = global::XFMyDecode2020.Droid.Resource.Color.button_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_dark_background = global::XFMyDecode2020.Droid.Resource.Color.cardview_dark_background;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_light_background = global::XFMyDecode2020.Droid.Resource.Color.cardview_light_background;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_shadow_end_color = global::XFMyDecode2020.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_shadow_start_color = global::XFMyDecode2020.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::XFMyDecode2020.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_error = global::XFMyDecode2020.Droid.Resource.Color.design_error;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_shadow_end_color = global::XFMyDecode2020.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_shadow_mid_color = global::XFMyDecode2020.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_shadow_start_color = global::XFMyDecode2020.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::XFMyDecode2020.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::XFMyDecode2020.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::XFMyDecode2020.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::XFMyDecode2020.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_snackbar_background_color = global::XFMyDecode2020.Droid.Resource.Color.design_snackbar_background_color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_tint_password_toggle = global::XFMyDecode2020.Droid.Resource.Color.design_tint_password_toggle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::XFMyDecode2020.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_disabled_material_light = global::XFMyDecode2020.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_material_dark = global::XFMyDecode2020.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_material_light = global::XFMyDecode2020.Droid.Resource.Color.dim_foreground_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.foreground_material_dark = global::XFMyDecode2020.Droid.Resource.Color.foreground_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.foreground_material_light = global::XFMyDecode2020.Droid.Resource.Color.foreground_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.highlighted_text_material_dark = global::XFMyDecode2020.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.highlighted_text_material_light = global::XFMyDecode2020.Droid.Resource.Color.highlighted_text_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_blue_grey_800 = global::XFMyDecode2020.Droid.Resource.Color.material_blue_grey_800;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_blue_grey_900 = global::XFMyDecode2020.Droid.Resource.Color.material_blue_grey_900;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_blue_grey_950 = global::XFMyDecode2020.Droid.Resource.Color.material_blue_grey_950;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_deep_teal_200 = global::XFMyDecode2020.Droid.Resource.Color.material_deep_teal_200;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_deep_teal_500 = global::XFMyDecode2020.Droid.Resource.Color.material_deep_teal_500;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_100 = global::XFMyDecode2020.Droid.Resource.Color.material_grey_100;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_300 = global::XFMyDecode2020.Droid.Resource.Color.material_grey_300;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_50 = global::XFMyDecode2020.Droid.Resource.Color.material_grey_50;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_600 = global::XFMyDecode2020.Droid.Resource.Color.material_grey_600;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_800 = global::XFMyDecode2020.Droid.Resource.Color.material_grey_800;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_850 = global::XFMyDecode2020.Droid.Resource.Color.material_grey_850;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_900 = global::XFMyDecode2020.Droid.Resource.Color.material_grey_900;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.notification_action_color_filter = global::XFMyDecode2020.Droid.Resource.Color.notification_action_color_filter;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.notification_icon_bg_color = global::XFMyDecode2020.Droid.Resource.Color.notification_icon_bg_color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.notification_material_background_media_default_color = global::XFMyDecode2020.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_dark_material_dark = global::XFMyDecode2020.Droid.Resource.Color.primary_dark_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_dark_material_light = global::XFMyDecode2020.Droid.Resource.Color.primary_dark_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_material_dark = global::XFMyDecode2020.Droid.Resource.Color.primary_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_material_light = global::XFMyDecode2020.Droid.Resource.Color.primary_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_default_material_dark = global::XFMyDecode2020.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_default_material_light = global::XFMyDecode2020.Droid.Resource.Color.primary_text_default_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_disabled_material_dark = global::XFMyDecode2020.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_disabled_material_light = global::XFMyDecode2020.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.ripple_material_dark = global::XFMyDecode2020.Droid.Resource.Color.ripple_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.ripple_material_light = global::XFMyDecode2020.Droid.Resource.Color.ripple_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_default_material_dark = global::XFMyDecode2020.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_default_material_light = global::XFMyDecode2020.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_disabled_material_dark = global::XFMyDecode2020.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_disabled_material_light = global::XFMyDecode2020.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::XFMyDecode2020.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_disabled_material_light = global::XFMyDecode2020.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_material_dark = global::XFMyDecode2020.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_material_light = global::XFMyDecode2020.Droid.Resource.Color.switch_thumb_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_normal_material_dark = global::XFMyDecode2020.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_normal_material_light = global::XFMyDecode2020.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.tooltip_background_dark = global::XFMyDecode2020.Droid.Resource.Color.tooltip_background_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.tooltip_background_light = global::XFMyDecode2020.Droid.Resource.Color.tooltip_background_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_button_min_height_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_button_min_width_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::XFMyDecode2020.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::XFMyDecode2020.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::XFMyDecode2020.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_control_corner_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_control_inset_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_control_padding_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::XFMyDecode2020.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::XFMyDecode2020.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::XFMyDecode2020.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::XFMyDecode2020.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::XFMyDecode2020.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::XFMyDecode2020.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_min_width_major = global::XFMyDecode2020.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::XFMyDecode2020.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_padding_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::XFMyDecode2020.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::XFMyDecode2020.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::XFMyDecode2020.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::XFMyDecode2020.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::XFMyDecode2020.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_floating_window_z = global::XFMyDecode2020.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_panel_menu_list_width = global::XFMyDecode2020.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_progress_bar_height_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_search_view_preferred_height = global::XFMyDecode2020.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_search_view_preferred_width = global::XFMyDecode2020.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_switch_padding = global::XFMyDecode2020.Droid.Resource.Dimension.abc_switch_padding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_body_1_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_body_2_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_button_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_caption_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_1_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_2_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_3_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_4_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_headline_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_large_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_medium_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_menu_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_small_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_subhead_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_title_material = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::XFMyDecode2020.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::XFMyDecode2020.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.cardview_default_elevation = global::XFMyDecode2020.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.cardview_default_radius = global::XFMyDecode2020.Droid.Resource.Dimension.cardview_default_radius;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::XFMyDecode2020.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::XFMyDecode2020.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::XFMyDecode2020.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::XFMyDecode2020.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_control_corner_material = global::XFMyDecode2020.Droid.Resource.Dimension.compat_control_corner_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_appbar_elevation = global::XFMyDecode2020.Droid.Resource.Dimension.design_appbar_elevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::XFMyDecode2020.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::XFMyDecode2020.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::XFMyDecode2020.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_height = global::XFMyDecode2020.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::XFMyDecode2020.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::XFMyDecode2020.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_margin = global::XFMyDecode2020.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::XFMyDecode2020.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::XFMyDecode2020.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::XFMyDecode2020.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::XFMyDecode2020.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_border_width = global::XFMyDecode2020.Droid.Resource.Dimension.design_fab_border_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_elevation = global::XFMyDecode2020.Droid.Resource.Dimension.design_fab_elevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_image_size = global::XFMyDecode2020.Droid.Resource.Dimension.design_fab_image_size;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_size_mini = global::XFMyDecode2020.Droid.Resource.Dimension.design_fab_size_mini;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_size_normal = global::XFMyDecode2020.Droid.Resource.Dimension.design_fab_size_normal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::XFMyDecode2020.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_elevation = global::XFMyDecode2020.Droid.Resource.Dimension.design_navigation_elevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_icon_padding = global::XFMyDecode2020.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_icon_size = global::XFMyDecode2020.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_max_width = global::XFMyDecode2020.Droid.Resource.Dimension.design_navigation_max_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_padding_bottom = global::XFMyDecode2020.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::XFMyDecode2020.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::XFMyDecode2020.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::XFMyDecode2020.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_elevation = global::XFMyDecode2020.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::XFMyDecode2020.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_max_width = global::XFMyDecode2020.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_min_width = global::XFMyDecode2020.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::XFMyDecode2020.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::XFMyDecode2020.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::XFMyDecode2020.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_text_size = global::XFMyDecode2020.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_max_width = global::XFMyDecode2020.Droid.Resource.Dimension.design_tab_max_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::XFMyDecode2020.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_text_size = global::XFMyDecode2020.Droid.Resource.Dimension.design_tab_text_size;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_text_size_2line = global::XFMyDecode2020.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.disabled_alpha_material_dark = global::XFMyDecode2020.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.disabled_alpha_material_light = global::XFMyDecode2020.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.fastscroll_default_thickness = global::XFMyDecode2020.Droid.Resource.Dimension.fastscroll_default_thickness;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.fastscroll_margin = global::XFMyDecode2020.Droid.Resource.Dimension.fastscroll_margin;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.fastscroll_minimum_range = global::XFMyDecode2020.Droid.Resource.Dimension.fastscroll_minimum_range;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.highlight_alpha_material_colored = global::XFMyDecode2020.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.highlight_alpha_material_dark = global::XFMyDecode2020.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.highlight_alpha_material_light = global::XFMyDecode2020.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_alpha_material_dark = global::XFMyDecode2020.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_alpha_material_light = global::XFMyDecode2020.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::XFMyDecode2020.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::XFMyDecode2020.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::XFMyDecode2020.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::XFMyDecode2020.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::XFMyDecode2020.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::XFMyDecode2020.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::XFMyDecode2020.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::XFMyDecode2020.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::XFMyDecode2020.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::XFMyDecode2020.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::XFMyDecode2020.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_action_icon_size = global::XFMyDecode2020.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_action_text_size = global::XFMyDecode2020.Droid.Resource.Dimension.notification_action_text_size;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_big_circle_margin = global::XFMyDecode2020.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_content_margin_start = global::XFMyDecode2020.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_large_icon_height = global::XFMyDecode2020.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_large_icon_width = global::XFMyDecode2020.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_main_column_padding_top = global::XFMyDecode2020.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_media_narrow_margin = global::XFMyDecode2020.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_right_icon_size = global::XFMyDecode2020.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_right_side_padding_top = global::XFMyDecode2020.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_small_icon_background_padding = global::XFMyDecode2020.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::XFMyDecode2020.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_subtext_size = global::XFMyDecode2020.Droid.Resource.Dimension.notification_subtext_size;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_top_pad = global::XFMyDecode2020.Droid.Resource.Dimension.notification_top_pad;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_top_pad_large_text = global::XFMyDecode2020.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_corner_radius = global::XFMyDecode2020.Droid.Resource.Dimension.tooltip_corner_radius;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_horizontal_padding = global::XFMyDecode2020.Droid.Resource.Dimension.tooltip_horizontal_padding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_margin = global::XFMyDecode2020.Droid.Resource.Dimension.tooltip_margin;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::XFMyDecode2020.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::XFMyDecode2020.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_vertical_padding = global::XFMyDecode2020.Droid.Resource.Dimension.tooltip_vertical_padding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::XFMyDecode2020.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_y_offset_touch = global::XFMyDecode2020.Droid.Resource.Dimension.tooltip_y_offset_touch;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_borderless_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_check_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::XFMyDecode2020.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::XFMyDecode2020.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_colored_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::XFMyDecode2020.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_radio_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::XFMyDecode2020.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::XFMyDecode2020.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::XFMyDecode2020.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::XFMyDecode2020.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::XFMyDecode2020.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_cab_background_top_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_control_background_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_control_background_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_dialog_material_background = global::XFMyDecode2020.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_edit_text_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_ab_back_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_clear_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_search_api_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_item_background_holo_dark = global::XFMyDecode2020.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_item_background_holo_light = global::XFMyDecode2020.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_focused_holo = global::XFMyDecode2020.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_longpressed_holo = global::XFMyDecode2020.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::XFMyDecode2020.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::XFMyDecode2020.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::XFMyDecode2020.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::XFMyDecode2020.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::XFMyDecode2020.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::XFMyDecode2020.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::XFMyDecode2020.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_holo_light = global::XFMyDecode2020.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::XFMyDecode2020.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::XFMyDecode2020.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ratingbar_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ratingbar_small_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::XFMyDecode2020.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::XFMyDecode2020.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_seekbar_track_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_switch_thumb_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_tab_indicator_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::XFMyDecode2020.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_search_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_cursor_material = global::XFMyDecode2020.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::XFMyDecode2020.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::XFMyDecode2020.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::XFMyDecode2020.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::XFMyDecode2020.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::XFMyDecode2020.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::XFMyDecode2020.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_vector_test = global::XFMyDecode2020.Droid.Resource.Drawable.abc_vector_test;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.avd_hide_password = global::XFMyDecode2020.Droid.Resource.Drawable.avd_hide_password;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.avd_show_password = global::XFMyDecode2020.Droid.Resource.Drawable.avd_show_password;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.bottom_shadow = global::XFMyDecode2020.Droid.Resource.Drawable.bottom_shadow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::XFMyDecode2020.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_fab_background = global::XFMyDecode2020.Droid.Resource.Drawable.design_fab_background;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_ic_visibility = global::XFMyDecode2020.Droid.Resource.Drawable.design_ic_visibility;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_ic_visibility_off = global::XFMyDecode2020.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_password_eye = global::XFMyDecode2020.Droid.Resource.Drawable.design_password_eye;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_snackbar_background = global::XFMyDecode2020.Droid.Resource.Drawable.design_snackbar_background;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_audiotrack_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_audiotrack_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_audiotrack_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_audiotrack_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_dialog_close_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_dialog_close_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_dialog_close_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_dialog_close_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_00 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_00;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_01 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_01;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_02 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_02;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_03 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_03;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_04 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_04;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_05 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_05;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_06 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_06;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_07 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_07;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_08 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_08;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_09 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_09;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_10 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_10;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_11 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_11;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_12 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_12;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_13 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_13;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_14 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_14;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_15 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_collapse_15;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_00 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_00;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_01 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_01;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_02 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_02;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_03 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_03;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_04 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_04;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_05 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_05;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_06 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_06;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_07 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_07;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_08 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_08;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_09 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_09;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_10 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_10;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_11 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_11;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_12 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_12;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_13 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_13;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_14 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_14;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_15 = global::XFMyDecode2020.Droid.Resource.Drawable.ic_group_expand_15;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_pause_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_media_pause_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_pause_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_media_pause_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_play_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_media_play_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_play_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_media_play_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_stop_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_media_stop_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_stop_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_media_stop_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_23_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_23_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_24_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_24_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_25_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_25_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_26_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_26_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_27_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_27_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_28_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_28_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_29_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_29_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_30_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_30_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_23_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_24_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_25_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_26_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_27_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_28_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_29_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_30_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_disabled_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_grey = global::XFMyDecode2020.Droid.Resource.Drawable.ic_mr_button_grey;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_vol_type_speaker_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::XFMyDecode2020.Droid.Resource.Drawable.ic_vol_type_tv_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_tv_light = global::XFMyDecode2020.Droid.Resource.Drawable.ic_vol_type_tv_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connected_dark = global::XFMyDecode2020.Droid.Resource.Drawable.mr_button_connected_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connected_light = global::XFMyDecode2020.Droid.Resource.Drawable.mr_button_connected_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connecting_dark = global::XFMyDecode2020.Droid.Resource.Drawable.mr_button_connecting_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connecting_light = global::XFMyDecode2020.Droid.Resource.Drawable.mr_button_connecting_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_dark = global::XFMyDecode2020.Droid.Resource.Drawable.mr_button_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_light = global::XFMyDecode2020.Droid.Resource.Drawable.mr_button_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_close_dark = global::XFMyDecode2020.Droid.Resource.Drawable.mr_dialog_close_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_close_light = global::XFMyDecode2020.Droid.Resource.Drawable.mr_dialog_close_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::XFMyDecode2020.Droid.Resource.Drawable.mr_dialog_material_background_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_material_background_light = global::XFMyDecode2020.Droid.Resource.Drawable.mr_dialog_material_background_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_group_collapse = global::XFMyDecode2020.Droid.Resource.Drawable.mr_group_collapse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_group_expand = global::XFMyDecode2020.Droid.Resource.Drawable.mr_group_expand;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_pause_dark = global::XFMyDecode2020.Droid.Resource.Drawable.mr_media_pause_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_pause_light = global::XFMyDecode2020.Droid.Resource.Drawable.mr_media_pause_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_play_dark = global::XFMyDecode2020.Droid.Resource.Drawable.mr_media_play_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_play_light = global::XFMyDecode2020.Droid.Resource.Drawable.mr_media_play_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_stop_dark = global::XFMyDecode2020.Droid.Resource.Drawable.mr_media_stop_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_stop_light = global::XFMyDecode2020.Droid.Resource.Drawable.mr_media_stop_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::XFMyDecode2020.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::XFMyDecode2020.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.navigation_empty_icon = global::XFMyDecode2020.Droid.Resource.Drawable.navigation_empty_icon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_action_background = global::XFMyDecode2020.Droid.Resource.Drawable.notification_action_background;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg = global::XFMyDecode2020.Droid.Resource.Drawable.notification_bg;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_low = global::XFMyDecode2020.Droid.Resource.Drawable.notification_bg_low;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_low_normal = global::XFMyDecode2020.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_low_pressed = global::XFMyDecode2020.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_normal = global::XFMyDecode2020.Droid.Resource.Drawable.notification_bg_normal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_normal_pressed = global::XFMyDecode2020.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_icon_background = global::XFMyDecode2020.Droid.Resource.Drawable.notification_icon_background;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_template_icon_bg = global::XFMyDecode2020.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_template_icon_low_bg = global::XFMyDecode2020.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_tile_bg = global::XFMyDecode2020.Droid.Resource.Drawable.notification_tile_bg;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::XFMyDecode2020.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.tooltip_frame_dark = global::XFMyDecode2020.Droid.Resource.Drawable.tooltip_frame_dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.tooltip_frame_light = global::XFMyDecode2020.Droid.Resource.Drawable.tooltip_frame_light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.top_shadow = global::XFMyDecode2020.Droid.Resource.Drawable.top_shadow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action0 = global::XFMyDecode2020.Droid.Resource.Id.action0;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.actions = global::XFMyDecode2020.Droid.Resource.Id.actions;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar = global::XFMyDecode2020.Droid.Resource.Id.action_bar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_activity_content = global::XFMyDecode2020.Droid.Resource.Id.action_bar_activity_content;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_container = global::XFMyDecode2020.Droid.Resource.Id.action_bar_container;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_root = global::XFMyDecode2020.Droid.Resource.Id.action_bar_root;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_spinner = global::XFMyDecode2020.Droid.Resource.Id.action_bar_spinner;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_subtitle = global::XFMyDecode2020.Droid.Resource.Id.action_bar_subtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_title = global::XFMyDecode2020.Droid.Resource.Id.action_bar_title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_container = global::XFMyDecode2020.Droid.Resource.Id.action_container;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_context_bar = global::XFMyDecode2020.Droid.Resource.Id.action_context_bar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_divider = global::XFMyDecode2020.Droid.Resource.Id.action_divider;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_image = global::XFMyDecode2020.Droid.Resource.Id.action_image;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_menu_divider = global::XFMyDecode2020.Droid.Resource.Id.action_menu_divider;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_menu_presenter = global::XFMyDecode2020.Droid.Resource.Id.action_menu_presenter;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_mode_bar = global::XFMyDecode2020.Droid.Resource.Id.action_mode_bar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_mode_bar_stub = global::XFMyDecode2020.Droid.Resource.Id.action_mode_bar_stub;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_mode_close_button = global::XFMyDecode2020.Droid.Resource.Id.action_mode_close_button;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_text = global::XFMyDecode2020.Droid.Resource.Id.action_text;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.activity_chooser_view_content = global::XFMyDecode2020.Droid.Resource.Id.activity_chooser_view_content;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.add = global::XFMyDecode2020.Droid.Resource.Id.add;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.alertTitle = global::XFMyDecode2020.Droid.Resource.Id.alertTitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.all = global::XFMyDecode2020.Droid.Resource.Id.all;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.ALT = global::XFMyDecode2020.Droid.Resource.Id.ALT;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.always = global::XFMyDecode2020.Droid.Resource.Id.always;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.async = global::XFMyDecode2020.Droid.Resource.Id.async;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.auto = global::XFMyDecode2020.Droid.Resource.Id.auto;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.beginning = global::XFMyDecode2020.Droid.Resource.Id.beginning;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.blocking = global::XFMyDecode2020.Droid.Resource.Id.blocking;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.bottom = global::XFMyDecode2020.Droid.Resource.Id.bottom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.buttonPanel = global::XFMyDecode2020.Droid.Resource.Id.buttonPanel;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.cancel_action = global::XFMyDecode2020.Droid.Resource.Id.cancel_action;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.center = global::XFMyDecode2020.Droid.Resource.Id.center;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.center_horizontal = global::XFMyDecode2020.Droid.Resource.Id.center_horizontal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.center_vertical = global::XFMyDecode2020.Droid.Resource.Id.center_vertical;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.checkbox = global::XFMyDecode2020.Droid.Resource.Id.checkbox;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.chronometer = global::XFMyDecode2020.Droid.Resource.Id.chronometer;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.clip_horizontal = global::XFMyDecode2020.Droid.Resource.Id.clip_horizontal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.clip_vertical = global::XFMyDecode2020.Droid.Resource.Id.clip_vertical;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.collapseActionView = global::XFMyDecode2020.Droid.Resource.Id.collapseActionView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.container = global::XFMyDecode2020.Droid.Resource.Id.container;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.contentPanel = global::XFMyDecode2020.Droid.Resource.Id.contentPanel;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.coordinator = global::XFMyDecode2020.Droid.Resource.Id.coordinator;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.CTRL = global::XFMyDecode2020.Droid.Resource.Id.CTRL;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.custom = global::XFMyDecode2020.Droid.Resource.Id.custom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.customPanel = global::XFMyDecode2020.Droid.Resource.Id.customPanel;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.decor_content_parent = global::XFMyDecode2020.Droid.Resource.Id.decor_content_parent;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.default_activity_button = global::XFMyDecode2020.Droid.Resource.Id.default_activity_button;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_bottom_sheet = global::XFMyDecode2020.Droid.Resource.Id.design_bottom_sheet;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_menu_item_action_area = global::XFMyDecode2020.Droid.Resource.Id.design_menu_item_action_area;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_menu_item_action_area_stub = global::XFMyDecode2020.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_menu_item_text = global::XFMyDecode2020.Droid.Resource.Id.design_menu_item_text;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_navigation_view = global::XFMyDecode2020.Droid.Resource.Id.design_navigation_view;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.disableHome = global::XFMyDecode2020.Droid.Resource.Id.disableHome;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.edit_query = global::XFMyDecode2020.Droid.Resource.Id.edit_query;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.end = global::XFMyDecode2020.Droid.Resource.Id.end;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.end_padder = global::XFMyDecode2020.Droid.Resource.Id.end_padder;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.enterAlways = global::XFMyDecode2020.Droid.Resource.Id.enterAlways;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.enterAlwaysCollapsed = global::XFMyDecode2020.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.exitUntilCollapsed = global::XFMyDecode2020.Droid.Resource.Id.exitUntilCollapsed;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.expanded_menu = global::XFMyDecode2020.Droid.Resource.Id.expanded_menu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.expand_activities_button = global::XFMyDecode2020.Droid.Resource.Id.expand_activities_button;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.fill = global::XFMyDecode2020.Droid.Resource.Id.fill;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.fill_horizontal = global::XFMyDecode2020.Droid.Resource.Id.fill_horizontal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.fill_vertical = global::XFMyDecode2020.Droid.Resource.Id.fill_vertical;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.@fixed = global::XFMyDecode2020.Droid.Resource.Id.@fixed;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.forever = global::XFMyDecode2020.Droid.Resource.Id.forever;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.FUNCTION = global::XFMyDecode2020.Droid.Resource.Id.FUNCTION;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.ghost_view = global::XFMyDecode2020.Droid.Resource.Id.ghost_view;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.home = global::XFMyDecode2020.Droid.Resource.Id.home;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.homeAsUp = global::XFMyDecode2020.Droid.Resource.Id.homeAsUp;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.icon = global::XFMyDecode2020.Droid.Resource.Id.icon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.icon_group = global::XFMyDecode2020.Droid.Resource.Id.icon_group;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.ifRoom = global::XFMyDecode2020.Droid.Resource.Id.ifRoom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.image = global::XFMyDecode2020.Droid.Resource.Id.image;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.info = global::XFMyDecode2020.Droid.Resource.Id.info;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.italic = global::XFMyDecode2020.Droid.Resource.Id.italic;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.item_touch_helper_previous_elevation = global::XFMyDecode2020.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.largeLabel = global::XFMyDecode2020.Droid.Resource.Id.largeLabel;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.left = global::XFMyDecode2020.Droid.Resource.Id.left;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.line1 = global::XFMyDecode2020.Droid.Resource.Id.line1;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.line3 = global::XFMyDecode2020.Droid.Resource.Id.line3;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.listMode = global::XFMyDecode2020.Droid.Resource.Id.listMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.list_item = global::XFMyDecode2020.Droid.Resource.Id.list_item;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.masked = global::XFMyDecode2020.Droid.Resource.Id.masked;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.media_actions = global::XFMyDecode2020.Droid.Resource.Id.media_actions;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.message = global::XFMyDecode2020.Droid.Resource.Id.message;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.META = global::XFMyDecode2020.Droid.Resource.Id.META;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.middle = global::XFMyDecode2020.Droid.Resource.Id.middle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mini = global::XFMyDecode2020.Droid.Resource.Id.mini;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_art = global::XFMyDecode2020.Droid.Resource.Id.mr_art;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_list = global::XFMyDecode2020.Droid.Resource.Id.mr_chooser_list;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_route_desc = global::XFMyDecode2020.Droid.Resource.Id.mr_chooser_route_desc;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_route_icon = global::XFMyDecode2020.Droid.Resource.Id.mr_chooser_route_icon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_route_name = global::XFMyDecode2020.Droid.Resource.Id.mr_chooser_route_name;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_title = global::XFMyDecode2020.Droid.Resource.Id.mr_chooser_title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_close = global::XFMyDecode2020.Droid.Resource.Id.mr_close;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_divider = global::XFMyDecode2020.Droid.Resource.Id.mr_control_divider;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_playback_ctrl = global::XFMyDecode2020.Droid.Resource.Id.mr_control_playback_ctrl;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_subtitle = global::XFMyDecode2020.Droid.Resource.Id.mr_control_subtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_title = global::XFMyDecode2020.Droid.Resource.Id.mr_control_title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_title_container = global::XFMyDecode2020.Droid.Resource.Id.mr_control_title_container;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_custom_control = global::XFMyDecode2020.Droid.Resource.Id.mr_custom_control;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_default_control = global::XFMyDecode2020.Droid.Resource.Id.mr_default_control;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_dialog_area = global::XFMyDecode2020.Droid.Resource.Id.mr_dialog_area;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_expandable_area = global::XFMyDecode2020.Droid.Resource.Id.mr_expandable_area;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_group_expand_collapse = global::XFMyDecode2020.Droid.Resource.Id.mr_group_expand_collapse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_media_main_control = global::XFMyDecode2020.Droid.Resource.Id.mr_media_main_control;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_name = global::XFMyDecode2020.Droid.Resource.Id.mr_name;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_playback_control = global::XFMyDecode2020.Droid.Resource.Id.mr_playback_control;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_title_bar = global::XFMyDecode2020.Droid.Resource.Id.mr_title_bar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_control = global::XFMyDecode2020.Droid.Resource.Id.mr_volume_control;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_group_list = global::XFMyDecode2020.Droid.Resource.Id.mr_volume_group_list;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_item_icon = global::XFMyDecode2020.Droid.Resource.Id.mr_volume_item_icon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_slider = global::XFMyDecode2020.Droid.Resource.Id.mr_volume_slider;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.multiply = global::XFMyDecode2020.Droid.Resource.Id.multiply;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.navigation_header_container = global::XFMyDecode2020.Droid.Resource.Id.navigation_header_container;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.never = global::XFMyDecode2020.Droid.Resource.Id.never;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.none = global::XFMyDecode2020.Droid.Resource.Id.none;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.normal = global::XFMyDecode2020.Droid.Resource.Id.normal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.notification_background = global::XFMyDecode2020.Droid.Resource.Id.notification_background;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.notification_main_column = global::XFMyDecode2020.Droid.Resource.Id.notification_main_column;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.notification_main_column_container = global::XFMyDecode2020.Droid.Resource.Id.notification_main_column_container;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.parallax = global::XFMyDecode2020.Droid.Resource.Id.parallax;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.parentPanel = global::XFMyDecode2020.Droid.Resource.Id.parentPanel;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.parent_matrix = global::XFMyDecode2020.Droid.Resource.Id.parent_matrix;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.pin = global::XFMyDecode2020.Droid.Resource.Id.pin;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.progress_circular = global::XFMyDecode2020.Droid.Resource.Id.progress_circular;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.progress_horizontal = global::XFMyDecode2020.Droid.Resource.Id.progress_horizontal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.radio = global::XFMyDecode2020.Droid.Resource.Id.radio;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.right = global::XFMyDecode2020.Droid.Resource.Id.right;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.right_icon = global::XFMyDecode2020.Droid.Resource.Id.right_icon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.right_side = global::XFMyDecode2020.Droid.Resource.Id.right_side;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.save_non_transition_alpha = global::XFMyDecode2020.Droid.Resource.Id.save_non_transition_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.screen = global::XFMyDecode2020.Droid.Resource.Id.screen;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scroll = global::XFMyDecode2020.Droid.Resource.Id.scroll;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollable = global::XFMyDecode2020.Droid.Resource.Id.scrollable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollIndicatorDown = global::XFMyDecode2020.Droid.Resource.Id.scrollIndicatorDown;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollIndicatorUp = global::XFMyDecode2020.Droid.Resource.Id.scrollIndicatorUp;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollView = global::XFMyDecode2020.Droid.Resource.Id.scrollView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_badge = global::XFMyDecode2020.Droid.Resource.Id.search_badge;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_bar = global::XFMyDecode2020.Droid.Resource.Id.search_bar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_button = global::XFMyDecode2020.Droid.Resource.Id.search_button;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_close_btn = global::XFMyDecode2020.Droid.Resource.Id.search_close_btn;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_edit_frame = global::XFMyDecode2020.Droid.Resource.Id.search_edit_frame;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_go_btn = global::XFMyDecode2020.Droid.Resource.Id.search_go_btn;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_mag_icon = global::XFMyDecode2020.Droid.Resource.Id.search_mag_icon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_plate = global::XFMyDecode2020.Droid.Resource.Id.search_plate;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_src_text = global::XFMyDecode2020.Droid.Resource.Id.search_src_text;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_voice_btn = global::XFMyDecode2020.Droid.Resource.Id.search_voice_btn;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.select_dialog_listview = global::XFMyDecode2020.Droid.Resource.Id.select_dialog_listview;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.SHIFT = global::XFMyDecode2020.Droid.Resource.Id.SHIFT;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.shortcut = global::XFMyDecode2020.Droid.Resource.Id.shortcut;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.showCustom = global::XFMyDecode2020.Droid.Resource.Id.showCustom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.showHome = global::XFMyDecode2020.Droid.Resource.Id.showHome;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.showTitle = global::XFMyDecode2020.Droid.Resource.Id.showTitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.smallLabel = global::XFMyDecode2020.Droid.Resource.Id.smallLabel;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.snackbar_action = global::XFMyDecode2020.Droid.Resource.Id.snackbar_action;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.snackbar_text = global::XFMyDecode2020.Droid.Resource.Id.snackbar_text;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.snap = global::XFMyDecode2020.Droid.Resource.Id.snap;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.spacer = global::XFMyDecode2020.Droid.Resource.Id.spacer;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.split_action_bar = global::XFMyDecode2020.Droid.Resource.Id.split_action_bar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.src_atop = global::XFMyDecode2020.Droid.Resource.Id.src_atop;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.src_in = global::XFMyDecode2020.Droid.Resource.Id.src_in;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.src_over = global::XFMyDecode2020.Droid.Resource.Id.src_over;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.start = global::XFMyDecode2020.Droid.Resource.Id.start;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.status_bar_latest_event_content = global::XFMyDecode2020.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.submenuarrow = global::XFMyDecode2020.Droid.Resource.Id.submenuarrow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.submit_area = global::XFMyDecode2020.Droid.Resource.Id.submit_area;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.SYM = global::XFMyDecode2020.Droid.Resource.Id.SYM;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.tabMode = global::XFMyDecode2020.Droid.Resource.Id.tabMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.tag_transition_group = global::XFMyDecode2020.Droid.Resource.Id.tag_transition_group;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.text = global::XFMyDecode2020.Droid.Resource.Id.text;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.text2 = global::XFMyDecode2020.Droid.Resource.Id.text2;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textinput_counter = global::XFMyDecode2020.Droid.Resource.Id.textinput_counter;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textinput_error = global::XFMyDecode2020.Droid.Resource.Id.textinput_error;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textSpacerNoButtons = global::XFMyDecode2020.Droid.Resource.Id.textSpacerNoButtons;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textSpacerNoTitle = global::XFMyDecode2020.Droid.Resource.Id.textSpacerNoTitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.text_input_password_toggle = global::XFMyDecode2020.Droid.Resource.Id.text_input_password_toggle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.time = global::XFMyDecode2020.Droid.Resource.Id.time;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.title = global::XFMyDecode2020.Droid.Resource.Id.title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.titleDividerNoCustom = global::XFMyDecode2020.Droid.Resource.Id.titleDividerNoCustom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.title_template = global::XFMyDecode2020.Droid.Resource.Id.title_template;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.top = global::XFMyDecode2020.Droid.Resource.Id.top;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.topPanel = global::XFMyDecode2020.Droid.Resource.Id.topPanel;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.touch_outside = global::XFMyDecode2020.Droid.Resource.Id.touch_outside;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_current_scene = global::XFMyDecode2020.Droid.Resource.Id.transition_current_scene;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_layout_save = global::XFMyDecode2020.Droid.Resource.Id.transition_layout_save;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_position = global::XFMyDecode2020.Droid.Resource.Id.transition_position;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_scene_layoutid_cache = global::XFMyDecode2020.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_transform = global::XFMyDecode2020.Droid.Resource.Id.transition_transform;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.uniform = global::XFMyDecode2020.Droid.Resource.Id.uniform;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.up = global::XFMyDecode2020.Droid.Resource.Id.up;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.useLogo = global::XFMyDecode2020.Droid.Resource.Id.useLogo;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.view_offset_helper = global::XFMyDecode2020.Droid.Resource.Id.view_offset_helper;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.visible = global::XFMyDecode2020.Droid.Resource.Id.visible;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.volume_item_container = global::XFMyDecode2020.Droid.Resource.Id.volume_item_container;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.withText = global::XFMyDecode2020.Droid.Resource.Id.withText;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.wrap_content = global::XFMyDecode2020.Droid.Resource.Id.wrap_content;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.abc_config_activityDefaultDur = global::XFMyDecode2020.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.abc_config_activityShortDur = global::XFMyDecode2020.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::XFMyDecode2020.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.bottom_sheet_slide_duration = global::XFMyDecode2020.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.cancel_button_image_alpha = global::XFMyDecode2020.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.config_tooltipAnimTime = global::XFMyDecode2020.Droid.Resource.Integer.config_tooltipAnimTime;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.design_snackbar_text_max_lines = global::XFMyDecode2020.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.hide_password_duration = global::XFMyDecode2020.Droid.Resource.Integer.hide_password_duration;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::XFMyDecode2020.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::XFMyDecode2020.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::XFMyDecode2020.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.show_password_duration = global::XFMyDecode2020.Droid.Resource.Integer.show_password_duration;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::XFMyDecode2020.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::XFMyDecode2020.Droid.Resource.Interpolator.mr_fast_out_slow_in;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::XFMyDecode2020.Droid.Resource.Interpolator.mr_linear_out_slow_in;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_bar_title_item = global::XFMyDecode2020.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_bar_up_container = global::XFMyDecode2020.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_menu_item_layout = global::XFMyDecode2020.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_menu_layout = global::XFMyDecode2020.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_mode_bar = global::XFMyDecode2020.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_mode_close_item_material = global::XFMyDecode2020.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_activity_chooser_view = global::XFMyDecode2020.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::XFMyDecode2020.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::XFMyDecode2020.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_alert_dialog_material = global::XFMyDecode2020.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_alert_dialog_title_material = global::XFMyDecode2020.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_dialog_title_material = global::XFMyDecode2020.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_expanded_menu_layout = global::XFMyDecode2020.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::XFMyDecode2020.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_icon = global::XFMyDecode2020.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_layout = global::XFMyDecode2020.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_radio = global::XFMyDecode2020.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::XFMyDecode2020.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_popup_menu_item_layout = global::XFMyDecode2020.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_content_include = global::XFMyDecode2020.Droid.Resource.Layout.abc_screen_content_include;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_simple = global::XFMyDecode2020.Droid.Resource.Layout.abc_screen_simple;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::XFMyDecode2020.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_toolbar = global::XFMyDecode2020.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::XFMyDecode2020.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_search_view = global::XFMyDecode2020.Droid.Resource.Layout.abc_search_view;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_select_dialog_material = global::XFMyDecode2020.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_bottom_navigation_item = global::XFMyDecode2020.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_bottom_sheet_dialog = global::XFMyDecode2020.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_snackbar = global::XFMyDecode2020.Droid.Resource.Layout.design_layout_snackbar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_snackbar_include = global::XFMyDecode2020.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_tab_icon = global::XFMyDecode2020.Droid.Resource.Layout.design_layout_tab_icon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_tab_text = global::XFMyDecode2020.Droid.Resource.Layout.design_layout_tab_text;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_menu_item_action_area = global::XFMyDecode2020.Droid.Resource.Layout.design_menu_item_action_area;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item = global::XFMyDecode2020.Droid.Resource.Layout.design_navigation_item;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item_header = global::XFMyDecode2020.Droid.Resource.Layout.design_navigation_item_header;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item_separator = global::XFMyDecode2020.Droid.Resource.Layout.design_navigation_item_separator;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item_subheader = global::XFMyDecode2020.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_menu = global::XFMyDecode2020.Droid.Resource.Layout.design_navigation_menu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_menu_item = global::XFMyDecode2020.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_text_input_password_icon = global::XFMyDecode2020.Droid.Resource.Layout.design_text_input_password_icon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_chooser_dialog = global::XFMyDecode2020.Droid.Resource.Layout.mr_chooser_dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_chooser_list_item = global::XFMyDecode2020.Droid.Resource.Layout.mr_chooser_list_item;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_controller_material_dialog_b = global::XFMyDecode2020.Droid.Resource.Layout.mr_controller_material_dialog_b;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_controller_volume_item = global::XFMyDecode2020.Droid.Resource.Layout.mr_controller_volume_item;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_playback_control = global::XFMyDecode2020.Droid.Resource.Layout.mr_playback_control;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_volume_control = global::XFMyDecode2020.Droid.Resource.Layout.mr_volume_control;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_action = global::XFMyDecode2020.Droid.Resource.Layout.notification_action;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_action_tombstone = global::XFMyDecode2020.Droid.Resource.Layout.notification_action_tombstone;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_media_action = global::XFMyDecode2020.Droid.Resource.Layout.notification_media_action;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_media_cancel_action = global::XFMyDecode2020.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media = global::XFMyDecode2020.Droid.Resource.Layout.notification_template_big_media;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media_custom = global::XFMyDecode2020.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media_narrow = global::XFMyDecode2020.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::XFMyDecode2020.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_custom_big = global::XFMyDecode2020.Droid.Resource.Layout.notification_template_custom_big;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_icon_group = global::XFMyDecode2020.Droid.Resource.Layout.notification_template_icon_group;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_lines_media = global::XFMyDecode2020.Droid.Resource.Layout.notification_template_lines_media;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_media = global::XFMyDecode2020.Droid.Resource.Layout.notification_template_media;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_media_custom = global::XFMyDecode2020.Droid.Resource.Layout.notification_template_media_custom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_part_chronometer = global::XFMyDecode2020.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_part_time = global::XFMyDecode2020.Droid.Resource.Layout.notification_template_part_time;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.select_dialog_item_material = global::XFMyDecode2020.Droid.Resource.Layout.select_dialog_item_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.select_dialog_multichoice_material = global::XFMyDecode2020.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.select_dialog_singlechoice_material = global::XFMyDecode2020.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::XFMyDecode2020.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_bar_home_description = global::XFMyDecode2020.Droid.Resource.String.abc_action_bar_home_description;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_bar_up_description = global::XFMyDecode2020.Droid.Resource.String.abc_action_bar_up_description;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_menu_overflow_description = global::XFMyDecode2020.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_mode_done = global::XFMyDecode2020.Droid.Resource.String.abc_action_mode_done;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_activitychooserview_choose_application = global::XFMyDecode2020.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_activity_chooser_view_see_all = global::XFMyDecode2020.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_capital_off = global::XFMyDecode2020.Droid.Resource.String.abc_capital_off;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_capital_on = global::XFMyDecode2020.Droid.Resource.String.abc_capital_on;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_clear = global::XFMyDecode2020.Droid.Resource.String.abc_searchview_description_clear;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_query = global::XFMyDecode2020.Droid.Resource.String.abc_searchview_description_query;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_search = global::XFMyDecode2020.Droid.Resource.String.abc_searchview_description_search;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_submit = global::XFMyDecode2020.Droid.Resource.String.abc_searchview_description_submit;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_voice = global::XFMyDecode2020.Droid.Resource.String.abc_searchview_description_voice;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_search_hint = global::XFMyDecode2020.Droid.Resource.String.abc_search_hint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_shareactionprovider_share_with = global::XFMyDecode2020.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::XFMyDecode2020.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_toolbar_collapse_description = global::XFMyDecode2020.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.appbar_scrolling_view_behavior = global::XFMyDecode2020.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.app_name = global::XFMyDecode2020.Droid.Resource.String.app_name;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.bottom_sheet_behavior = global::XFMyDecode2020.Droid.Resource.String.bottom_sheet_behavior;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.character_counter_pattern = global::XFMyDecode2020.Droid.Resource.String.character_counter_pattern;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.hello = global::XFMyDecode2020.Droid.Resource.String.hello;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_button_content_description = global::XFMyDecode2020.Droid.Resource.String.mr_button_content_description;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_cast_button_connected = global::XFMyDecode2020.Droid.Resource.String.mr_cast_button_connected;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_cast_button_connecting = global::XFMyDecode2020.Droid.Resource.String.mr_cast_button_connecting;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_cast_button_disconnected = global::XFMyDecode2020.Droid.Resource.String.mr_cast_button_disconnected;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_chooser_searching = global::XFMyDecode2020.Droid.Resource.String.mr_chooser_searching;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_chooser_title = global::XFMyDecode2020.Droid.Resource.String.mr_chooser_title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_album_art = global::XFMyDecode2020.Droid.Resource.String.mr_controller_album_art;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_casting_screen = global::XFMyDecode2020.Droid.Resource.String.mr_controller_casting_screen;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_close_description = global::XFMyDecode2020.Droid.Resource.String.mr_controller_close_description;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_collapse_group = global::XFMyDecode2020.Droid.Resource.String.mr_controller_collapse_group;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_disconnect = global::XFMyDecode2020.Droid.Resource.String.mr_controller_disconnect;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_expand_group = global::XFMyDecode2020.Droid.Resource.String.mr_controller_expand_group;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_no_info_available = global::XFMyDecode2020.Droid.Resource.String.mr_controller_no_info_available;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_no_media_selected = global::XFMyDecode2020.Droid.Resource.String.mr_controller_no_media_selected;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_pause = global::XFMyDecode2020.Droid.Resource.String.mr_controller_pause;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_play = global::XFMyDecode2020.Droid.Resource.String.mr_controller_play;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_stop = global::XFMyDecode2020.Droid.Resource.String.mr_controller_stop;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_stop_casting = global::XFMyDecode2020.Droid.Resource.String.mr_controller_stop_casting;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_volume_slider = global::XFMyDecode2020.Droid.Resource.String.mr_controller_volume_slider;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_system_route_name = global::XFMyDecode2020.Droid.Resource.String.mr_system_route_name;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_user_route_category_name = global::XFMyDecode2020.Droid.Resource.String.mr_user_route_category_name;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.password_toggle_content_description = global::XFMyDecode2020.Droid.Resource.String.password_toggle_content_description;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_eye = global::XFMyDecode2020.Droid.Resource.String.path_password_eye;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_eye_mask_strike_through = global::XFMyDecode2020.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_eye_mask_visible = global::XFMyDecode2020.Droid.Resource.String.path_password_eye_mask_visible;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_strike_through = global::XFMyDecode2020.Droid.Resource.String.path_password_strike_through;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.search_menu_title = global::XFMyDecode2020.Droid.Resource.String.search_menu_title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.String.status_bar_notification_info_overflow = global::XFMyDecode2020.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.AlertDialog_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::XFMyDecode2020.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_AppCompat_Dialog = global::XFMyDecode2020.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::XFMyDecode2020.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::XFMyDecode2020.Droid.Resource.Style.Animation_AppCompat_Tooltip;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::XFMyDecode2020.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::XFMyDecode2020.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::XFMyDecode2020.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::XFMyDecode2020.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::XFMyDecode2020.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_CardView = global::XFMyDecode2020.Droid.Resource.Style.Base_CardView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::XFMyDecode2020.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::XFMyDecode2020.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::XFMyDecode2020.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::XFMyDecode2020.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::XFMyDecode2020.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::XFMyDecode2020.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::XFMyDecode2020.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::XFMyDecode2020.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::XFMyDecode2020.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::XFMyDecode2020.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::XFMyDecode2020.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::XFMyDecode2020.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::XFMyDecode2020.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::XFMyDecode2020.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::XFMyDecode2020.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::XFMyDecode2020.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::XFMyDecode2020.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::XFMyDecode2020.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::XFMyDecode2020.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::XFMyDecode2020.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::XFMyDecode2020.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::XFMyDecode2020.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::XFMyDecode2020.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::XFMyDecode2020.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::XFMyDecode2020.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::XFMyDecode2020.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Base_V26_Theme_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::XFMyDecode2020.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::XFMyDecode2020.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::XFMyDecode2020.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::XFMyDecode2020.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::XFMyDecode2020.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::XFMyDecode2020.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::XFMyDecode2020.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::XFMyDecode2020.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::XFMyDecode2020.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::XFMyDecode2020.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.CardView = global::XFMyDecode2020.Droid.Resource.Style.CardView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.CardView_Dark = global::XFMyDecode2020.Droid.Resource.Style.CardView_Dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.CardView_Light = global::XFMyDecode2020.Droid.Resource.Style.CardView_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Platform_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_AppCompat_Light = global::XFMyDecode2020.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::XFMyDecode2020.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::XFMyDecode2020.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V21_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::XFMyDecode2020.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V25_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::XFMyDecode2020.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::XFMyDecode2020.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::XFMyDecode2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::XFMyDecode2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::XFMyDecode2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::XFMyDecode2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::XFMyDecode2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::XFMyDecode2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::XFMyDecode2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::XFMyDecode2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::XFMyDecode2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::XFMyDecode2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::XFMyDecode2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::XFMyDecode2020.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::XFMyDecode2020.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Counter = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Error = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Hint = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Tab = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::XFMyDecode2020.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::XFMyDecode2020.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::XFMyDecode2020.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::XFMyDecode2020.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::XFMyDecode2020.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::XFMyDecode2020.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::XFMyDecode2020.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::XFMyDecode2020.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::XFMyDecode2020.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::XFMyDecode2020.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design = global::XFMyDecode2020.Droid.Resource.Style.Theme_Design;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::XFMyDecode2020.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_Light = global::XFMyDecode2020.Droid.Resource.Style.Theme_Design_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::XFMyDecode2020.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::XFMyDecode2020.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_NoActionBar = global::XFMyDecode2020.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter = global::XFMyDecode2020.Droid.Resource.Style.Theme_MediaRouter;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter_Light = global::XFMyDecode2020.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::XFMyDecode2020.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::XFMyDecode2020.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_EditText = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListView = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SearchView = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::XFMyDecode2020.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::XFMyDecode2020.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::XFMyDecode2020.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_AppBarLayout = global::XFMyDecode2020.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::XFMyDecode2020.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::XFMyDecode2020.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::XFMyDecode2020.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::XFMyDecode2020.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_NavigationView = global::XFMyDecode2020.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::XFMyDecode2020.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_Snackbar = global::XFMyDecode2020.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_TabLayout = global::XFMyDecode2020.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_TextInputLayout = global::XFMyDecode2020.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::XFMyDecode2020.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::XFMyDecode2020.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBarLayout = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBarLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_background = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_background;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_displayOptions = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_divider = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_divider;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_elevation = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_height = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_height;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_homeLayout = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_icon = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_icon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_itemPadding = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_logo = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_logo;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_navigationMode = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_popupTheme = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_subtitle = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_title = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMenuItemView = global::XFMyDecode2020.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::XFMyDecode2020.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMenuView = global::XFMyDecode2020.Droid.Resource.Styleable.ActionMenuView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode = global::XFMyDecode2020.Droid.Resource.Styleable.ActionMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_background = global::XFMyDecode2020.Droid.Resource.Styleable.ActionMode_background;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::XFMyDecode2020.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::XFMyDecode2020.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_height = global::XFMyDecode2020.Droid.Resource.Styleable.ActionMode_height;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::XFMyDecode2020.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::XFMyDecode2020.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActivityChooserView = global::XFMyDecode2020.Droid.Resource.Styleable.ActivityChooserView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::XFMyDecode2020.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::XFMyDecode2020.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog = global::XFMyDecode2020.Droid.Resource.Styleable.AlertDialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_android_layout = global::XFMyDecode2020.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::XFMyDecode2020.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::XFMyDecode2020.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_listLayout = global::XFMyDecode2020.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::XFMyDecode2020.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_showTitle = global::XFMyDecode2020.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::XFMyDecode2020.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout = global::XFMyDecode2020.Droid.Resource.Styleable.AppBarLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayoutStates = global::XFMyDecode2020.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::XFMyDecode2020.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::XFMyDecode2020.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_android_background = global::XFMyDecode2020.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::XFMyDecode2020.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::XFMyDecode2020.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_elevation = global::XFMyDecode2020.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_expanded = global::XFMyDecode2020.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_Layout = global::XFMyDecode2020.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::XFMyDecode2020.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::XFMyDecode2020.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatImageView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_android_src = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_tint = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorError = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_colorError;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::XFMyDecode2020.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView = global::XFMyDecode2020.Droid.Resource.Styleable.BottomNavigationView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_elevation = global::XFMyDecode2020.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::XFMyDecode2020.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::XFMyDecode2020.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::XFMyDecode2020.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_menu = global::XFMyDecode2020.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::XFMyDecode2020.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::XFMyDecode2020.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::XFMyDecode2020.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::XFMyDecode2020.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ButtonBarLayout = global::XFMyDecode2020.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::XFMyDecode2020.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView = global::XFMyDecode2020.Droid.Resource.Styleable.CardView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_android_minHeight = global::XFMyDecode2020.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_android_minWidth = global::XFMyDecode2020.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::XFMyDecode2020.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardCornerRadius = global::XFMyDecode2020.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardElevation = global::XFMyDecode2020.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardMaxElevation = global::XFMyDecode2020.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::XFMyDecode2020.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::XFMyDecode2020.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPadding = global::XFMyDecode2020.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::XFMyDecode2020.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::XFMyDecode2020.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingRight = global::XFMyDecode2020.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingTop = global::XFMyDecode2020.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::XFMyDecode2020.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem = global::XFMyDecode2020.Droid.Resource.Styleable.ColorStateListItem;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem_alpha = global::XFMyDecode2020.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::XFMyDecode2020.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem_android_color = global::XFMyDecode2020.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton = global::XFMyDecode2020.Droid.Resource.Styleable.CompoundButton;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton_android_button = global::XFMyDecode2020.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton_buttonTint = global::XFMyDecode2020.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::XFMyDecode2020.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout = global::XFMyDecode2020.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::XFMyDecode2020.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::XFMyDecode2020.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::XFMyDecode2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::XFMyDecode2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::XFMyDecode2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::XFMyDecode2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::XFMyDecode2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::XFMyDecode2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::XFMyDecode2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::XFMyDecode2020.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DesignTheme = global::XFMyDecode2020.Droid.Resource.Styleable.DesignTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::XFMyDecode2020.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::XFMyDecode2020.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle = global::XFMyDecode2020.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::XFMyDecode2020.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::XFMyDecode2020.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::XFMyDecode2020.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_color = global::XFMyDecode2020.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::XFMyDecode2020.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::XFMyDecode2020.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::XFMyDecode2020.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::XFMyDecode2020.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton = global::XFMyDecode2020.Droid.Resource.Styleable.FloatingActionButton;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::XFMyDecode2020.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::XFMyDecode2020.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::XFMyDecode2020.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::XFMyDecode2020.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::XFMyDecode2020.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_elevation = global::XFMyDecode2020.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::XFMyDecode2020.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::XFMyDecode2020.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::XFMyDecode2020.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::XFMyDecode2020.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily = global::XFMyDecode2020.Droid.Resource.Styleable.FontFamily;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont = global::XFMyDecode2020.Droid.Resource.Styleable.FontFamilyFont;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_android_font = global::XFMyDecode2020.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::XFMyDecode2020.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::XFMyDecode2020.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_font = global::XFMyDecode2020.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::XFMyDecode2020.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::XFMyDecode2020.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::XFMyDecode2020.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::XFMyDecode2020.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::XFMyDecode2020.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::XFMyDecode2020.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::XFMyDecode2020.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::XFMyDecode2020.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout = global::XFMyDecode2020.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::XFMyDecode2020.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::XFMyDecode2020.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::XFMyDecode2020.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ListPopupWindow = global::XFMyDecode2020.Droid.Resource.Styleable.ListPopupWindow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::XFMyDecode2020.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::XFMyDecode2020.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton = global::XFMyDecode2020.Droid.Resource.Styleable.MediaRouteButton;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::XFMyDecode2020.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::XFMyDecode2020.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::XFMyDecode2020.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::XFMyDecode2020.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup = global::XFMyDecode2020.Droid.Resource.Styleable.MenuGroup;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::XFMyDecode2020.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_enabled = global::XFMyDecode2020.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_id = global::XFMyDecode2020.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::XFMyDecode2020.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::XFMyDecode2020.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_visible = global::XFMyDecode2020.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_actionLayout = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_actionViewClass = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_checkable = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_checked = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_enabled = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_icon = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_id = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_onClick = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_title = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_visible = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_contentDescription = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_contentDescription;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_iconTint = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_iconTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_iconTintMode = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_iconTintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_numericModifiers = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_numericModifiers;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_showAsAction = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_tooltipText = global::XFMyDecode2020.Droid.Resource.Styleable.MenuItem_tooltipText;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView = global::XFMyDecode2020.Droid.Resource.Styleable.MenuView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_headerBackground = global::XFMyDecode2020.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::XFMyDecode2020.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_itemBackground = global::XFMyDecode2020.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::XFMyDecode2020.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::XFMyDecode2020.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::XFMyDecode2020.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::XFMyDecode2020.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_subMenuArrow = global::XFMyDecode2020.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView = global::XFMyDecode2020.Droid.Resource.Styleable.NavigationView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_android_background = global::XFMyDecode2020.Droid.Resource.Styleable.NavigationView_android_background;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::XFMyDecode2020.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::XFMyDecode2020.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_elevation = global::XFMyDecode2020.Droid.Resource.Styleable.NavigationView_elevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_headerLayout = global::XFMyDecode2020.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemBackground = global::XFMyDecode2020.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemIconTint = global::XFMyDecode2020.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemTextColor = global::XFMyDecode2020.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_menu = global::XFMyDecode2020.Droid.Resource.Styleable.NavigationView_menu;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow = global::XFMyDecode2020.Droid.Resource.Styleable.PopupWindow;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindowBackgroundState = global::XFMyDecode2020.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::XFMyDecode2020.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::XFMyDecode2020.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::XFMyDecode2020.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::XFMyDecode2020.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecycleListView = global::XFMyDecode2020.Droid.Resource.Styleable.RecycleListView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::XFMyDecode2020.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::XFMyDecode2020.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView = global::XFMyDecode2020.Droid.Resource.Styleable.RecyclerView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::XFMyDecode2020.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_android_orientation = global::XFMyDecode2020.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::XFMyDecode2020.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::XFMyDecode2020.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::XFMyDecode2020.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::XFMyDecode2020.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::XFMyDecode2020.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_layoutManager = global::XFMyDecode2020.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::XFMyDecode2020.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_spanCount = global::XFMyDecode2020.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::XFMyDecode2020.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::XFMyDecode2020.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::XFMyDecode2020.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::XFMyDecode2020.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::XFMyDecode2020.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_focusable = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_imeOptions = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_inputType = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_maxWidth = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_closeIcon = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_commitIcon = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_goIcon = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_layout = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_queryBackground = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_queryHint = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_searchHintIcon = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_searchIcon = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_submitBackground = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_voiceIcon = global::XFMyDecode2020.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout = global::XFMyDecode2020.Droid.Resource.Styleable.SnackbarLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::XFMyDecode2020.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout_elevation = global::XFMyDecode2020.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::XFMyDecode2020.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner = global::XFMyDecode2020.Droid.Resource.Styleable.Spinner;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::XFMyDecode2020.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_entries = global::XFMyDecode2020.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_popupBackground = global::XFMyDecode2020.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_prompt = global::XFMyDecode2020.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_popupTheme = global::XFMyDecode2020.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat = global::XFMyDecode2020.Droid.Resource.Styleable.SwitchCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::XFMyDecode2020.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::XFMyDecode2020.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::XFMyDecode2020.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_showText = global::XFMyDecode2020.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::XFMyDecode2020.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::XFMyDecode2020.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::XFMyDecode2020.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::XFMyDecode2020.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::XFMyDecode2020.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::XFMyDecode2020.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_track = global::XFMyDecode2020.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_trackTint = global::XFMyDecode2020.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::XFMyDecode2020.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem = global::XFMyDecode2020.Droid.Resource.Styleable.TabItem;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem_android_icon = global::XFMyDecode2020.Droid.Resource.Styleable.TabItem_android_icon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem_android_layout = global::XFMyDecode2020.Droid.Resource.Styleable.TabItem_android_layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem_android_text = global::XFMyDecode2020.Droid.Resource.Styleable.TabItem_android_text;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabBackground = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabContentStart = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabGravity = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabMode = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPadding = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabTextColor = global::XFMyDecode2020.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.TextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::XFMyDecode2020.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::XFMyDecode2020.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::XFMyDecode2020.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::XFMyDecode2020.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::XFMyDecode2020.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textColor = global::XFMyDecode2020.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::XFMyDecode2020.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::XFMyDecode2020.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textSize = global::XFMyDecode2020.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::XFMyDecode2020.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_typeface = global::XFMyDecode2020.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_fontFamily = global::XFMyDecode2020.Droid.Resource.Styleable.TextAppearance_fontFamily;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::XFMyDecode2020.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_android_hint = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::XFMyDecode2020.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_android_gravity = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_android_minHeight = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_buttonGravity = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_collapseIcon = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_logo = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_logo;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_logoDescription = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_navigationIcon = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_popupTheme = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_subtitle = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_title = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_title;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMargin = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMargins = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleTextColor = global::XFMyDecode2020.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View = global::XFMyDecode2020.Droid.Resource.Styleable.View;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper = global::XFMyDecode2020.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::XFMyDecode2020.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::XFMyDecode2020.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::XFMyDecode2020.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat = global::XFMyDecode2020.Droid.Resource.Styleable.ViewStubCompat;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat_android_id = global::XFMyDecode2020.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::XFMyDecode2020.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::XFMyDecode2020.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_android_focusable = global::XFMyDecode2020.Droid.Resource.Styleable.View_android_focusable;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_android_theme = global::XFMyDecode2020.Droid.Resource.Styleable.View_android_theme;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_paddingEnd = global::XFMyDecode2020.Droid.Resource.Styleable.View_paddingEnd;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_paddingStart = global::XFMyDecode2020.Droid.Resource.Styleable.View_paddingStart;
-			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_theme = global::XFMyDecode2020.Droid.Resource.Styleable.View_theme;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_dialog_actioned_on_disabled_toast = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_dialog_actioned_on_disabled_toast;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_download_progress_number_format = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_download_progress_number_format;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_downloading_error = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_downloading_error;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_downloading_mandatory_update = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_downloading_mandatory_update;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_downloading_update = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_downloading_update;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_install = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_install;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_install_ready_message = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_install_ready_message;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_install_ready_title = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_install_ready_title;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_notification_category = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_notification_category;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_unknown_sources_dialog_message = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_unknown_sources_dialog_message;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_unknown_sources_dialog_settings = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_unknown_sources_dialog_settings;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_download = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_update_dialog_download;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_message_mandatory = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_update_dialog_message_mandatory;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_message_optional = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_update_dialog_message_optional;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_postpone = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_update_dialog_postpone;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_title = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_update_dialog_title;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_view_release_notes = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_update_dialog_view_release_notes;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_ignore = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_update_failed_dialog_ignore;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_message = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_update_failed_dialog_message;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_reinstall = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_update_failed_dialog_reinstall;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_title = global::XFMyDecode2020.Droid.Resource.String.appcenter_distribute_update_failed_dialog_title;
 			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_indeterminate_to_checked_box_inner_merged_animation = global::XFMyDecode2020.Droid.Resource.Animation.btn_checkbox_indeterminate_to_checked_box_inner_merged_animation;
 			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_indeterminate_to_checked_icon_null_animation = global::XFMyDecode2020.Droid.Resource.Animation.btn_checkbox_indeterminate_to_checked_icon_null_animation;
 			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::XFMyDecode2020.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
@@ -5033,6 +2829,7 @@ namespace XFMyDecode2020.Droid
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.input_layout_drop_down_icon = global::XFMyDecode2020.Droid.Resource.Drawable.input_layout_drop_down_icon;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::XFMyDecode2020.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::XFMyDecode2020.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.clear_button_icon = global::XFMyDecode2020.Droid.Resource.Drawable.clear_button_icon;
 			global::Syncfusion.XForms.Android.ProgressBar.Resource.Drawable.sfprogressbar_determinate_linear = global::XFMyDecode2020.Droid.Resource.Drawable.sfprogressbar_determinate_linear;
 			global::Syncfusion.XForms.Android.ProgressBar.Resource.Drawable.sfprogressbar_indeterminate_circular = global::XFMyDecode2020.Droid.Resource.Drawable.sfprogressbar_indeterminate_circular;
 			global::Syncfusion.XForms.Android.ProgressBar.Resource.Drawable.sfprogressbar_indeterminate_linear = global::XFMyDecode2020.Droid.Resource.Drawable.sfprogressbar_indeterminate_linear;
@@ -7166,7 +4963,6 @@ namespace XFMyDecode2020.Droid
 			global::TouchEffect.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::XFMyDecode2020.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
 			global::TouchEffect.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::XFMyDecode2020.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
 			global::TouchEffect.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::XFMyDecode2020.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
-			global::TouchEffect.Droid.Resource.Style.collectionViewStyle = global::XFMyDecode2020.Droid.Resource.Style.collectionViewStyle;
 			global::TouchEffect.Droid.Resource.Styleable.ActionBar = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar;
 			global::TouchEffect.Droid.Resource.Styleable.ActionBar_background = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_background;
 			global::TouchEffect.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::XFMyDecode2020.Droid.Resource.Styleable.ActionBar_backgroundSplit;
@@ -8319,6 +6115,7 @@ namespace XFMyDecode2020.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapsedTitleGravity = global::XFMyDecode2020.Droid.Resource.Attribute.collapsedTitleGravity;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapsedTitleTextAppearance = global::XFMyDecode2020.Droid.Resource.Attribute.collapsedTitleTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapseIcon = global::XFMyDecode2020.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collectionViewStyle = global::XFMyDecode2020.Droid.Resource.Attribute.collectionViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.color = global::XFMyDecode2020.Droid.Resource.Attribute.color;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorAccent = global::XFMyDecode2020.Droid.Resource.Attribute.colorAccent;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorBackgroundFloating = global::XFMyDecode2020.Droid.Resource.Attribute.colorBackgroundFloating;
@@ -9739,7 +7536,8 @@ namespace XFMyDecode2020.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView = global::XFMyDecode2020.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Dark = global::XFMyDecode2020.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Light = global::XFMyDecode2020.Droid.Resource.Style.CardView_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewStyle = global::XFMyDecode2020.Droid.Resource.Style.collectionViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewScrollBars = global::XFMyDecode2020.Droid.Resource.Style.collectionViewScrollBars;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewTheme = global::XFMyDecode2020.Droid.Resource.Style.collectionViewTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme = global::XFMyDecode2020.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme_Base = global::XFMyDecode2020.Droid.Resource.Style.MainTheme_Base;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Platform_AppCompat;
@@ -10488,6 +8286,8 @@ namespace XFMyDecode2020.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_startY = global::XFMyDecode2020.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_tileMode = global::XFMyDecode2020.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_type = global::XFMyDecode2020.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ItemsViewRendererTheme = global::XFMyDecode2020.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::XFMyDecode2020.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -10993,6 +8793,7 @@ namespace XFMyDecode2020.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.collapsedTitleGravity = global::XFMyDecode2020.Droid.Resource.Attribute.collapsedTitleGravity;
 			global::Xamarin.Forms.Platform.Resource.Attribute.collapsedTitleTextAppearance = global::XFMyDecode2020.Droid.Resource.Attribute.collapsedTitleTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.collapseIcon = global::XFMyDecode2020.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.Platform.Resource.Attribute.collectionViewStyle = global::XFMyDecode2020.Droid.Resource.Attribute.collectionViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.color = global::XFMyDecode2020.Droid.Resource.Attribute.color;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorAccent = global::XFMyDecode2020.Droid.Resource.Attribute.colorAccent;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorBackgroundFloating = global::XFMyDecode2020.Droid.Resource.Attribute.colorBackgroundFloating;
@@ -12413,7 +10214,8 @@ namespace XFMyDecode2020.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.CardView = global::XFMyDecode2020.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Dark = global::XFMyDecode2020.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Light = global::XFMyDecode2020.Droid.Resource.Style.CardView_Light;
-			global::Xamarin.Forms.Platform.Resource.Style.collectionViewStyle = global::XFMyDecode2020.Droid.Resource.Style.collectionViewStyle;
+			global::Xamarin.Forms.Platform.Resource.Style.collectionViewScrollBars = global::XFMyDecode2020.Droid.Resource.Style.collectionViewScrollBars;
+			global::Xamarin.Forms.Platform.Resource.Style.collectionViewTheme = global::XFMyDecode2020.Droid.Resource.Style.collectionViewTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme = global::XFMyDecode2020.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme_Base = global::XFMyDecode2020.Droid.Resource.Style.MainTheme_Base;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_AppCompat = global::XFMyDecode2020.Droid.Resource.Style.Platform_AppCompat;
@@ -13162,6 +10964,8 @@ namespace XFMyDecode2020.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_startY = global::XFMyDecode2020.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_tileMode = global::XFMyDecode2020.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_type = global::XFMyDecode2020.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ItemsViewRendererTheme = global::XFMyDecode2020.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::XFMyDecode2020.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::XFMyDecode2020.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -14119,1183 +11923,1186 @@ namespace XFMyDecode2020.Droid
 			public const int collapseIcon = 2130903182;
 			
 			// aapt resource value: 0x7F030091
-			public const int color = 2130903185;
+			public const int collectionViewStyle = 2130903185;
 			
 			// aapt resource value: 0x7F030092
-			public const int colorAccent = 2130903186;
+			public const int color = 2130903186;
 			
 			// aapt resource value: 0x7F030093
-			public const int colorBackgroundFloating = 2130903187;
+			public const int colorAccent = 2130903187;
 			
 			// aapt resource value: 0x7F030094
-			public const int colorButtonNormal = 2130903188;
+			public const int colorBackgroundFloating = 2130903188;
 			
 			// aapt resource value: 0x7F030095
-			public const int colorControlActivated = 2130903189;
+			public const int colorButtonNormal = 2130903189;
 			
 			// aapt resource value: 0x7F030096
-			public const int colorControlHighlight = 2130903190;
+			public const int colorControlActivated = 2130903190;
 			
 			// aapt resource value: 0x7F030097
-			public const int colorControlNormal = 2130903191;
+			public const int colorControlHighlight = 2130903191;
 			
 			// aapt resource value: 0x7F030098
-			public const int colorError = 2130903192;
+			public const int colorControlNormal = 2130903192;
 			
 			// aapt resource value: 0x7F030099
-			public const int colorPrimary = 2130903193;
+			public const int colorError = 2130903193;
 			
 			// aapt resource value: 0x7F03009A
-			public const int colorPrimaryDark = 2130903194;
+			public const int colorPrimary = 2130903194;
 			
 			// aapt resource value: 0x7F03009B
-			public const int colorSecondary = 2130903195;
+			public const int colorPrimaryDark = 2130903195;
 			
 			// aapt resource value: 0x7F03009C
-			public const int colorSwitchThumbNormal = 2130903196;
+			public const int colorSecondary = 2130903196;
 			
 			// aapt resource value: 0x7F03009D
-			public const int commitIcon = 2130903197;
+			public const int colorSwitchThumbNormal = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int contentDescription = 2130903198;
+			public const int commitIcon = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int contentInsetEnd = 2130903199;
+			public const int contentDescription = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int contentInsetEndWithActions = 2130903200;
+			public const int contentInsetEnd = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int contentInsetLeft = 2130903201;
+			public const int contentInsetEndWithActions = 2130903201;
 			
 			// aapt resource value: 0x7F0300A2
-			public const int contentInsetRight = 2130903202;
+			public const int contentInsetLeft = 2130903202;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int contentInsetStart = 2130903203;
+			public const int contentInsetRight = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int contentInsetStartWithNavigation = 2130903204;
+			public const int contentInsetStart = 2130903204;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int contentPadding = 2130903205;
+			public const int contentInsetStartWithNavigation = 2130903205;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int contentPaddingBottom = 2130903206;
+			public const int contentPadding = 2130903206;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int contentPaddingLeft = 2130903207;
+			public const int contentPaddingBottom = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int contentPaddingRight = 2130903208;
+			public const int contentPaddingLeft = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int contentPaddingTop = 2130903209;
+			public const int contentPaddingRight = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int contentScrim = 2130903210;
+			public const int contentPaddingTop = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int controlBackground = 2130903211;
+			public const int contentScrim = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int coordinatorLayoutStyle = 2130903212;
+			public const int controlBackground = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int cornerRadius = 2130903213;
+			public const int coordinatorLayoutStyle = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int cornerradius = 2130903214;
+			public const int cornerRadius = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int counterEnabled = 2130903215;
+			public const int cornerradius = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int counterMaxLength = 2130903216;
+			public const int counterEnabled = 2130903216;
 			
 			// aapt resource value: 0x7F0300B1
-			public const int counterOverflowTextAppearance = 2130903217;
+			public const int counterMaxLength = 2130903217;
 			
 			// aapt resource value: 0x7F0300B2
-			public const int counterTextAppearance = 2130903218;
+			public const int counterOverflowTextAppearance = 2130903218;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int customNavigationLayout = 2130903219;
+			public const int counterTextAppearance = 2130903219;
 			
 			// aapt resource value: 0x7F0300B4
-			public const int defaultQueryHint = 2130903220;
+			public const int customNavigationLayout = 2130903220;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int dialogCornerRadius = 2130903221;
+			public const int defaultQueryHint = 2130903221;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int dialogPreferredPadding = 2130903222;
+			public const int dialogCornerRadius = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int dialogTheme = 2130903223;
+			public const int dialogPreferredPadding = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int displayOptions = 2130903224;
+			public const int dialogTheme = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int divider = 2130903225;
+			public const int displayOptions = 2130903225;
 			
 			// aapt resource value: 0x7F0300BA
-			public const int dividerHorizontal = 2130903226;
+			public const int divider = 2130903226;
 			
 			// aapt resource value: 0x7F0300BB
-			public const int dividerPadding = 2130903227;
+			public const int dividerHorizontal = 2130903227;
 			
 			// aapt resource value: 0x7F0300BC
-			public const int dividerVertical = 2130903228;
+			public const int dividerPadding = 2130903228;
 			
 			// aapt resource value: 0x7F0300BD
-			public const int drawableBottomCompat = 2130903229;
+			public const int dividerVertical = 2130903229;
 			
 			// aapt resource value: 0x7F0300BE
-			public const int drawableEndCompat = 2130903230;
+			public const int drawableBottomCompat = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int drawableLeftCompat = 2130903231;
+			public const int drawableEndCompat = 2130903231;
 			
 			// aapt resource value: 0x7F0300C0
-			public const int drawableRightCompat = 2130903232;
+			public const int drawableLeftCompat = 2130903232;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int drawableSize = 2130903233;
+			public const int drawableRightCompat = 2130903233;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int drawableStartCompat = 2130903234;
+			public const int drawableSize = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int drawableTint = 2130903235;
+			public const int drawableStartCompat = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int drawableTintMode = 2130903236;
+			public const int drawableTint = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int drawableTopCompat = 2130903237;
+			public const int drawableTintMode = 2130903237;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int drawerArrowStyle = 2130903238;
-			
-			// aapt resource value: 0x7F0300C8
-			public const int dropdownListPreferredItemHeight = 2130903240;
+			public const int drawableTopCompat = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int dropDownListViewStyle = 2130903239;
+			public const int drawerArrowStyle = 2130903239;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int editTextBackground = 2130903241;
+			public const int dropdownListPreferredItemHeight = 2130903241;
+			
+			// aapt resource value: 0x7F0300C8
+			public const int dropDownListViewStyle = 2130903240;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int editTextColor = 2130903242;
+			public const int editTextBackground = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int editTextStyle = 2130903243;
+			public const int editTextColor = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int elevation = 2130903244;
+			public const int editTextStyle = 2130903244;
 			
 			// aapt resource value: 0x7F0300CD
-			public const int enforceMaterialTheme = 2130903245;
+			public const int elevation = 2130903245;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int enforceTextAppearance = 2130903246;
+			public const int enforceMaterialTheme = 2130903246;
 			
 			// aapt resource value: 0x7F0300CF
-			public const int errorEnabled = 2130903247;
+			public const int enforceTextAppearance = 2130903247;
 			
 			// aapt resource value: 0x7F0300D0
-			public const int errorTextAppearance = 2130903248;
+			public const int errorEnabled = 2130903248;
 			
 			// aapt resource value: 0x7F0300D1
-			public const int expandActivityOverflowButtonDrawable = 2130903249;
+			public const int errorTextAppearance = 2130903249;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int expanded = 2130903250;
+			public const int expandActivityOverflowButtonDrawable = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int expandedTitleGravity = 2130903251;
+			public const int expanded = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int expandedTitleMargin = 2130903252;
+			public const int expandedTitleGravity = 2130903252;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int expandedTitleMarginBottom = 2130903253;
+			public const int expandedTitleMargin = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int expandedTitleMarginEnd = 2130903254;
+			public const int expandedTitleMarginBottom = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int expandedTitleMarginStart = 2130903255;
+			public const int expandedTitleMarginEnd = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int expandedTitleMarginTop = 2130903256;
+			public const int expandedTitleMarginStart = 2130903256;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int expandedTitleTextAppearance = 2130903257;
+			public const int expandedTitleMarginTop = 2130903257;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int externalRouteEnabledDrawable = 2130903258;
+			public const int expandedTitleTextAppearance = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int externalRouteEnabledDrawableStatic = 2130903259;
+			public const int externalRouteEnabledDrawable = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int fabAlignmentMode = 2130903260;
+			public const int externalRouteEnabledDrawableStatic = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int fabCradleMargin = 2130903261;
+			public const int fabAlignmentMode = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int fabCradleRoundedCornerRadius = 2130903262;
+			public const int fabCradleMargin = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int fabCradleVerticalOffset = 2130903263;
+			public const int fabCradleRoundedCornerRadius = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int fabCustomSize = 2130903264;
+			public const int fabCradleVerticalOffset = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int fabSize = 2130903265;
+			public const int fabCustomSize = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int fastScrollEnabled = 2130903266;
+			public const int fabSize = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int fastScrollHorizontalThumbDrawable = 2130903267;
+			public const int fastScrollEnabled = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int fastScrollHorizontalTrackDrawable = 2130903268;
+			public const int fastScrollHorizontalThumbDrawable = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int fastScrollVerticalThumbDrawable = 2130903269;
+			public const int fastScrollHorizontalTrackDrawable = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int fastScrollVerticalTrackDrawable = 2130903270;
+			public const int fastScrollVerticalThumbDrawable = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int firstBaselineToTopHeight = 2130903271;
+			public const int fastScrollVerticalTrackDrawable = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int floatingActionButtonStyle = 2130903272;
+			public const int firstBaselineToTopHeight = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int font = 2130903273;
+			public const int floatingActionButtonStyle = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int fontFamily = 2130903274;
+			public const int font = 2130903274;
 			
 			// aapt resource value: 0x7F0300EB
-			public const int fontProviderAuthority = 2130903275;
+			public const int fontFamily = 2130903275;
 			
 			// aapt resource value: 0x7F0300EC
-			public const int fontProviderCerts = 2130903276;
+			public const int fontProviderAuthority = 2130903276;
 			
 			// aapt resource value: 0x7F0300ED
-			public const int fontProviderFetchStrategy = 2130903277;
+			public const int fontProviderCerts = 2130903277;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int fontProviderFetchTimeout = 2130903278;
+			public const int fontProviderFetchStrategy = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int fontProviderPackage = 2130903279;
+			public const int fontProviderFetchTimeout = 2130903279;
 			
 			// aapt resource value: 0x7F0300F0
-			public const int fontProviderQuery = 2130903280;
+			public const int fontProviderPackage = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int fontStyle = 2130903281;
+			public const int fontProviderQuery = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int fontVariationSettings = 2130903282;
+			public const int fontStyle = 2130903282;
 			
 			// aapt resource value: 0x7F0300F3
-			public const int fontWeight = 2130903283;
+			public const int fontVariationSettings = 2130903283;
 			
 			// aapt resource value: 0x7F0300F4
-			public const int foregroundInsidePadding = 2130903284;
+			public const int fontWeight = 2130903284;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int gapBetweenBars = 2130903285;
+			public const int foregroundInsidePadding = 2130903285;
 			
 			// aapt resource value: 0x7F0300F6
-			public const int goIcon = 2130903286;
+			public const int gapBetweenBars = 2130903286;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int headerLayout = 2130903287;
+			public const int goIcon = 2130903287;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int height = 2130903288;
+			public const int headerLayout = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int helperText = 2130903289;
+			public const int height = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int helperTextEnabled = 2130903290;
+			public const int helperText = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int helperTextTextAppearance = 2130903291;
+			public const int helperTextEnabled = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int hideMotionSpec = 2130903292;
+			public const int helperTextTextAppearance = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int hideOnContentScroll = 2130903293;
+			public const int hideMotionSpec = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int hideOnScroll = 2130903294;
+			public const int hideOnContentScroll = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int hintAnimationEnabled = 2130903295;
+			public const int hideOnScroll = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int hintEnabled = 2130903296;
+			public const int hintAnimationEnabled = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int hintTextAppearance = 2130903297;
+			public const int hintEnabled = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int homeAsUpIndicator = 2130903298;
+			public const int hintTextAppearance = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int homeLayout = 2130903299;
+			public const int homeAsUpIndicator = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int hoveredFocusedTranslationZ = 2130903300;
+			public const int homeLayout = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int icon = 2130903301;
+			public const int hoveredFocusedTranslationZ = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int iconEndPadding = 2130903302;
+			public const int icon = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int iconGravity = 2130903303;
-			
-			// aapt resource value: 0x7F03010D
-			public const int iconifiedByDefault = 2130903309;
+			public const int iconEndPadding = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int iconPadding = 2130903304;
-			
-			// aapt resource value: 0x7F030109
-			public const int iconSize = 2130903305;
-			
-			// aapt resource value: 0x7F03010A
-			public const int iconStartPadding = 2130903306;
-			
-			// aapt resource value: 0x7F03010B
-			public const int iconTint = 2130903307;
-			
-			// aapt resource value: 0x7F03010C
-			public const int iconTintMode = 2130903308;
+			public const int iconGravity = 2130903304;
 			
 			// aapt resource value: 0x7F03010E
-			public const int imageButtonStyle = 2130903310;
+			public const int iconifiedByDefault = 2130903310;
+			
+			// aapt resource value: 0x7F030109
+			public const int iconPadding = 2130903305;
+			
+			// aapt resource value: 0x7F03010A
+			public const int iconSize = 2130903306;
+			
+			// aapt resource value: 0x7F03010B
+			public const int iconStartPadding = 2130903307;
+			
+			// aapt resource value: 0x7F03010C
+			public const int iconTint = 2130903308;
+			
+			// aapt resource value: 0x7F03010D
+			public const int iconTintMode = 2130903309;
 			
 			// aapt resource value: 0x7F03010F
-			public const int indeterminateProgressStyle = 2130903311;
+			public const int imageButtonStyle = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int initialActivityCount = 2130903312;
+			public const int indeterminateProgressStyle = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int insetForeground = 2130903313;
+			public const int initialActivityCount = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int isLightTheme = 2130903314;
+			public const int insetForeground = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int isthreestate = 2130903315;
+			public const int isLightTheme = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int itemBackground = 2130903316;
+			public const int isthreestate = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int itemHorizontalPadding = 2130903317;
+			public const int itemBackground = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int itemHorizontalTranslationEnabled = 2130903318;
+			public const int itemHorizontalPadding = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int itemIconPadding = 2130903319;
+			public const int itemHorizontalTranslationEnabled = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int itemIconSize = 2130903320;
+			public const int itemIconPadding = 2130903320;
 			
 			// aapt resource value: 0x7F030119
-			public const int itemIconTint = 2130903321;
+			public const int itemIconSize = 2130903321;
 			
 			// aapt resource value: 0x7F03011A
-			public const int itemPadding = 2130903322;
+			public const int itemIconTint = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int itemSpacing = 2130903323;
+			public const int itemPadding = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int itemTextAppearance = 2130903324;
+			public const int itemSpacing = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int itemTextAppearanceActive = 2130903325;
+			public const int itemTextAppearance = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int itemTextAppearanceInactive = 2130903326;
+			public const int itemTextAppearanceActive = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int itemTextColor = 2130903327;
+			public const int itemTextAppearanceInactive = 2130903327;
 			
 			// aapt resource value: 0x7F030120
-			public const int keylines = 2130903328;
+			public const int itemTextColor = 2130903328;
 			
 			// aapt resource value: 0x7F030121
-			public const int labelVisibilityMode = 2130903329;
+			public const int keylines = 2130903329;
 			
 			// aapt resource value: 0x7F030122
-			public const int lastBaselineToBottomHeight = 2130903330;
+			public const int labelVisibilityMode = 2130903330;
 			
 			// aapt resource value: 0x7F030123
-			public const int layout = 2130903331;
+			public const int lastBaselineToBottomHeight = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int layoutManager = 2130903332;
+			public const int layout = 2130903332;
 			
 			// aapt resource value: 0x7F030125
-			public const int layout_anchor = 2130903333;
+			public const int layoutManager = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int layout_anchorGravity = 2130903334;
+			public const int layout_anchor = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int layout_behavior = 2130903335;
+			public const int layout_anchorGravity = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int layout_collapseMode = 2130903336;
+			public const int layout_behavior = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int layout_collapseParallaxMultiplier = 2130903337;
+			public const int layout_collapseMode = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int layout_dodgeInsetEdges = 2130903338;
+			public const int layout_collapseParallaxMultiplier = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int layout_insetEdge = 2130903339;
+			public const int layout_dodgeInsetEdges = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int layout_keyline = 2130903340;
+			public const int layout_insetEdge = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int layout_scrollFlags = 2130903341;
+			public const int layout_keyline = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int layout_scrollInterpolator = 2130903342;
+			public const int layout_scrollFlags = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int liftOnScroll = 2130903343;
+			public const int layout_scrollInterpolator = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int lineHeight = 2130903344;
+			public const int liftOnScroll = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int lineSpacing = 2130903345;
+			public const int lineHeight = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int listChoiceBackgroundIndicator = 2130903346;
+			public const int lineSpacing = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int listChoiceIndicatorMultipleAnimated = 2130903347;
+			public const int listChoiceBackgroundIndicator = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int listChoiceIndicatorSingleAnimated = 2130903348;
+			public const int listChoiceIndicatorMultipleAnimated = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int listDividerAlertDialog = 2130903349;
+			public const int listChoiceIndicatorSingleAnimated = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int listItemLayout = 2130903350;
+			public const int listDividerAlertDialog = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int listLayout = 2130903351;
+			public const int listItemLayout = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int listMenuViewStyle = 2130903352;
+			public const int listLayout = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int listPopupWindowStyle = 2130903353;
+			public const int listMenuViewStyle = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int listPreferredItemHeight = 2130903354;
+			public const int listPopupWindowStyle = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int listPreferredItemHeightLarge = 2130903355;
+			public const int listPreferredItemHeight = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int listPreferredItemHeightSmall = 2130903356;
+			public const int listPreferredItemHeightLarge = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int listPreferredItemPaddingEnd = 2130903357;
+			public const int listPreferredItemHeightSmall = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int listPreferredItemPaddingLeft = 2130903358;
+			public const int listPreferredItemPaddingEnd = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int listPreferredItemPaddingRight = 2130903359;
+			public const int listPreferredItemPaddingLeft = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int listPreferredItemPaddingStart = 2130903360;
+			public const int listPreferredItemPaddingRight = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int logo = 2130903361;
+			public const int listPreferredItemPaddingStart = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int logoDescription = 2130903362;
+			public const int logo = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int materialButtonStyle = 2130903363;
+			public const int logoDescription = 2130903363;
 			
 			// aapt resource value: 0x7F030144
-			public const int materialCardViewStyle = 2130903364;
+			public const int materialButtonStyle = 2130903364;
 			
 			// aapt resource value: 0x7F030145
-			public const int maxActionInlineWidth = 2130903365;
+			public const int materialCardViewStyle = 2130903365;
 			
 			// aapt resource value: 0x7F030146
-			public const int maxButtonHeight = 2130903366;
+			public const int maxActionInlineWidth = 2130903366;
 			
 			// aapt resource value: 0x7F030147
-			public const int maxImageSize = 2130903367;
+			public const int maxButtonHeight = 2130903367;
 			
 			// aapt resource value: 0x7F030148
-			public const int measureWithLargestChild = 2130903368;
+			public const int maxImageSize = 2130903368;
 			
 			// aapt resource value: 0x7F030149
-			public const int mediaRouteAudioTrackDrawable = 2130903369;
+			public const int measureWithLargestChild = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int mediaRouteBodyTextAppearance = 2130903370;
+			public const int mediaRouteAudioTrackDrawable = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int mediaRouteButtonStyle = 2130903371;
+			public const int mediaRouteBodyTextAppearance = 2130903371;
 			
 			// aapt resource value: 0x7F03014C
-			public const int mediaRouteButtonTint = 2130903372;
+			public const int mediaRouteButtonStyle = 2130903372;
 			
 			// aapt resource value: 0x7F03014D
-			public const int mediaRouteCloseDrawable = 2130903373;
+			public const int mediaRouteButtonTint = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int mediaRouteControlPanelThemeOverlay = 2130903374;
+			public const int mediaRouteCloseDrawable = 2130903374;
 			
 			// aapt resource value: 0x7F03014F
-			public const int mediaRouteDefaultIconDrawable = 2130903375;
+			public const int mediaRouteControlPanelThemeOverlay = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int mediaRouteDividerColor = 2130903376;
+			public const int mediaRouteDefaultIconDrawable = 2130903376;
 			
 			// aapt resource value: 0x7F030151
-			public const int mediaRouteHeaderTextAppearance = 2130903377;
+			public const int mediaRouteDividerColor = 2130903377;
 			
 			// aapt resource value: 0x7F030152
-			public const int mediaRoutePauseDrawable = 2130903378;
+			public const int mediaRouteHeaderTextAppearance = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int mediaRoutePlayDrawable = 2130903379;
+			public const int mediaRoutePauseDrawable = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int mediaRouteSpeakerGroupIconDrawable = 2130903380;
+			public const int mediaRoutePlayDrawable = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int mediaRouteSpeakerIconDrawable = 2130903381;
+			public const int mediaRouteSpeakerGroupIconDrawable = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int mediaRouteStopDrawable = 2130903382;
+			public const int mediaRouteSpeakerIconDrawable = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int mediaRouteTheme = 2130903383;
+			public const int mediaRouteStopDrawable = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int mediaRouteTvIconDrawable = 2130903384;
+			public const int mediaRouteTheme = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int menu = 2130903385;
+			public const int mediaRouteTvIconDrawable = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int multiChoiceItemLayout = 2130903386;
+			public const int menu = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int navigationContentDescription = 2130903387;
+			public const int multiChoiceItemLayout = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int navigationIcon = 2130903388;
+			public const int navigationContentDescription = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int navigationMode = 2130903389;
+			public const int navigationIcon = 2130903389;
 			
 			// aapt resource value: 0x7F03015E
-			public const int navigationViewStyle = 2130903390;
+			public const int navigationMode = 2130903390;
 			
 			// aapt resource value: 0x7F03015F
-			public const int numericModifiers = 2130903391;
+			public const int navigationViewStyle = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int overlapAnchor = 2130903392;
+			public const int numericModifiers = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int paddingBottomNoButtons = 2130903393;
+			public const int overlapAnchor = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int paddingEnd = 2130903394;
+			public const int paddingBottomNoButtons = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int paddingStart = 2130903395;
+			public const int paddingEnd = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int paddingTopNoTitle = 2130903396;
+			public const int paddingStart = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int panelBackground = 2130903397;
+			public const int paddingTopNoTitle = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int panelMenuListTheme = 2130903398;
+			public const int panelBackground = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int panelMenuListWidth = 2130903399;
+			public const int panelMenuListTheme = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int passwordToggleContentDescription = 2130903400;
+			public const int panelMenuListWidth = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int passwordToggleDrawable = 2130903401;
+			public const int passwordToggleContentDescription = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int passwordToggleEnabled = 2130903402;
+			public const int passwordToggleDrawable = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int passwordToggleTint = 2130903403;
+			public const int passwordToggleEnabled = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int passwordToggleTintMode = 2130903404;
+			public const int passwordToggleTint = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int popupMenuStyle = 2130903405;
+			public const int passwordToggleTintMode = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int popupTheme = 2130903406;
+			public const int popupMenuStyle = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int popupWindowStyle = 2130903407;
+			public const int popupTheme = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int preserveIconSpacing = 2130903408;
+			public const int popupWindowStyle = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int pressedTranslationZ = 2130903409;
+			public const int preserveIconSpacing = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int progressBarPadding = 2130903410;
+			public const int pressedTranslationZ = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int progressBarStyle = 2130903411;
+			public const int progressBarPadding = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int queryBackground = 2130903412;
+			public const int progressBarStyle = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int queryHint = 2130903413;
+			public const int queryBackground = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int radioButtonStyle = 2130903414;
+			public const int queryHint = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int ratingBarStyle = 2130903415;
+			public const int radioButtonStyle = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int ratingBarStyleIndicator = 2130903416;
+			public const int ratingBarStyle = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int ratingBarStyleSmall = 2130903417;
+			public const int ratingBarStyleIndicator = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int recyclerViewStyle = 2130903418;
+			public const int ratingBarStyleSmall = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int reverseLayout = 2130903419;
+			public const int recyclerViewStyle = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int rippleColor = 2130903420;
+			public const int reverseLayout = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int scrimAnimationDuration = 2130903421;
+			public const int rippleColor = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int scrimBackground = 2130903422;
+			public const int scrimAnimationDuration = 2130903422;
 			
 			// aapt resource value: 0x7F03017F
-			public const int scrimVisibleHeightTrigger = 2130903423;
+			public const int scrimBackground = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int searchHintIcon = 2130903424;
+			public const int scrimVisibleHeightTrigger = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int searchIcon = 2130903425;
+			public const int searchHintIcon = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int searchViewStyle = 2130903426;
+			public const int searchIcon = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int seekBarStyle = 2130903427;
+			public const int searchViewStyle = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int segmentBackColor = 2130903428;
+			public const int seekBarStyle = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int segmentBorderColor = 2130903429;
+			public const int segmentBackColor = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int segmentBorderThickness = 2130903430;
+			public const int segmentBorderColor = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int segmentColor = 2130903431;
+			public const int segmentBorderThickness = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int segmentCornerRadius = 2130903432;
+			public const int segmentColor = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int segmentDisplayMode = 2130903433;
-			
-			// aapt resource value: 0x7F03018D
-			public const int segmentedHeight = 2130903437;
-			
-			// aapt resource value: 0x7F03018E
-			public const int segmentedPadding = 2130903438;
-			
-			// aapt resource value: 0x7F03018F
-			public const int segmentedWidth = 2130903439;
+			public const int segmentCornerRadius = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int segmentPosition = 2130903434;
+			public const int segmentDisplayMode = 2130903434;
 			
-			// aapt resource value: 0x7F03018B
-			public const int segmentSelectedIndex = 2130903435;
+			// aapt resource value: 0x7F03018E
+			public const int segmentedHeight = 2130903438;
 			
-			// aapt resource value: 0x7F03018C
-			public const int segmentStrokeThickness = 2130903436;
+			// aapt resource value: 0x7F03018F
+			public const int segmentedPadding = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int selectableItemBackground = 2130903440;
+			public const int segmentedWidth = 2130903440;
+			
+			// aapt resource value: 0x7F03018B
+			public const int segmentPosition = 2130903435;
+			
+			// aapt resource value: 0x7F03018C
+			public const int segmentSelectedIndex = 2130903436;
+			
+			// aapt resource value: 0x7F03018D
+			public const int segmentStrokeThickness = 2130903437;
 			
 			// aapt resource value: 0x7F030191
-			public const int selectableItemBackgroundBorderless = 2130903441;
+			public const int selectableItemBackground = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int showAsAction = 2130903442;
+			public const int selectableItemBackgroundBorderless = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int showDividers = 2130903443;
+			public const int showAsAction = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int showMotionSpec = 2130903444;
+			public const int showDividers = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int showText = 2130903445;
+			public const int showMotionSpec = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int showTitle = 2130903446;
+			public const int showText = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int singleChoiceItemLayout = 2130903447;
+			public const int showTitle = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int singleLine = 2130903448;
+			public const int singleChoiceItemLayout = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int singleSelection = 2130903449;
+			public const int singleLine = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int snackbarButtonStyle = 2130903450;
+			public const int singleSelection = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int snackbarStyle = 2130903451;
+			public const int snackbarButtonStyle = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int spanCount = 2130903452;
+			public const int snackbarStyle = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int spinBars = 2130903453;
+			public const int spanCount = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int spinnerDropDownItemStyle = 2130903454;
+			public const int spinBars = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int spinnerStyle = 2130903455;
+			public const int spinnerDropDownItemStyle = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int splitTrack = 2130903456;
+			public const int spinnerStyle = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int srcCompat = 2130903457;
+			public const int splitTrack = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int stackFromEnd = 2130903458;
+			public const int srcCompat = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int state_above_anchor = 2130903459;
+			public const int stackFromEnd = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int state_collapsed = 2130903460;
+			public const int state_above_anchor = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int state_collapsible = 2130903461;
+			public const int state_collapsed = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int state_indeterminate = 2130903462;
+			public const int state_collapsible = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int state_liftable = 2130903463;
+			public const int state_indeterminate = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int state_lifted = 2130903464;
+			public const int state_liftable = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int statusBarBackground = 2130903465;
+			public const int state_lifted = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int statusBarScrim = 2130903466;
+			public const int statusBarBackground = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int strokeColor = 2130903467;
+			public const int statusBarScrim = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int strokeWidth = 2130903468;
+			public const int strokeColor = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int subMenuArrow = 2130903469;
+			public const int strokeWidth = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int submitBackground = 2130903470;
+			public const int subMenuArrow = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int subtitle = 2130903471;
+			public const int submitBackground = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int subtitleTextAppearance = 2130903472;
+			public const int subtitle = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int subtitleTextColor = 2130903473;
+			public const int subtitleTextAppearance = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int subtitleTextStyle = 2130903474;
+			public const int subtitleTextColor = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int suggestionRowLayout = 2130903475;
+			public const int subtitleTextStyle = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int switchMinWidth = 2130903476;
+			public const int suggestionRowLayout = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int switchPadding = 2130903477;
+			public const int switchMinWidth = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int switchStyle = 2130903478;
+			public const int switchPadding = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int switchTextAppearance = 2130903479;
+			public const int switchStyle = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int tabBackground = 2130903480;
+			public const int switchTextAppearance = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int tabContentStart = 2130903481;
+			public const int tabBackground = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int tabGravity = 2130903482;
+			public const int tabContentStart = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int tabIconTint = 2130903483;
+			public const int tabGravity = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int tabIconTintMode = 2130903484;
+			public const int tabIconTint = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int tabIndicator = 2130903485;
+			public const int tabIconTintMode = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int tabIndicatorAnimationDuration = 2130903486;
+			public const int tabIndicator = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int tabIndicatorColor = 2130903487;
+			public const int tabIndicatorAnimationDuration = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int tabIndicatorFullWidth = 2130903488;
+			public const int tabIndicatorColor = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int tabIndicatorGravity = 2130903489;
+			public const int tabIndicatorFullWidth = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int tabIndicatorHeight = 2130903490;
+			public const int tabIndicatorGravity = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int tabInlineLabel = 2130903491;
+			public const int tabIndicatorHeight = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int tabMaxWidth = 2130903492;
+			public const int tabInlineLabel = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int tabMinWidth = 2130903493;
+			public const int tabMaxWidth = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int tabMode = 2130903494;
+			public const int tabMinWidth = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int tabPadding = 2130903495;
+			public const int tabMode = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int tabPaddingBottom = 2130903496;
+			public const int tabPadding = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int tabPaddingEnd = 2130903497;
+			public const int tabPaddingBottom = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int tabPaddingStart = 2130903498;
+			public const int tabPaddingEnd = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int tabPaddingTop = 2130903499;
+			public const int tabPaddingStart = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int tabRippleColor = 2130903500;
+			public const int tabPaddingTop = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int tabSelectedTextColor = 2130903501;
+			public const int tabRippleColor = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int tabStyle = 2130903502;
+			public const int tabSelectedTextColor = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int tabTextAppearance = 2130903503;
+			public const int tabStyle = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int tabTextColor = 2130903504;
+			public const int tabTextAppearance = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int tabUnboundedRipple = 2130903505;
+			public const int tabTextColor = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int textAllCaps = 2130903506;
+			public const int tabUnboundedRipple = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int textAppearanceBody1 = 2130903507;
+			public const int textAllCaps = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int textAppearanceBody2 = 2130903508;
+			public const int textAppearanceBody1 = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int textAppearanceButton = 2130903509;
+			public const int textAppearanceBody2 = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int textAppearanceCaption = 2130903510;
+			public const int textAppearanceButton = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int textAppearanceHeadline1 = 2130903511;
+			public const int textAppearanceCaption = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int textAppearanceHeadline2 = 2130903512;
+			public const int textAppearanceHeadline1 = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int textAppearanceHeadline3 = 2130903513;
+			public const int textAppearanceHeadline2 = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int textAppearanceHeadline4 = 2130903514;
+			public const int textAppearanceHeadline3 = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int textAppearanceHeadline5 = 2130903515;
+			public const int textAppearanceHeadline4 = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int textAppearanceHeadline6 = 2130903516;
+			public const int textAppearanceHeadline5 = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int textAppearanceLargePopupMenu = 2130903517;
+			public const int textAppearanceHeadline6 = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int textAppearanceListItem = 2130903518;
+			public const int textAppearanceLargePopupMenu = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int textAppearanceListItemSecondary = 2130903519;
+			public const int textAppearanceListItem = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int textAppearanceListItemSmall = 2130903520;
+			public const int textAppearanceListItemSecondary = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int textAppearanceOverline = 2130903521;
+			public const int textAppearanceListItemSmall = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int textAppearancePopupMenuHeader = 2130903522;
+			public const int textAppearanceOverline = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int textAppearanceSearchResultSubtitle = 2130903523;
+			public const int textAppearancePopupMenuHeader = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int textAppearanceSearchResultTitle = 2130903524;
+			public const int textAppearanceSearchResultSubtitle = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int textAppearanceSmallPopupMenu = 2130903525;
+			public const int textAppearanceSearchResultTitle = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int textAppearanceSubtitle1 = 2130903526;
+			public const int textAppearanceSmallPopupMenu = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int textAppearanceSubtitle2 = 2130903527;
+			public const int textAppearanceSubtitle1 = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int textColorAlertDialogListItem = 2130903528;
+			public const int textAppearanceSubtitle2 = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int textColorSearchUrl = 2130903529;
+			public const int textColorAlertDialogListItem = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int textEndPadding = 2130903530;
+			public const int textColorSearchUrl = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int textInputStyle = 2130903531;
+			public const int textEndPadding = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int textLocale = 2130903532;
+			public const int textInputStyle = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int textStartPadding = 2130903533;
+			public const int textLocale = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int theme = 2130903534;
+			public const int textStartPadding = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int thickness = 2130903535;
+			public const int theme = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int thumbTextPadding = 2130903536;
+			public const int thickness = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int thumbTint = 2130903537;
+			public const int thumbTextPadding = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int thumbTintMode = 2130903538;
+			public const int thumbTint = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int tickMark = 2130903539;
+			public const int thumbTintMode = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int tickMarkTint = 2130903540;
+			public const int tickMark = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int tickMarkTintMode = 2130903541;
+			public const int tickMarkTint = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int tint = 2130903542;
+			public const int tickMarkTintMode = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int tintMode = 2130903543;
+			public const int tint = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int title = 2130903544;
+			public const int tintMode = 2130903544;
 			
 			// aapt resource value: 0x7F0301F9
-			public const int titleEnabled = 2130903545;
+			public const int title = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int titleMargin = 2130903546;
+			public const int titleEnabled = 2130903546;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int titleMarginBottom = 2130903547;
+			public const int titleMargin = 2130903547;
 			
 			// aapt resource value: 0x7F0301FC
-			public const int titleMarginEnd = 2130903548;
-			
-			// aapt resource value: 0x7F0301FF
-			public const int titleMargins = 2130903551;
+			public const int titleMarginBottom = 2130903548;
 			
 			// aapt resource value: 0x7F0301FD
-			public const int titleMarginStart = 2130903549;
-			
-			// aapt resource value: 0x7F0301FE
-			public const int titleMarginTop = 2130903550;
+			public const int titleMarginEnd = 2130903549;
 			
 			// aapt resource value: 0x7F030200
-			public const int titleTextAppearance = 2130903552;
+			public const int titleMargins = 2130903552;
+			
+			// aapt resource value: 0x7F0301FE
+			public const int titleMarginStart = 2130903550;
+			
+			// aapt resource value: 0x7F0301FF
+			public const int titleMarginTop = 2130903551;
 			
 			// aapt resource value: 0x7F030201
-			public const int titleTextColor = 2130903553;
+			public const int titleTextAppearance = 2130903553;
 			
 			// aapt resource value: 0x7F030202
-			public const int titleTextStyle = 2130903554;
+			public const int titleTextColor = 2130903554;
 			
 			// aapt resource value: 0x7F030203
-			public const int toolbarId = 2130903555;
+			public const int titleTextStyle = 2130903555;
 			
 			// aapt resource value: 0x7F030204
-			public const int toolbarNavigationButtonStyle = 2130903556;
+			public const int toolbarId = 2130903556;
 			
 			// aapt resource value: 0x7F030205
-			public const int toolbarStyle = 2130903557;
+			public const int toolbarNavigationButtonStyle = 2130903557;
 			
 			// aapt resource value: 0x7F030206
-			public const int tooltipForegroundColor = 2130903558;
+			public const int toolbarStyle = 2130903558;
 			
 			// aapt resource value: 0x7F030207
-			public const int tooltipFrameBackground = 2130903559;
+			public const int tooltipForegroundColor = 2130903559;
 			
 			// aapt resource value: 0x7F030208
-			public const int tooltipText = 2130903560;
+			public const int tooltipFrameBackground = 2130903560;
 			
 			// aapt resource value: 0x7F030209
-			public const int track = 2130903561;
+			public const int tooltipText = 2130903561;
 			
 			// aapt resource value: 0x7F03020A
-			public const int trackTint = 2130903562;
+			public const int track = 2130903562;
 			
 			// aapt resource value: 0x7F03020B
-			public const int trackTintMode = 2130903563;
+			public const int trackTint = 2130903563;
 			
 			// aapt resource value: 0x7F03020C
-			public const int ttcIndex = 2130903564;
+			public const int trackTintMode = 2130903564;
 			
 			// aapt resource value: 0x7F03020D
-			public const int useCompatPadding = 2130903565;
+			public const int ttcIndex = 2130903565;
 			
 			// aapt resource value: 0x7F03020E
-			public const int viewInflaterClass = 2130903566;
+			public const int useCompatPadding = 2130903566;
 			
 			// aapt resource value: 0x7F03020F
-			public const int voiceIcon = 2130903567;
+			public const int viewInflaterClass = 2130903567;
 			
 			// aapt resource value: 0x7F030210
-			public const int windowActionBar = 2130903568;
+			public const int voiceIcon = 2130903568;
 			
 			// aapt resource value: 0x7F030211
-			public const int windowActionBarOverlay = 2130903569;
+			public const int windowActionBar = 2130903569;
 			
 			// aapt resource value: 0x7F030212
-			public const int windowActionModeOverlay = 2130903570;
+			public const int windowActionBarOverlay = 2130903570;
 			
 			// aapt resource value: 0x7F030213
-			public const int windowFixedHeightMajor = 2130903571;
+			public const int windowActionModeOverlay = 2130903571;
 			
 			// aapt resource value: 0x7F030214
-			public const int windowFixedHeightMinor = 2130903572;
+			public const int windowFixedHeightMajor = 2130903572;
 			
 			// aapt resource value: 0x7F030215
-			public const int windowFixedWidthMajor = 2130903573;
+			public const int windowFixedHeightMinor = 2130903573;
 			
 			// aapt resource value: 0x7F030216
-			public const int windowFixedWidthMinor = 2130903574;
+			public const int windowFixedWidthMajor = 2130903574;
 			
 			// aapt resource value: 0x7F030217
-			public const int windowMinWidthMajor = 2130903575;
+			public const int windowFixedWidthMinor = 2130903575;
 			
 			// aapt resource value: 0x7F030218
-			public const int windowMinWidthMinor = 2130903576;
+			public const int windowMinWidthMajor = 2130903576;
 			
 			// aapt resource value: 0x7F030219
-			public const int windowNoTitle = 2130903577;
+			public const int windowMinWidthMinor = 2130903577;
+			
+			// aapt resource value: 0x7F03021A
+			public const int windowNoTitle = 2130903578;
 			
 			static Attribute()
 			{
@@ -16901,61 +14708,61 @@ namespace XFMyDecode2020.Droid
 			public const int avd_show_password = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int bottom_shadow = 2131165308;
+			public const int btn_checkbox = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int btn_checkbox = 2131165309;
+			public const int btn_checkbox_checked = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int btn_checkbox_checked = 2131165310;
+			public const int btn_checkbox_checked_mtrl = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int btn_checkbox_checked_mtrl = 2131165311;
+			public const int btn_checkbox_checked_to_indeterminate_animation = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int btn_checkbox_checked_to_indeterminate_animation = 2131165312;
+			public const int btn_checkbox_checked_to_unchecked_animation = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int btn_checkbox_checked_to_unchecked_animation = 2131165313;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165314;
+			public const int btn_checkbox_indeterminate = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int btn_checkbox_indeterminate = 2131165315;
+			public const int btn_checkbox_indeterminate_to_checked_animation = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int btn_checkbox_indeterminate_to_checked_animation = 2131165316;
+			public const int btn_checkbox_indeterminate_to_unchecked_animation = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int btn_checkbox_indeterminate_to_unchecked_animation = 2131165317;
+			public const int btn_checkbox_unchecked = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int btn_checkbox_unchecked = 2131165318;
+			public const int btn_checkbox_unchecked_mtrl = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int btn_checkbox_unchecked_mtrl = 2131165319;
+			public const int btn_checkbox_unchecked_to_checked_animation = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int btn_checkbox_unchecked_to_checked_animation = 2131165320;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165321;
+			public const int btn_checkbox_unchecked_to_indeterminate_animation = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int btn_checkbox_unchecked_to_indeterminate_animation = 2131165322;
+			public const int btn_radio_off_mtrl = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int btn_radio_off_mtrl = 2131165323;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165324;
+			public const int btn_radio_on_mtrl = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int btn_radio_on_mtrl = 2131165325;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165326;
+			public const int clear_button_icon = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
 			public const int design_bottom_navigation_item_background = 2131165327;
@@ -17691,9 +15498,6 @@ namespace XFMyDecode2020.Droid
 			
 			// aapt resource value: 0x7F070183
 			public const int tooltip_frame_light = 2131165571;
-			
-			// aapt resource value: 0x7F070184
-			public const int top_shadow = 2131165572;
 			
 			static Drawable()
 			{
@@ -19198,128 +17002,188 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 0x7F0D001C
 			public const int appbar_scrolling_view_behavior = 2131558428;
 			
+			// aapt resource value: 0x7F0D001D
+			public const int appcenter_distribute_dialog_actioned_on_disabled_toast = 2131558429;
+			
+			// aapt resource value: 0x7F0D001F
+			public const int appcenter_distribute_downloading_error = 2131558431;
+			
+			// aapt resource value: 0x7F0D0020
+			public const int appcenter_distribute_downloading_mandatory_update = 2131558432;
+			
+			// aapt resource value: 0x7F0D0021
+			public const int appcenter_distribute_downloading_update = 2131558433;
+			
+			// aapt resource value: 0x7F0D001E
+			public const int appcenter_distribute_download_progress_number_format = 2131558430;
+			
+			// aapt resource value: 0x7F0D0022
+			public const int appcenter_distribute_install = 2131558434;
+			
+			// aapt resource value: 0x7F0D0023
+			public const int appcenter_distribute_install_ready_message = 2131558435;
+			
+			// aapt resource value: 0x7F0D0024
+			public const int appcenter_distribute_install_ready_title = 2131558436;
+			
+			// aapt resource value: 0x7F0D0025
+			public const int appcenter_distribute_notification_category = 2131558437;
+			
+			// aapt resource value: 0x7F0D0026
+			public const int appcenter_distribute_unknown_sources_dialog_message = 2131558438;
+			
+			// aapt resource value: 0x7F0D0027
+			public const int appcenter_distribute_unknown_sources_dialog_settings = 2131558439;
+			
+			// aapt resource value: 0x7F0D0028
+			public const int appcenter_distribute_update_dialog_download = 2131558440;
+			
+			// aapt resource value: 0x7F0D0029
+			public const int appcenter_distribute_update_dialog_message_mandatory = 2131558441;
+			
+			// aapt resource value: 0x7F0D002A
+			public const int appcenter_distribute_update_dialog_message_optional = 2131558442;
+			
+			// aapt resource value: 0x7F0D002B
+			public const int appcenter_distribute_update_dialog_postpone = 2131558443;
+			
+			// aapt resource value: 0x7F0D002C
+			public const int appcenter_distribute_update_dialog_title = 2131558444;
+			
+			// aapt resource value: 0x7F0D002D
+			public const int appcenter_distribute_update_dialog_view_release_notes = 2131558445;
+			
+			// aapt resource value: 0x7F0D002E
+			public const int appcenter_distribute_update_failed_dialog_ignore = 2131558446;
+			
+			// aapt resource value: 0x7F0D002F
+			public const int appcenter_distribute_update_failed_dialog_message = 2131558447;
+			
+			// aapt resource value: 0x7F0D0030
+			public const int appcenter_distribute_update_failed_dialog_reinstall = 2131558448;
+			
+			// aapt resource value: 0x7F0D0031
+			public const int appcenter_distribute_update_failed_dialog_title = 2131558449;
+			
 			// aapt resource value: 0x7F0D001B
 			public const int app_name = 2131558427;
 			
-			// aapt resource value: 0x7F0D001D
-			public const int bottom_sheet_behavior = 2131558429;
-			
-			// aapt resource value: 0x7F0D001E
-			public const int character_counter_content_description = 2131558430;
-			
-			// aapt resource value: 0x7F0D001F
-			public const int character_counter_pattern = 2131558431;
-			
-			// aapt resource value: 0x7F0D0020
-			public const int fab_transformation_scrim_behavior = 2131558432;
-			
-			// aapt resource value: 0x7F0D0021
-			public const int fab_transformation_sheet_behavior = 2131558433;
-			
-			// aapt resource value: 0x7F0D0022
-			public const int hello = 2131558434;
-			
-			// aapt resource value: 0x7F0D0023
-			public const int hide_bottom_view_on_scroll_behavior = 2131558435;
-			
-			// aapt resource value: 0x7F0D0024
-			public const int library_name = 2131558436;
-			
-			// aapt resource value: 0x7F0D0025
-			public const int mr_button_content_description = 2131558437;
-			
-			// aapt resource value: 0x7F0D0026
-			public const int mr_cast_button_connected = 2131558438;
-			
-			// aapt resource value: 0x7F0D0027
-			public const int mr_cast_button_connecting = 2131558439;
-			
-			// aapt resource value: 0x7F0D0028
-			public const int mr_cast_button_disconnected = 2131558440;
-			
-			// aapt resource value: 0x7F0D0029
-			public const int mr_cast_dialog_title_view_placeholder = 2131558441;
-			
-			// aapt resource value: 0x7F0D002A
-			public const int mr_chooser_searching = 2131558442;
-			
-			// aapt resource value: 0x7F0D002B
-			public const int mr_chooser_title = 2131558443;
-			
-			// aapt resource value: 0x7F0D002C
-			public const int mr_controller_album_art = 2131558444;
-			
-			// aapt resource value: 0x7F0D002D
-			public const int mr_controller_casting_screen = 2131558445;
-			
-			// aapt resource value: 0x7F0D002E
-			public const int mr_controller_close_description = 2131558446;
-			
-			// aapt resource value: 0x7F0D002F
-			public const int mr_controller_collapse_group = 2131558447;
-			
-			// aapt resource value: 0x7F0D0030
-			public const int mr_controller_disconnect = 2131558448;
-			
-			// aapt resource value: 0x7F0D0031
-			public const int mr_controller_expand_group = 2131558449;
-			
 			// aapt resource value: 0x7F0D0032
-			public const int mr_controller_no_info_available = 2131558450;
+			public const int bottom_sheet_behavior = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int mr_controller_no_media_selected = 2131558451;
+			public const int character_counter_content_description = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int mr_controller_pause = 2131558452;
+			public const int character_counter_pattern = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int mr_controller_play = 2131558453;
+			public const int fab_transformation_scrim_behavior = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int mr_controller_stop = 2131558454;
+			public const int fab_transformation_sheet_behavior = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int mr_controller_stop_casting = 2131558455;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int mr_controller_volume_slider = 2131558456;
+			public const int library_name = 2131558456;
 			
 			// aapt resource value: 0x7F0D0039
-			public const int mr_dialog_groupable_header = 2131558457;
+			public const int mr_button_content_description = 2131558457;
 			
 			// aapt resource value: 0x7F0D003A
-			public const int mr_dialog_transferable_header = 2131558458;
+			public const int mr_cast_button_connected = 2131558458;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int mr_system_route_name = 2131558459;
+			public const int mr_cast_button_connecting = 2131558459;
 			
 			// aapt resource value: 0x7F0D003C
-			public const int mr_user_route_category_name = 2131558460;
+			public const int mr_cast_button_disconnected = 2131558460;
 			
 			// aapt resource value: 0x7F0D003D
-			public const int mtrl_chip_close_icon_content_description = 2131558461;
+			public const int mr_cast_dialog_title_view_placeholder = 2131558461;
 			
 			// aapt resource value: 0x7F0D003E
-			public const int password_toggle_content_description = 2131558462;
+			public const int mr_chooser_searching = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int path_password_eye = 2131558463;
+			public const int mr_chooser_title = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int path_password_eye_mask_strike_through = 2131558464;
+			public const int mr_controller_album_art = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int path_password_eye_mask_visible = 2131558465;
+			public const int mr_controller_casting_screen = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int path_password_strike_through = 2131558466;
+			public const int mr_controller_close_description = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int search_menu_title = 2131558467;
+			public const int mr_controller_collapse_group = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int status_bar_notification_info_overflow = 2131558468;
+			public const int mr_controller_disconnect = 2131558468;
+			
+			// aapt resource value: 0x7F0D0045
+			public const int mr_controller_expand_group = 2131558469;
+			
+			// aapt resource value: 0x7F0D0046
+			public const int mr_controller_no_info_available = 2131558470;
+			
+			// aapt resource value: 0x7F0D0047
+			public const int mr_controller_no_media_selected = 2131558471;
+			
+			// aapt resource value: 0x7F0D0048
+			public const int mr_controller_pause = 2131558472;
+			
+			// aapt resource value: 0x7F0D0049
+			public const int mr_controller_play = 2131558473;
+			
+			// aapt resource value: 0x7F0D004A
+			public const int mr_controller_stop = 2131558474;
+			
+			// aapt resource value: 0x7F0D004B
+			public const int mr_controller_stop_casting = 2131558475;
+			
+			// aapt resource value: 0x7F0D004C
+			public const int mr_controller_volume_slider = 2131558476;
+			
+			// aapt resource value: 0x7F0D004D
+			public const int mr_dialog_groupable_header = 2131558477;
+			
+			// aapt resource value: 0x7F0D004E
+			public const int mr_dialog_transferable_header = 2131558478;
+			
+			// aapt resource value: 0x7F0D004F
+			public const int mr_system_route_name = 2131558479;
+			
+			// aapt resource value: 0x7F0D0050
+			public const int mr_user_route_category_name = 2131558480;
+			
+			// aapt resource value: 0x7F0D0051
+			public const int mtrl_chip_close_icon_content_description = 2131558481;
+			
+			// aapt resource value: 0x7F0D0052
+			public const int password_toggle_content_description = 2131558482;
+			
+			// aapt resource value: 0x7F0D0053
+			public const int path_password_eye = 2131558483;
+			
+			// aapt resource value: 0x7F0D0054
+			public const int path_password_eye_mask_strike_through = 2131558484;
+			
+			// aapt resource value: 0x7F0D0055
+			public const int path_password_eye_mask_visible = 2131558485;
+			
+			// aapt resource value: 0x7F0D0056
+			public const int path_password_strike_through = 2131558486;
+			
+			// aapt resource value: 0x7F0D0057
+			public const int search_menu_title = 2131558487;
+			
+			// aapt resource value: 0x7F0D0058
+			public const int status_bar_notification_info_overflow = 2131558488;
 			
 			static String()
 			{
@@ -19932,7 +17796,10 @@ namespace XFMyDecode2020.Droid
 			public const int CardView_Light = 2131624134;
 			
 			// aapt resource value: 0x7F0E020C
-			public const int collectionViewStyle = 2131624460;
+			public const int collectionViewScrollBars = 2131624460;
+			
+			// aapt resource value: 0x7F0E020D
+			public const int collectionViewTheme = 2131624461;
 			
 			// aapt resource value: 0x7F0E00C7
 			public const int MainTheme = 2131624135;
@@ -20922,37 +18789,37 @@ namespace XFMyDecode2020.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F03003D,0x7F03003E,0x7F03003F,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300B3,0x7F0300B8,0x7F0300B9,0x7F0300CC,0x7F0300F8,0x7F0300FD,0x7F030102,0x7F030103,0x7F030105,0x7F03010F,0x7F03011A,0x7F030141,0x7F03015D,0x7F03016E,0x7F030172,0x7F030173,0x7F0301AF,0x7F0301B2,0x7F0301F8,0x7F030202 }
+			// aapt resource value: { 0x7F03003D,0x7F03003E,0x7F03003F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300A5,0x7F0300B4,0x7F0300B9,0x7F0300BA,0x7F0300CD,0x7F0300F9,0x7F0300FE,0x7F030103,0x7F030104,0x7F030106,0x7F030110,0x7F03011B,0x7F030142,0x7F03015E,0x7F03016F,0x7F030173,0x7F030174,0x7F0301B0,0x7F0301B3,0x7F0301F9,0x7F030203 }
 			public static int[] ActionBar = new int[] {
 					2130903101,
 					2130903102,
 					2130903103,
-					2130903199,
 					2130903200,
 					2130903201,
 					2130903202,
 					2130903203,
 					2130903204,
-					2130903219,
-					2130903224,
+					2130903205,
+					2130903220,
 					2130903225,
-					2130903244,
-					2130903288,
-					2130903293,
-					2130903298,
+					2130903226,
+					2130903245,
+					2130903289,
+					2130903294,
 					2130903299,
-					2130903301,
-					2130903311,
-					2130903322,
-					2130903361,
-					2130903389,
-					2130903406,
-					2130903410,
+					2130903300,
+					2130903302,
+					2130903312,
+					2130903323,
+					2130903362,
+					2130903390,
+					2130903407,
 					2130903411,
-					2130903471,
-					2130903474,
-					2130903544,
-					2130903554};
+					2130903412,
+					2130903472,
+					2130903475,
+					2130903545,
+					2130903555};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -21059,14 +18926,14 @@ namespace XFMyDecode2020.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F03003D,0x7F03003E,0x7F03008C,0x7F0300F8,0x7F0301B2,0x7F030202 }
+			// aapt resource value: { 0x7F03003D,0x7F03003E,0x7F03008C,0x7F0300F9,0x7F0301B3,0x7F030203 }
 			public static int[] ActionMode = new int[] {
 					2130903101,
 					2130903102,
 					2130903180,
-					2130903288,
-					2130903474,
-					2130903554};
+					2130903289,
+					2130903475,
+					2130903555};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -21086,10 +18953,10 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F0300D1,0x7F030110 }
+			// aapt resource value: { 0x7F0300D2,0x7F030111 }
 			public static int[] ActivityChooserView = new int[] {
-					2130903249,
-					2130903312};
+					2130903250,
+					2130903313};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -21097,16 +18964,16 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F03005F,0x7F030060,0x7F030136,0x7F030137,0x7F03015A,0x7F030196,0x7F030197 }
+			// aapt resource value: { 0x10100F2,0x7F03005F,0x7F030060,0x7F030137,0x7F030138,0x7F03015B,0x7F030197,0x7F030198 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
 					2130903135,
 					2130903136,
-					2130903350,
 					2130903351,
-					2130903386,
-					2130903446,
-					2130903447};
+					2130903352,
+					2130903387,
+					2130903447,
+					2130903448};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -21189,21 +19056,21 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300CC,0x7F0300D2,0x7F03012F }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300CD,0x7F0300D3,0x7F030130 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903244,
-					2130903250,
-					2130903343};
+					2130903245,
+					2130903251,
+					2130903344};
 			
-			// aapt resource value: { 0x7F0301A4,0x7F0301A5,0x7F0301A7,0x7F0301A8 }
+			// aapt resource value: { 0x7F0301A5,0x7F0301A6,0x7F0301A8,0x7F0301A9 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903460,
 					2130903461,
-					2130903463,
-					2130903464};
+					2130903462,
+					2130903464,
+					2130903465};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -21232,10 +19099,10 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F03012D,0x7F03012E }
+			// aapt resource value: { 0x7F03012E,0x7F03012F }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903341,
-					2130903342};
+					2130903342,
+					2130903343};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -21246,12 +19113,12 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: { 0x1010119,0x7F0301A1,0x7F0301F6,0x7F0301F7 }
+			// aapt resource value: { 0x1010119,0x7F0301A2,0x7F0301F7,0x7F0301F8 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903457,
-					2130903542,
-					2130903543};
+					2130903458,
+					2130903543,
+					2130903544};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -21265,12 +19132,12 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0301F3,0x7F0301F4,0x7F0301F5 }
+			// aapt resource value: { 0x1010142,0x7F0301F4,0x7F0301F5,0x7F0301F6 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903539,
 					2130903540,
-					2130903541};
+					2130903541,
+					2130903542};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -21315,7 +19182,7 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F030038,0x7F030039,0x7F03003A,0x7F03003B,0x7F03003C,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C2,0x7F0300C3,0x7F0300C4,0x7F0300C5,0x7F0300E7,0x7F0300EA,0x7F0300F2,0x7F030122,0x7F030130,0x7F0301D2,0x7F0301EC }
+			// aapt resource value: { 0x1010034,0x7F030038,0x7F030039,0x7F03003A,0x7F03003B,0x7F03003C,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C1,0x7F0300C3,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F0300E8,0x7F0300EB,0x7F0300F3,0x7F030123,0x7F030131,0x7F0301D3,0x7F0301ED }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130903096,
@@ -21323,21 +19190,21 @@ namespace XFMyDecode2020.Droid
 					2130903098,
 					2130903099,
 					2130903100,
-					2130903229,
 					2130903230,
 					2130903231,
 					2130903232,
-					2130903234,
+					2130903233,
 					2130903235,
 					2130903236,
 					2130903237,
-					2130903271,
-					2130903274,
-					2130903282,
-					2130903330,
-					2130903344,
-					2130903506,
-					2130903532};
+					2130903238,
+					2130903272,
+					2130903275,
+					2130903283,
+					2130903331,
+					2130903345,
+					2130903507,
+					2130903533};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -21402,7 +19269,7 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F03002E,0x7F03002F,0x7F030030,0x7F030031,0x7F030037,0x7F03004A,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F030061,0x7F030062,0x7F03006C,0x7F030072,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F030099,0x7F03009A,0x7F03009C,0x7F0300AB,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300BA,0x7F0300BC,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F030102,0x7F03010E,0x7F030132,0x7F030133,0x7F030134,0x7F030135,0x7F030138,0x7F030139,0x7F03013A,0x7F03013B,0x7F03013C,0x7F03013D,0x7F03013E,0x7F03013F,0x7F030140,0x7F030165,0x7F030166,0x7F030167,0x7F03016D,0x7F03016F,0x7F030176,0x7F030177,0x7F030178,0x7F030179,0x7F030182,0x7F030183,0x7F030190,0x7F030191,0x7F03019E,0x7F03019F,0x7F0301B6,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E8,0x7F0301E9,0x7F030204,0x7F030205,0x7F030206,0x7F030207,0x7F03020E,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219 }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F03002E,0x7F03002F,0x7F030030,0x7F030031,0x7F030037,0x7F03004A,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F030061,0x7F030062,0x7F03006C,0x7F030072,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F030099,0x7F03009A,0x7F03009B,0x7F03009D,0x7F0300AC,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300BB,0x7F0300BD,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F030103,0x7F03010F,0x7F030133,0x7F030134,0x7F030135,0x7F030136,0x7F030139,0x7F03013A,0x7F03013B,0x7F03013C,0x7F03013D,0x7F03013E,0x7F03013F,0x7F030140,0x7F030141,0x7F030166,0x7F030167,0x7F030168,0x7F03016E,0x7F030170,0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F030183,0x7F030184,0x7F030191,0x7F030192,0x7F03019F,0x7F0301A0,0x7F0301B7,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E9,0x7F0301EA,0x7F030205,0x7F030206,0x7F030207,0x7F030208,0x7F03020F,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -21452,7 +19319,6 @@ namespace XFMyDecode2020.Droid
 					2130903138,
 					2130903148,
 					2130903154,
-					2130903186,
 					2130903187,
 					2130903188,
 					2130903189,
@@ -21461,25 +19327,25 @@ namespace XFMyDecode2020.Droid
 					2130903192,
 					2130903193,
 					2130903194,
-					2130903196,
-					2130903211,
-					2130903221,
+					2130903195,
+					2130903197,
+					2130903212,
 					2130903222,
 					2130903223,
-					2130903226,
-					2130903228,
-					2130903239,
+					2130903224,
+					2130903227,
+					2130903229,
 					2130903240,
 					2130903241,
 					2130903242,
 					2130903243,
-					2130903298,
-					2130903310,
-					2130903346,
+					2130903244,
+					2130903299,
+					2130903311,
 					2130903347,
 					2130903348,
 					2130903349,
-					2130903352,
+					2130903350,
 					2130903353,
 					2130903354,
 					2130903355,
@@ -21488,38 +19354,38 @@ namespace XFMyDecode2020.Droid
 					2130903358,
 					2130903359,
 					2130903360,
-					2130903397,
+					2130903361,
 					2130903398,
 					2130903399,
-					2130903405,
-					2130903407,
-					2130903414,
+					2130903400,
+					2130903406,
+					2130903408,
 					2130903415,
 					2130903416,
 					2130903417,
-					2130903426,
+					2130903418,
 					2130903427,
-					2130903440,
+					2130903428,
 					2130903441,
-					2130903454,
+					2130903442,
 					2130903455,
-					2130903478,
-					2130903517,
+					2130903456,
+					2130903479,
 					2130903518,
 					2130903519,
 					2130903520,
-					2130903522,
+					2130903521,
 					2130903523,
 					2130903524,
 					2130903525,
-					2130903528,
+					2130903526,
 					2130903529,
-					2130903556,
+					2130903530,
 					2130903557,
 					2130903558,
 					2130903559,
-					2130903566,
-					2130903568,
+					2130903560,
+					2130903567,
 					2130903569,
 					2130903570,
 					2130903571,
@@ -21528,7 +19394,8 @@ namespace XFMyDecode2020.Droid
 					2130903574,
 					2130903575,
 					2130903576,
-					2130903577};
+					2130903577,
+					2130903578};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -21905,14 +19772,14 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 124
 			public const int AppCompatTheme_windowNoTitle = 124;
 			
-			// aapt resource value: { 0x7F030040,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300FE }
+			// aapt resource value: { 0x7F030040,0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F0300FF }
 			public static int[] BottomAppBar = new int[] {
 					2130903104,
-					2130903260,
 					2130903261,
 					2130903262,
 					2130903263,
-					2130903294};
+					2130903264,
+					2130903295};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -21932,18 +19799,18 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 5
 			public const int BottomAppBar_hideOnScroll = 5;
 			
-			// aapt resource value: { 0x7F0300CC,0x7F030114,0x7F030116,0x7F030118,0x7F030119,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030121,0x7F030159 }
+			// aapt resource value: { 0x7F0300CD,0x7F030115,0x7F030117,0x7F030119,0x7F03011A,0x7F03011E,0x7F03011F,0x7F030120,0x7F030122,0x7F03015A }
 			public static int[] BottomNavigationView = new int[] {
-					2130903244,
-					2130903316,
-					2130903318,
-					2130903320,
+					2130903245,
+					2130903317,
+					2130903319,
 					2130903321,
-					2130903325,
+					2130903322,
 					2130903326,
 					2130903327,
-					2130903329,
-					2130903385};
+					2130903328,
+					2130903330,
+					2130903386};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_elevation = 0;
@@ -22001,7 +19868,7 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F030065,0x7F030066,0x7F030067,0x7F030068,0x7F030069,0x7F03006A,0x7F0300A5,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300A9 }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F030065,0x7F030066,0x7F030067,0x7F030068,0x7F030069,0x7F03006A,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AA }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
@@ -22011,11 +19878,11 @@ namespace XFMyDecode2020.Droid
 					2130903144,
 					2130903145,
 					2130903146,
-					2130903205,
 					2130903206,
 					2130903207,
 					2130903208,
-					2130903209};
+					2130903209,
+					2130903210};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -22056,7 +19923,7 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F03006F,0x7F030070,0x7F030071,0x7F030073,0x7F030074,0x7F030075,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F030081,0x7F030082,0x7F030083,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F0300FC,0x7F030106,0x7F03010A,0x7F03017C,0x7F030194,0x7F0301EA,0x7F0301ED }
+			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F03006F,0x7F030070,0x7F030071,0x7F030073,0x7F030074,0x7F030075,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F030081,0x7F030082,0x7F030083,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F0300FD,0x7F030107,0x7F03010B,0x7F03017D,0x7F030195,0x7F0301EB,0x7F0301EE }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842923,
@@ -22085,22 +19952,22 @@ namespace XFMyDecode2020.Droid
 					2130903177,
 					2130903178,
 					2130903179,
-					2130903292,
-					2130903302,
-					2130903306,
-					2130903420,
-					2130903444,
-					2130903530,
-					2130903533};
+					2130903293,
+					2130903303,
+					2130903307,
+					2130903421,
+					2130903445,
+					2130903531,
+					2130903534};
 			
-			// aapt resource value: { 0x7F03006E,0x7F03007D,0x7F03007E,0x7F03007F,0x7F030198,0x7F030199 }
+			// aapt resource value: { 0x7F03006E,0x7F03007D,0x7F03007E,0x7F03007F,0x7F030199,0x7F03019A }
 			public static int[] ChipGroup = new int[] {
 					2130903150,
 					2130903165,
 					2130903166,
 					2130903167,
-					2130903448,
-					2130903449};
+					2130903449,
+					2130903450};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -22222,24 +20089,24 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 33
 			public const int Chip_textStartPadding = 33;
 			
-			// aapt resource value: { 0x7F03008F,0x7F030090,0x7F0300AA,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F03017D,0x7F03017F,0x7F0301AA,0x7F0301F8,0x7F0301F9,0x7F030203 }
+			// aapt resource value: { 0x7F03008F,0x7F030090,0x7F0300AB,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F03017E,0x7F030180,0x7F0301AB,0x7F0301F9,0x7F0301FA,0x7F030204 }
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130903183,
 					2130903184,
-					2130903210,
-					2130903251,
+					2130903211,
 					2130903252,
 					2130903253,
 					2130903254,
 					2130903255,
 					2130903256,
 					2130903257,
-					2130903421,
-					2130903423,
-					2130903466,
-					2130903544,
+					2130903258,
+					2130903422,
+					2130903424,
+					2130903467,
 					2130903545,
-					2130903555};
+					2130903546,
+					2130903556};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -22271,10 +20138,10 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F030128,0x7F030129 }
+			// aapt resource value: { 0x7F030129,0x7F03012A }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903336,
-					2130903337};
+					2130903337,
+					2130903338};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -22334,23 +20201,23 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x7F030120,0x7F0301A9 }
+			// aapt resource value: { 0x7F030121,0x7F0301AA }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903328,
-					2130903465};
+					2130903329,
+					2130903466};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F030125,0x7F030126,0x7F030127,0x7F03012A,0x7F03012B,0x7F03012C }
+			// aapt resource value: { 0x10100B3,0x7F030126,0x7F030127,0x7F030128,0x7F03012B,0x7F03012C,0x7F03012D }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903333,
 					2130903334,
 					2130903335,
-					2130903338,
+					2130903336,
 					2130903339,
-					2130903340};
+					2130903340,
+					2130903341};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -22387,23 +20254,23 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: { 0x7F0301A6 }
+			// aapt resource value: { 0x7F0301A7 }
 			public static int[] DrawableStates = new int[] {
-					2130903462};
+					2130903463};
 			
 			// aapt resource value: 0
 			public const int DrawableStates_state_indeterminate = 0;
 			
-			// aapt resource value: { 0x7F030035,0x7F030036,0x7F030042,0x7F030091,0x7F0300C1,0x7F0300F5,0x7F03019D,0x7F0301EF }
+			// aapt resource value: { 0x7F030035,0x7F030036,0x7F030042,0x7F030092,0x7F0300C2,0x7F0300F6,0x7F03019E,0x7F0301F0 }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130903093,
 					2130903094,
 					2130903106,
-					2130903185,
-					2130903233,
-					2130903285,
-					2130903453,
-					2130903535};
+					2130903186,
+					2130903234,
+					2130903286,
+					2130903454,
+					2130903536};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -22429,21 +20296,21 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030040,0x7F030041,0x7F030049,0x7F0300CC,0x7F0300E0,0x7F0300E1,0x7F0300FC,0x7F030104,0x7F030147,0x7F030171,0x7F03017C,0x7F030194,0x7F03020D }
+			// aapt resource value: { 0x7F030040,0x7F030041,0x7F030049,0x7F0300CD,0x7F0300E1,0x7F0300E2,0x7F0300FD,0x7F030105,0x7F030148,0x7F030172,0x7F03017D,0x7F030195,0x7F03020E }
 			public static int[] FloatingActionButton = new int[] {
 					2130903104,
 					2130903105,
 					2130903113,
-					2130903244,
-					2130903264,
+					2130903245,
 					2130903265,
-					2130903292,
-					2130903300,
-					2130903367,
-					2130903409,
-					2130903420,
-					2130903444,
-					2130903565};
+					2130903266,
+					2130903293,
+					2130903301,
+					2130903368,
+					2130903410,
+					2130903421,
+					2130903445,
+					2130903566};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -22491,10 +20358,10 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 12
 			public const int FloatingActionButton_useCompatPadding = 12;
 			
-			// aapt resource value: { 0x7F03011B,0x7F030131 }
+			// aapt resource value: { 0x7F03011C,0x7F030132 }
 			public static int[] FlowLayout = new int[] {
-					2130903323,
-					2130903345};
+					2130903324,
+					2130903346};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -22502,27 +20369,27 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F0300EB,0x7F0300EC,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F0300F0 }
+			// aapt resource value: { 0x7F0300EC,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F0300F1 }
 			public static int[] FontFamily = new int[] {
-					2130903275,
 					2130903276,
 					2130903277,
 					2130903278,
 					2130903279,
-					2130903280};
+					2130903280,
+					2130903281};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300E9,0x7F0300F1,0x7F0300F2,0x7F0300F3,0x7F03020C }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300EA,0x7F0300F2,0x7F0300F3,0x7F0300F4,0x7F03020D }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903273,
-					2130903281,
+					2130903274,
 					2130903282,
 					2130903283,
-					2130903564};
+					2130903284,
+					2130903565};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -22572,11 +20439,11 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0300F4 }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F0300F5 }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903284};
+					2130903285};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -22649,17 +20516,24 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300B9,0x7F0300BB,0x7F030148,0x7F030193 }
+			// aapt resource value: { 0x7F030091 }
+			public static int[] ItemsViewRendererTheme = new int[] {
+					2130903185};
+			
+			// aapt resource value: 0
+			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
+			
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300BA,0x7F0300BC,0x7F030149,0x7F030194 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903225,
-					2130903227,
-					2130903368,
-					2130903443};
+					2130903226,
+					2130903228,
+					2130903369,
+					2130903444};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -22718,7 +20592,7 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030040,0x7F030041,0x7F0300AD,0x7F030105,0x7F030107,0x7F030108,0x7F030109,0x7F03010B,0x7F03010C,0x7F03017C,0x7F0301AB,0x7F0301AC }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030040,0x7F030041,0x7F0300AE,0x7F030106,0x7F030108,0x7F030109,0x7F03010A,0x7F03010C,0x7F03010D,0x7F03017D,0x7F0301AC,0x7F0301AD }
 			public static int[] MaterialButton = new int[] {
 					16843191,
 					16843192,
@@ -22726,16 +20600,16 @@ namespace XFMyDecode2020.Droid
 					16843194,
 					2130903104,
 					2130903105,
-					2130903213,
-					2130903301,
-					2130903303,
+					2130903214,
+					2130903302,
 					2130903304,
 					2130903305,
-					2130903307,
+					2130903306,
 					2130903308,
-					2130903420,
-					2130903467,
-					2130903468};
+					2130903309,
+					2130903421,
+					2130903468,
+					2130903469};
 			
 			// aapt resource value: 3
 			public const int MaterialButton_android_insetBottom = 3;
@@ -22785,10 +20659,10 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 15
 			public const int MaterialButton_strokeWidth = 15;
 			
-			// aapt resource value: { 0x7F0301AB,0x7F0301AC }
+			// aapt resource value: { 0x7F0301AC,0x7F0301AD }
 			public static int[] MaterialCardView = new int[] {
-					2130903467,
-					2130903468};
+					2130903468,
+					2130903469};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_strokeColor = 0;
@@ -22796,27 +20670,26 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 1
 			public const int MaterialCardView_strokeWidth = 1;
 			
-			// aapt resource value: { 0x7F03004D,0x7F03004E,0x7F030076,0x7F030080,0x7F030084,0x7F030092,0x7F030093,0x7F030099,0x7F03009A,0x7F03009B,0x7F0300CB,0x7F0300E8,0x7F030143,0x7F030144,0x7F03015E,0x7F03017E,0x7F03019A,0x7F0301CE,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301E1,0x7F0301E6,0x7F0301E7,0x7F0301EB }
+			// aapt resource value: { 0x7F03004D,0x7F03004E,0x7F030076,0x7F030080,0x7F030084,0x7F030093,0x7F030094,0x7F03009A,0x7F03009B,0x7F03009C,0x7F0300CC,0x7F0300E9,0x7F030144,0x7F030145,0x7F03015F,0x7F03017F,0x7F03019B,0x7F0301CF,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301E2,0x7F0301E7,0x7F0301E8,0x7F0301EC }
 			public static int[] MaterialComponentsTheme = new int[] {
 					2130903117,
 					2130903118,
 					2130903158,
 					2130903168,
 					2130903172,
-					2130903186,
 					2130903187,
-					2130903193,
+					2130903188,
 					2130903194,
 					2130903195,
-					2130903243,
-					2130903272,
-					2130903363,
+					2130903196,
+					2130903244,
+					2130903273,
 					2130903364,
-					2130903390,
-					2130903422,
-					2130903450,
-					2130903502,
-					2130903507,
+					2130903365,
+					2130903391,
+					2130903423,
+					2130903451,
+					2130903503,
 					2130903508,
 					2130903509,
 					2130903510,
@@ -22826,10 +20699,11 @@ namespace XFMyDecode2020.Droid
 					2130903514,
 					2130903515,
 					2130903516,
-					2130903521,
-					2130903526,
+					2130903517,
+					2130903522,
 					2130903527,
-					2130903531};
+					2130903528,
+					2130903532};
 			
 			// aapt resource value: 0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
@@ -22927,13 +20801,13 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 31
 			public const int MaterialComponentsTheme_textInputStyle = 31;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F0300DA,0x7F0300DB,0x7F03014C }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F0300DB,0x7F0300DC,0x7F03014D }
 			public static int[] MediaRouteButton = new int[] {
 					16843071,
 					16843072,
-					2130903258,
 					2130903259,
-					2130903372};
+					2130903260,
+					2130903373};
 			
 			// aapt resource value: 1
 			public const int MediaRouteButton_android_minHeight = 1;
@@ -22977,7 +20851,7 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030034,0x7F03009E,0x7F03010B,0x7F03010C,0x7F03015F,0x7F030192,0x7F030208 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030034,0x7F03009F,0x7F03010C,0x7F03010D,0x7F030160,0x7F030193,0x7F030209 }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -22996,12 +20870,12 @@ namespace XFMyDecode2020.Droid
 					2130903071,
 					2130903072,
 					2130903092,
-					2130903198,
-					2130903307,
+					2130903199,
 					2130903308,
-					2130903391,
-					2130903442,
-					2130903560};
+					2130903309,
+					2130903392,
+					2130903443,
+					2130903561};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -23072,7 +20946,7 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030170,0x7F0301AD }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030171,0x7F0301AE }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -23081,8 +20955,8 @@ namespace XFMyDecode2020.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903408,
-					2130903469};
+					2130903409,
+					2130903470};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -23111,20 +20985,20 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300CC,0x7F0300F7,0x7F030114,0x7F030115,0x7F030117,0x7F030119,0x7F03011C,0x7F03011F,0x7F030159 }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300CD,0x7F0300F8,0x7F030115,0x7F030116,0x7F030118,0x7F03011A,0x7F03011D,0x7F030120,0x7F03015A }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903244,
-					2130903287,
-					2130903316,
+					2130903245,
+					2130903288,
 					2130903317,
-					2130903319,
-					2130903321,
-					2130903324,
-					2130903327,
-					2130903385};
+					2130903318,
+					2130903320,
+					2130903322,
+					2130903325,
+					2130903328,
+					2130903386};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -23162,15 +21036,15 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 11
 			public const int NavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F030160 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F030161 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903392};
+					2130903393};
 			
-			// aapt resource value: { 0x7F0301A3 }
+			// aapt resource value: { 0x7F0301A4 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903459};
+					2130903460};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -23235,10 +21109,10 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 11
 			public const int ProgressWheel_ahTextSize = 11;
 			
-			// aapt resource value: { 0x7F030161,0x7F030164 }
+			// aapt resource value: { 0x7F030162,0x7F030165 }
 			public static int[] RecycleListView = new int[] {
-					2130903393,
-					2130903396};
+					2130903394,
+					2130903397};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -23246,20 +21120,20 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F0300E2,0x7F0300E3,0x7F0300E4,0x7F0300E5,0x7F0300E6,0x7F030124,0x7F03017B,0x7F03019C,0x7F0301A2 }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F0300E3,0x7F0300E4,0x7F0300E5,0x7F0300E6,0x7F0300E7,0x7F030125,0x7F03017C,0x7F03019D,0x7F0301A3 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
 					16842993,
-					2130903266,
 					2130903267,
 					2130903268,
 					2130903269,
 					2130903270,
-					2130903332,
-					2130903419,
-					2130903452,
-					2130903458};
+					2130903271,
+					2130903333,
+					2130903420,
+					2130903453,
+					2130903459};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -23297,9 +21171,9 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 11
 			public const int RecyclerView_stackFromEnd = 11;
 			
-			// aapt resource value: { 0x7F030111 }
+			// aapt resource value: { 0x7F030112 }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903313};
+					2130903314};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
@@ -23311,25 +21185,25 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030085,0x7F03009D,0x7F0300B4,0x7F0300F6,0x7F03010D,0x7F030123,0x7F030174,0x7F030175,0x7F030180,0x7F030181,0x7F0301AE,0x7F0301B3,0x7F03020F }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030085,0x7F03009E,0x7F0300B5,0x7F0300F7,0x7F03010E,0x7F030124,0x7F030175,0x7F030176,0x7F030181,0x7F030182,0x7F0301AF,0x7F0301B4,0x7F030210 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
 					2130903173,
-					2130903197,
-					2130903220,
-					2130903286,
-					2130903309,
-					2130903331,
-					2130903412,
+					2130903198,
+					2130903221,
+					2130903287,
+					2130903310,
+					2130903332,
 					2130903413,
-					2130903424,
+					2130903414,
 					2130903425,
-					2130903470,
-					2130903475,
-					2130903567};
+					2130903426,
+					2130903471,
+					2130903476,
+					2130903568};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -23382,11 +21256,11 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F03006D,0x7F0300AE,0x7F030113 }
+			// aapt resource value: { 0x7F03006D,0x7F0300AF,0x7F030114 }
 			public static int[] SfCheckBox = new int[] {
 					2130903149,
-					2130903214,
-					2130903315};
+					2130903215,
+					2130903316};
 			
 			// aapt resource value: 0
 			public const int SfCheckBox_checked = 0;
@@ -23397,9 +21271,8 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 2
 			public const int SfCheckBox_isthreestate = 2;
 			
-			// aapt resource value: { 0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F }
+			// aapt resource value: { 0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190 }
 			public static int[] SfSegmentedControl = new int[] {
-					2130903428,
 					2130903429,
 					2130903430,
 					2130903431,
@@ -23410,7 +21283,8 @@ namespace XFMyDecode2020.Droid
 					2130903436,
 					2130903437,
 					2130903438,
-					2130903439};
+					2130903439,
+					2130903440};
 			
 			// aapt resource value: 0
 			public const int SfSegmentedControl_segmentBackColor = 0;
@@ -23448,16 +21322,16 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 8
 			public const int SfSegmentedControl_segmentStrokeThickness = 8;
 			
-			// aapt resource value: { 0x7F03019A,0x7F03019B }
+			// aapt resource value: { 0x7F03019B,0x7F03019C }
 			public static int[] Snackbar = new int[] {
-					2130903450,
-					2130903451};
+					2130903451,
+					2130903452};
 			
-			// aapt resource value: { 0x101011F,0x7F0300CC,0x7F030145 }
+			// aapt resource value: { 0x101011F,0x7F0300CD,0x7F030146 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
-					2130903244,
-					2130903365};
+					2130903245,
+					2130903366};
 			
 			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -23474,13 +21348,13 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 1
 			public const int Snackbar_snackbarStyle = 1;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F03016E }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F03016F }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903406};
+					2130903407};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -23531,22 +21405,22 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030195,0x7F0301A0,0x7F0301B4,0x7F0301B5,0x7F0301B7,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F030209,0x7F03020A,0x7F03020B }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030196,0x7F0301A1,0x7F0301B5,0x7F0301B6,0x7F0301B8,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F03020A,0x7F03020B,0x7F03020C }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903445,
-					2130903456,
-					2130903476,
+					2130903446,
+					2130903457,
 					2130903477,
-					2130903479,
-					2130903536,
+					2130903478,
+					2130903480,
 					2130903537,
 					2130903538,
-					2130903561,
+					2130903539,
 					2130903562,
-					2130903563};
+					2130903563,
+					2130903564};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -23605,9 +21479,8 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F0301B8,0x7F0301B9,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0301C6,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CB,0x7F0301CC,0x7F0301CD,0x7F0301CF,0x7F0301D0,0x7F0301D1 }
+			// aapt resource value: { 0x7F0301B9,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0301C6,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CB,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301D0,0x7F0301D1,0x7F0301D2 }
 			public static int[] TabLayout = new int[] {
-					2130903480,
 					2130903481,
 					2130903482,
 					2130903483,
@@ -23629,9 +21502,10 @@ namespace XFMyDecode2020.Droid
 					2130903499,
 					2130903500,
 					2130903501,
-					2130903503,
+					2130903502,
 					2130903504,
-					2130903505};
+					2130903505,
+					2130903506};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -23708,7 +21582,7 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F0300EA,0x7F0300F2,0x7F0301D2,0x7F0301EC }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F0300EB,0x7F0300F3,0x7F0301D3,0x7F0301ED }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -23722,10 +21596,10 @@ namespace XFMyDecode2020.Droid
 					16843108,
 					16843692,
 					16844165,
-					2130903274,
-					2130903282,
-					2130903506,
-					2130903532};
+					2130903275,
+					2130903283,
+					2130903507,
+					2130903533};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -23775,7 +21649,7 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F03004F,0x7F030050,0x7F030051,0x7F030052,0x7F030053,0x7F030054,0x7F030055,0x7F030056,0x7F030057,0x7F0300AF,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300CF,0x7F0300D0,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F0300FF,0x7F030100,0x7F030101,0x7F030168,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C }
+			// aapt resource value: { 0x101009A,0x1010150,0x7F03004F,0x7F030050,0x7F030051,0x7F030052,0x7F030053,0x7F030054,0x7F030055,0x7F030056,0x7F030057,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300D0,0x7F0300D1,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F030100,0x7F030101,0x7F030102,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
@@ -23788,23 +21662,23 @@ namespace XFMyDecode2020.Droid
 					2130903125,
 					2130903126,
 					2130903127,
-					2130903215,
 					2130903216,
 					2130903217,
 					2130903218,
-					2130903247,
+					2130903219,
 					2130903248,
-					2130903289,
+					2130903249,
 					2130903290,
 					2130903291,
-					2130903295,
+					2130903292,
 					2130903296,
 					2130903297,
-					2130903400,
+					2130903298,
 					2130903401,
 					2130903402,
 					2130903403,
-					2130903404};
+					2130903404,
+					2130903405};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -23890,11 +21764,11 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 27
 			public const int TextInputLayout_passwordToggleTintMode = 27;
 			
-			// aapt resource value: { 0x1010034,0x7F0300CD,0x7F0300CE }
+			// aapt resource value: { 0x1010034,0x7F0300CE,0x7F0300CF }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903245,
-					2130903246};
+					2130903246,
+					2130903247};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -23905,38 +21779,38 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F03005E,0x7F03008D,0x7F03008E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F030141,0x7F030142,0x7F030146,0x7F030159,0x7F03015B,0x7F03015C,0x7F03016E,0x7F0301AF,0x7F0301B0,0x7F0301B1,0x7F0301F8,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030201 }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F03005E,0x7F03008D,0x7F03008E,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300A5,0x7F030142,0x7F030143,0x7F030147,0x7F03015A,0x7F03015C,0x7F03015D,0x7F03016F,0x7F0301B0,0x7F0301B1,0x7F0301B2,0x7F0301F9,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030201,0x7F030202 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
 					2130903134,
 					2130903181,
 					2130903182,
-					2130903199,
 					2130903200,
 					2130903201,
 					2130903202,
 					2130903203,
 					2130903204,
-					2130903361,
+					2130903205,
 					2130903362,
-					2130903366,
-					2130903385,
-					2130903387,
+					2130903363,
+					2130903367,
+					2130903386,
 					2130903388,
-					2130903406,
-					2130903471,
+					2130903389,
+					2130903407,
 					2130903472,
 					2130903473,
-					2130903544,
-					2130903546,
+					2130903474,
+					2130903545,
 					2130903547,
 					2130903548,
 					2130903549,
 					2130903550,
 					2130903551,
 					2130903552,
-					2130903553};
+					2130903553,
+					2130903554};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -24028,13 +21902,13 @@ namespace XFMyDecode2020.Droid
 			// aapt resource value: 29
 			public const int Toolbar_titleTextColor = 29;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F030162,0x7F030163,0x7F0301EE }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F030163,0x7F030164,0x7F0301EF }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903394,
 					2130903395,
-					2130903534};
+					2130903396,
+					2130903535};
 			
 			// aapt resource value: { 0x10100D4,0x7F030040,0x7F030041 }
 			public static int[] ViewBackgroundHelper = new int[] {

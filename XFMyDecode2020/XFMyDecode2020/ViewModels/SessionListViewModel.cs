@@ -1,4 +1,6 @@
-﻿using MvvmHelpers.Commands;
+﻿using Microsoft.AppCenter.Analytics;
+using MvvmHelpers.Commands;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -55,11 +57,18 @@ namespace XFMyDecode2020.ViewModels
                                   .Select(g => new SessionGroup(g.Key,
                                                                 g.FirstOrDefault().TrackName,
                                                                 new MvvmHelpers.ObservableRangeCollection<Session>(g.ToList()))));
+
+            Analytics.TrackEvent("search inputed");
         }
 
         public AsyncCommand<string> ShowSessionDetailsCommand { get; }
         private async Task ShowSessionDetails(string sessionId)
         {
+            Analytics.TrackEvent("SessionSelected", new Dictionary<string, string>
+            {
+                ["sessionId"] = sessionId
+            });
+
             await Shell.Current.GoToAsync($"sessionDetails?sessionId={sessionId}");
         }
 
@@ -67,10 +76,17 @@ namespace XFMyDecode2020.ViewModels
         private void ChangeFavoritState(string sessionId)
         {
             var session = this.Sessions.FirstOrDefault(s => s.SessionID == sessionId);
+
             if (session != null)
             {
                 session.IsFavorit = !session.IsFavorit;
                 _dataService.Save();
+
+                Analytics.TrackEvent("FavChanged", new Dictionary<string, string>
+                {
+                    ["sessionId"] = session.SessionID,
+                    ["status"] = session.IsFavorit.ToString(),
+                });
             }
         }
 
@@ -100,6 +116,8 @@ namespace XFMyDecode2020.ViewModels
                                                                .Select(g => new SessionGroup(g.Key,
                                                                                              g.FirstOrDefault().TrackName,
                                                                                              new MvvmHelpers.ObservableRangeCollection<Session>(g.ToList()))));
+
+                    Analytics.TrackEvent("sessionListLoaded");
                 }
             }
             catch
