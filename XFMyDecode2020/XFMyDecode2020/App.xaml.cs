@@ -31,11 +31,13 @@ namespace XFMyDecode2020
 
         protected override void OnStart()
         {
-#if RELEASE
-            AppCenter.Start(appSecret: this._config["AppCenter_AppSecret"],
-                            typeof(Analytics),
-                            typeof(Crashes));
-#endif
+            string android = this._config["AppCenter_AppSecret_Android"];
+            string ios = this._config["AppCenter_AppSecret_iOS"];
+            string uwp = this._config["AppCenter_AppSecret_UWP"];
+            AppCenter.Start($"android={android};" +
+                            $"uwp={uwp};" +
+                            $"ios={ios}",
+                            typeof(Analytics), typeof(Crashes));
         }
 
         protected override void OnSleep()
