@@ -67,7 +67,7 @@ namespace XFMyDecode2020.ViewModels
         public AsyncCommand<string> ShowSessionDetailsCommand { get; }
         private async Task ShowSessionDetails(string sessionId)
         {
-            Analytics.TrackEvent("SessionSelected", new Dictionary<string, string>
+            Analytics.TrackEvent("sessionSelected", new Dictionary<string, string>
             {
                 ["sessionId"] = sessionId
             });
