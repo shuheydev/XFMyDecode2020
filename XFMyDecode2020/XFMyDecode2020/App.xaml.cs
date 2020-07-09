@@ -31,7 +31,7 @@ namespace XFMyDecode2020
 
         protected override void OnStart()
         {
-            string android = this._config["AppCenter_AppSecret_Android"];
+            string android = "6cd6319f-1011-4b07-ba06-b2bf890d8b41"; //this._config["AppCenter_AppSecret_Android"];
             string ios = this._config["AppCenter_AppSecret_iOS"];
             string uwp = this._config["AppCenter_AppSecret_UWP"];
             AppCenter.Start($"android={android};" +

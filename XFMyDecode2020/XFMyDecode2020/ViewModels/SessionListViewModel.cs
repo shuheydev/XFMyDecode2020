@@ -58,13 +58,13 @@ namespace XFMyDecode2020.ViewModels
                                                                 g.FirstOrDefault().TrackName,
                                                                 new MvvmHelpers.ObservableRangeCollection<Session>(g.ToList()))));
 
-            Analytics.TrackEvent("search inputed");
+            Analytics.TrackEvent("SearchInputed");
         }
 
         public AsyncCommand<string> ShowSessionDetailsCommand { get; }
         private async Task ShowSessionDetails(string sessionId)
         {
-            Analytics.TrackEvent("sessionSelected", new Dictionary<string, string>
+            Analytics.TrackEvent("SessionSelected", new Dictionary<string, string>
             {
                 ["sessionId"] = sessionId
             });
@@ -117,7 +117,7 @@ namespace XFMyDecode2020.ViewModels
                                                                                              g.FirstOrDefault().TrackName,
                                                                                              new MvvmHelpers.ObservableRangeCollection<Session>(g.ToList()))));
 
-                    Analytics.TrackEvent("sessionListLoaded");
+                    Analytics.TrackEvent("SessionListLoaded");
                 }
             }
             catch

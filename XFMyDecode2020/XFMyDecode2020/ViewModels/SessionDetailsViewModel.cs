@@ -100,7 +100,7 @@ namespace XFMyDecode2020.ViewModels
         {
             this.SessionInfo = _dataService.FindSessionById(SessionId);
 
-            Analytics.TrackEvent("sessionLoaded", new Dictionary<string, string>
+            Analytics.TrackEvent("SessionLoaded", new Dictionary<string, string>
             {
                 ["sessionId"] = SessionInfo.SessionID,
                 ["sessionName"] = SessionInfo.TrackName,
