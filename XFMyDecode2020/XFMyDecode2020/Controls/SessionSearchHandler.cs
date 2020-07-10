@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using Xamarin.Forms;
-using XFMyDecode2020.Models;
-using XFMyDecode2020.Services;
-using Xamarin.Forms.Xaml;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text.RegularExpressions;
-using System.ComponentModel.DataAnnotations;
-using System.Threading.Tasks;
-using System.Collections.ObjectModel;
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+using XFMyDecode2020.Models;
+using XFMyDecode2020.Services;
 
 namespace XFMyDecode2020.Controls
 {

@@ -1,8 +1,6 @@
-﻿using Microsoft.Extensions.Primitives;
+﻿using Microsoft.AppCenter.Analytics;
 using MvvmHelpers.Commands;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using XFMyDecode2020.Models;
@@ -34,6 +32,12 @@ namespace XFMyDecode2020.ViewModels
         {
             this.SessionInfo.IsFavorit = !this.SessionInfo.IsFavorit;
             _dataService.Save();
+
+            Analytics.TrackEvent("FavChanged", new Dictionary<string, string>
+            {
+                ["sessionId"] = SessionInfo.SessionID,
+                ["status"] = SessionInfo.IsFavorit.ToString(),
+            });
         }
 
         public MvvmHelpers.Commands.Command<string> ChangeWatchStateCommand { get; }
@@ -42,6 +46,12 @@ namespace XFMyDecode2020.ViewModels
             //bindingで変更されている
             this.SessionInfo.IsWatched = !this.SessionInfo.IsWatched;
             _dataService.Save();
+
+            Analytics.TrackEvent("WatchedChanged", new Dictionary<string, string>
+            {
+                ["sessionId"] = SessionInfo.SessionID,
+                ["status"] = SessionInfo.IsWatched.ToString(),
+            });
         }
 
         public AsyncCommand<string> TweetSessionCommand { get; }
@@ -54,11 +64,21 @@ namespace XFMyDecode2020.ViewModels
             {
                 await Xamarin.Essentials.Launcher.OpenAsync($"twitter://post?message={text}");
             }
+
+            Analytics.TrackEvent("TweetButtonPushed", new Dictionary<string, string>
+            {
+                ["sessionId"] = SessionInfo.SessionID,
+            });
         }
 
         public AsyncCommand<string> OpenBrowserCommand { get; }
         private async Task OpenBrowser(string uri)
         {
+            Analytics.TrackEvent("OpenBrowser", new Dictionary<string, string>
+            {
+                ["sessionId"] = SessionInfo.SessionID,
+                ["uri"] = uri,
+            });
             await Xamarin.Essentials.Browser.OpenAsync(uri);
         }
         #endregion
@@ -73,14 +93,18 @@ namespace XFMyDecode2020.ViewModels
             ChangeFavoritStateCommand = new MvvmHelpers.Commands.Command<string>(ChangeFavoritState);
             ChangeWatchStateCommand = new MvvmHelpers.Commands.Command<string>(ChangeWatchState);
             TweetSessionCommand = new AsyncCommand<string>(TweetSession);
-
         }
-
 
 
         internal void LoadSessionDetails()
         {
             this.SessionInfo = _dataService.FindSessionById(SessionId);
+
+            Analytics.TrackEvent("SessionLoaded", new Dictionary<string, string>
+            {
+                ["sessionId"] = SessionInfo.SessionID,
+                ["sessionName"] = SessionInfo.TrackName,
+            });
         }
     }
 }

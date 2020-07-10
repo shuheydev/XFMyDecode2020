@@ -1,40 +1,35 @@
-﻿using MvvmHelpers;
+﻿using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 using MvvmHelpers.Commands;
-using MvvmHelpers.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using System.Windows.Input;
 using Xamarin.Forms;
 using XFMyDecode2020.Models;
 using XFMyDecode2020.Services;
-using Xamarin.Forms.Xaml;
 using XFMyDecode2020.Utilities;
-using Xamarin.Forms.Internals;
 
 namespace XFMyDecode2020.ViewModels
 {
     public class WatchedListViewModel : BaseViewModel
     {
-        private MvvmHelpers.ObservableRangeCollection<Session> _sessions=new MvvmHelpers.ObservableRangeCollection<Session>();
+        private MvvmHelpers.ObservableRangeCollection<Session> _sessions = new MvvmHelpers.ObservableRangeCollection<Session>();
         public MvvmHelpers.ObservableRangeCollection<Session> Sessions
         {
             get => _sessions;
             set => SetProperty(ref _sessions, value);
         }
 
-        private MvvmHelpers.ObservableRangeCollection<SessionGroup> _groupedSessions=new MvvmHelpers.ObservableRangeCollection<SessionGroup>();
+        private MvvmHelpers.ObservableRangeCollection<SessionGroup> _groupedSessions = new MvvmHelpers.ObservableRangeCollection<SessionGroup>();
         public MvvmHelpers.ObservableRangeCollection<SessionGroup> GroupedSessions
         {
             get => _groupedSessions;
             set => SetProperty(ref _groupedSessions, value);
         }
 
-        private string _searchString=string.Empty;
+        private string _searchString = string.Empty;
         public string SearchString
         {
             get => _searchString;
@@ -75,12 +70,21 @@ namespace XFMyDecode2020.ViewModels
 
             this.GroupedSessions.Clear();
             this.GroupedSessions.AddRange(filteredSessions.GroupBy(s => s.TrackID)
-                                  .Select(g => new SessionGroup(g.Key, g.FirstOrDefault().TrackName, new MvvmHelpers.ObservableRangeCollection<Session>(g.ToList()))));
+                                  .Select(g => new SessionGroup(g.Key,
+                                                                g.FirstOrDefault().TrackName,
+                                                                new MvvmHelpers.ObservableRangeCollection<Session>(g.ToList()))));
+
+            Analytics.TrackEvent("SearchInputed");
         }
 
         public AsyncCommand<string> ShowSessionDetailsCommand { get; }
         private async Task ShowSessionDetails(string sessionId)
         {
+            Analytics.TrackEvent("SessionSelected", new Dictionary<string, string>
+            {
+                ["sessionId"] = sessionId,
+            });
+
             await Shell.Current.GoToAsync($"sessionDetails?sessionId={sessionId}");
         }
 
@@ -92,6 +96,12 @@ namespace XFMyDecode2020.ViewModels
             {
                 session.IsFavorit = !session.IsFavorit;
                 _dataService.Save();
+
+                Analytics.TrackEvent("FavChanged", new Dictionary<string, string>
+                {
+                    ["sessionId"] = session.SessionID,
+                    ["status"] = session.IsFavorit.ToString(),
+                });
             }
         }
 
@@ -150,19 +160,23 @@ namespace XFMyDecode2020.ViewModels
 
                     if (group is null)
                     {
-                        this.GroupedSessions.Add(new SessionGroup(session.TrackID, session.TrackName, new MvvmHelpers.ObservableRangeCollection<Session>()));
+                        this.GroupedSessions.Add(new SessionGroup(session.TrackID,
+                                                                  session.TrackName,
+                                                                  new MvvmHelpers.ObservableRangeCollection<Session>()));
                     }
 
                     this.GroupedSessions.FirstOrDefault(g => g.TrackID == session.TrackID)?.Add(session);
                 }
+
+                Analytics.TrackEvent("SessionListLoaded");
             }
-            catch
+            catch (Exception ex)
             {
+                Crashes.TrackError(ex);
                 throw;
             }
 
             this.GroupedSessions.OrderBy(g => g.TrackID);
         }
     }
-
 }
