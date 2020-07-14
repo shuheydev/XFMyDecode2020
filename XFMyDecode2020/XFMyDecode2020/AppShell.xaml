@@ -15,19 +15,27 @@
         <ResourceDictionary>
             <!--  Shellのベーススタイル  -->
             <Style x:Key="BaseStyle" TargetType="Element">
-                <Setter Property="Shell.BackgroundColor" Value="{DynamicResource CurrentAccentColor}" />
                 <Setter Property="Shell.ForegroundColor" Value="White" />
                 <Setter Property="Shell.TitleColor" Value="White" />
                 <Setter Property="Shell.DisabledColor" Value="LightGray" />
                 <Setter Property="Shell.UnselectedColor" Value="LightGray" />
                 <Setter Property="Shell.NavBarHasShadow" Value="False" />
                 <Setter Property="Shell.NavBarIsVisible" Value="True" />
-                <Setter Property="Shell.TabBarBackgroundColor" Value="{DynamicResource CurrentAccentColor}" />
             </Style>
             <Style
                 ApplyToDerivedTypes="True"
                 BasedOn="{StaticResource BaseStyle}"
                 TargetType="FlyoutItem" />
+
+            <Style x:Key="SessionListPageStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource AppPrimaryColor}" />
+            </Style>
+            <Style x:Key="FavoritListPageStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource FavoritListShellColor}" />
+            </Style>
+            <Style x:Key="WatchedListPageStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource WatchedListShellColor}" />
+            </Style>
 
             <!--  FlyoutItemの選択カラーを変更するため  -->
             <Style x:Key="FlyoutItemStyle" TargetType="Grid">
@@ -102,7 +110,10 @@
                     Glyph="{x:Static icons:IconFont_FA_S.Home}"
                     Color="LightGray" />
             </Tab.Icon>
-            <ShellContent ContentTemplate="{DataTemplate views:SessionListPage}" Route="sessions" />
+            <ShellContent
+                ContentTemplate="{DataTemplate views:SessionListPage}"
+                Route="sessions"
+                Style="{StaticResource SessionListPageStyle}" />
         </Tab>
         <Tab Title="Favorit">
             <Tab.Icon>
@@ -111,7 +122,10 @@
                     Glyph="{x:Static icons:IconFont_FA_R.Star}"
                     Color="LightGray" />
             </Tab.Icon>
-            <ShellContent ContentTemplate="{DataTemplate views:FavoritListPage}" Route="favorits" />
+            <ShellContent
+                ContentTemplate="{DataTemplate views:FavoritListPage}"
+                Route="favorits"
+                Style="{StaticResource FavoritListPageStyle}" />
         </Tab>
         <Tab Title="Watched">
             <Tab.Icon>
@@ -120,7 +134,10 @@
                     Glyph="{x:Static icons:IconFont_FA_S.Check}"
                     Color="LightGray" />
             </Tab.Icon>
-            <ShellContent ContentTemplate="{DataTemplate views:WatchedListPage}" Route="watched" />
+            <ShellContent
+                ContentTemplate="{DataTemplate views:WatchedListPage}"
+                Route="watched"
+                Style="{StaticResource WatchedListPageStyle}" />
         </Tab>
     </FlyoutItem>
 </Shell>
