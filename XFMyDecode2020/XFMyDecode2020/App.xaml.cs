@@ -15,7 +15,6 @@ namespace XFMyDecode2020
         private readonly IConfiguration _config;
 
         public App(ILogger<App> logger,
-                   Page appShell,
                    IConfiguration config)
         {
             this._logger = logger;
@@ -26,7 +25,7 @@ namespace XFMyDecode2020
 
             InitializeComponent();
 
-            MainPage = appShell;
+            MainPage = Startup.ServiceProvider.GetService<Shell>();
         }
 
         protected override void OnStart()
