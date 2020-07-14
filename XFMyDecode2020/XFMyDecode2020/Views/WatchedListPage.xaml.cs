@@ -44,11 +44,6 @@ namespace XFMyDecode2020.Views
             await _viewModel.LoadSessions();
 
             ResetFrameHeaderPosition();
-
-            App.Current.Resources["CurrentAccentColor"] = App.Current.Resources["WatchedListShellColor"];
-
-            var color = (Xamarin.Forms.Color)App.Current.Resources["WatchedListShellColor"];
-            this._statusBarColorManager.SetColor(color, false);
         }
 
         private void ResetFrameHeaderPosition()

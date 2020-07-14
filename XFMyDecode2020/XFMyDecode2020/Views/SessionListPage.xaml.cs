@@ -42,11 +42,6 @@ namespace XFMyDecode2020.Views
             await _viewModel.LoadSessions();
 
             ResetFrameHeaderPosition();
-
-            App.Current.Resources["CurrentAccentColor"] = App.Current.Resources["AppPrimaryColor"];
-
-            var color = (Xamarin.Forms.Color)App.Current.Resources["AppPrimaryColor"];
-            this._statusBarColorManager.SetColor(color, false);
         }
 
         private void ResetFrameHeaderPosition()
