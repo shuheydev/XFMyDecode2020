@@ -38,10 +38,9 @@ namespace XFMyDecode2020.Views
             SetHeaderBehaviorByScroll();
         }
 
-        protected override async void OnAppearing()
+        protected override void OnAppearing()
         {
             base.OnAppearing();
-            await _viewModel.LoadSessions();
 
             ResetFrameHeaderPosition();
         }
