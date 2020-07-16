@@ -1,5 +1,3 @@
-<img src='https://build.appcenter.ms/v0.1/apps/88827210-f6a1-4530-960a-78f583a3cdbb/branches/develop/badge' />
-
 [![Build status](https://build.appcenter.ms/v0.1/apps/88827210-f6a1-4530-960a-78f583a3cdbb/branches/develop/badge)](https://appcenter.ms)
 
 # このアプリについて
