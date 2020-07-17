@@ -2,6 +2,7 @@
 using MvvmHelpers.Commands;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using Xamarin.Forms;
 using XFMyDecode2020.Models;
 using XFMyDecode2020.Services;
@@ -27,7 +28,7 @@ namespace XFMyDecode2020.ViewModels
         }
 
         #region Commands
-        public MvvmHelpers.Commands.Command<string> ChangeFavoritStateCommand { get; }
+        public ICommand ChangeFavoritStateCommand { get; }
         private void ChangeFavoritState(string sessionId)
         {
             this.SessionInfo.IsFavorit = !this.SessionInfo.IsFavorit;
@@ -40,7 +41,7 @@ namespace XFMyDecode2020.ViewModels
             });
         }
 
-        public MvvmHelpers.Commands.Command<string> ChangeWatchStateCommand { get; }
+        public ICommand ChangeWatchStateCommand { get; }
         private void ChangeWatchState(string sessionId)
         {
             //bindingで変更されている
@@ -54,7 +55,7 @@ namespace XFMyDecode2020.ViewModels
             });
         }
 
-        public AsyncCommand<string> TweetSessionCommand { get; }
+        public ICommand TweetSessionCommand { get; }
         private async Task TweetSession(string sessionId)
         {
             string text = System.Web.HttpUtility.UrlEncode($"\n#decode20 #{sessionId}");
@@ -71,7 +72,7 @@ namespace XFMyDecode2020.ViewModels
             });
         }
 
-        public AsyncCommand<string> OpenBrowserCommand { get; }
+        public ICommand OpenBrowserCommand { get; }
         private async Task OpenBrowser(string uri)
         {
             Analytics.TrackEvent("OpenBrowser", new Dictionary<string, string>

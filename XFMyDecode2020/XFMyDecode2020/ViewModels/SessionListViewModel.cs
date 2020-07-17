@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using Xamarin.Forms;
 using XFMyDecode2020.Models;
 using XFMyDecode2020.Services;
@@ -33,13 +34,11 @@ namespace XFMyDecode2020.ViewModels
             get => _searchString;
             set
             {
-                SetProperty(ref _searchString, value);
-
-                SearchSession();
+                SetProperty(ref _searchString, value, onChanged: SearchSession);
             }
         }
 
-        public MvvmHelpers.Commands.Command SearchSessionCommand { get; }
+        public ICommand SearchSessionCommand { get; }
         private void SearchSession()
         {
             var searchWords = Regex.Split(this.SearchString, @"\s+?").Where(w => !string.IsNullOrEmpty(w)).ToList();
@@ -61,7 +60,7 @@ namespace XFMyDecode2020.ViewModels
             Analytics.TrackEvent("SearchInputed");
         }
 
-        public AsyncCommand<string> ShowSessionDetailsCommand { get; }
+        public ICommand ShowSessionDetailsCommand { get; }
         private async Task ShowSessionDetails(string sessionId)
         {
             Analytics.TrackEvent("SessionSelected", new Dictionary<string, string>
@@ -72,7 +71,7 @@ namespace XFMyDecode2020.ViewModels
             await Shell.Current.GoToAsync($"sessionDetails?sessionId={sessionId}");
         }
 
-        public MvvmHelpers.Commands.Command<string> ChangeFavoritStateCommand { get; }
+        public ICommand ChangeFavoritStateCommand { get; }
         private void ChangeFavoritState(string sessionId)
         {
             var session = this.Sessions.FirstOrDefault(s => s.SessionID == sessionId);
@@ -100,15 +99,17 @@ namespace XFMyDecode2020.ViewModels
             ShowSessionDetailsCommand = new AsyncCommand<string>(ShowSessionDetails);
             ChangeFavoritStateCommand = new MvvmHelpers.Commands.Command<string>(ChangeFavoritState);
             SearchSessionCommand = new MvvmHelpers.Commands.Command(SearchSession);
+
+            LoadSessionsAsync().Wait();
         }
 
-        internal async Task LoadSessions()
+        private async Task LoadSessionsAsync()
         {
             try
             {
                 if (!this.Sessions.Any())
                 {
-                    var sessions = await _dataService.GetSessionDataAsync();
+                    var sessions = await _dataService.GetSessionDataAsync().ConfigureAwait(false);
                     this.Sessions.AddRange(sessions);
 
                     //Let's grouping

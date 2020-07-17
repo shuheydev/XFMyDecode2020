@@ -8,7 +8,7 @@ namespace XFMyDecode2020.Services
     {
         Task<IEnumerable<Session>> GetSessionDataAsync();
 
-        Task Reset();
+        Task ResetAsync();
 
         void Save();
 
