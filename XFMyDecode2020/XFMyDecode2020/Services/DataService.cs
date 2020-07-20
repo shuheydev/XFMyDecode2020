@@ -55,6 +55,8 @@ namespace XFMyDecode2020.Services
                 if (!File.Exists(_filePath))
                 {
                     await Initialize().ConfigureAwait(false);
+                    Preferences.Set(_usingYoutubeUrlKey, true);
+
                     return this._sessions;
                 }
 
@@ -74,14 +76,15 @@ namespace XFMyDecode2020.Services
                         var sessionEmbedded = sessionsEmbedded.First(s => s.SessionID == session.SessionID);
                         session.SessionVideoURL = sessionEmbedded.SessionVideoURL;
                     }
+
+                    Preferences.Set(_usingYoutubeUrlKey, true);
                 }
             }
             catch
             {
                 await Initialize().ConfigureAwait(false);
+                Preferences.Set(_usingYoutubeUrlKey, true);
             }
-
-            Preferences.Set(_usingYoutubeUrlKey, true);
 
             return _sessions;
         }
