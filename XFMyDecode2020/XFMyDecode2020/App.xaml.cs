@@ -20,8 +20,10 @@ namespace XFMyDecode2020
             this._logger = logger;
             this._config = config;
 
+#if Release
             var licenceKey = this._config["SyncfusionLicenceKey"];
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(licenceKey);
+#endif
 
             InitializeComponent();
 
