@@ -15,6 +15,8 @@ namespace XFMyDecode2020.Services
     public class DataService : IDataService
     {
         private readonly string _fileName = "Sessions.json";
+        //YoutubeのUrlに更新済みかどうか
+        private readonly string _usingYoutubeUrlKey = "UsingYoutubeUrl";
 
         private IEnumerable<Session> _sessions;
         private readonly string _filePath;
@@ -50,12 +52,38 @@ namespace XFMyDecode2020.Services
 
             try
             {
+                if (!File.Exists(_filePath))
+                {
+                    await Initialize().ConfigureAwait(false);
+                    Preferences.Set(_usingYoutubeUrlKey, true);
+
+                    return this._sessions;
+                }
+
                 using var stream = File.OpenRead(_filePath);
                 _sessions = await JsonSerializer.DeserializeAsync<IEnumerable<Session>>(stream).ConfigureAwait(false);
+
+                //de:code2020のセッション動画がYoutubeで公開されたことへの対応.
+                //YoutubeのUrlで上書きする.
+                if (Preferences.Get(_usingYoutubeUrlKey, false) == false)
+                {
+                    var assembly = Assembly.GetExecutingAssembly();
+                    using var streamFromEmbedded = assembly.GetManifestResourceStream("XFMyDecode2020.Data.SessionData.json");
+                    var sessionsEmbedded = await JsonSerializer.DeserializeAsync<IEnumerable<Session>>(streamFromEmbedded).ConfigureAwait(false);
+
+                    foreach (var session in _sessions)
+                    {
+                        var sessionEmbedded = sessionsEmbedded.First(s => s.SessionID == session.SessionID);
+                        session.SessionVideoURL = sessionEmbedded.SessionVideoURL;
+                    }
+
+                    Preferences.Set(_usingYoutubeUrlKey, true);
+                }
             }
             catch
             {
-                await Initialize();
+                await Initialize().ConfigureAwait(false);
+                Preferences.Set(_usingYoutubeUrlKey, true);
             }
 
             return _sessions;

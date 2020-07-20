@@ -60,7 +60,7 @@ namespace XFMyDecode2020.Views
         private void SetHeaderBehaviorByScroll()
         {
             //ヘッダーを隠す側の動作
-            var hide = Observable.FromEventPattern<ItemsViewScrolledEventArgs>(CollectionsView_Sessions, nameof(CollectionsView_Sessions.Scrolled));
+            var hide = Observable.FromEventPattern<ItemsViewScrolledEventArgs>(CollectionView_Sessions, nameof(CollectionView_Sessions.Scrolled));
             hide.Where(x => x.EventArgs.VerticalDelta >= 0)
                 .Repeat()
                 .Subscribe(x =>
@@ -76,7 +76,7 @@ namespace XFMyDecode2020.Views
                 });
 
             //ヘッダーを表示する側の動作
-            var show = Observable.FromEventPattern<ItemsViewScrolledEventArgs>(CollectionsView_Sessions, nameof(CollectionsView_Sessions.Scrolled));
+            var show = Observable.FromEventPattern<ItemsViewScrolledEventArgs>(CollectionView_Sessions, nameof(CollectionView_Sessions.Scrolled));
             show.Where(x => x.EventArgs.VerticalDelta < 0)
                 .Repeat()
                 .Subscribe(x =>
@@ -117,7 +117,7 @@ namespace XFMyDecode2020.Views
             var group = _viewModel.GroupedSessions.FirstOrDefault(g => g.TrackID == trackId);
             var item = group.FirstOrDefault();
 
-            CollectionsView_Sessions.ScrollTo(item, group, ScrollToPosition.Center, animate: false);
+            CollectionView_Sessions.ScrollTo(item, group, ScrollToPosition.Center, animate: false);
         }
 
         private async void Button_Fav_Clicked(object sender, EventArgs e)

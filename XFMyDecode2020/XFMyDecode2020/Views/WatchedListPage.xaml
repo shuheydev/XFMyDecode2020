@@ -17,7 +17,7 @@
     mc:Ignorable="d">
     <Grid BackgroundColor="{StaticResource ListBackgroundColor}">
         <CollectionView
-            x:Name="CollectionsView_Sessions"
+            x:Name="CollectionView_Sessions"
             Margin="5,0,5,0"
             IsGrouped="True"
             ItemsSource="{Binding GroupedSessions}">

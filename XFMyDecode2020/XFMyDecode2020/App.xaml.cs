@@ -20,8 +20,10 @@ namespace XFMyDecode2020
             this._logger = logger;
             this._config = config;
 
+#if Release
             var licenceKey = this._config["SyncfusionLicenceKey"];
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(licenceKey);
+#endif
 
             InitializeComponent();
 
@@ -30,7 +32,7 @@ namespace XFMyDecode2020
 
         protected override void OnStart()
         {
-            string android = "6cd6319f-1011-4b07-ba06-b2bf890d8b41"; //this._config["AppCenter_AppSecret_Android"];
+            string android = this._config["AppCenter_AppSecret_Android"];
             string ios = this._config["AppCenter_AppSecret_iOS"];
             string uwp = this._config["AppCenter_AppSecret_UWP"];
             AppCenter.Start($"android={android};" +
