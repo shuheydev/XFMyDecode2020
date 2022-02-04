@@ -12,6 +12,8 @@
     xmlns:sharpnado="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
     xmlns:touch="clr-namespace:TouchEffect;assembly=TouchEffect"
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
+    xmlns:models="clr-namespace:XFMyDecode2020.Models"
+    x:DataType="viewmodels:SessionDetailsViewModel"
     Title="Details"
     Visual="Default"
     mc:Ignorable="d">
@@ -20,12 +22,11 @@
             <ScrollView>
                 <Grid>
                     <StackLayout BindingContext="{Binding SessionInfo}">
-                        <pancake:PancakeView
+                        <pancake:PancakeView x:DataType="models:Session"
                             Margin="10"
                             BackgroundColor="White"
                             CornerRadius="2,2,2,20"
-                            Elevation="4"
-                            HasShadow="True">
+                            Shadow="{pancake:ShadowMarkup Color=Black,Offset='4,4'}">
                             <Grid>
                                 <Grid Margin="10">
                                     <StackLayout>
@@ -72,15 +73,14 @@
                                 <Label IsVisible="{Binding IsWatched}" Style="{StaticResource WatchedLabelStyle}" />
                             </Grid>
                         </pancake:PancakeView>
-                        <pancake:PancakeView
+                        <pancake:PancakeView x:DataType="models:Session"
                             Margin="10,0,10,0"
                             BackgroundColor="White"
-                            CornerRadius="2,2,2,20"
-                            Elevation="4"
-                            HasShadow="True">
+                            CornerRadius="2,2,2,20" 
+                            Shadow="{pancake:ShadowMarkup Color=Black,Offset='4,4'}">
                             <Label Margin="10" Text="{Binding SessionDetails, Converter={converters:HtmlToTextConverter}}" />
                         </pancake:PancakeView>
-                        <checkbox:SfCheckBox
+                        <checkbox:SfCheckBox x:DataType="models:Session"
                             x:Name="checkBox"
                             Margin="15,10"
                             touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=ChangeWatchStateCommand}"
@@ -88,7 +88,7 @@
                             CheckedColor="{DynamicResource CurrentAccentColor}"
                             IsChecked="{Binding IsWatched}"
                             Text="Watched" />
-                        <pancake:PancakeView
+                        <pancake:PancakeView x:DataType="models:Session"
                             Margin="10"
                             touch:TouchEff.Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionDetailsViewModel}}, Path=OpenBrowserCommand}"
                             touch:TouchEff.CommandParameter="{Binding SessionVideoURL}"

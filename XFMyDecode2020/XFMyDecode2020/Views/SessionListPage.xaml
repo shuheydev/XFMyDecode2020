@@ -11,6 +11,8 @@
     xmlns:sharpnado="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
     xmlns:touch="clr-namespace:TouchEffect;assembly=TouchEffect"
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
+    xmlns:models="clr-namespace:XFMyDecode2020.Models"
+    x:DataType="viewmodels:SessionListViewModel"
     Title="Home"
     Visual="Default"
     mc:Ignorable="d">
@@ -63,7 +65,7 @@
                 <Grid HeightRequest="70" />
             </CollectionView.Header>
             <CollectionView.GroupHeaderTemplate>
-                <DataTemplate>
+                <DataTemplate x:DataType="models:SessionGroup">
                     <Grid>
                         <pancake:PancakeView Style="{StaticResource ListHeaderCardStyle}">
                             <StackLayout Orientation="Horizontal">
@@ -90,11 +92,11 @@
             </CollectionView.GroupHeaderTemplate>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Grid>
+                    <Grid x:DataType="models:Session">
                         <pancake:PancakeView Style="{StaticResource ListItemCardStyle}">
                             <Grid>
                                 <Grid Margin="10">
-                                    <Grid>
+                                    <Grid >
                                         <Grid.GestureRecognizers>
                                             <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:SessionListViewModel}}, Path=ShowSessionDetailsCommand}" CommandParameter="{Binding SessionID}" />
                                         </Grid.GestureRecognizers>

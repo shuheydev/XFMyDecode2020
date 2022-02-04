@@ -12,6 +12,8 @@
     xmlns:sharpnado="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
     xmlns:touch="clr-namespace:TouchEffect;assembly=TouchEffect"
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
+    x:DataType="viewmodels:FavoritListViewModel"
+    xmlns:models="clr-namespace:XFMyDecode2020.Models"
     Title="Favorit"
     Visual="Default"
     mc:Ignorable="d">
@@ -46,7 +48,7 @@
                 <Grid HeightRequest="70" />
             </CollectionView.Header>
             <CollectionView.GroupHeaderTemplate>
-                <DataTemplate>
+                <DataTemplate x:DataType="models:SessionGroup">
                     <Grid>
                         <pancake:PancakeView Style="{StaticResource ListHeaderCardStyle}">
                             <StackLayout Orientation="Horizontal">
@@ -72,7 +74,7 @@
                 </DataTemplate>
             </CollectionView.GroupHeaderTemplate>
             <CollectionView.ItemTemplate>
-                <DataTemplate>
+                <DataTemplate x:DataType="models:Session">
                     <Grid>
                         <pancake:PancakeView Style="{StaticResource ListItemCardStyle}">
                             <Grid>
