@@ -12,6 +12,8 @@
     xmlns:sharpnado="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
     xmlns:touch="clr-namespace:TouchEffect;assembly=TouchEffect"
     xmlns:viewmodels="clr-namespace:XFMyDecode2020.ViewModels"
+    xmlns:models="clr-namespace:XFMyDecode2020.Models"
+    x:DataType="viewmodels:WatchedListViewModel"
     Title="Watched"
     Visual="Default"
     mc:Ignorable="d">
@@ -28,7 +30,7 @@
                 <Grid HeightRequest="70" />
             </CollectionView.Header>
             <CollectionView.GroupHeaderTemplate>
-                <DataTemplate>
+                <DataTemplate x:DataType="models:SessionGroup">
                     <Grid>
                         <pancake:PancakeView Style="{StaticResource ListHeaderCardStyle}">
                             <StackLayout Orientation="Horizontal">
@@ -54,7 +56,7 @@
                 </DataTemplate>
             </CollectionView.GroupHeaderTemplate>
             <CollectionView.ItemTemplate>
-                <DataTemplate>
+                <DataTemplate x:DataType="models:Session">
                     <Grid>
                         <pancake:PancakeView Style="{StaticResource ListItemCardStyle}">
                             <Grid>
@@ -165,7 +167,7 @@
             Padding="0"
             BackgroundColor="White"
             CornerRadius="40"
-            HasShadow="True"
+            
             HeightRequest="80"
             HorizontalOptions="Start"
             Opacity="0.7"
